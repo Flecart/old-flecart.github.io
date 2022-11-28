@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Say Hello
+title: Contact me
 permalink: /contact/
 tags: contact
 ---
@@ -20,10 +20,10 @@ tags: contact
 
       <input type="text" name="_gotcha" style="display:none" />
 
-      <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit | default: "Say Hello" }}</button>
+      <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit | default: "Send" }}</button>
     </form>
   {% else %}
-    <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
+    <form action="https://formspree.io/{{ site.fromspree_endpoint }}" method="POST" class="form-stacked">
       <label>
         Email
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email | default: "Email Address" }}">
@@ -37,7 +37,7 @@ tags: contact
       <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
       <input type="text" name="_gotcha" style="display:none" />
 
-      <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit | default: "Say Hello" }}">
+      <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit | default: "Send" }}">
     </form>
   {% endif %}
 </div>

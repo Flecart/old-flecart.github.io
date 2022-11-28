@@ -1,5 +1,5 @@
 # Site settings
-title:       Angelo Huang Blog
+title:       Angelo Huang's Blog
 email:       xuanqiang.huag@studio.unibo.it
 author:      Angelo Huang
 description: "Thoughs and ideas about stuff i learn"
@@ -41,6 +41,9 @@ fb_page_id:
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: flecart
+
+# endpoint to send emails
+fromspree_endpoint: f/mvoynlzz
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -130,3 +133,10 @@ exclude:
   - Rakefile
   - README.md
   - vendor
+
+
+authors:
+  flecart:
+      name: Angelo Huang
+      uri: "https://www.linkedin.com/in/angelo-huang"
+      linkedin: "https://www.linkedin.com/in/angelo-huang"

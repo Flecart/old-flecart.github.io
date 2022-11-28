@@ -10,7 +10,9 @@
       sendButton.innerHTML = '{{ site.text.contact.ajax.sending | default: "sending..." }}';
 
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', '//formspree.io/{{ site.email }}', true);
+      xhr.open('POST', '//formspree.io/{{ site.fromspree_endpoint }}', true);
+      // console log site email
+        console.log('{{ site.email }}');
       xhr.setRequestHeader("Accept", "application/json")
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
 

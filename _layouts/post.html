@@ -28,16 +28,16 @@ layout: default
       <!-- nothing -->
     {% elsif num_authors == 1 %}
       {% assign author=page.authors[0] %}
-      Author: <a href="{{ site.data.authors[author].uri }}">{{ site.data.authors[author].name }}</a>
+      Author: <a href="{{ site.authors[author].uri }}">{{ site.authors[author].name }}</a>
     {% else %}
       Authors:
         {% for author in page.authors %}
             {% if forloop.first %}
-                <a href="{{ site.data.authors[author].uri }}">{{ site.data.authors[author].name }}</a>
+                <a href="{{ site.authors[author].uri }}">{{ site.authors[author].name }}</a>
             {% elsif forloop.last %}
-                and <a href="{{ site.data.authors[author].uri }}">{{ site.data.authors[author].name }}</a>
+                and <a href="{{ site.authors[author].uri }}">{{ site.authors[author].name }}</a>
             {% else %}
-                , <a href="{{ site.data.authors[author].uri }}">{{ site.data.authors[author].name }}</a>
+                , <a href="{{ site.authors[author].uri }}">{{ site.authors[author].name }}</a>
             {% endif %}
         {% endfor %}
     {% endif %}
@@ -61,7 +61,7 @@ layout: default
   <script type="text/javascript">
     var disqus_shortname  = '{{ site.disqus_shortname }}';
     var disqus_identifier = '{{ page.id }}';
-    var disqus_title      = '{{ page.title | jsonify }}';
+    var disqus_title      = {{ page.title | jsonify }};
 
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
