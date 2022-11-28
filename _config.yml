@@ -4,6 +4,7 @@ email:       xuanqiang.huag@studio.unibo.it
 author:      Angelo Huang
 description: "Thoughs and ideas about stuff i learn"
 baseurl:     ""
+domain:      "flecart.github.io"
 url:         "https://flecart.github.io"
 date_format: "%b %-d, %Y"
 
@@ -62,7 +63,7 @@ medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
-telegram_username:
+telegram_username: flecarts
 vk_id:
 
 # Post sharing icons
@@ -128,5 +129,4 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - README.md
-  - screenshot.png
   - vendor
