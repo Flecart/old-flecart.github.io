@@ -12,7 +12,6 @@ Currently my main interests are in Competitive Programming (closely related to A
 I have also spent some time doing side projects, so that i could learn more about the technologies i was interested in. I have a few projects on my github, but i'm also working on some other projects that i will publish soon.
 
 ### Past projects
-- [Gamejam - Fresh fight](https://chromaticvalley.itch.io/fresh-fight) I won a gamejam with this game, it's a 2D fruit-fighting game made with Unity.
 - [Recipe-generator](https://recipe-generator-flecart.web.app/) Random Recipe Generator, built with React and hosted on Firebase
 - [Bear Game Ai](https://github.com/Flecart/GiocoDellOrso/releases/tag/v0.1.29) I implemented an AI for the Bear Game (Gioco dell'Orso, local game popular in the alps) using Q-learning ML method.
 
