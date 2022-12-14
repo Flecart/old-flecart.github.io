@@ -2,6 +2,7 @@
 layout:     post
 title:      Hello World
 date:       2022-11-30 10.30.00
+update_date: 2022-12-14 18.08
 summary:    First blog post
 categories:
 authors:
@@ -19,3 +20,14 @@ Anyway I aim to write some high-quality content, something the other people woul
 This first post is just useful to test the functionalities and looks of this small platform.
 
 See you in the next posts.
+
+
+**UPDATE**
+
+I still haven´t got in the habit to write blog post in a regular manner, but i think now i have an activity that
+could help me to learn more about my fields of interest and also write more on my blog!
+
+I think that a two-week study of whatever subject I'm interested in and write a post for a week in which i explain
+what I have learned and my own thoughts about it could be a nice idea
+
+I'll update this when I have more ideas about this.
