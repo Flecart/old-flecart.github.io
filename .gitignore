@@ -10,3 +10,4 @@ Gemfile.lock
 
 # Local dist jekill
 vendor/*
+.bundle
