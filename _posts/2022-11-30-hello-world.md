@@ -1,6 +1,6 @@
 ---
-layout:     post
 title:      Hello World
+layout:     post
 date:       2022-11-30 10.30.00
 update_date: 2022-12-14 18.08
 summary:    First blog post

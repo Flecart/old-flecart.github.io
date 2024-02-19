@@ -5,12 +5,12 @@ permalink: /about/
 tags: about
 ---
 
-I'm Xuanqiang "Angelo" Huang, Flecart is my Gamer Tag :D. 
+I'm Xuanqiang "Angelo" Huang.
 
-I'm a student at the University of Bologna, majoring in Computer Science.
-Currently my main interests are in Machine Learning, particularly Deep Learning. 
-Examples are **AI Psychology** where we are trying to assess some emergent properties of Large Language Models, and **Logical Reasoning**
-examining models through logical tests.
+I'm a student at the University of Bologna, majoring in Computer Science. Currently on my last year!
+Currently, one of my main interests is understanding human and machine intelligence.
+This is a reason why I am trying to assess some emergent properties of Large Language Models (e.g. Theory of Mind).
+A recent interest is Algorithmic Information Theory, mainly thanks to Jean-Louis Dessalles's MOOC course!
 But I'm also exploring other fields such as *Neuroscience* my free time. And tiny bits of reinforcement learning too.
 
 I have also spent some time doing side projects, so that i could learn more about the technologies I was interested in and enhance my technical skills. I have a few projects on my github, but i'm also working on some other projects that i will publish soon!

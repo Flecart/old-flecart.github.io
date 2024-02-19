@@ -56,7 +56,7 @@ github_username: flecart
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: x_angelohuang
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -119,7 +119,7 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    /:categories/:title
 paginate:     4
 sass:
   style: compressed
