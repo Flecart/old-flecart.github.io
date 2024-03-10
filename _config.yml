@@ -9,6 +9,7 @@ url:         "https://flecart.github.io"
 date_format: "%b %-d, %Y"
 
 header_pages:
+ - notes/index.md
  - about.md
  - contact.html
 
