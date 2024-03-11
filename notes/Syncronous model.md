@@ -17,7 +17,7 @@ Studi Personali: No
 
 ## Introduction
 
-Da ricordare il [The State Machine Replication (SMR) Problem](/notes/the-state-machine-replication-(smr)-problem) SMR problem che è importantissimo per comprendere questa parte.
+Da ricordare il "The State Machine Replication (SMR) Problem" che è importantissimo per comprendere questa parte.
 
 1. Storia locale
 2. Transazioni al singolo noto
@@ -48,7 +48,7 @@ Altre di base trattate prima
 1. esistenza di internet
 2. Esistenza di crittografia
 
-Si può notare che le ultime due assunzioni sono le stesse più generali definite in[Consensus protocols](/notes/consensus-protocols), andremo negli appunti in seguito solamente a rilassare alcune assunzioni di 1 e 2.
+Si può notare che le ultime due assunzioni sono le stesse più generali definite in [Consensus protocols](/notes/consensus-protocols), andremo negli appunti in seguito solamente a rilassare alcune assunzioni di 1 e 2.
 
 La 1 è stata storicamente molto sensata, dato che era pensata per database che comunicassero fra di loro, e chiaramente quello era un settings più controllato, per blockchain vorremmo anche provare rilassare questo.
 
@@ -193,18 +193,3 @@ Sistema a 3 dato da L, M, e F’, ma in questo caso ora il nodo M simula i nodi 
 Simile al siste a tre nel primo caso, ora L simula L, F’, M’, L’. Quindi per validità M dà in output F.
 
 ma allora bbiamo un assurdo perché L dovrebbe essere uguale a M, invece l'output è diverso. Quindi questo scenario non può succedere.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-surdo perché L dovrebbe essere uguale a M, invece l'output è diverso. Quindi questo scenario non può succedere.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

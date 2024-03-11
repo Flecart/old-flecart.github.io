@@ -21,9 +21,4 @@ title: Memory of the Brain
 ### Anatomia della memoria nel cervello
 
 
-### Il caso di H. M. 
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |
+### Il caso di H. M.

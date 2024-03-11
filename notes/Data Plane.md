@@ -12,13 +12,11 @@ Primo Abbozzo: March 10, 2023 12:10 PM
 Stato: 🌕🌕🌕🌕🌗
 Studi Personali: No
 
-# Elementi di ripasso
-
 # Data and control Plane
 
 ## Introduzione Data or Control plane
 
-come fanno i router a fare forwarding dei pacchetti? e decidere come mandare? Come fanno a passare. Sono le tabelle di instradamento. Si può dire di **end-to-end** perché solaemnte il sender e receiver andranno a livello applicazione, e leggeranno le cose (se criptato veramente solo loro riescono a fare questo).
+come fanno i router a fare forwarding dei pacchetti? e decidere come mandare? Come fanno a passare. Sono le tabelle di instradamento. Si può dire di **end-to-end** perché solamente il sender e receiver andranno a livello applicazione, e leggeranno le cose (se criptato veramente solo loro riescono a fare questo).
 
 ### Funzioni principali (2) 🟩
 
@@ -202,16 +200,3 @@ In pratica provo uno per classe ad ogni ciclo.
 Tipo se ho massima priority, ne mando 4, se sono nella seconda ne mano 2, se sono nella terza ne mando 1, quindi **esiste ancora la priority** e non ho starvation perché anche nella coda brutta riesco sempre ad andare avanti.
 
 Sul pacchetto IP [Indirizzo IP (!!!)](/notes/indirizzo-ip-(!!!)).
-
-# Registro ripassi
-
-| 16/03/23 | Ok, unica cosa che dovrei fare meglio è l’altra tipologia di forwarding su SDN |
-| --- | --- |
-| 25/04/23 | Di questo dovrei sapere tutto, dovrei solo fare un pò più di pratica a riguardo. |
-|  |  |
-- Cosa serveno i counters in open flow?
- forwarding su SDN |
-| --- | --- |
-| 25/04/23 | Di questo dovrei sapere tutto, dovrei solo fare un pò più di pratica a riguardo. |
-|  |  |
-- Cosa serveno i counters in open flow?

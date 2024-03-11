@@ -330,20 +330,3 @@ yylex() è cchiamato da yacc nel momento di richiesta di lessemi
 - Dimostrazione
 
     <img src="/images/notes/image/universita/ex-notion/Grammatiche Regolari/Untitled 42.png" alt="image/universita/ex-notion/Grammatiche Regolari/Untitled 42">
-
-
-# Registro ripassi
-
-| 22/10/22 | Principalemente da fare meglio i teoremi sulla distinguisibilità. |
-| --- | --- |
-| 01/11/22 |  Da fare npo meglio il pumping lemma. E le cose per la minimizzazione. |
-| 12/11/22 | Da fare un sacco di cose meglio!. Pumping lemma utilizzo e dimostrazione, le proprietà dei linguaggi regolari, fare una applicazione della minimizzazione, ricordarsi meglio le 5 propreità che stanno molto così così. Scrivere proprio le dimostrazioni da DFA a espressioni a grammatiche etc (quelle iniziali) |
-| 22/11/22 | Non mi ricordavo che da Grammatica regolare a NFA lo stato finale era il carattere vuoto, né dimostrazione del complemento per linguaggi regolari.
-Non riuscivo a descrivere bene il mini algoritmo del lex. |
-| 11/12/22 | Ok. |
-| 21/12/22 | Ok post esame. |
-| 01/02/23 | Lo ho fatto troppe volte forse, maggiormente sì credo di riuscire a creare un discorso per ogni domanda. |
-| 31/03/23 | Non mi sembra di aver trovato nessun problema in particolare. |
-
-| 01/02/23 | Lo ho fatto troppe volte forse, maggiormente sì credo di riuscire a creare un discorso per ogni domanda. |
-| 31/03/23 | Non mi sembra di aver trovato nessun problema in particolare. |

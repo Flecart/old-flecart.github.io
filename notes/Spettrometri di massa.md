@@ -198,11 +198,3 @@ $$
 
 Questo permette di calcolare il campo magnetico, col periodo.
 La cosa interessante è che questo si comporta come un **ago magnetico**, stesso comportamento.
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|12/26/2023      | Definire meglio il concetto di ago magnetico e piccole oscillazioni che mi manca.          |

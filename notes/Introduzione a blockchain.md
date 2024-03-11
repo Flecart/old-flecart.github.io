@@ -58,20 +58,3 @@ I soldi sono solamente un mezzo nuovo mezzo di scambio per questa robba. Ad esem
 ### Principles over protocols
 
 Vogliamo andare ad individuare alcuniprincipi belli ** e vedere come vengono applicati sui protocolli!
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-ver protocols
-
-Vogliamo andare ad individuare alcuniprincipi belli ** e vedere come vengono applicati sui protocolli!
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

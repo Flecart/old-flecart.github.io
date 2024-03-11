@@ -284,19 +284,3 @@ Però intuitivamente si può capire che avrei bisogni di un k infinito per poter
 - Esercizio a caso
 
     <img src="/images/notes/image/universita/ex-notion/Top-down Parser/Untitled 31.png" alt="image/universita/ex-notion/Top-down Parser/Untitled 31">
-
-
-# Registro ripassi
-
-| 20/11/22 | Decentemente buono, sui first e follow credo che ci siamo, dobbiamo lavorare di pìu sulle proprietà delle grammatiche LL(k), l’esempio di libero not implies LL(k)…  |
-| --- | --- |
-| 29/11/22 | Apposto direi |
-| 06/12/22 |  Appostissimo direi |
-| 09/02/23 | Non mi ricordo la rob formale per first and follow |
-| 18/03/23 | Ho dato una rilettina veloce, dovrei ancora ricordarmi tutti i capisaldi… |
-| 10/04/23 | Rilettina veloce, mi sembra maggior parte tutto apposto |
-| 11/06/23 | Okey |
-nd follow |
-| 18/03/23 | Ho dato una rilettina veloce, dovrei ancora ricordarmi tutti i capisaldi… |
-| 10/04/23 | Rilettina veloce, mi sembra maggior parte tutto apposto |
-| 11/06/23 | Okey |

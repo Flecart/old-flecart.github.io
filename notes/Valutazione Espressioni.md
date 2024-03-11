@@ -276,31 +276,3 @@ Quando faccio una chiamata ricorsiva alla fine, prima di ritornare dalla funzion
 Tail recursion si ha quando l’ultima istruzione di ritorno **non possiede computazioni aggiuntive**, avendo questa proprietà, la chiamata della funzione può essere posta in modo che sovrascriva tutti i parametri, le variabili locali, con l'indirizzo di ritorno e il valore di ritorno le stesse della funzione chaiamante.
 
 In pratica invece di far crescere continuamente la stack, posso fare in modo di utilizzare lo stesso record scrivendoci i nuovi parametri, un risparmio di memoria non da niente!
-
-# Registro ripassi
-
-| 25/03/23 | Direi tutto Ok. Non mi ricordavo esattamente come era fatta la Jumping table per il case, non mi ricordavo la motivazioni di abolizione del Goto. |
-| --- | --- |
-| 06/04/23 | Non dovrei avere nessun problema, semmai nei prossimi dovrei concentrarmi a creare un discorso per ogni pezzo, però ste cose si sanno dai. |
-|  |  |
-- Quali sarebbero i vantaggi della notazione prefissa o postfissa verso l’infissa?
-- C'è anche un vantaggio dal punto di vsta della semantica (quindi valutazione delle espressioni?)
-- È possibile valutare la notazione infissa con una unica scansione?
-- Presenta l’algoritmo semplice per valutare con notazione prefissa. Cambia qualcosa con la postfissa?
-- Perché è necessario conoscere l'arietà degli operatori per valutare con una sola passata con la notazione pre o post fissa.
-- Perché è importante interessarsi dell’ordine di valutazione delle sottoespressioni? cosa sono gli effetti collaterali? aka side effect.
-    - Perché l’ordine di valutazione può essere importante anche per ragioni di artimetica?
-    - Il problema della valutazione **eager** e gli operandi non definiti.
-    - Cosa è la valutazione a corto circuito?
-    - Perché ciò può influenzare anche l'efficienza del nostro codice?
-
-### Comandi
-
-- In che senso lo scopo dei comandi è modificare lo stato?
-- Cosa è una variabile?
-- Quale è la differenza fra il modello a riferimento e il modello variabili modificabili?
-- Cosa sono le l e r values?
-n che senso lo scopo dei comandi è modificare lo stato?
-- Cosa è una variabile?
-- Quale è la differenza fra il modello a riferimento e il modello variabili modificabili?
-- Cosa sono le l e r values?

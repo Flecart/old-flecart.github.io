@@ -39,7 +39,7 @@ $$
 Per $$K$$ vedi [Kolmogorov complexity](/notes/kolmogorov-complexity).
 TODO: cercare di capire perché limitarsi solamente alla versione più corta.
 #### Prefix Machine
-Da [Leonid Levin](http://old.math.nsc.ru/LBRT/g2/english/ssk/levin_e.html), risolve il problema di termine di interpretazione, perché prefix codes hanno valore sempre minore di 1 come descritto in Entropy#Krafts Inequality. 
+Da [Leonid Levin](http://old.math.nsc.ru/LBRT/g2/english/ssk/levin_e.html), risolve il problema di termine di interpretazione, perché prefix codes hanno valore sempre minore di 1 come descritto in [Entropy#Krafts Inequality](/notes/entropy#krafts-inequality). 
 Se non si escludono, fanno qualcosa di brutto con quel valore di probabilità, perché la somma di tutti avrebbe superato $$1$$ e non avrebbe soddisfatto gli assiomi 
 La proprietà principale è che non esistono due programmi per questa macchina tale per cui uno sia prefisso di altro.
 
@@ -64,7 +64,7 @@ $$
 C(s) + O(1) \leq K(s) < C(s) + 2\log(C(s)) + O(1)
 $$
 
-La prima diseguaglianza sembra essere presa da Kolmogorov complexity#Teorema dell'invarianza, mentre la seconda dallo stesso teorema più dal fatto che stiamo usando una macchina di Turing con prefissi.
+La prima diseguaglianza sembra essere presa da [Kolmogorov complexity#Teorema dell'invarianza](/notes/kolmogorov-complexity#teorema-dell-invarianza), mentre la seconda dallo stesso teorema più dal fatto che stiamo usando una macchina di Turing con prefissi.
 
 
 ### Algorithmic probability
@@ -76,12 +76,3 @@ $$
 
 TODO: sarebbe carino provare ad esplorare di più questo topic, perché mi sembra abbia belle connessioni con resto.
 Poi un sacco di questo content è bloggabile.
-
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

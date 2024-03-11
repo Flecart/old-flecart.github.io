@@ -61,7 +61,7 @@ u, 0\leq u\leq 1 \\
 \end{cases}
 $$
 And this is easy. This is proved to be the only distribution with this property, that the CDF is an identify
-3. $$F_{X}(X) = U$$ this is also called **PIT** See [here]([https://stats.stackexchange.com/questions/161635/why-is-the-cdf-of-a-sample-uniformly](https://stats.stackexchange.com/questions/161635/why-is-the-cdf-of-a-sample-uniformly)-distributed) for proof (it's cool)
+3. $$F_{X}(X) = U$$ this is also called **PIT** See [here](https://stats.stackexchange.com/questions/161635/why-is-the-cdf-of-a-sample-uniformly-distributed) for proof (it's cool)
 
 #### Proof 1
 
@@ -177,7 +177,8 @@ $$
 It's just the sum of all the sampled data that is lower than a certain value! (unbiased, on average, the emprirical cdf we have the right cdf!).
 
 #### Other famous distributions
-[https://math.stackexchange.com/questions/2589506/chi-squared-distribution-related-to-the-mean-of-an-exponential-sample](https://math.stackexchange.com/questions/2589506/chi-squared-distribution-related-to-the-mean-of-an-exponential-sample)
+[Chi squared distribution math exchange](https://math.stackexchange.com/questions/2589506/chi-squared-distribution-related-to-the-mean-of-an-exponential-sample)
+
 if we have $$X_{i} \sim Exp(1)$$ then it is true that
 
 $$

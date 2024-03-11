@@ -94,8 +94,3 @@ Esiste anche uno standard IEEE per gestire questo cambiamento.
 - Progettisti non responsabili (bisogna rendere i progettisti)
 - Inesperienza dei progettisti
 - Il software vecchio.
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

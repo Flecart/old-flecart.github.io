@@ -119,10 +119,3 @@ Per la propreità 1 abbiamo questo fatto:
 ### Non univocità della densità
 
 la funzione f_X definita in precedenza sarebbe la funzione di densità continua della nostra probabilità. Fatto sta che così definita se cambiamo la nostra funzione in un numero finito oppure infinto numerabile di punti, allora l'integrale possiede ancora lo stesso valore, quindi è una densità valida (basta provare a spezzare la somma dell'integrale per tutti i punti in cui si è cambiato e si può verificare questo dato).
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

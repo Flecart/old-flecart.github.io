@@ -153,18 +153,3 @@ $$
     <img src="/images/notes/image/universita/ex-notion/Norme e Condizionamento/Untitled 5.png" alt="image/universita/ex-notion/Norme e Condizionamento/Untitled 5">
 
     <img src="/images/notes/image/universita/ex-notion/Norme e Condizionamento/Untitled 6.png" alt="image/universita/ex-notion/Norme e Condizionamento/Untitled 6">
-
-
-# Registro ripassi
-
-| 08/10/2022 | Migliorare sulle dimo per ricavare relazioni sul numero di condizionamento e perturbazione, per le norme direi che sia OK. |
-| --- | --- |
-| 16/10/22 | Non voglio fare le dimo, tanto sono noiose e non le chiede, passo avanti. |
-| 23/10/22 | Coerente con la volta scorsa |
-| 04/11/22 | Appuost daje |
-| 21/11/22 | Dai abbastanza Ok, non sono sicuro di cosa possa chiedere di sta robba… però dovrei saperli i nomi delle norme strane… |
-| 09/01/23 | Ok |
-a |
-| 04/11/22 | Appuost daje |
-| 21/11/22 | Dai abbastanza Ok, non sono sicuro di cosa possa chiedere di sta robba… però dovrei saperli i nomi delle norme strane… |
-| 09/01/23 | Ok |

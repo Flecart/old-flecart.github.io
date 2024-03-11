@@ -15,25 +15,3 @@ Studi Personali: No
 # Adversarial Search
 
 Questi algoritmi trattano principalmente di giochi e di modi
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-f.md)
-Studi Personali: No
-
-# Elementi di ripasso
-
-# Adversarial Search
-
-Questi algoritmi trattano principalmente di giochi e di modi
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

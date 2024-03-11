@@ -12,15 +12,6 @@ Primo Abbozzo: October 28, 2021 4:56 PM
 Stato: 🌕🌕🌕🌕🌕
 Studi Personali: No
 
-[21 Ottobre 2021_compressed_removed.pdf](Limiti%20b3b1b15767a74696b48d7166604d8898/21_Ottobre_2021_compressed_removed.pdf)
-
-# Elementi di ripasso
-
-- Vecchi dubbi
-    - Dimostrazione costruttiva di THzero. (in particolare il secondo lemma non dimostrato)
-    - Dimostrazione del valore intermedio
-- Continuità per inverse
-
 # 4 Limiti
 
 Riguardare [Successioni](/notes/successioni) per avere primo attacco sui limiti
@@ -107,7 +98,7 @@ In modo simile si può dire per il limite che tende a un valore infinito negativ
 
 ### 4.3.2 Limiti destri e sinistri
 
-È molto simile alla definizione normale di limite, ma solo che invece di considerare un intorno completo di x debbo avere una parte, quindi invece di $$0 < |x-x_0|< \delta$$  ho che deve essere che $$x_0 - \delta < x < x_0$$ per intorni sinistri e in modo simile per intorni destri ho che $$x_0 < x < x_0 + \delta$$
+È molto simile alla definizione normale di limite, ma solo che invece di considerare un intorno completo di x debbo avere una parte, quindi invece di $$0 < \lvert x-x_0 \rvert< \delta$$  ho che deve essere che $$x_0 - \delta < x < x_0$$ per intorni sinistri e in modo simile per intorni destri ho che $$x_0 < x < x_0 + \delta$$
 
 Il resto della definizione è tutto uguale.
 
@@ -190,35 +181,27 @@ $$
 
 - Dimostrazione (non richiesta)
 
-    [inversa.pdf](Limiti%20b3b1b15767a74696b48d7166604d8898/inversa.pdf)
-
-
 Non viene dimostrato ma, se è definita una funzione continua per una certa funzione, allora è continua anche la sua inversa. Per qualche motivo magico.
 
 Questo teorema è importante per la dimostrazione della derivabilità dell'inversa (quindi per avere una base per dimostrare la derivabilità dell'inversa
 
-## 4.6 Teorema degli zeri
+## Teorema degli zeri
 
-[4 Novembre 2021 Ridotta_compressed.pdf](Limiti%20b3b1b15767a74696b48d7166604d8898/4_Novembre_2021_Ridotta_compressed.pdf)
-
-### 4.6.1 Lemmi preliminari per THZero (!!!)
+### Lemmi preliminari per THZero
 
 **Primo (dim)**
 
 - Enunciato
-
     <img src="/images/notes/image/universita/ex-notion/Limiti/Untitled 2.png" alt="image/universita/ex-notion/Limiti/Untitled 2">
 
 
-sdata una successione bn appartenente a $$\R$$ sempre positiva o sempre negativa tale che il limite di bn appartiene a $$\R$$ allora il limite ha lo stesso segno della successione o è nulla.
+sia data una successione bn appartenente a $$\R$$ sempre positiva o sempre negativa tale che il limite di bn appartiene a $$\R$$ allora il limite ha lo stesso segno della successione o è nulla.
 
 Si dimostra per assurdo ponendo il limite il contrario (si apre poi il limite e si sceglie un epsilon carino che mi porti a questa contraddizione).
 
 **Secondo (no dim)**
 
-- Enunciato
-
-    <img src="/images/notes/image/universita/ex-notion/Limiti/Untitled 3.png" alt="image/universita/ex-notion/Limiti/Untitled 3">
+<img src="/images/notes/image/universita/ex-notion/Limiti/Untitled 3.png" alt="image/universita/ex-notion/Limiti/Untitled 3">
 
 
 Data una funzione da A a $$\R$$, prendiamo x un punto di accumulazione di A tale che f sia continua in questo punto allora. Per ogni successione xn appartenente ad A che converga a x si ha che f(xn) tende a f(x)´´
@@ -303,12 +286,3 @@ $$\forall y \in codominio, \text{considero } g(x) = f(x) - y$$ e poi utilizzo il
 
 
 La dimostrazione è equivalente a Weierstrass riformulato.
-
-| 19/02/22 | un pò così così enunciati di weierstrass e valore intermedio, th zeri va abbastanza bene, anche se richiederebbe più sicurezza nell’esposizione. Il resto (def limiti, continuità) il cerchio, limiti di successioni direi tutto ok. |
-| --- | --- |
-| 09/04 | Tutto okey direi, semmai imprecisioncina alla fine col th zeri |
-|  |  |
-ontinuità) il cerchio, limiti di successioni direi tutto ok. |
-| --- | --- |
-| 09/04 | Tutto okey direi, semmai imprecisioncina alla fine col th zeri |
-|  |  |

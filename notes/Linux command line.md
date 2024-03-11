@@ -55,7 +55,7 @@ Esistono due tipi di pipes:
 - **Named**: TODO:deve farlo angelo
 - **Unnamed**: sono dei canali per trasferire informazioni tra i processi (es. `echo "prova"|cat` )
 
-[Named pipes tutorial in C]([https://jameshfisher.com/2017/02/17/how-do-i-call-a-program-in-c-with](https://jameshfisher.com/2017/02/17/how-do-i-call-a-program-in-c-with)-pipes/)
+[Named pipes tutorial in C](https://jameshfisher.com/2017/02/17/how-do-i-call-a-program-in-c-with-pipes/)
 
 ### **Binary Files**
 

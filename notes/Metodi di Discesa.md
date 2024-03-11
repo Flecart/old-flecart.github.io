@@ -262,28 +262,3 @@ Questa parte è trattata in analisi in [Convessità (cenni)](Convessita%CC%80%20
 - Slide
 
     !<img src="/images/notes/image/universita/ex-notion/Metodi di Discesa/Untitled 19.png" alt="image/universita/ex-notion/Metodi di Discesa/Untitled 19">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-b796fb1179c89.md)
-
-- Slides
-
-    !<img src="/images/notes/image/universita/ex-notion/Metodi di Discesa/Untitled 18.png" alt="image/universita/ex-notion/Metodi di Discesa/Untitled 18">
-
-- Slide
-
-    !<img src="/images/notes/image/universita/ex-notion/Metodi di Discesa/Untitled 19.png" alt="image/universita/ex-notion/Metodi di Discesa/Untitled 19">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

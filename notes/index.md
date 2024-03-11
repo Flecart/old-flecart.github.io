@@ -144,7 +144,6 @@ Here you can find the categories of all the notes on the site:
 - [Spazi di probabilita](/notes/spazi-di-probabilita)
 - [Poisson processes](/notes/poisson-processes)
 - [Markov Chains](/notes/markov-chains)
-- [Introduzione 2](/notes/introduzione-2)
 - [Variabili aleatorie](/notes/variabili-aleatorie)
 - [Introduzione alla probabilita](/notes/introduzione-alla-probabilita)
 - [Measure Theory](/notes/measure-theory)
@@ -221,7 +220,6 @@ Here you can find the categories of all the notes on the site:
 
 
 ## Basi Dati
-- [feedback al corso](/notes/feedback-al-corso)
 - [Index, B-trees and hashes](/notes/index,-b-trees-and-hashes)
 - [Database logical design](/notes/database-logical-design)
 - [Introduction to data-bases](/notes/introduction-to-data-bases)
@@ -238,7 +236,6 @@ Here you can find the categories of all the notes on the site:
 ## Software Engineering
 - [Scrum Method](/notes/scrum-method)
 - [System Design](/notes/system-design)
-- [Python and java notes](/notes/python-and-java-notes)
 - [General SWE principles](/notes/general-swe-principles)
 - [Modelli AGILE](/notes/modelli-agile)
 - [Design patterns](/notes/design-patterns)
@@ -272,13 +269,11 @@ Here you can find the categories of all the notes on the site:
 - [Mac Wifi](/notes/mac-wifi)
 - [Architettura e livelli 1, 2](/notes/architettura-e-livelli-1,-2)
 - [Tecnologia Wireless](/notes/tecnologia-wireless)
-- [Note Esame](/notes/note-esame)
 - [Livello di trasporto](/notes/livello-di-trasporto)
 - [Antenne](/notes/antenne)
 - [Livello applicazione e socket](/notes/livello-applicazione-e-socket)
 - [Control Plane](/notes/control-plane)
 - [Data Plane](/notes/data-plane)
-- [Livello Applicazione](/notes/livello-applicazione)
 
 
 ## Sistemi Operativi
@@ -366,7 +361,6 @@ Here you can find the categories of all the notes on the site:
 
 
 ## Crittografia
-- [feedback al corso](/notes/feedback-al-corso)
 - [Classical Cyphers](/notes/classical-cyphers)
 - [Block Ciphers](/notes/block-ciphers)
 - [OTP and Stream Ciphers](/notes/otp-and-stream-ciphers)

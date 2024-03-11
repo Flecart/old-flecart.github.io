@@ -58,15 +58,3 @@ L’obiettivo di avere più indirizzi Ip non dovrebbe essere risolto con questa 
 Inoltre tutte le richieste devono passare da questo router e manipolate per poter accedere alla rete dietro il NAT, **non abbiamo il pretesto per parlare di end-to-end**. (il prof. parla di lato porcherie (dietro il nat) e il lato bello che è il fuori, e il router sembra quasi l’ambiente di cambio vestiti, in modo che tutti si possano comprendere, lol).
 
 Una cosa molto brutta è fare NAT di NAT. Dall'altra parte i NAT sembrano un modo per isolare computer di cui non mi fido (che conoscono **un falso IP proprio** che non è raggiungibile esternamente.).
-
-# Registro ripassi
-
-| 21/12/22 | Decente. |
-| --- | --- |
-| 27/01/23 | Non mi ricordavo esattamente delle controversie del NAT |
-| 02/03/23 | Anche qui le contro verse non me le ricordo, ma sul funzionamento del NAT mi sembra molto ok |
-| 01/04/23 | Bruh, lo ho guardato e mi sono detto chissene frega lol. |
-| 12/05/23 | Troppe volte, sembr asemplice salto. |
-erse non me le ricordo, ma sul funzionamento del NAT mi sembra molto ok |
-| 01/04/23 | Bruh, lo ho guardato e mi sono detto chissene frega lol. |
-| 12/05/23 | Troppe volte, sembr asemplice salto. |

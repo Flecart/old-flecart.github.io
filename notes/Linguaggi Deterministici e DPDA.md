@@ -191,17 +191,3 @@ Ma comunque andiamo a discutere meglio di questa parte in [Bottom-up Parser LR(0
 - Reduce-Reduce
 
 Oltre a questo c'è un grandissimo problema delle produzioni del tipo $$A \to \varepsilon$, perché queste **divergono sempre**, quindi è meglio non avere grammatiche con questa produzione se vogliamo utilizzare parsing bottom up.3
-
-# Registro ripassi
-
-| 11/11/22 | Abbastanza ok, solo da ripassare un più formalmente…  |
-| --- | --- |
-| 18/11/22 | Sembra tutto OK tranne il bottom up parsing |
-| 29/11/22 | Ok, bottom up parsing si tratta meglio dopo, ho anche capito leggermente meglio un pò la cosa della non ambiguità dei DPDA, e per il resto per le proprietà ci sono. |
-| 27/01/23 | Gli appunti sono, ok ,ma non riesco a rispondere con sicurezza a tutte le domande (non sono tutte qui, e.g. la parte su come alcuni parser fanno fatica su certe grammatiche) |
-| 18/03/23 | Mi devo ricordare l’idea sotto la prova informa per le proprietà dei DPDA. Però sono leggermente meglio sicuro sulle domande, quindi meglio. |
-| 13/05/23 | TUtto ok! |
-| 9/06/23 | Direi principalmente Ok, finalmente so anchje dimostrare le porprietà dei DPDA. |
-proprietà dei DPDA. Però sono leggermente meglio sicuro sulle domande, quindi meglio. |
-| 13/05/23 | TUtto ok! |
-| 9/06/23 | Direi principalmente Ok, finalmente so anchje dimostrare le porprietà dei DPDA. |

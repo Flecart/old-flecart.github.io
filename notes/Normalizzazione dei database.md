@@ -78,13 +78,3 @@ Prendiamo un esempio in cui questa caratteristica si dimostra utile
 #### Normalizzazione nello schema concettuale 🟨--
 Possiamo utilizzare questa idea anche nella parte di sviluppo  di schemi E-R.
 Se riconosco a questo livello che c'è una dipendenza funzionale, questo mi da indicazioni su come continuare lo sviluppo di questo. Nell'esempio sulle slides motiva un partizionamento verticale, vedi [Database logical design](/notes/database-logical-design).
-
-## Note di ripasso
-- sapere spiegare meglio le tipologie di anomalie  🟩
-- Sapere decomporre le tavole 🟩--
-- Sapere spiegare e mettere in contesto cosa sia la terza forma normale. (plus sapere cosa siano le altre due forme normali)
-
-| Data | Commenti |
-| ---- | ---- |
-| 02/01/24 | Dovrei fare esercizi su questo (non credi di avere capito benissimo la terza forma normale, non ci sono molti esempi di decomposizione seguendo quello, però credo importante avere i principi, che di dovrei essere.) |
-| 07/01/24 | Dovrei fare meglio perché alla fine 3NF non l'ho capita...  |

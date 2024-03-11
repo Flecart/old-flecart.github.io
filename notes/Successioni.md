@@ -203,6 +203,3 @@ Questa dimostrazione si dimostra espandendo la definizione con il binomio di New
 2. Semplificare il restante $$\dfrac{1}{k!}$$ con le somme telescopiche (usando la disuguaglianza 1/k! ≤ della somma telescopica) e dimostrare che è finito.
 
 Si dimostra quindi che l'upper bound è 3.
-
-[14 Ottobre 2021 ridotta.pdf](Successioni%204ff925eccf52437bb07e5a99efdbfbfa/14_Ottobre_2021_ridotta.pdf)
-che è finito.

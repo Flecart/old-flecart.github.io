@@ -519,16 +519,3 @@ Il problema dei precedenti è che c'è bisogno di molta memoria per rappresentar
 L'algortimo è utilizzare un ordinamento stabile per fare l'ordinamento che ci serve
 
 È stato inventato da Herman Hollerith per le macchien tabulatrici.
-
-# Registro ripassi
-
-| 09/04 | Tutto OK |
-| --- | --- |
-| 30.04 | Direi di sì, le idee principali per tutti gli alg dovrei saperli, anche se magari la singola implementazione non è immediata. |
-|  |  |
-stro ripassi
-
-| 09/04 | Tutto OK |
-| --- | --- |
-| 30.04 | Direi di sì, le idee principali per tutti gli alg dovrei saperli, anche se magari la singola implementazione non è immediata. |
-|  |  |

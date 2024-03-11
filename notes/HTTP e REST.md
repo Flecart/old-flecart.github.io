@@ -265,18 +265,3 @@ Queste entità così definite possono essere anche gerarchiche, quindi uno impil
 Open api è una sintassi di solito scritta in YAML presentato molto velocemente in [HTML e Markup](/notes/html-e-markup) nella sezione di markup, permette di specificare in modo molto chiarlo l'interfaccia di un API, e la creazione della documentazione associata.
 
 Di solito questo è il modello preferito (industry standard) per creare queste cose, rende molto chiara la comunicazione delle api diciamo, per il progetto potrebbe essere un buon metodo per interagire col database? Oppure meglio farci richiesta diretta con un ORM. Credo sia molto simile.
-
-# Registro ripassi
-
-| 25/03/23 | Boh, masi, questi non è che siano molto importanti! |
-| --- | --- |
-|  |  |
-|  |  |
-i richiesta diretta con un ORM. Credo sia molto simile.
-
-# Registro ripassi
-
-| 25/03/23 | Boh, masi, questi non è che siano molto importanti! |
-| --- | --- |
-|  |  |
-|  |  |

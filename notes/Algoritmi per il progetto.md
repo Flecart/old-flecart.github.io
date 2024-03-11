@@ -63,7 +63,7 @@ Da guardare sono:
 
 - Stackoverflow on 10x10 5 game
 
-    [Minimax Alpha Beta Pruning Algorithm takes too much time to solve Tic Tac Toe (10x10 board)]([https://stackoverflow.com/questions/51364491/minimax-alpha-beta-pruning-algorithm-takes-too-much-time-to-solve-tic-tac-toe](https://stackoverflow.com/questions/51364491/minimax-alpha-beta-pruning-algorithm-takes-too-much-time-to-solve-tic-tac-toe)-1)
+    [Minimax Alpha Beta Pruning Algorithm takes too much time to solve Tic Tac Toe (10x10 board)](https://stackoverflow.com/questions/51364491/minimax-alpha-beta-pruning-algorithm-takes-too-much-time-to-solve-tic-tac-toe-1)
 
     Presenta alcune tecniche generali per migliorare il minimax, ad esempio hashtable per stati già cercati, cosa che credo funzioni solo per questi casi piccoli, il 50x50 farci la table non credo proprio riesca…
 
@@ -76,17 +76,17 @@ Da guardare sono:
 
 ### Ottimizzazioni su final
 
-[]([https://www.baeldung.com/java-final](https://www.baeldung.com/java-final)-performance)
+[](https://www.baeldung.com/java-final-performance)
 
 # Vecchi MNKGame
 
 simone e la giuglia
 
-[GitHub - Follisim/mnk-game]([https://github.com/Follisim/mnk](https://github.com/Follisim/mnk)-game)
+[GitHub - Follisim/mnk-game](https://github.com/Follisim/mnk-game)
 
 Questo non utilizza thread, quindi sarebbe utile compararlo col nostro ⬇️
 
-[https://github.com/NotXia/unibo-MNKGame]([https://github.com/NotXia/unibo](https://github.com/NotXia/unibo)-MNKGame)
+[https://github.com/NotXia/unibo-MNKGame](https://github.com/NotXia/unibo-MNKGame)
 
 lineare
 
@@ -94,7 +94,7 @@ lineare
 
 indeterminati
 
-[GitHub - mattyk0207/progetto-ASD: giocatore virtuale per MNKgame]([https://github.com/mattyk0207/progetto](https://github.com/mattyk0207/progetto)-ASD)
+[GitHub - mattyk0207/progetto-ASD: giocatore virtuale per MNKgame](https://github.com/mattyk0207/progetto-ASD)
 
 alpha beta
 
@@ -104,18 +104,18 @@ alpha beta
 
 [https://github.com/specialfish9/LittleMan](https://github.com/specialfish9/LittleMan)
 
-[https://github.com/giammirove/mnk-game]([https://github.com/giammirove/mnk](https://github.com/giammirove/mnk)-game)
+[https://github.com/giammirove/mnk-game](https://github.com/giammirove/mnk-game)
 
 [https://github.com/takenX10/BottargaPlayer](https://github.com/takenX10/BottargaPlayer)
 
-[https://github.com/University-Works-Projects/MNKGame]([https://github.com/University-Works](https://github.com/University-Works)-Projects/MNKGame)
+[https://github.com/University-Works-Projects/MNKGame](https://github.com/University-Works-Projects/MNKGame)
 
  Con voto 26 questo.
 
 Idee per minimax forte
 //github.com/takenX10/BottargaPlayer)
 
-[https://github.com/University-Works-Projects/MNKGame]([https://github.com/University-Works](https://github.com/University-Works)-Projects/MNKGame)
+[https://github.com/University-Works-Projects/MNKGame](https://github.com/University-Works-Projects/MNKGame)
 
  Con voto 26 questo.
 

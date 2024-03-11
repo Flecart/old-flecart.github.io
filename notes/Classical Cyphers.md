@@ -89,7 +89,7 @@ This is the most important principle of the course!
 How can we make sense of this? This is counterintuitive. Maybe because in the past there were like two keys, the key and the algorithm itself, seems like that this setting didn’t help to have a better security.
 
 ### Substitution cipher
-Vedere #Affine and Caesar Cipher per definizione formale.
+Vedere [#Affine and Caesar Cipher](#affine-and-caesar-cipher) per definizione formale.
 
 This was one of the oldest ciphers in history. (Old and stupid ciphers by the Professor).
 
@@ -107,7 +107,7 @@ This was one of the oldest ciphers in history. (Old and stupid ciphers by the Pr
 
 #### Attacco di frequenza 🟩
 In teoria la chiave è una permutazione (nel caso di **vigenere**, quindi avremmo $$26! \approx 2^{88}$$ di keysize, però un attacco di frequenza è troppo forte per questo genere di cifrari.
-Introduzione a crittografia-20240222100147432.webp|550|Introduzione a crittografia-20240222100147432.webp|550
+<img src="/images/notes/Introduzione a crittografia-20240222100147432.webp" width="550" alt="Introduzione a crittografia-20240222100147432">
 Fatto per la prima volta da Al-Kindi 800 AD.
 #### Attacco brute-force 🟩
 
@@ -128,7 +128,7 @@ Solitamente questo valore non si può calcolare, perché avremmo bisogno di $$M$
 
 #### Tentativo formalizzazione 🟩
 Consideriamo una chiave $$k = (k_{1}, k_{2}, \dots, k_{l})$$
-Ognuno equivalente al shift presente in cesare #Affine and Caesar Cipher.
+Ognuno equivalente al shift presente in cesare [#Affine and Caesar Cipher](#affine-and-caesar-cipher).
 Ripetiamo la chiave più volte e cifriamo col shift cipher corrispondente ogni lettera. Questo fa nascere l'idea dei rotori senza problemi!
 
 #### Attacco a Vigenère 🟩
@@ -184,7 +184,7 @@ L'idea è **limitare qualunque informazione** che si può trovare dalla chiave c
 1. Non posso ritrovare la chiave dai processi di $$E$$ e $$D$$
 2. Non posso ritrovare il plain-text da ciphertext.
 Una definizione equivalente sembra essere:
-dato un $$M$$ deve essere che $$\forall e \in E, P(e|M) = P(e) \not = 0$$ ([https://www3.cs.stonybrook.edu/~omkant/L02](https://www3.cs.stonybrook.edu/~omkant/L02)-short.pdf)
+dato un $$M$$ deve essere che $$\forall e \in E, P(e|M) = P(e) \not = 0$$ ([https://www3.cs.stonybrook.edu/](https://www3.cs.stonybrook.edu/)~omkant/L02-short.pdf)
 Questo significa che il $$e$$ è **indipendente da M** quando non si conosce la chiave, nel senso che non riesci prendere nessuna informazione (se inverti con bayes dovresti avere stesso valore).
 
 Si può dimostrare che la seconda definizione, più l'ipotesi che $$\lvert K \rvert = \lvert P \rvert = \lvert C \rvert$$ è equivalente alla prima (il contrario dovrebbe essere facile!?).
@@ -197,7 +197,7 @@ $$
 \lvert K \rvert  \geq \lvert M \rvert 
 $$
 
-Questa proprietà rende cifrari come OTP and Stream Ciphers|OTP|OTP and Stream Ciphers|OTP molto difficili da usare nella pratica, perché non riusciamo a comunicare questo valore, che tra l'altro dovrebbe essere utilizzato una singola volta.
+Questa proprietà rende cifrari come [OTP](/notes/otp-and-stream-ciphers) molto difficili da usare nella pratica, perché non riusciamo a comunicare questo valore, che tra l'altro dovrebbe essere utilizzato una singola volta.
 
 **Proof:**
 [https://cs.ioc.ee/yik/schools/win2006/massey/slides1.pdf](https://cs.ioc.ee/yik/schools/win2006/massey/slides1.pdf)
@@ -270,19 +270,3 @@ Un anello è un insieme di elementi su cui sono definite certe proprietà di int
     <img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled 6.png" alt="image/universita/ex-notion/Introduzione/Untitled 6">
 
     L’inverso non ci deve stare
-
-
-# Registro ripassi
-
-- Riassunto
-
-    <img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled 7.png" alt="image/universita/ex-notion/Introduzione/Untitled 7">
-
- 
-
-## Note di ripasso
-
-| Data     | Commenti                                        |
-| -------- | ----------------------------------------------- |
-| 27/02/24 | Abbstanza Ok tutto, dovrei fare meglio i rotori |
-|          |                                                 |

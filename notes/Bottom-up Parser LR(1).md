@@ -154,16 +154,3 @@ Questo è un esempio importante solo perché è richiesto nelle domande, altrime
 
 - Esempio di conflitto
 <img src="/images/notes/image/universita/ex-notion/Bottom-up Parser -LR(1)/Untitled 12.png" alt="image/universita/ex-notion/Bottom-up Parser -LR(1)/Untitled 12">
-
-
-# Registro ripassi
-
-| 29/11/22 | Ok                                                                                    |
-| -------- | ------------------------------------------------------------------------------------- |
-| 12/12/22 | Ok                                                                                    |
-| 20/02/23 | Forstissimi dubbi per quelle domande:                                                 |
-| 20/03/23 | Abbastanza buono, riesco in modo intuitivo anche a giustificare il problema di sopra. |
-| 17/04/23 | Boh, abbastanza buono, non mi ricordo qualche risultato teorixo                       |
-di not LALR ma SLR  |
-niente riguardo il perché shift-reduce in LALR non fosse possibile
-niente sull’esempio di not LALR ma SLR  |

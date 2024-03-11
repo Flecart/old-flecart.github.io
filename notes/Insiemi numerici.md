@@ -20,11 +20,8 @@ Studi Personali: No
 # 1 Insiemi Numerici
 
 <aside>
-💡 Questa prima parte degli appunti è fortemente mancante, vedere il passo in pdf
-
+💡 Questa prima parte degli appunti è fortemente mancante
 </aside>
-
-[Analisi_Matematica_errata1.pdf](Insiemi%20numerici%200303867f421b4d2991f9e4876a5ee805/Analisi_Matematica_errata1.pdf)
 
 ## 1.1 Insiemistica
 

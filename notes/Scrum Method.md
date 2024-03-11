@@ -21,7 +21,7 @@ Il metodo più utile ispirato a scrum è rugby, che tutti si muovo insieme colla
 1. **Planning**: in cui vengono scelti i task da eseguire durante questo sprint, solitamente questo viene preso da un *subset* dei task descritti dal product owner.
 2. **Execution**: questo è abbastanza chiaro, si sviluppa.
 3. **Retrospective and review**: in cui vengono identificati i problemi che sono stati incontrati durante lo sviluppo, e modi possibili per risolverli.
-Scrum Method-1697098147819.jpeg | 500|Scrum Method-1697098147819.jpeg | 500
+![ 500](/notes/scrum-method-1697098147819.jpeg-)
 #### Lo sprint (3) 🟩-
 Una cosa molto importante che aiuterà di gran lunga lo sviluppo è la **costanza** che 
 <img src="/images/notes/Scrum Method-1697098373334.jpeg" alt="Scrum Method-1697098373334">
@@ -144,10 +144,3 @@ The DoD is a shared understanding among team members of what it means for a prod
 - Scrum master che non fa il lavoro
 - Cattiva comunicazione di PO
 - Cattiva comunicazione dei desiderata da parte degli stakeholders.
-
-## Note di ripasso
-
-
-| Data       | Commenti |
-| ---------- | -------- |
-| 10/22/2023 | Questa roba forse è troppo troppo semplice buo         |

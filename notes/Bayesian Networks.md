@@ -99,22 +99,3 @@ Se non è consistente con il modello di probabilità, allora rifiuta un assegnam
 ### Importance sampling
 
 ## Simulazione con catene di Markov
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-nte con il modello di probabilità, allora rifiuta un assegnamento…
-
-### Importance sampling
-
-## Simulazione con catene di Markov
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

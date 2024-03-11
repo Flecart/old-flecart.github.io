@@ -37,7 +37,7 @@ Invece ReLU si comporta meglio da questo punto di vista, perché la sua derivata
 
 ### Input normalization
 
-In un certo senso in questo modo abbiamo un pò di tati che sono Normali gaussiani. Non ho capito ancora perché normale gaussiana sia una tipologia di dati che ci piace così tanto. (il motivo che viene dato [in lezione]([https://www.youtube.com/watch?v=zUazLXZZA2U&list](https://www.youtube.com/watch?v=zUazLXZZA2U&list)=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) è che Gradient Descent si comporta molto meglio per loss function che sono gaussiane, perché la direzione di discesa è sempre quella, e non deve zigzagare).
+In un certo senso in questo modo abbiamo un pò di tati che sono Normali gaussiani. Non ho capito ancora perché normale gaussiana sia una tipologia di dati che ci piace così tanto. (il motivo che viene dato [in lezione](https://www.youtube.com/watch?v=zUazLXZZA2U&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) è che Gradient Descent si comporta molto meglio per loss function che sono gaussiane, perché la direzione di discesa è sempre quella, e non deve zigzagare).
 
 ### Weight initialization
 
@@ -84,18 +84,10 @@ L’idea è il fatto che il network deve risolvere il problema, anche se è un p
 ### Kullback-Leibler Divergence
 
 We want to measure the **distance between two** distributions, usually from a real distribution and the one we are predicting.
-Vedere Entropy#Relative Entropy or Kullback-Leibler
+Vedere [Entropy#Relative Entropy or Kullback-Leibler](/notes/entropy#relative-entropy-or-kullback-leibler)
     
 
 
 È una cosa che proviene dalla teoria dell’informazione.
 
 Per capire questo, è molto importante andare a capire cosa sia la **cross-entropy** e questo è un modo abbastanza naturale per capire quanto vicino è una distribuzione, solitamente predetta, con quella del training data, si può comparare molto con **log-likelihood** loss function, si potrebbe dire che sia un caso particolare la log likelihood.
-
-# Registro ripassi
-
-| 01/04/23 | Non ci sto facendo troppa attenzione. |
-| --- | --- |
-|  |  |
-|  |  |
-tion, si potrebbe dire che sia un caso particolare la log likelihood.

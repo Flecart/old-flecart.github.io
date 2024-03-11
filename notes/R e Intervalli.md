@@ -76,11 +76,11 @@ Questa proprietà di R è molti importante perché **permette di avere sup e inf
 
 Si può affermare che la cardinalità di R sia molto maggiore di N, infatti si può dimostrare che è innumerabile grazie
 
-Cantor, si fa la costruzione a tabella e si dimostra che non è suriettiva, ovvero che nell'intervallo [0,1[ esiste un numero che non è mai raggiunto da un numero naturale, infatti riesco a costruire un numero che sia diverso in una cifra da tutti i numeri decimali in tabella
+Cantor, si fa la costruzione a tabella e si dimostra che non è suriettiva, ovvero che nell'intervallo $$[0,1[$$ esiste un numero che non è mai raggiunto da un numero naturale, infatti riesco a costruire un numero che sia diverso in una cifra da tutti i numeri decimali in tabella
 
 ### 2.1.5 Esistenza unicità della radice
 
-[File per pdf di lezione per questa]([https://www.dropbox.com/s/uei17il1wnc43bh/11-10-2021-Analisi.pdf?dl](https://www.dropbox.com/s/uei17il1wnc43bh/11-10-2021-Analisi.pdf?dl)=0)
+[File per pdf di lezione per questa](https://www.dropbox.com/s/uei17il1wnc43bh/11-10-2021-Analisi.pdf?dl=0)
 
 
 $$
@@ -111,11 +111,11 @@ Per farlo si parte dalla continuità di R creando prima un insieme in cui il sup
 
 **Dimostrazione:**
 
-Sia $$A := \{x \in \R | x^2 \leq b\}$$ devo dimostrare che esiste ed è unico la radice a: $$a ^2= b$$
+Sia $$A := \{x \in \mathbb{R} \mid x^2 \leq b\}$$ devo dimostrare che esiste ed è unico la radice a: $$a ^2= b$$
 
 Allora pongo per assurdo che non esiste tale radice, quindi devo dimostrare l'assurdo per $$a ^2 < b \wedge a ^2 > b$$.
 
-Poniamo $$a$$ come il sup dell'insieme A, cosa che esiste dato che è superiormente limitato. (poi usiamo i lemmi 4 e 5 [qui](/notes/qui))
+Poniamo $$a$$ come il sup dell'insieme A, cosa che esiste dato che è superiormente limitato. (poi usiamo i lemmi 4 e 5)
 
 Caso 1:
 
@@ -207,9 +207,7 @@ $$\forall x_0 \in X, f(x) \leq f(x_0)$$
 
 ### Definizione del valore assoluto
 
-Definizione
-
-$$|a| = max(a, -a)$$ e si può fare anche una funzione a tratti
+$$\lvert a \rvert = max(a, -a)$$ e si può fare anche una funzione a tratti
 
 ### 2.3.1 7 Proprietà del valore assoluto
 
@@ -227,12 +225,6 @@ $$|a| = max(a, -a)$$ e si può fare anche una funzione a tratti
 **Ordine totale e completo** (completo = con gli infiniti) **(in cui le relazioni di ordine valgono) vedi pp 76 di Foundations of real analisys.
 
 **Proprietà archimedea** nessun numero in R è infinitamente grande
-
-Nessun elemeento in R è infinitamente piccolo (esiste sempre un elemento in Q più piccolo).
-
-L'insieme R è **denso**
-ea** nessun numero in R è infinitamente grande
-
-Nessun elemeento in R è infinitamente piccolo (esiste sempre un elemento in Q più piccolo).
-
-L'insieme R è **denso**
+Nessun elemento in R è infinitamente piccolo (esiste sempre un elemento in Q più piccolo).
+L'insieme R è **denso** e nessun numero in R è infinitamente grande
+Nessun elemento in R è infinitamente piccolo (esiste sempre un elemento in Q più piccolo).

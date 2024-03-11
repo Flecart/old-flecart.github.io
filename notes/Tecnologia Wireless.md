@@ -247,13 +247,3 @@ Utilizzo un codice che mi permette di riestrarre! Che figa la cosa che si può r
 
 
 Ossia posizioniamo le nostre antenne in zone differenti. (abbiamo tipo tiling problem) (5G prova a ridurre al minimo l’area del segnale)
-
-# Registro ripassi
-
-| 22/04/23 | Boh, okey, direi. |
-| --- | --- |
-| 29/04/23 | La parte sull’infrastruttura WiFi non l’ho proprio capita, molto meglio la parte sul multiplexing. |
-| 06/05/23 | Ancora, fare meglio la parte sull’infrastruttura. |
--- |
-| 29/04/23 | La parte sull’infrastruttura WiFi non l’ho proprio capita, molto meglio la parte sul multiplexing. |
-| 06/05/23 | Ancora, fare meglio la parte sull’infrastruttura. |

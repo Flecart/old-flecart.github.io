@@ -160,7 +160,7 @@ $$
 $$
 
 
-NOTA 1 questa definizione non è computabile, non è direttamente studiabile in ambito informatico, allora c'è bisogno della creazione di un #6.4 Sistemi deduttivi. (In questa definizione stiamo parlando di infiniti (di mondi v e assiomi G, che chiaramente non è computabile quindi non è possibile prendere decisioni in questo ambito).
+NOTA 1 questa definizione non è computabile, non è direttamente studiabile in ambito informatico, allora c'è bisogno della creazione di un [#6.4 Sistemi deduttivi](#6.4-sistemi-deduttivi). (In questa definizione stiamo parlando di infiniti (di mondi v e assiomi G, che chiaramente non è computabile quindi non è possibile prendere decisioni in questo ambito).
 
 NOTA 2 Intelligenza artificiale forte, che possa sapere tutto, è ucciso da questa osservazione, in quanto la computazione non può arrivare a sapere tutto. (quindi non può essere un programma... mmmm).
 

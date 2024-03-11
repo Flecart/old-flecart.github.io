@@ -10,7 +10,7 @@ title: Poisson processes
 #### Arrival processes
 
 Sia una sequenza di variabili aleatorie $$0 < S_{1} < S_{2} < \dots$$ (il fatto che sia positivo  significa che per ogni elemento del dominio vale che quell'elemento è <, non so se mi sono spiegato.)
-Poisson processes-20240128100752878.webp|443|Poisson processes-20240128100752878.webp|443
+<img src="/images/notes/Poisson processes-20240128100752878.webp" width="443" alt="Poisson processes-20240128100752878">
 
 Il fatto che siano crescenti ci permette di metterli in linea, perché siamo sicuri che $$S_{2}$$ produrrà un valore maggiore di $$S_{1}$$.
 
@@ -98,12 +98,3 @@ Da approfondire
 
 #### Optical trasmission
 Da approfondire
-
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-| 06/02/24     | I punti principali credo di saperli, dovrei magari capire relazioni di questi processi con altri, tipo spikes neuronali.         |

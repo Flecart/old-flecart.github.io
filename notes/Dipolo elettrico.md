@@ -5,7 +5,7 @@ tags: italian
 title: Dipolo elettrico
 ---
 
-Questo problema è stato trattato in modo un po' più semplificato (nel caso in cui la carica era esattamente a metà in Campo elettrico#Dipolo elettrico).
+Questo problema è stato trattato in modo un po' più semplificato (nel caso in cui la carica era esattamente a metà in [Campo elettrico#Dipolo elettrico](/notes/campo-elettrico#dipolo-elettrico)).
 Questo problema è stato storico, utilizzato per analizzare l'atomo.
 ### Potenziale del dipolo elettrico 🟩--
 <img src="/images/notes/Momento di dipolo-1698054569445.jpeg" alt="Momento di dipolo-1698054569445">
@@ -305,12 +305,3 @@ $$
 Ossia il termine di dipolo si può riassumere come differenza del **centro fra le cariche positive e negative**.
 Se non hanno stesso centro allora ho un campo elettrico (questo è coerente col caso classico di dipolo a due cariche!).
 E questo è **vero sempre!** è anche il motivo per cui l'acqua è carica, perché ha un momento di dipolo!
-## Note di ripasso
-- Cosa è il termine di **monopolo**? Cosa dice fisicamente?
-- Cosa è il termine di **dipolo**? Cosa dice fisicamente?
-
-| Data | Commenti |
-| ---- | ---- |
-| 10/24/2023 | Dovrei mettermi proprio mezza oretta a rifare tutte le derivazioni, che è un esercizio utile per me |
-| 11/14/2023 | Dovrei studiarmi un po' meglio la parte del momento, però ci siamo buona roba diciamo |
-| 12/27/2023 | Ho fatto un po' fatica con la versione in coordinate polari resto dovrebbe essere ok. Nemmeno l'analisi dell'insieme dipolo mi è venuto naturale (alla fine io credo di ricordare molte cosa a memoria senza capirle sul serio) |

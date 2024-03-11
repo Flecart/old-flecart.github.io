@@ -58,7 +58,7 @@ Ci sono anche restrizioni sulla **generazione** e sulla **conoscenza** della chi
 <img src="/images/notes/image/universita/ex-notion/Stream Ciphers/Untitled 6.png" alt="image/universita/ex-notion/Stream Ciphers/Untitled 6">
 
 #### Dimostrazione segretezza perfetta 🟩
-Si basa sulla definizione in Classical Cyphers#Security of the Key.
+Si basa sulla definizione in [Classical Cyphers#Security of the Key](/notes/classical-cyphers#security-of-the-key).
 
 Vogliamo dimostrare $$\mathbb{P}(E(k, m_{0}) = c) = \mathbb{P}(E(k, m_{1}) = c)$$ .
 
@@ -73,7 +73,7 @@ Quindi abbiamo la segretezza. (è 1 perché con OTP è unica la chiave che viene
 
 #### Svantaggi OTP 🟩
 La difficoltà di utilizzo di OTP, nonostante le forti garanzie teoriche è dalla lunghezza della chiave.
-Vedi Classical Cyphers#Security of the Key per maggiori dettagli.
+Vedi [Classical Cyphers#Security of the Key](/notes/classical-cyphers#security-of-the-key) per maggiori dettagli.
 
 1. La chiave deve avere **stessa** lunghezza del messaggio (overhead, difficoltà per mandare messaggi lunghi)
 2. Distruzione della chiave dopo l’utilizzo (che si fa solo una volta!)
@@ -175,10 +175,10 @@ Una cosa è che l'algoritmo che li genera è **deterministico**, compattabile di
 #### OPT tramite PRNG 🟩
 <img src="/images/notes/OTP and Stream Ciphers-20240222112904461.webp" alt="OTP and Stream Ciphers-20240222112904461">
 
-Possiamo usare #One Time Pad Cipher usando i PRNG! Così risolviamo il problema di comunicazione di cose troppo grosse.
+Possiamo usare [#One Time Pad Cipher](#one-time-pad-cipher) usando i PRNG! Così risolviamo il problema di comunicazione di cose troppo grosse.
 
 #### Analisi sicurezza stream cipher con PRNG
-Solamente che abbiamo la nota teorica in Classical Cyphers#Security of the Key che non possiamo avere sicurezza se la chiave reale è minore rispetto a quella reale.
+Solamente che abbiamo la nota teorica in [Classical Cyphers#Security of the Key](/notes/classical-cyphers#security-of-the-key) che non possiamo avere sicurezza se la chiave reale è minore rispetto a quella reale.
 
 Stiamo spostando la sicurezza dell'OTP sul seed che genera.
 
@@ -242,7 +242,7 @@ Nelle slides si fa un gioco di questo genere:
 2. L'avversario invia due messaggi in chiaro,
 3. Challenger invia i messaggi cifrati
 L'obiettivo dell'avversario è identificare quale cyphertext coincide a quale messaggio, se si può fare, non è sicuro secondo la definizione di semantic security di sopra, anche se non so nella pratica quanto sia vero.
-Questo è vero quando #Security with advantage è *negligible*, quindi non si può fare.
+Questo è vero quando [#Security with advantage](#security-with-advantage) è *negligible*, quindi non si può fare.
 
 Per il prof. è leggermente diverso rispetto a questo:
 è la 
@@ -295,7 +295,7 @@ Con questo algoritmo in pseudocodice
 #### Generazione (non fatta)
 <img src="/images/notes/OTP and Stream Ciphers-20240222115340902.webp" alt="OTP and Stream Ciphers-20240222115340902">
 #### Attacchi 🟨
-Non segue la definizione di Classical Cyphers#Security of the Key, c'è del bias in quanto generato che si può sfruttare in modo abbastanza semplice, per esempio si può attaccare WEP che usava questo algoritmo in questo modo.
+Non segue la definizione di [Classical Cyphers#Security of the Key](/notes/classical-cyphers#security-of-the-key), c'è del bias in quanto generato che si può sfruttare in modo abbastanza semplice, per esempio si può attaccare WEP che usava questo algoritmo in questo modo.
 ### Content Scrambling System (non fatto)
 
 ### eStream Cypher
@@ -377,11 +377,3 @@ Il nemico conosce
 Dal plaintext conosciuto, vorremme ricavare tutti i bits successivi di questo stream cipher. (basta ricavare i valori dei p, ora vediamo un metodo per ricavarli).
 
 Dato che possiede 2m bits conosciuti e conosce m, deve risolvere un sistema di m incognite e m equazioni, e questo si fa, quindi così riesce a **ricavare LSFR** da queste!
-
-## Note di ripasso
-
-| Data       | Commenti                                                                                                                                    |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 22/02/2024 | Cercare di capire per OTP come funziona il many time pad (poi bisogna rifare bene la cosa quando spiega bene la restante parte dei ciphers) |
-| 29/02/2024 | Bisognerebbe fare esercizi simil esame per questo.                                                                                          |
-| 07/03/2024 | Fare meglio semantic security perché non è ancora molto chiaro.                                                                             |

@@ -199,9 +199,3 @@ Z_{i} = \frac{S_{i} - n\bar{X}}{\sqrt{i} \sigma}
 $$
 
 Convergerà alla gaussiana normale. È un motivo per cui è una distribuzione molto importante.
-
-## Note di ripasso
-
-| Data       | Commenti                                                         |
-| ---------- | ---------------------------------------------------------------- |
-| 02/03/2024 | Da ripassare i 3 bounds, i momenti e dimostrazione di CLT e WLLN |

@@ -66,20 +66,3 @@ L’integrale definisce una sorta di sottografico di una funzione, ma a più dim
 - caso x -semplice
 
     Si può utilizzare un calcolo in modo equivalente ma sta volta partendo prima dalla x, perché abbiamo definito l’intervallo in funzione della y
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-lcolo in modo equivalente ma sta volta partendo prima dalla x, perché abbiamo definito l’intervallo in funzione della y
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

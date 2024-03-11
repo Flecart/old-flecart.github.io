@@ -12,16 +12,16 @@ Primo Abbozzo: November 25, 2021 12:17 PM
 Stato: 🌕🌕🌕🌕🌕
 Studi Personali: No
 
-
 # 7 Hopital , Taylor e Peano
 
 ## 7.1 De Hopital
 
 ### 7.1.1 Lemmi preliminari
 
-Questo lemma preliminare era già presente per la prova del teorema degli zeri
+Questo lemma preliminare era già presente per la prova del [teorema degli zeri](/notes/limiti#teorema-degli-zeri)
 
-    <img src="/images/notes/image/universita/ex-notion/Hopital, Taylor, Peano/Untitled.png" alt="image/universita/ex-notion/Hopital, Taylor, Peano/Untitled">
+
+<img src="/images/notes/image/universita/ex-notion/Hopital, Taylor, Peano/Untitled.png" alt="image/universita/ex-notion/Hopital, Taylor, Peano/Untitled">
 
 
 Questo lemma è molto interessante perché mette in relazione il finito (le successioni) con l'infinito (i reali)
@@ -196,7 +196,7 @@ $$
 \lim_{ x \to 0 }  \frac{f(x) - f(0) - f'(0) x - a_{1}x^{2}}{x^{2}}
 $$
 
-Notiamo che sia sopra che sotto è continuo, per questo motivo possiamo utilizzare il teorema #7.1 De Hopital da cui ricaviamo 
+Notiamo che sia sopra che sotto è continuo, per questo motivo possiamo utilizzare il teorema [#7.1 De Hopital](#7.1-de-hopital) da cui ricaviamo 
 
 $$
 \lim_{ x \to 0 } \frac{f'(x) - f'(0) - 2a_{1}x}{2x}
@@ -221,7 +221,7 @@ Applicando ancora Hopital sopra si può avere il termine con esponente ancora su
 
 
 ### 7.4.2 Enunciato Taylor e Peano
-Nota: si può analizzare Taylor in una altra forma, che è trattata in Massimi minimi multi-variabile#Resto secondo Peano
+Nota: si può analizzare Taylor in una altra forma, che è trattata in [Massimi minimi multi-variabile#Resto secondo Peano](/notes/massimi-minimi-multi-variabile#resto-secondo-peano)
 
 #### Enunciato Taylor
 Sia $$f: (a, b) \to \mathbb{R}$$ una funzione continua, e sia $$0 \in (a, b)$$

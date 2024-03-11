@@ -325,15 +325,3 @@ Basta **sospendere** alcuni processi, in modo che alcuni terminino senza andare 
 - Slide della soluzione
 
     <img src="/images/notes/image/universita/ex-notion/Memoria virtuale/Untitled 28.png" alt="image/universita/ex-notion/Memoria virtuale/Untitled 28">
-
-
-# Registro ripassi
-
-| 01/04/23 | Dovrebbe essere quasi tutto apposto, non sapevo le cose sulla allocazione, poi semmai dovrei fare più pratica per working set e LRU, ma l’idea sotto la dovrei avere. |
-| --- | --- |
-| 14/04 | Non mi ricodavo i vantaggi principali della memoria virtuale |
-| 13/05/23 | Working set |
- pratica per working set e LRU, ma l’idea sotto la dovrei avere. |
-| --- | --- |
-| 14/04 | Non mi ricodavo i vantaggi principali della memoria virtuale |
-| 13/05/23 | Working set |

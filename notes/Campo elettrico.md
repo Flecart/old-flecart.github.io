@@ -37,13 +37,14 @@ Il campo elettrico è proprio una **grandezza fisica** (ossia una *proprietà mi
 
 Si rappresentano *uscenti* se positiva, *entrante* se negativa
 <img src="/images/notes/Campo elettrico-1697283852002.jpeg" alt="Campo elettrico-1697283852002">
+
 #### Definizione di campo elettrico 🟩
 
 $$
 \vec{E}  = \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{R^{2}} \hat{R}
 $$
 
-Dove $$Q$$ è la sorgente di carica, si può usare il Legge di Coulomb#Principio di sovrapposizione|principio di sovrapposizione|Legge di Coulomb#Principio di sovrapposizione|principio di sovrapposizione anche in questo caso
+Dove $$Q$$ è la sorgente di carica, si può usare il [principio di sovrapposizione](/notes/legge-di-coulomb#principio-di-sovrapposizione) anche in questo caso
 
 #### Flusso di campo vettoriale 🟩
 Dato un certo campo vettoriale, il **flusso** studia la relazione fra questi e una superficie a scelta.
@@ -178,7 +179,7 @@ $$
 $$
 
 
-Il motivo è che per il teorema presente in #Teorema di stokes, abbiamo che 
+Il motivo è che per il teorema presente in [#Teorema di stokes](#teorema-di-stokes), abbiamo che 
 
 $$
 \oint_{L} \vec{F} \cdot d\vec{l} = \iint_{S} \vec{\nabla} \times \vec{F} \,d\vec{s}
@@ -196,7 +197,7 @@ Consideriamo il setting come in immagine, abbiamo un qualunque percorso, e una c
 Allora possiamo osservare se prendiamo un segmentino infinitesimale, ci sembrerà una scaletta, ma la forza coseno è attiva solamente in $$\bar{AB} \text{ e } \bar{CD}$$ questo ci permette di affermare che il lavoro (quella cosa potenziale) è **solamente dipendente dalla distanza**
 
 #### Formula dell'energia potenziale elettrostatica 🟩
-Campo elettrico-1697358373290.jpeg | 300|Campo elettrico-1697358373290.jpeg | 300
+![ 300](/notes/campo-elettrico-1697358373290.jpeg-)
 Proviamo in questo momento a derivare la formula per il potenziale elettrostatico, valido per praticamente ogni percorso
 
 
@@ -285,20 +286,3 @@ V(x, y, z) = \frac{1}{4\pi\varepsilon_{0}} \int _{\Sigma} \frac{\rho(x', y', z')
 $$
 
 Questo risulta utile per caratterizzare la soluzione dell'equazione di Poisson per il [Vettore potenziale](/notes/vettore-potenziale).
-## Note di ripasso
-- In che modo dimostri che se il rotore è nullo allora la forza è conservativa?
-- In che modo fai qualcosa di simile per qualunque forza radiale?
-- Perché posso scegliere io arbitrariamente il valore del potenziale elettrico sulla superficie?
-- Calcola il campo elettrico di una spira circolare e confronta con p 20 Menc
-### da ripassare
-- Capire il teorema del gradiente per bene, anche da un punto di vista matematico se ne ha il tempo, non ho capito esattamente perché si può estendere
-- Perché andando a considerare la divergenza, se è diverso da 0 le linee si incontrano, se è uguale non si incontrano?
-- 🟥 !!!! Bisogna capire meglio le occasioni in cui è necessario definire differenza di potenziale, in quali occasioni ha senso definire potenziale da solo, senza differenza??
-
-| Data | Commenti |
-| ---- | ---- |
-| 21/10/2023 | Ho avuto molta difficoltà a dimostrare quella cosa del filo infinito, per il resto mi sembrava che lo sapessi abbastanza bene però |
-| 30/10/2023 | Ripassato linea infinita con matti ed è Ok |
-| 06/12/2023 | Dovresti fare prove di spiegazione per l'orale, però ad alto livello dovresti conoscere sta roba |
-| 28/12/2023 | Non riuscivo a dimostrare benissimo la parte sulla discontinuità |
-| 03/01/2024 | Non mi ricordavo il motivo per cui non si dovevano incrociare, ora lo so un po' meglio |

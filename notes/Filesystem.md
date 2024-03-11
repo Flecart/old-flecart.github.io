@@ -420,16 +420,3 @@ Per filesystems che prevengono ,come ext3, prova a vedere tutto come una transaz
 /h3
 
 FAT
-
-# Registro ripassi
-
-| 04/05/23 | Non mi ricordavo che dovesse essere una interfaccia comune per tutti. Niente sulla semantica della coerenza, non  mi ricordo vantaggi e svantaggi della allocazione concatenata, non mi ricordo praticamente niente di come funziona FAT
-Niente su come funzione fsck.
-Zero sulla gestione dei cluster (dimensione del blocco) |
-| --- | --- |
-| 11/05/23 | Non mi ricordavo della gestione della lista libera, del fatto che bitmap e lista erano per gestire le cose libere, non quelle allocate! |
-|  |  |
-) |
-| --- | --- |
-| 11/05/23 | Non mi ricordavo della gestione della lista libera, del fatto che bitmap e lista erano per gestire le cose libere, non quelle allocate! |
-|  |  |

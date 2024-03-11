@@ -281,21 +281,3 @@ Questa cosa adattata con anche una euristica che ti direzioni verso la parte giu
 
 
 In pratica riaggiorna l’euristica del costo a seconda delle proprie mosse.
-
-# Registro ripassi
-
-| 19/07 | valutazione dell’algoritmo 4 |
-| --- | --- |
-|  |  |
-|  |  |
-ca/Untitled 4.png]]
-
-
-In pratica riaggiorna l’euristica del costo a seconda delle proprie mosse.
-
-# Registro ripassi
-
-| 19/07 | valutazione dell’algoritmo 4 |
-| --- | --- |
-|  |  |
-|  |  |

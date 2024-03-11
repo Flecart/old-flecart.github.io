@@ -252,14 +252,3 @@ Questo algoritmo parte dal NFA dei prefissi viabili, e utilizza Goto e Clos per 
 - Esempio 2
 
     <img src="/images/notes/image/universita/ex-notion/Bottom-up Parser LR(0)/Untitled 24.png" alt="image/universita/ex-notion/Bottom-up Parser LR(0)/Untitled 24">
-
-
-# Registro ripassi
-
-| 03/02/23 | Non sai proprio la definizione formale di prefisso viabile. Non sai nemmeno definire in modo formale cosa sia un item |
-| --- | --- |
-| 04/03/23 | La definizione formale di prefisso viabile non la so ancora, ma non credo più sia importante, il resto mi sembra abbastanza apposto, non sapevo esattamente la costruzione del NFA canonico, ma closure e goto, e tabella di parsing mi sembravano apposto. |
-| 30/04/23 | Stranamente questa parte ora è diventata molto naturale, non so ancora la definizione formale, ma intuitivamente riesco a dire tutto credo. |
-| 09/06/23 | Finalmente dovrei aver capito anche cosa sia quella definizione con la grammatica del prefisso viabile. |
- so ancora la definizione formale, ma intuitivamente riesco a dire tutto credo. |
-| 09/06/23 | Finalmente dovrei aver capito anche cosa sia quella definizione con la grammatica del prefisso viabile. |

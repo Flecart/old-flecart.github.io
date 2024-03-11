@@ -44,7 +44,7 @@ Strana cosa era che dal nucleo venivano emessi elettroni (questo è il decadimen
 ### Teorema di Poynting
 
 #### Setting del problema 🟩
-Energia elettromagnetica-1702285966111.jpeg|500|Energia elettromagnetica-1702285966111.jpeg|500
+<img src="/images/notes/Energia elettromagnetica-1702285966111.jpeg" width="500" alt="Energia elettromagnetica-1702285966111">
 Consideriamo una distribuzione di cariche $$dq = \rho dt$$ che dipende dalla posizione $$\rho = \rho(\hat{r}t)$$, stessa cosa per la velocità in un campo elettromagnetico costante.
 Voglio sapere il **lavoro** e **potenza** fatto dai campi sulla carica.
 
@@ -290,9 +290,3 @@ In gravitazione ho precessione di Mercurio che metteva sotto problema le predizi
 2. Neutrini non hanno massa zero
 3. Galassia ruota in modo costante, nonostante rallentare.
 4. Energia del vuoto predetto male da quantistica.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-| 02;/01/24     | La derivazione dell'energia di un onda abbastanza ok, devo ripassare come si derivano le equazioni di d'Alambert.         |

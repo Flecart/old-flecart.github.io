@@ -306,14 +306,3 @@ Queste reti si identificano tutte come best effort perché possono sempre non fu
     successivo segmento ethernet con topologia a bus, sul quale esistono quattro calcolatori. Al termine del bus esiste un nuovo repeater R, che propaga e amplifica i segnali verso un ultimo segmento ethernet con topologia a bus, al quale è collegato un calcolatore dotato di scheda ethernet con indirizzo MAC B. Al di sopra dei dispositivi citati viene rappresentato il cammino logico di un frame trasmesso dal calcolatore con MAC A al calcolatore con MAC B, passando per i segmenti, i connettori di rete, e i livelli dei protocolli opportuni. In particolare, il bridge B
     è l’unico elemento nel quale il frame trasmesso sul segmento token ring sale fino al livello 2, per essere tradotto e ritrasmesso sul segmento uscente adottando il nuovo protocollo MAC ethernet. Nei rimanenti dispositivi hub e repeater, i frame sono semplicemente ricevuti e ri-trasmessi sui segmenti uscenti. Se il bridge avesse dovuto connettere più di due segmenti diversi, allora si sarebbe utilizzato uno switch, che svolge l’attività del bridge gestendo più interfacce di rete e protocolli. Dovrebbe essere chiaro a questo punto come sia possibile connettere diversi segmenti di rete locale, e gestire la trasmissione di frame di dati tra due dispositivi qualsiasi di una rete locale, semplicemente identificando i dispositivi attraverso il loro indirizzo
     MAC.
-
-
-# Registro ripassi
-
-| 18/10/22 |  Tutto ok |
-| --- | --- |
-| 24/10/22 | Ok |
-| 03/11/22  | Ok |
-| 25/11/22 | Ok |
-| 06/02/23 | Ok direi |
-|  |  |

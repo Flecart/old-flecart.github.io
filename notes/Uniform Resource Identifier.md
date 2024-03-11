@@ -66,13 +66,11 @@ URI sono un sistema sintattico (focus sul fatto che siano puramente sintattici!!
 
 ### Struttura dell’URI 5
 
-> URI = schema : [// authority] path [? query] [# fragment]
+> `URI = schema : [// authority] path [? query][# fragment]`
 >
-- Slide
 
-    <img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 1.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 1">
-
-    <img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 2.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 2">
+<img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 1.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 1">
+<img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 2.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 2">
 
 
 Per favorire la trascrivibilità ci sono certi caratteri scpeciali tenuti apparte (e se servono sono encodati). **curi** si parla di caratteri per URI.
@@ -93,16 +91,12 @@ Per sapere i caratteri encodati, sarebbe bene tenersi a mente le slides, o comun
 Un uri può essere assoluto oppure una **URI reference**. Se è assoluto allora deve soddisfare tutta la struttura di cui sopra, oppure semplicemente dire il nome del file a seconda di una certa base.
 
 In questo caso si parla di **URI Reference** perché è relativo a un certo dato.
-
 **resolution:** Quando do in input un URI reference e in output mi aspetto una URI completa
-
 **Dereferencing:** quando do in input un URI completo e mi aspetto indietro una risorsa.
 
 - Alcune regole di URI resolution
-
-    <img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 4.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 4">
-
-    <img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 5.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 5">
+<img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 4.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 4">
+<img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 5.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 5">
 
     <img src="/images/notes/image/universita/ex-notion/Uniform Resource Identifier/Untitled 6.png" alt="image/universita/ex-notion/Uniform Resource Identifier/Untitled 6">
 
@@ -225,18 +219,3 @@ Questo è quello che fa WIkiDATA!!!
 Questo si collega senza nessun problema all'ultima parte trattata nel corso riguardante il [Metadati web e web semantico](/notes/metadati-web-e-web-semantico).
 
 In cui si vanno a parlare di **RDF** e simili. (immagine di un web accessibile tanto ai bot quanto agli umani, perché i dati sono tutti tanto strutturati).
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-**RDF** e simili. (immagine di un web accessibile tanto ai bot quanto agli umani, perché i dati sono tutti tanto strutturati).
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

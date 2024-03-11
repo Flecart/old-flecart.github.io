@@ -123,15 +123,3 @@ Alla fine vado a risolvere una specie di equazioni con i tipi. Se non è possibi
 - Slide algoritmo di unificazione (non si fa credo)
 
     <img src="/images/notes/image/universita/ex-notion/Algebra dei tipi/Untitled 8.png" alt="image/universita/ex-notion/Algebra dei tipi/Untitled 8">
-
-
-# Registro ripassi
-
-| 04/04/23 | Mi sembra Ok, dovrei saper diver qualcosa in ogni parte di questo appunto. |
-| --- | --- |
-| 17/04/23 | Ok, l'algoritmo di unificazione in po’ così, solamente ad alto livello mi sembra ok.  |
-| 06/05/23 | boh, okey. |
- diver qualcosa in ogni parte di questo appunto. |
-| --- | --- |
-| 17/04/23 | Ok, l'algoritmo di unificazione in po’ così, solamente ad alto livello mi sembra ok.  |
-| 06/05/23 | boh, okey. |

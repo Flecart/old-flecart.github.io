@@ -79,7 +79,7 @@ $$
 \sigma_{predicate}(Relation)
 $$
 
-**Semantica:** un insieme che soddisfa le #Proprietà della selection
+**Semantica:** un insieme che soddisfa le [#Proprietà della selection](#proprietà-della-selection)
 
 ### Projection
 Anche questo è un **unary operator**.
@@ -100,7 +100,7 @@ $$
 Ossia prendo i valori della tupla che corrispondono a quegli attributi, per ogni singola tupla presente in relazione
 
 #### Caso ripetizioni 🟩
-Questa è una cosa da notare, a differenza di Structured Query Language|SQL]] le cose ripetute vengono scartate, si ha **unico**, in questo caso, perché qui siamo nel reame degli insiemi
+Questa è una cosa da notare, a differenza di [Structured Query Language](/notes/structured-query-language) le cose ripetute vengono scartate, si ha **unico**, in questo caso, perché qui siamo nel reame degli insiemi
 
 #### Proprietà di proiezioni 🟩
 **Idempotenza**
@@ -119,7 +119,7 @@ $$
 
 
 ### Join
-La join è necessaria nel caso vogliamo **creare correlazione** fra tuple presenti in relazioni diverse fra di loro, mentre con #Projection e #Selection possiamo farlo solamente sulla prima.
+La join è necessaria nel caso vogliamo **creare correlazione** fra tuple presenti in relazioni diverse fra di loro, mentre con [#Projection](#projection) e [#Selection](#selection) possiamo farlo solamente sulla prima.
 
 #### Full and empty joins 🟩
 
@@ -127,7 +127,7 @@ La join è necessaria nel caso vogliamo **creare correlazione** fra tuple presen
 - Empty -> with no outputs
 
 Questo è direttamente dipendente da **quali chiavi abbiamo usato** durante la join
-Algebra Relazionale-1697201413808.jpeg | 500| Relational calculi-1697206819394.jpeg|500
+![ 500](/notes/algebra-relazionale-1697201413808.jpeg-)
 
 #### Types of Joins (2) 🟩-
 
@@ -142,14 +142,14 @@ $$
 Ossia data una tupla nella nuova relazione così creata, se prendo i attributi appartenenti alla prima relazione avrò che esiste effettivamente uguale per il secondo.
 
 **Outer joins**:
-Che sono le stesse spiegate in Structured Query Language|SQL]], ossia andiamo a considerare **left, right and full**
+Che sono le stesse spiegate in [Structured Query Language](/notes/structured-query-language), ossia andiamo a considerare **left, right and full**
 $$A ⟕ B, A ⟖B , A⟗B$$, sono i simboli utilizzati, ma userò sempre $$\bowtie$$ con pedice l, r, f per indicarne il tipo,  per semplicità di notazione.
 
-La semantica di questi è la stessa per Structured Query Language|SQL|Structured Query Language|SQL, la descriviamo prevemente, sarà left outer, nel caso in cui ho la garanzia che solamente le tuple della relazione 1 ci sarà, contrario per right, per il full outer, ho la garanzia che una data tupla finale, sarà presente in almeno uno dei due iniziali, ma non so quale.
+La semantica di questi è la stessa per [SQL](/notes/structured-query-language), la descriviamo prevemente, sarà left outer, nel caso in cui ho la garanzia che solamente le tuple della relazione 1 ci sarà, contrario per right, per il full outer, ho la garanzia che una data tupla finale, sarà presente in almeno uno dei due iniziali, ma non so quale.
 
 #### Proprietà  (2) 🟩
 **Push selection**
-Algebra Relazionale-1697203223889.jpeg | 500| Relational calculi-1697206819394.jpeg|500
+![ 500](/notes/algebra-relazionale-1697203223889.jpeg-)
 
 **Distributività sull'unione**
 
@@ -160,12 +160,12 @@ $$
 
 #### Theta Join 🟩-
 Il theta join viene motivato grazie al fatto che solitamente bisogna sempre rinominare prima di fare una selection, o bisogna fare sempre selection, per questo motivo.
-Solo che questo è possibile fare solo se sono una #Cartesian product, ossia non abbiano attributi in comune.
+Solo che questo è possibile fare solo se sono una [#Cartesian product](#cartesian-product), ossia non abbiano attributi in comune.
 
 La sintassi ammessa nella condizione sono solamente *and* e relazioni booleane binarie (minore, maggiore, uguale e combinazione fra questi).
 Altra cosa necesssaria per la theta join, è che **non ci siano attributi in comune** fra le due relazioni.
 
-E si può notare sulle slides che questo è molto simile alla **natural join** *dopo renaming* espresso in [#Types of Joins (2)](/notes/#types-of-joins-(2)) in precedenza.
+E si può notare sulle slides che questo è molto simile alla **natural join** *dopo renaming* espresso in [#Types of Joins (2)](#types-of-joins-(2)) in precedenza.
 
 #### Equi Join 🟩
 Quello più interessante sono le **equi-join** che accade quando ho relazioni di equivalenza, questo si manifesta solamente quando la theta join di sopra è fatta da **atomi di uguaglianza**, questo mi dovrebbe garantire per certo tale proprietà.
@@ -179,13 +179,13 @@ Si può considerare come una **join naturale** su relazioni senza attributi in c
 ## Views
 ### Introduzione alle data-views 🟩-
 Sono delle **rappresentazioni diverse dello stesso genere di data**, solitamente utili per fare view diverse (e.g. dipartimento altro avrà necessità diverse), abbiamo accennato a questa necessità durante la nostra [Introduction to data-bases](/notes/introduction-to-data-bases).
-Algebra Relazionale-1697203991206.jpeg|500|Relational calculi-1697206819394.jpeg|500
+<img src="/images/notes/Algebra Relazionale-1697203991206.jpeg" width="500" alt="Algebra Relazionale-1697203991206">
 
-Nel caso preciso di SQL ne andiamo a parlare in [SQL.
+Nel caso preciso di SQL ne andiamo a parlare in [Advanced SQL](/notes/advanced-sql).
 
 Nel caso di algebra relazionale, è soltanto una specie di **dichiarazione di variabile** con un altro nome, che specifica quale è il risultato della sua query.
 ### View utilization
-Questa è una cosa classica in informatica, il concetto di astrazione implementazione presente come descritto in Astrazione sul controllo#Significato di astrazione
+Questa è una cosa classica in informatica, il concetto di astrazione implementazione presente come descritto in [Astrazione sul controllo#Significato di astrazione](/notes/astrazione-sul-controllo#significato-di-astrazione)
 E dividere in questo modo quello che è effettivamente memorizzato da quello che l'utente deve volere vedere.
 
 
@@ -215,7 +215,7 @@ Per questo motivo non tutti gli update sono disponibili per update.
 Si differenzia leggermente dall'al
 ### Introduction to relational calculi
 
-Alla fine si basano tutti su [[Logica del Primo ordine](/notes/advanced-structured-query-language), Questo è sempre un modo per modellare le relazioni che sono molto comuni nei casi che abbiamo trovato di relational databases, ma invece di utilizzare algebra utilizzano una **logica**, descritta sotto.
+Alla fine si basano tutti su [Logica del Primo ordine](/notes/logica-del-primo-ordine), Questo è sempre un modo per modellare le relazioni che sono molto comuni nei casi che abbiamo trovato di relational databases, ma invece di utilizzare algebra utilizzano una **logica**, descritta sotto.
 
 Questo è molto più vicino all'approccio logico, sviluppato durante gli anni 70-80 con knowledge bases in AI.
 
@@ -233,12 +233,12 @@ In cui abbiamo
 Avremo come output una tupla di $$(x_{1}, \dots x_{n})$$ che soddisfano $$f$$
 
 **Esempi:**
-Relational calculi-1697206768057.jpeg|500|Relational calculi-1697206819394.jpeg|500
+<img src="/images/notes/Relational calculi-1697206768057.jpeg" width="500" alt="Relational calculi-1697206768057">
 
 Esistono forme anche leggermente più complicate, ma dobbiamo introdurre gli esistenziali:
-Relational calculi-1697206819394.jpeg|500|Relational calculi-1697206819394.jpeg|500
+<img src="/images/notes/Relational calculi-1697206819394.jpeg" width="500" alt="Relational calculi-1697206819394">
 
-Esistono anche i Logica del Primo ordine#10.7.4 De morgan| de morgan rules |Logica del Primo ordine#10.7.4 De morgan| de morgan rules  che si possono applicare, perché in pratica è logica.
+Esistono anche i [ de morgan rules ](/notes/logica-del-primo-ordine#10.7.4-de-morgan) che si possono applicare, perché in pratica è logica.
 
 ### Relational calculi, considerations
 #### Aspetti negativi (2) 🟨
@@ -267,13 +267,3 @@ Si può dimostrare che se ci limitiamo alle espressioni indipendenti col dominio
 La dimostrazione (che non facciamo) andrà per induzione strutturale, quella che trovi in Logica in [Deduzione naturale](/notes/deduzione-naturale).
 
 Possiamo notare che l'algebra è indipendente dal dominio, perché lì non è mai esplicitata la relazione in che dominio sia (abbiamo operazioni chiuse si può dire).
-
-## Note di ripasso
-- Non mi ricordavo la definizione matematica della natural Join (poi in algebra relazionale come esprimo outer joins?)
-
-| Data | Commenti |
-| ---- | ---- |
-| 10/28/2023 | facendo gli esercizi li sapevo bene quindi sono abbastanza confident, anche se non conosco bene il relational calculus |
-| 11/19/2023 | Dovrei provare a fare più esercizi, poi la relational calculi non lo conosco quasi proprio, quindi dovrei fare più esercizio su questo diciamo, l'unica cosa che serve per l'esame |
-| 11/26/2023 | Abbastanza ci siamo, sarebbe carino comprendere meglio la relational calculi, e capire meglio le def matematiche di questa algebra |
-| 12/27/2023 | Dovrei fare meglio la parte sul calcolo relazionale (quello ancora da ripetere, ma per la parte iniziale credo ci siamo, ritengo buona la comprensione di theta join.) |

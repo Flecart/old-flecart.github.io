@@ -535,7 +535,7 @@ Si parla di **campo coercitivo** quando abbiamo un campo che fa diventare 0 la m
 
 
 Ciclo di isteresi di smagnetizzazione:
-Magnetismo nella materia-1703924356823.jpeg|400|Magnetismo nella materia-1703924356823.jpeg|400
+<img src="/images/notes/Magnetismo nella materia-1703924356823.jpeg" width="400" alt="Magnetismo nella materia-1703924356823">
 In pratica devo fargli fare tanti giri (senza portarlo a saturazione!)
 #### Ciclo di isteresi 🟩
 
@@ -575,10 +575,3 @@ Una cosa strana è che $$H$$ dentro a un solenoide è verso giù all'interno, pe
 
 **Solenoide infinitamente lungo**: non abbiamo vettore H perché la circuitazione è sempre 0.
 <img src="/images/notes/Magnetismo nella materia-1704061722916.jpeg" alt="Magnetismo nella materia-1704061722916">
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 29/12/2023 | Non ho capito la dimostrazione che relaziona le correnti Amperiane con la magnetizzazione, troppo strana, perché va a considerare quelle cose? E poi altra cosa che prima non avevo capito era il motivo del setting con quel coso .... Devo fare molto meglio Larmor, poi la roba ferromagnetica e se rimane del tempo anche un po' di paramagnetismo!). |
-| 30/12/23 | Ancora problemi a dimostrare la discontinuità (inizialmente anche un dubbio nella derivazione della relazione fra M, H, B), credo manchi la parte sui domini di Baiss. |
-| 13/01/24 | Should be good. |

@@ -22,7 +22,7 @@ Questa sezione la tengo separata rispetto agli altri per favorire lo studio, cos
 
 Questo algoritmo è importante perché introduce ragionamenti sul **minimo locale** che possa alla fine essere ricomposto come soluzione globale.
 
-[Questa lezione youtube]([https://www.youtube.com/watch?v](https://www.youtube.com/watch?v)=0hI89H39USg) lo spiega da Dio
+[Questa lezione youtube](https://www.youtube.com/watch?v=0hI89H39USg) lo spiega da Dio
 
 ### Preflusso 🟩
 
@@ -262,17 +262,3 @@ il bound per il numero di iterazioni è molto banale, in pratica vado a consider
 $$
 O(NA) \cdot O(Auc) = O(NA^2uc)
 $$
-
-
-# Registro ripassi
-
-| 29/11/22 | Apposto dai, dovrei solo forse andare ad approfondirmi tarjan e push-relabel per conto mio, però per il resto dovrebbe essere bono. |
-| --- | --- |
-| 27/12/22 | kk |
-|  |  |
-
-
-| 29/11/22 | Apposto dai, dovrei solo forse andare ad approfondirmi tarjan e push-relabel per conto mio, però per il resto dovrebbe essere bono. |
-| --- | --- |
-| 27/12/22 | kk |
-|  |  |

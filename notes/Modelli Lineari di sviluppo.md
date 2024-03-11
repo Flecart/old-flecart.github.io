@@ -72,10 +72,3 @@ Una osservazione principale è che **alcuni ruoli** sono fermi in certi momenti 
 - **Fasi bloccanti** 
 Il problema principale è che **il mercato cambia più velocemente** dello sviluppo, quindi altra probabilità che il requisito cambi prima della fine dello sviluppo.
 Per il software questo non sembra proprio una strategia buona per dire!
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

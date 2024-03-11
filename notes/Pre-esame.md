@@ -59,7 +59,7 @@ Per questa ragione metto qui alcune cose importanti per l’esame, che sono prob
 
 ### Zeri di funzione
 
-- [ ]  Condizionamento di un problema sugli zeri lineare 🟥 (vedere il [video]([https://youtu.be/D5ABGSplM8c?t](https://youtu.be/D5ABGSplM8c?t)=548) che utilizza praticamente la stessa idea).
+- [ ]  Condizionamento di un problema sugli zeri lineare 🟥 (vedere il [video](https://youtu.be/D5ABGSplM8c?t=548) che utilizza praticamente la stessa idea).
 - [x]  Test modificato di convergenza per bisezione
 - [x]  Condizioni di convergenza globale per approssimazioni successive
 - [x]  Condizioni di convergenza locale
@@ -83,10 +83,3 @@ Per questa ragione metto qui alcune cose importanti per l’esame, che sono prob
 - [ ]  Discrepanza di morozov
 - [x]  Regolarizzazione di tickonov
 - [x]  Point spread function
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

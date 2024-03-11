@@ -50,7 +50,7 @@ TODO: scrivere il ragionamento in formule
 
 #### Integrale per un campo: teorema del gradiente 🟨++
 
-In analisi abbiamo studiato il [[Integrali#8.4.6 Teorema di Torricelli (fondamentale del calcolo integrale)|Integrali#8.4.6 Teorema di Torricelli (fondamentale del calcolo integrale)|teorema di torricelli, ma possiamo estenderlo senza troppa fatica (almeno intuitivamente), nel caso in più dimensioni!
+In analisi abbiamo studiato il [teorema di torricelli](/notes/integrali#8.4.6-teorema-di-torricelli-(fondamentale-del-calcolo-integrale)), ma possiamo estenderlo senza troppa fatica (almeno intuitivamente), nel caso in più dimensioni!
 
 torricelli ci dice che (mettere condizioni qui di esistenza integrale) $$f(B) - f(A) = \int _{A}^{B} f'(x) \, dx$$,
 Poniamo il concetto di **differenziale** ossia piccolo rettangolino nell'integrale di rieman come $$df = f'dx$$, attraverso questo abuso di notazione, allora diventa molto naturale estenderlo nelle 3 dimensioni come
@@ -85,7 +85,7 @@ $$
 $$
 
 Che ha il bel risultato di rendere un integrale di superficie (2 dimensioni) come se fosse un integrale di volume.
-Assumendo il risultato descritto in #Superfice di separazione diventa banale però.
+Assumendo il risultato descritto in [#Superfice di separazione](#superfice-di-separazione) diventa banale però.
 
 **Osservazione**: la divergenza prende in input un campo vettoriale, in output restituisce un campo scalare (che si potrebbe interpretare quasi fosse il modulo del vettore di derivata, con il gradiente ancora scalare).
 
@@ -116,7 +116,7 @@ E nella seconda parte abbiamo esattamente il flusso per cubo infinitesimo.
 ### Circuitazione
 #### Intuizione di circuitazione e th separazione 🟩
 In questa parte qui ci chiediamo il **flusso lungo una linea CHIUSA**. Probabilmente sarà utile per leggi come Lenz o Faraday.
-Anche in questo caso non ha senso considerare linee di separazione, perché avendo direzioni diverse si annullano. (guarda #Superfice di separazione descritto in precedenza.
+Anche in questo caso non ha senso considerare linee di separazione, perché avendo direzioni diverse si annullano. (guarda [#Superfice di separazione](#superfice-di-separazione) descritto in precedenza.
 
 #### Definizione di circuitazione
 
@@ -124,7 +124,7 @@ $$
 \Gamma = \oint_{L} \vec{F} \cdot d\vec{l}
 $$
 
-Che possiamo notare essere una forma molto molto simile rispetto a quanto definito per il flusso #Flusso di campo vettoriale.
+Che possiamo notare essere una forma molto molto simile rispetto a quanto definito per il flusso [#Flusso di campo vettoriale](#flusso-di-campo-vettoriale).
 
 Posso fare un giochino (esattamente uguale a quello fatto in precedenza per la divergenza), ma lo faccio per piccole superfici, e flusso che gira attorno a quella superficie allora posso andare a definire il rotore
 
@@ -178,7 +178,7 @@ $$
 \Gamma = -\Delta x \left[ \frac{\delta F_{x}}{\delta y} \Delta y \right] + \Delta y \left[ \frac{\delta F_{y}}{\delta x} \Delta x \right] \implies \Delta x\Delta y \left( \frac{\delta F_{y}}{\delta x} - \frac{\delta F_{x}}{\delta y}  \right) 
 $$
 
-Si può notare che se intendiamo questo come sopra, durante la dimostrazione per il #Teorema di stokes, allora $$\Delta x \Delta y$$ è esattamente la superficie, orientata secondo $$\hat{n}$$, mentre, proprio per matching dei parametri, il rotore diventa $$rot \vec{F} = \left( \frac{\delta F_{y}}{\delta x} - \frac{\delta F_{x}}{\delta y}  \right)$$ in questo caso, si potrebbe dire da un punto di vista a tre dimensioni, se avessimo il nostro quadratino in più dimensioni allora che
+Si può notare che se intendiamo questo come sopra, durante la dimostrazione per il [#Teorema di stokes](#teorema-di-stokes), allora $$\Delta x \Delta y$$ è esattamente la superficie, orientata secondo $$\hat{n}$$, mentre, proprio per matching dei parametri, il rotore diventa $$rot \vec{F} = \left( \frac{\delta F_{y}}{\delta x} - \frac{\delta F_{x}}{\delta y}  \right)$$ in questo caso, si potrebbe dire da un punto di vista a tre dimensioni, se avessimo il nostro quadratino in più dimensioni allora che
 
 
 $$
@@ -207,7 +207,7 @@ dV = \frac{\delta V}{\delta x}dx + \frac{\delta V}{\delta y}dy + \frac{\delta V}
 $$
 
 
-Questo è un risultato ovvio (che non so perché è ovvio, ma chatGPT [https://chat.openai.com/share/c40e539d-9dd2-4bf7-b63d](https://chat.openai.com/share/c40e539d-9dd2-4bf7-b63d)-2fc402751929) e altre ricerche sembrano dire questo del teorema del differenziale totale (che sembra se cercato in inglese ha significato giusto, in italiano diverso boh https://en.wikipedia.org/wiki/Total_derivative).
+Questo è un risultato ovvio (che non so perché è ovvio, ma chatGPT https://chat.openai.com/share/c40e539d-9dd2-4bf7-b63d-2fc402751929) e altre ricerche sembrano dire questo del teorema del differenziale totale (che sembra se cercato in inglese ha significato giusto, in italiano diverso boh https://en.wikipedia.org/wiki/Total_derivative).
 
 Comunque è la base matematica per poter utilizzare il gradiente e scrivere cose come
 
@@ -217,10 +217,3 @@ dV = \nabla V \cdot ds
 $$
 
 Dove $$ds = u_{x}dx + u_{y}dy + u_{z}dz$$
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 22/10/2023 | Non so bene giustificare la divergenza (derivata a tre dimensioni), non esce come naturale sta forma! |
-| 27/12/2023 | Buona roba, non dovrei avere problemi nella dimo di queste cose |
-| 12/01/2024 | Tutto bene direi |

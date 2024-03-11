@@ -127,7 +127,7 @@ Buona cosa potrebbe essere la [pagina di wiki](https://en.wikipedia.org/wiki/Abs
 
 Afferma che questo albero è molto utile per il compilatore (così capisce cosa stiamo provando a fare).
 
-Un approfondimento possibile per questi alberi è la [Contex-free-grammar]([https://en.wikipedia.org/wiki/Context](https://en.wikipedia.org/wiki/Context)-free_grammar) ovvero come evitare l'ambiguità del linguaggio naturale. (simile a BNF).
+Un approfondimento possibile per questi alberi è la [Contex-free-grammar](https://en.wikipedia.org/wiki/Context-free_grammar) ovvero come evitare l'ambiguità del linguaggio naturale. (simile a BNF).
 
 ### 4.4.1 Definizione (4)
 

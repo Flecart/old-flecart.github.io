@@ -22,8 +22,3 @@ Come viene spiegato in @cohenExpressivePowerDeep2016 shallow e deep sono equival
 #### Località, Condivisione, Invarianza per traslazioni
 Località perché ho una field of view, che è la grandezza del kernel precedente, condivisione perché i pesi del kernel sono sempre gli stessi.
 Poi non ho capito perché il pooling fa invarianza per traslazioni.
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

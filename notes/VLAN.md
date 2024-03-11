@@ -67,25 +67,3 @@ Si noti che per comincare fra VLAN in switches diverse, bisogna che il pacchetto
 ### Load balancers
 
 Cerca di equalizzare il carico di lavoro di tutti.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-/Untitled 7.png]]
-
-
-## Data center networks
-
-### Load balancers
-
-Cerca di equalizzare il carico di lavoro di tutti.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

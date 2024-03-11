@@ -90,19 +90,11 @@ L'importante quando facciamo questo, bisogna encodare una **referential integrit
 La nota è che aggiungere la constraint non è sufficiente per tenere in considerazione vincoli di cardinalità.
 Anche se è n-aria si può modellizzare senza troppi problemi!
 
-Database logical design-1700652936337.jpeg|500|Database logical design-1700652936337.jpeg|500
+<img src="/images/notes/Database logical design-1700652936337.jpeg" width="500" alt="Database logical design-1700652936337">
 #### Relazioni ricorsive 🟩
-Database logical design-1700652734472.jpeg|400|Database logical design-1700652734472.jpeg|400
+<img src="/images/notes/Database logical design-1700652734472.jpeg" width="400" alt="Database logical design-1700652734472">
 La seconda tabella modella la parte ricorsiva (in teoria le due chiavi foreign dovrebbero essere code e code, ma il nome è migliore in questo modo per esprimere questa relazione)
 
 #### Merge di relazioni
 A volte può essere utile unire relazione con l'entità, succede spesso per relazioni unarie da una parte, perché così faccio enforcing del 1.
 È una cosa principalmente pratica, di difficile formalizzazione, ma deve passare l'idea diciamo.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 06/12/2023 | Una cosa che ho notato è che mancano esercizi per sta parte, dovrei fare meglio quelli, per il resto non direi che ci sia teoria per sta parte e sono solamente una lista di metodi. |
-| 27/12/2023 | Mi sono scordato degli attributi derivabili da conteggio, nel complesso mi sembra buono (magari dovrei fare esercizi, non so se ci siano, ma non dovrei avere problemi particolari per fare questo, più sulla parte di progetto forse). |
-| 07/01/2024 | Dovrebbe essere ok, lo ho fatto molto alla veloce, ma dovrei riuscire a fare una cosa logica se presente i suppose... |

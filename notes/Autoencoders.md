@@ -6,7 +6,7 @@ title: Autoencoders
 ---
 
 In questa serie di appunti proviamo a descrivere tutto quello che sappiamo al meglio riguardanti gli autoencoders
-[Blog di riferimento]([https://towardsdatascience.com/understanding-variational-autoencoders-vaes](https://towardsdatascience.com/understanding-variational-autoencoders-vaes)-f70510919f73)
+[Blog di riferimento](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
 [Blog secondario che sembra buono](https://mbernste.github.io/posts/vae/)
 ### Introduzione agli autoencoders
 
@@ -85,8 +85,7 @@ $$
 
 
 $$
-=
-E_{z \sim q_{x}}\left( \log\left( p(x|z) \right) \right)  - KL(q_{x}(z), p(z))
+= E_{z \sim q_{x}}\left( \log\left( p(x|z) \right) \right)  - KL(q_{x}(z), p(z))
 $$
 
 
@@ -96,7 +95,7 @@ Questo è la nostra loss per il VAE.
 Ora l'ultimo passo sarebbe come esplicitare ELBO in modo che possa essere implementato come loss di una net?
 
 #### Derivazione della loss per VAE
-Vedere [qui]([https://mbernste.github.io/posts/vae/#appendix-derivation-of-the-kl-divergence-term-when-the-variational-posterior-and-prior-are](https://mbernste.github.io/posts/vae/#appendix-derivation-of-the-kl-divergence-term-when-the-variational-posterior-and-prior-are)-gaussian), è calcolosa, ma molto carina, e ti permette di impratichirti con gaussiane multivariabili.
+Vedere [qui]([https://mbernste.github.io/posts/vae/](https://mbernste.github.io/posts/vae/)#appendix-derivation-of-the-kl-divergence-term-when-the-variational-posterior-and-prior-are-gaussian), è calcolosa, ma molto carina, e ti permette di impratichirti con gaussiane multivariabili.
 
 Alla fine si avrà come risultato:
 
@@ -111,13 +110,3 @@ E poi sostituire.
 Per l'expectation della forma quadratica vedere qui [https://statproofbook.github.io/P/mean-qf.html.](https://statproofbook.github.io/P/mean-qf.html.)
 
 Allora, sappiamo che $$p(z) = \mathcal{N}(0, \mathcal{I})$$ quindi ha una forma ben nota, dovremo cercare di fare questa piccolissima derivazione.
-
-
-
-## Note di ripasso
-- Ripassare proprietà della gaussiana multi-valore, che non mi sembra lo abbia benissimo in chiaro, serve nella derivazione.
-
-| Data | Commenti |
-| ---- | ---- |
-| 06/02/24 | Praticamente non mi ricordavo niente di ELBO 🟥, molto male. ELBO è molto importante. |
-| 08/02/24 | La derivazione non è ancora naturale, dovrei farlo ancora un paio di volte credo. |

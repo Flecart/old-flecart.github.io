@@ -31,7 +31,7 @@ Più legato a Hume.
 to behave physically in a certain way, or to have tendencies to behave
 physically in a certain way.
 
-In un certo senso questo credo sia il punto di vista condiviso da @turingCOMPUTINGMACHINERYINTELLIGENCE1950|Turing|@turingCOMPUTINGMACHINERYINTELLIGENCE1950|Turing quando ha ideato il suo bel test.
+In un certo senso questo credo sia il punto di vista condiviso da [Turing](/notes/@turingcomputingmachineryintelligence1950) quando ha ideato il suo bel test.
 
 #### Central-state theory
 >Mental states are identified with physical states of the organism that has the
@@ -51,9 +51,3 @@ true or false beliefs concerning the current state of the organism’s
 body and environment.
 
 non credo proprio, mi sembra stai confondendo l'atto di percepire e l'atto di elaborare le percezioni...
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

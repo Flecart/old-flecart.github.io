@@ -128,18 +128,7 @@ Un altro aspetto è che la **sequenza dei messaggi è identificata da numeri**
 - Facile vedere **messaggi che vengono scambiati** da enti differenti, quindi organizzazioni diciamo.
 - Si perde però **informazione sul tempo**
 
-Per il resto è molto simile rispetto ai #Sequence diagrams perché anche in questo caso si scambiano messaggi, solo che non è ben definito il tempo. (viene *marcato con un numerino*).
+Per il resto è molto simile rispetto ai [#Sequence diagrams](#sequence-diagrams) perché anche in questo caso si scambiano messaggi, solo che non è ben definito il tempo. (viene *marcato con un numerino*).
 
 Un esempio:
 <img src="/images/notes/Unified Modeling Language-1697538360271.jpeg" alt="Unified Modeling Language-1697538360271">
-
-
-## Note di ripasso
-
-- Cosa è una use case? In che modo si differenzia rispetto a una Modelli AGILE#User stories |user story|Modelli AGILE#User stories |user story?
-
-| Data | Commenti |
-| ---- | -------- |
-| 06/12/2023      | Boh non credo sia importante e so le cose principali quindi non ci dovrebbero essere problemi..          | 
-
-Formato gg.mm.yyyy

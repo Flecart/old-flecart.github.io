@@ -457,20 +457,3 @@ E = E + T | T \\
 T = A \times T | A \\
 A = a|b ...| (E)
 $$
-
-
-# Registro ripassi
-
-| 09/12/2022 | Ok |
-| --- | --- |
-| 27/03/23 | Non mi ricordavo tutte le proprietà dell’albero di derivazione, ma è cosa di poco conto. |
-| 04/06/23 | Tutto apposto. |
- (E)
-$$
-
-# Registro ripassi
-
-| 09/12/2022 | Ok |
-| --- | --- |
-| 27/03/23 | Non mi ricordavo tutte le proprietà dell’albero di derivazione, ma è cosa di poco conto. |
-| 04/06/23 | Tutto apposto. |

@@ -85,7 +85,7 @@ Vorremmo trovare una coppia di chiavi $$k_{1}, k_{2}$$ tale che per cui $$E(k_{2
 Mi basta un $$2 \cdot 2^{56}$$ non un $$2^{112}$$ per rompere la chiave con questo attacco.
 Per questo motivo uso un 3-DES che non permette di fare questo.
 #### DESX (non impo)
-[Wikipedia]([https://en.wikipedia.org/wiki/DES](https://en.wikipedia.org/wiki/DES)-X).
+[Wikipedia](https://en.wikipedia.org/wiki/DES-X).
 
 Considero tre chiavi e considero
 
@@ -93,7 +93,7 @@ $$
 k_{1} \oplus  E(k_{2}, m\oplus  k_{3})
 $$
 
-In parole semplici ho due chiavi in più che uso per fare un xor prima di mandarlo in #Data Encryption standard normale.
+In parole semplici ho due chiavi in più che uso per fare un xor prima di mandarlo in [#Data Encryption standard](#data-encryption-standard) normale.
 La cosa da notare è che non cresce la complessità di quanto ci si aspetta.
 
 ## Advanced Encryption Standard
@@ -157,11 +157,3 @@ Questo lo chiamiamo **round function** e la funzione che genera le chiavi per og
 
 #### Pseudo random permutation
 #### Secure PRF
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

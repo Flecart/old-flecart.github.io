@@ -149,10 +149,3 @@ L'idea è calcolare ad ogni step, una matrice di percorsi che passano per un cer
 - Algoritmo in pseudocodice (si può ottimizzare lo spazio in questo)
 
     !<img src="/images/notes/image/universita/ex-notion/Grafi/Untitled 6.png" alt="image/universita/ex-notion/Grafi/Untitled 6">
-
-
-# Registro ripassi
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

@@ -54,11 +54,3 @@ Dovremmo annidare solamente dei h2 in h1 e non viceversa!
 
 - Wrapping label è un metodo
 - Altrimenti ci metto un for (quindi label for)
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-e non viceversa!

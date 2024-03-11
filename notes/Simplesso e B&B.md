@@ -124,18 +124,3 @@ Si basa sull’applicare in modo continuo un algoritmo per la risoluzione della 
 
 
 Esponenziale, bisogna andare ad utilizzare il simplesso come subroutine molte volte, anche se magari si può velocizzare di molto come subroutine, resta comunque almeno della complessità del simplesso.
-
-# Registro ripassi
-
-| 27/12 |  |
-| --- | --- |
-|  |  |
-|  |  |
-te volte, anche se magari si può velocizzare di molto come subroutine, resta comunque almeno della complessità del simplesso.
-
-# Registro ripassi
-
-| 27/12 |  |
-| --- | --- |
-|  |  |
-|  |  |

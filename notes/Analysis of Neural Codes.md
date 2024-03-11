@@ -38,9 +38,3 @@ Vogliamo utilizzare un sistema probabilistico per gestire tutto sto rumore di co
 
 Cosa interessante, se diamo rumore white a caso preso da una gaussiana, e poi prendiamo le risposte, queste risposte sono disposte in modo gaussiano.
 Questo sistema con il gaussiano ci permette di trovare la **feature** ossia le attivazioni precedenti, il pattern diciamo, che contribuisce all'attivazione del neurone corrente.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

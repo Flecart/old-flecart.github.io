@@ -225,14 +225,3 @@ Questo pezzo di hardware ha il ruolo di **tradurre indirizzi logici in fisici**,
 La sistem call è una unica istruzione, mediante la quale è possibile accedere al kernel mode, in grado di accedere a tutto, utile per la protezione e affidabilità del sistema, e non permettere programmi di fare tutto.
 
 Esistono convenzioni di chiamata, perché si aspetta in un certo registro la presenza di un codice che specifichi la tipologia di system call, poi la sistem call ritornerà il valore corretto in un certo registro.
-
-# Registro ripassi
-
-| 15/03/23 | Tutto Ok. |
-| --- | --- |
-| 16/04/23 | Non credo questo doc sia importante, lo mando molto lontano ora. |
-|  |  |
-- Tabella degli interrupt vector è unica sia per interrupt hardware che software?? Oppure sono fisiche? (in pandos no, non esiste una tabella per interrupt software, aka traps).
-. |
-|  |  |
-- Tabella degli interrupt vector è unica sia per interrupt hardware che software?? Oppure sono fisiche? (in pandos no, non esiste una tabella per interrupt software, aka traps).

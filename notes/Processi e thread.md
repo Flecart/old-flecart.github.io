@@ -168,13 +168,3 @@ La differenza sta nel fatto se il kernel sia a conoscenza o meno dell’esistenz
 ### Relation threads
 
 Anche questi sono stati saltati
-
-# Registro ripassi
-
-| 18/03/23 | Decente, va bene dai. |
-| --- | --- |
-| 25/03/23 |  Non mi ricordo bene la differenza fra thread e processo (quali vantaggi, per esempio), e poi non sapevo praticamente niente sulle informazioni di attributi aggiuntivi tenuti nei descrittori di processi. |
-| 01/04/23 |  Ancora faccio fatica a ricordarmi le informazioni che si tiene il PCB, ma sono tantissimi. POi sulla differenza fra thread e processo invece andiamo abbastanza bene. |
-| 29/04/23 | Nessun problema i suppose |
-cordarmi le informazioni che si tiene il PCB, ma sono tantissimi. POi sulla differenza fra thread e processo invece andiamo abbastanza bene. |
-| 29/04/23 | Nessun problema i suppose |

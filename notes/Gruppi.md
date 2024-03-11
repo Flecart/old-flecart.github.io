@@ -93,24 +93,3 @@ Osservazione: quando il centralizzatore è l'intero gruppo, l'elemento su cui st
 - Dimostrazione
 
     Analoga alla precedente del centro
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-su cui stiamo centralizzando è esattamente il centro.
-
-- Dimostrazione
-
-    Analoga alla precedente del centro
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

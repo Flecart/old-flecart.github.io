@@ -44,7 +44,7 @@ K(x) \le \lvert x \rvert  + c \tag{1}
 $$
 
 Dove $$c$$ è una costante per codificare le istruzioni per stampare.
-Più intuitivamente un programma di questo genere può stampare il carattere (dimostreremo in seguito, in #Teorema dell'invarianza che idea simile vale per ogni linguaggio)
+Più intuitivamente un programma di questo genere può stampare il carattere (dimostreremo in seguito, in [#Teorema dell'invarianza](#teorema-dell-invarianza) che idea simile vale per ogni linguaggio)
 
 Questo lemma giustifica anche la seguente definizione
 #### Stringhe incomprimibili
@@ -145,7 +145,7 @@ E così via. Intuitivamente: dato che il numero delle stringhe $$\omega$$ che po
 > La funzione di Kolmogorov non è calcolabile su un macchina di Turing
 
 **Dimostrazione**:
-Supponiamo che esista una macchina di Turing $$M$$ che prenda in input una stringa $$\omega$$ e ritorni $$K(\omega)$$. Utilizzeremo il teorema #Esistenza di stringhe complesse
+Supponiamo che esista una macchina di Turing $$M$$ che prenda in input una stringa $$\omega$$ e ritorni $$K(\omega)$$. Utilizzeremo il teorema [#Esistenza di stringhe complesse](#esistenza-di-stringhe-complesse)
 
 Allora utilizziamo questa macchina di Turing $$M$$ per costruirne una altra $$M^{'}$$ che si comporti in questo modo:
 ```

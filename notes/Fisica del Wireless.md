@@ -32,7 +32,7 @@ Creando questo flusso di elettroni, crea anche un campo elettromagnetico a lui o
 
 Essì per capire questa parte serve ripassare un pò di fisica, in old_unused_files/flecart-zone/Control Center/Tutte le note di scuola/Onde elettromagnetiche (in realtà c’è molto poco qui).
 
-Il prof ha spiegato questo fenomeno in 20 minuti, [questo video]([https://www.youtube.com/watch?v=FWCN_uI5ygY&ab_channel](https://www.youtube.com/watch?v=FWCN_uI5ygY&ab_channel)=Lesics) sembra buono per comprendere questa cosa.
+Il prof ha spiegato questo fenomeno in 20 minuti, [questo video](https://www.youtube.com/watch?v=FWCN_uI5ygY&ab_channel=Lesics) sembra buono per comprendere questa cosa.
 
 ### Caratteristiche dell’onda elettromagnetica (3) 🟩
 
@@ -168,7 +168,7 @@ NOTA2: i satelliti sono fighi, non hanno nessun ostacolo per comunciazione onde 
 
 300 MHz and 300 GHz sono **il range delle microonde**, quando il cellulare emette certe onde di quella requenza, allora è proprio questo! Solamente di intensità molto minore. (sono milliwatt contro centinaia di watt), quindi un pò comunque scalda! E attraversa comunque un pò la materia, e scalda l’acqua a questa frequenza.
 
-[https://www.fda.gov/radiation-emitting-products/cell-phones/do-cell-phones-pose-health-hazard]([https://www.fda.gov/radiation-emitting-products/cell-phones/do-cell-phones-pose-health](https://www.fda.gov/radiation-emitting-products/cell-phones/do-cell-phones-pose-health)-hazard)
+[https://www.fda.gov/radiation-emitting-products/cell-phones/do-cell-phones-pose-health-hazard](https://www.fda.gov/radiation-emitting-products/cell-phones/do-cell-phones-pose-health-hazard)
 
 approfondimento carino: vedere come funziona la risonanza, e se questo è il fenomeno che fa scaldare l’acqua.
 
@@ -352,13 +352,3 @@ I decibels isotropici misurano il **guadagno passivo** dato dall’architettura 
 ### dB-dipole 🟩
 
 Questo è solamente un dipole translato di 2.14 se mi ricordo bene, solamente il compare di una antenna dipolo con una isotropica i suppose, quindi non molto di differenza.
-
-# Registro ripassi
-
-| 06/04/23 | Non mi ricordo i nomi per le zone di segnale. Non mi ricordavo quasi niente della VSWR |
-| --- | --- |
-| 14/04/23 | Vswr va meglio, poi boh non so bene cosa serva di sto modulo credo le cose dei DB e EIRP siano le più importanti  |
-| 25/04/23 | Abbastanza bene questo modulo. |
-| 05/05/23 | Mi sembra apposto, intuitivamente so la roba di questo è penso di poterlo ritrovare all'esame. Credo dis sapere il significato del lessico di questa parte  |
- questo modulo. |
-| 05/05/23 | Mi sembra apposto, intuitivamente so la roba di questo è penso di poterlo ritrovare all'esame. Credo dis sapere il significato del lessico di questa parte  |

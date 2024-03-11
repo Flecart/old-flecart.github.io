@@ -66,7 +66,7 @@ Col database abbiamo
 3. Non limitazione ad aprire e chiudere file (prende o l'intero file o niente col file system)
 
 #### Architettura ANSI/SPARC (3) 🟩
-Introduzione a basi di dati-1695506718147.jpeg | 300|Introduzione a basi di dati-1695506718147.jpeg | 300
+![ 300](/notes/introduzione-a-basi-di-dati-1695506718147.jpeg-)
 - **Schema logico** descrive *come dovrebbero essere i dati* ossia la struttura logica dei dati
 - **Schema interno** come sono rappresentati i dati, potremmo dire l'implementazione del livello logico dei dati.
 - **Schema esterno** che a volte è chiamata anche *view*, ossia come gli utenti hanno bisogno di vedere i dati
@@ -81,7 +81,7 @@ Nel tempo sono stati creati molti modelli possibili dello strato logico del data
 Una lista di modelli presenti è 
 1. Gerarchici
 2. Grafo (network based)
-3. Relazional Model|relazionali|Relazional Model|relazionali
+3. [relazionali](/notes/relazional-model)
 4. Object Oriented
 5. XML-based
 
@@ -114,7 +114,7 @@ Le facciamo per benino in [The Database Management System](/notes/the-database-m
 
 ### Pros and cons
 #### Pros (5) 🟨+
-Introduzione a basi di dati-1695507029821.jpeg | 350|Introduzione a basi di dati-1695507029821.jpeg | 350
+![ 350](/notes/introduzione-a-basi-di-dati-1695507029821.jpeg-)
 1. È necessario, molto più efficiente nel caso quella stessa informazione venga utilizzata anche da dipartimenti diversi
 2. È chiara la comunicazione e la struttura, che è sempre **una fonte di verità**
 3. vabbé ovvio
@@ -123,7 +123,7 @@ Introduzione a basi di dati-1695507029821.jpeg | 350|Introduzione a basi di dati
 
 
 #### Cons (2) 🟩
-Introduzione a basi di dati-1695507057166.jpeg | 350|Introduzione a basi di dati-1695507029821.jpeg | 350
+![ 350](/notes/introduzione-a-basi-di-dati-1695507057166.jpeg-)
 Io aggiungerei anche il livello di astrazione (quindi magari tempo di implementazione delle cose) in più, che poi si riguadagna indietro con la facilità di gestione dell'infrastruttura
 
 1. C'è un grande overhead per mettere su un DBMS
@@ -157,17 +157,3 @@ Esiste un comando SQL, nella DDL, che mi permette di definire in modo esplicito 
 - Immediato
 - Dilazionato.
 Questi si possono rappresentare anche con semantica differente.
-
-## Note di ripasso
-### Domande importanti
-- Cosa è un DBMS?
-- Cosa è un database?
-- Cosa è uno schema?
-- In che modo si divide il database?
-- Quali sono le caratteristiche importanti per i databases?
-
-| Data | Commenti |
-| ---- | ---- |
-| 20/10/2023 | Molto molto male, praticamente non sapevi niente di questa parte introduttiva del corso |
-| 05/01/2024 | Devo farlo meglio, rileggendomi il primo capitolo di questo per esempio. (anche se probabilmente questo è solamente introduttivo, quindi molto poco importante per comprendere l'argomento direi). |
-| 12/01/2024 | Inutile questo capitolo credo. |

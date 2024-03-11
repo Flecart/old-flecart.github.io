@@ -144,12 +144,3 @@ $$
 Questa è la formulazione semplice, ma si può estendere per qualunque combinazione convessa dell'input (per combinazione convessa di $$a_{1}, a_{2}, \dots, a_{n}$$ intendo $$a_{1}\lambda_{1} + \dots + a_{n}\lambda_{n}$$ dei parametri $$\lambda_{1}, \lambda_{2}, \dots, \lambda_{n}$$ tale per cui $$\sum_{i=1}^{n}\lambda_{i} = 1$$).
 
 Non so bene la dimostrazione, ma l'intuizione è abbastanza semplice in due variabili, se combini due punti su una retta sopra la funzione, questa sarà maggiore del valore che ricevi combinando gli input, dato che è convessa è una funzione ad $$U$$.
-
-
-# Registro ripassi
-
-| Giorno     | Commenti                                                                                 |
-| ---------- | ---------------------------------------------------------------------------------------- |
-| 03/03/2024 | Mi ricordo che ai tempi non l'ho fatta bene, perché  era una cosa per loro di poco conto |
-|            |                                                                                          |
- (se ogni elemento della successione è maggiore di 0 allora anche il limite a cui sta tendendo è maggiore di 0)

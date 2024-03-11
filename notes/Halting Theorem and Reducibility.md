@@ -6,7 +6,7 @@ title: Halting Theorem and Reducibility
 ---
 
 ### Halting theorem
-Questo è un problema fondamentale, che abbiamo trattato anche in Fondamenti teorica#Halting problem, ma qui lo ritrattiamo, perché così lo rifacciamo per bene. In parte è stato trattato anche al corso di Logica.
+Questo è un problema fondamentale, che abbiamo trattato anche in [Fondamenti teorica#Halting problem](/notes/fondamenti-teorica#halting-problem), ma qui lo ritrattiamo, perché così lo rifacciamo per bene. In parte è stato trattato anche al corso di Logica.
 
 #### Enunciato Halting theorem
 Questo è molto simile a quanto presente sul @sipserIntroductionTheoryComputation2012.
@@ -17,7 +17,7 @@ HALT = \left\{ \langle x, y \rangle : y = code(M),M \text{ si ferma su } x\right
 $$
 
 #### Dimostrazione Halting theorem
-La parte del sì è facile perché basta eseguirlo e vedere che si ferma (quindi abbiamo una La macchina di Turing#La macchina di Turing universale. Se si ferma appartiene al linguaggio, altrimenti è la parte in cui diverge.
+La parte del sì è facile perché basta eseguirlo e vedere che si ferma (quindi abbiamo una [La macchina di Turing#La macchina di Turing universale](/notes/la-macchina-di-turing#la-macchina-di-turing-universale). Se si ferma appartiene al linguaggio, altrimenti è la parte in cui diverge.
 
 **Dimostrazione non decidibilità**
 Supponiamo sia decidibile e dimostriamo l'assurdo.
@@ -152,11 +152,3 @@ Dato un linguaggio $$L$$ e una stringa $$x$$, l'oracolo mi dice in tempo finito 
 #### Mapping reducibility => Turing-riducibilità
 Possiamo dimostrare in modo semplice che con Turing-riducibilità $$HALT$$ è riducibile a $$HALT^{-}$$. Senza problemi.
 Mentre non posso farlo con Mapping reducibility.
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

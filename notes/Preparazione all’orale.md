@@ -52,22 +52,3 @@ Polinomio derivabile ma non continua
 1. Taylor con resto secondo Lagrange
 2. Dimostrazione di Taylor generalizzato
 3. Caratterizzazione convessità
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-ontinua
-
-1. Taylor con resto secondo Lagrange
-2. Dimostrazione di Taylor generalizzato
-3. Caratterizzazione convessità
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

@@ -29,7 +29,7 @@ Osservazione: **computazione è locale**.
 Vedere precedente per capire come è stata ideata questa macchina di Turing.
 
 #### Definizione matematica 🟩
-È interessante confrontare questa definizione con Fondamenti teorica#La macchina di turing in cui usiamo un formato leggermente diverso.
+È interessante confrontare questa definizione con [Fondamenti teorica#La macchina di turing](/notes/fondamenti-teorica#la-macchina-di-turing) in cui usiamo un formato leggermente diverso.
 Nel nostro caso è una 5-tupla di
 - $$\Sigma$$, un **alfabeto** di simboli finiti, con simbolo speciale per cella vuota
 - $$Q$$ Un insieme di stati
@@ -46,7 +46,7 @@ La differenza è che in questo caso l'alfabeto dell'input è uguale all'alfabeto
 Questa sintassi è più comprensibile della precedente quindi nice.
 
 Come per tutti i precedenti  automi, anche questi hanno una rappresentazione possibile a diagramma:
-La macchina di Turing-20240221114813908.webp|544|La macchina di Turing-20240221114813908.webp|544
+<img src="/images/notes/La macchina di Turing-20240221114813908.webp" width="544" alt="La macchina di Turing-20240221114813908">
 
 A lezione abbiamo anche visto esempi di macchine che computano moltiplicazione binaria o addizione binaria.
 
@@ -63,7 +63,7 @@ Questo ha delle proprietà:
 3. Sarebbe carino poter ritrovare $$\alpha$$ a partire dal suo codice.
 
 #### Definizione decidibilità 🟩
-Dato un certo linguaggio, supponiamo di avere una macchina di Turing come definita di sopra #La macchina di Turing tale per cui abbia due stati finali $$\left\{ H, N \right\}$$, allora diciamo che $$\mathcal{M}$$ **decide** $$L$$ se vale che
+Dato un certo linguaggio, supponiamo di avere una macchina di Turing come definita di sopra [#La macchina di Turing](#la-macchina-di-turing) tale per cui abbia due stati finali $$\left\{ H, N \right\}$$, allora diciamo che $$\mathcal{M}$$ **decide** $$L$$ se vale che
 - Quando $$x \in L$$ allora $$\mathcal{M}$$ accetta $$x$$, ossia finisce su stato $$H$$ 
 - Quando $$x \not\in L$$ allora $$\mathcal{M}$$ rigetta $$x$$, ossia finisce su stato $$N$$
 
@@ -79,7 +79,7 @@ Th: **Decidibilità -> Riconoscibilità**, è facile costruire una tale macchina
 #### Definizione non riconoscibilità
 Significa che non può dire in tempo finito né sì né no. Quindi è una cosa ancora più forte rispetto la semidecibilità.
 #### Gerarchia di Chomsky 🟨+
-Vedere Linguaggi liberi e PDA#Classificazione dei linguaggi alla sezione schema generale delle grammatiche. La cosa da ricordare è che TM è il modello più generale fra tutti i precedenti modelli di macchine di Turing e automi.
+Vedere [Linguaggi liberi e PDA#Classificazione dei linguaggi](/notes/linguaggi-liberi-e-pda#classificazione-dei-linguaggi) alla sezione schema generale delle grammatiche. La cosa da ricordare è che TM è il modello più generale fra tutti i precedenti modelli di macchine di Turing e automi.
 
 ### Tesi di Church-Turing
 #### Enunciato della tesi 🟩-
@@ -167,13 +167,3 @@ $$
 1. Lettura simboli macchina specifica
 2. Interpretazione di essa
 3. Poi si può continuare ad utilizzare il nastro per simulare la macchina stessa.
-
-
-## Note di ripasso
-
-| Data       | Commenti                                                      |
-| ---------- | ------------------------------------------------------------- |
-| 22/02/2024 | Direi ok, dovrei fare degli esercizi per prendere confidenza. |
-| 29/02/2024 | Tutto apposto direi.                                          |
-| 04/03/2024 | Tutto apposto.                                                |
-| 06/03/2024 | Non conosci bene la costruzione di $$code$$.                    |

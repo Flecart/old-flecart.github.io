@@ -154,10 +154,3 @@ Quando $$r$$ è minore del raggio del solenoide, se è maggiore abbiamo
 $$
 \vec{A} = B \frac{R^{2}}{2r} \hat{u}
 $$
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 07/01/2024 | Dovrei farmi meglio ampere e faraday col vettore potenziale |
-| 13/01/2024 | Oggi meglio direi, anche la parte che facevo fatica |

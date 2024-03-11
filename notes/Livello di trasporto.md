@@ -14,7 +14,7 @@ Studi Personali: No
 
 # Elementi di ripasso
 
-Guardare la parte equivalente in [Note Esame](/notes/note-esame) che è simile.
+Guardare la parte equivalente in Note Esame che è simile.
 
 # Livello di trasporto
 
@@ -251,14 +251,3 @@ Quando perdo un pacchetto, o per il timeout o per il triplo ack, allora torno a 
 Se lo perdo per timeout torno a 1 e sono a slow start, altrimenti alcuni pacchetti sono comunque giunti al destinatario, quindi reiverto in modo molto più soft, in pratica dimezzo la mia window e vado in fast recovery.
 3. **Fast recovery** nella fast recovery aumento di 1 se l’ack è per il pacchetto che ho perso, quando arriva l’ack per il segmento perso stesso rientro in quella fase, questo mi fa crescere linearmente e mi permette di partire molto più in fretta.
 Esempio: se ero a 32 pacchetti, vi vengono 3 ack per pacchetto 1, dimezzo e assumo che il pacchetto 2 sia perso, e aumento di 3 (perché sono venuti 3 acks), sono a 19, mi arrivano altri ack di 1, aumento di 1, quando arriva il 2 entro in Congestion avoidance.
-
-# Registro ripassi
-
-| 25/03/23 | Dai è abbastanza OK, riesco a capire bene TCP, e poi tutti i problemi che si possono avere per un trasporto affidabile. |
-| --- | --- |
-| 02/04/23 | Boh, mi sembra decente. |
-| 22/04/23 | Ok, ho approfondito meglio la parte delle finestre, poi per il resto mi sembra che i concetti ci siano. |
-orto affidabile. |
-| --- | --- |
-| 02/04/23 | Boh, mi sembra decente. |
-| 22/04/23 | Ok, ho approfondito meglio la parte delle finestre, poi per il resto mi sembra che i concetti ci siano. |

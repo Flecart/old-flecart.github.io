@@ -12,8 +12,6 @@ Primo Abbozzo: March 2, 2023 4:19 PM
 Stato: 🌕🌕🌕🌕🌗
 Studi Personali: No
 
-# Elementi di ripasso
-
 # Codifica dei caratteri
 
 ## Sull'encoding
@@ -320,7 +318,7 @@ Principalmente questi problemi di endoing e escaping sono nati nell’ambiente d
 
 Il motivo è che queste restrizioni erano presenti nelle RFC iniziali per SMTP, e dato che non possiamo farne nuovi (troppo costo prolly) ci dobbiamo tenere queste cose.
 
-Guardare [internet message format]([https://www.rfc](https://www.rfc)-editor.org/rfc/rfc2822)
+Guardare [internet message format](https://www.rfc-editor.org/rfc/rfc2822)
 
 Su come funziona SMTP sono accennate in [Livello applicazione e socket](/notes/livello-applicazione-e-socket)
 
@@ -373,15 +371,3 @@ Se mi mancano byte alla fine aggiungo del padding, che sono delle = nella parte 
     <img src="/images/notes/image/universita/ex-notion/Codifica dei caratteri/Untitled 31.png" alt="image/universita/ex-notion/Codifica dei caratteri/Untitled 31">
 
     <img src="/images/notes/image/universita/ex-notion/Codifica dei caratteri/Untitled 32.png" alt="image/universita/ex-notion/Codifica dei caratteri/Untitled 32">
-
-
-# Registro ripassi
-
-| 04/03/23 | Molta fatica diciamo, diciamo che non è stato un primo ripasso ma una rilettura delle slides, e ho notato che un sacco di cose non me le ricordavo (in più non ho un textbook, quindi se voglio capire di più sarebbe meglio andare a googlate). |
-| --- | --- |
-| 11/03/23 |  Questo invece è andato abbastnaza liscio, forse meglio headers MIME, per il resto OK. |
-|  |  |
-e voglio capire di più sarebbe meglio andare a googlate). |
-| --- | --- |
-| 11/03/23 |  Questo invece è andato abbastnaza liscio, forse meglio headers MIME, per il resto OK. |
-|  |  |

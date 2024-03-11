@@ -241,14 +241,3 @@ e il servizio di posta elettronica, entrambi basati su client che chiedono pagin
 2. **Peer to Peer** (P2P), invece, tutti gli host sono contemporaneamente sia client che server. Ogni host agisce da Server cercando di soddisfare, se possibile, le richieste ricevute da altri host. Ogni host agisce da Client quando spedisce ad altri host le sue richieste, o per conto personale, o per cercare di soddisfare richieste di terzi. Un esempio di servizi P2P sono: i
 servizi di condivisione dati (file-sharing) basati su protocolli Freenet, Gnutella, Kazaa.
 Esistono anche servizi ibridi, nei quali esistono server che aiutano solo a trovare più rapidamente gli host P2P migliori per comunicare e implementare servizi P2P (esempio: file-sharing con Napster).
-
-# Registro ripassi
-
-| 01/02/23 | Mi ero scordato dei metodi diversi per la richiesta del DNS |
-| --- | --- |
-| 12/03/23 | Un pò così così sulle cose di TCP e IP, dovrei farle meglio. il resto sembra abbastanza apposto. |
-|  |  |
- Mi ero scordato dei metodi diversi per la richiesta del DNS |
-| --- | --- |
-| 12/03/23 | Un pò così così sulle cose di TCP e IP, dovrei farle meglio. il resto sembra abbastanza apposto. |
-|  |  |

@@ -15,7 +15,7 @@ There have been historically been many approaches to tokenization, let's see a f
 
 Uno dei primi approcci che potrebbe venire in mente per questo problema di divisione delle parole è avere delle componenti fisse (ad esempio lettere di alfabeto, o lettere) e utilizzare queste per fare tokenization.
 Cioè stiamo mappando parti delle parole in modo greedy, prima arriva meglio è. Si potrebbe rappresentare in questo modo:
-Da [questo ipynb]([https://github.com/microsoft/LoRA/blob/main/examples/NLU/notebooks/01-training](https://github.com/microsoft/LoRA/blob/main/examples/NLU/notebooks/01-training)-tokenizers.ipynb)
+Da [questo ipynb](https://github.com/microsoft/LoRA/blob/main/examples/NLU/notebooks/01-training-tokenizers.ipynb)
 <img src="/images/notes/Tokenization-20240121105419785.webp" alt="Tokenization-20240121105419785">
 #### Subword tokenization
 A volte conviene dividere una stessa parola in token che siano più piccoli della parola, perché questi potrebbero essere utilizzati in modo ricorrente in suffissi o prefissi (questo ha senso), però abbiamo bisogno di algoritmi che facciano questa tokenizzazione.
@@ -81,8 +81,3 @@ gp2pat = re.compile(r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{
 ```
 Durante l'allenamento dei GPT sono stati presenti anche tokens speciali come `<|endoftext|>` tokens speciali per indicare fine documento. Credo sia stata una cosa per facilitare il training effettivo.
 [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/) se vuoi vedere.
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

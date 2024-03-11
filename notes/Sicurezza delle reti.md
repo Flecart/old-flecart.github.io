@@ -381,31 +381,8 @@ Vogliamo cercare di capire se siamo sotto attacco, quindi se qualcuno fa port sc
 
 ### Demilitarized 🟩
 
-[https://doubleoctopus.com/security-wiki/network-architecture/demilitarized-zone/]([https://doubleoctopus.com/security-wiki/network-architecture/demilitarized](https://doubleoctopus.com/security-wiki/network-architecture/demilitarized)-zone/)
+[https://doubleoctopus.com/security-wiki/network-architecture/demilitarized-zone/](https://doubleoctopus.com/security-wiki/network-architecture/demilitarized-zone/)
 
 in pratica è possiamo considerarla come una rete di appoggio per accedere a una rete untrusted esterna, come Internet.
 
 Solitamente in questa DMZ ci mettiamo cose come Email, web servers e cose simili. È una zona quarantinata, cioè per interagire col network interno si passa di nuovo d aun firewall, questo per garantire maggiore protezione della roba interna, solitamente molto più importante.
-
-# Registro ripassi
-
-| 12/03/23 | La parte dopo la crittografia abbastanza male (prima è OK) Quindi cose come firewall IPSec, dovrei rifare queste molto meglio che so poco. |
-| --- | --- |
-| 19/03/23 | Ancora le stesse cose di sopra dovrei fare melgio. |
-| 10/04/23 | Un pochino meglio, però boh, non so nemmeno se dovrei approfondirle di più… |
-|  |  |
-
-Le parti importanti di questo capitolo sono
-
-1. Cifratura chiave simmetrica e privata
-2. Funzioni di hash
-3. Gli obiettivi della comunicazione sicura
-4. Protocollo sicuro di mail, che garantisca tutti i 3 obiettivi della comunicazione sicura
-5. SSL
-
-Salta tutte le slides da 100 in poi, tranne firewall… per il capitolo sulla sicurezza
-ra
-4. Protocollo sicuro di mail, che garantisca tutti i 3 obiettivi della comunicazione sicura
-5. SSL
-
-Salta tutte le slides da 100 in poi, tranne firewall… per il capitolo sulla sicurezza

@@ -200,14 +200,3 @@ Si possono fare attacchi Toc Tou anche su questi checks (real son oquelli effett
 ### MAC and DAC
 
 Mac BLP (bell lapadula)
-
-# Registro ripassi
-
-| 24/04/23 | Dovrei scrivere meglio gli appunti, ma credo che i concetti generalmente li ho, la prossima volta li dovrei richiamare e ripeterli. |
-| --- | --- |
-| 01/05/23 | Dovrei fare soprattuttto esercizi, in generale le cose di questo dovrei saperle. |
-| 13/05/23 | Principalemente esercizi ora! |
-chiamare e ripeterli. |
-| --- | --- |
-| 01/05/23 | Dovrei fare soprattuttto esercizi, in generale le cose di questo dovrei saperle. |
-| 13/05/23 | Principalemente esercizi ora! |

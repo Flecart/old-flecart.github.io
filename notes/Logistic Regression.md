@@ -48,7 +48,7 @@ E si può notare che poi abbiamo il risultato di sopra e diventa sensato avere l
 Dalla parte in blu capiamo che è una cosa **lineare**, perché se è maggiore di zero allora è meglio la probabilità di stare da una parte rispetto all'altra.
 
 #### Funzione di Sigmoid 🟩
-Logistic Regression-1697464563385.jpeg|400|Logistic Regression-1697464563385.jpeg|400
+<img src="/images/notes/Logistic Regression-1697464563385.jpeg" width="400" alt="Logistic Regression-1697464563385">
 Questo ci dà una motivazione del motivo per cui utilizziamo
 
 $$
@@ -126,11 +126,3 @@ w_{i} = w_{i} + \mu \frac{\delta \mathcal{L}(w)}{\delta w_{i}}  + \mu \lambda|w_
 $$
 
 Che implica il fatto che se abbiamo un singolo peso grande, farà molta fatica ad esserci nel regolarizzatore (quindi ho meno varianza fra i pesi diciamo).
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|10/30/2023      | Ho provato a ricavarli entrambe le dimostrazioni un po' più difficili di questo appunto, più o meno ci siamo, quindi positivo          |
-|12/26/2023 | Non credo sia importante alla fine, basta capire il funzionamento di base!?  |

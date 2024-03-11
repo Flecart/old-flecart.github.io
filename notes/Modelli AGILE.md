@@ -65,7 +65,7 @@ In contrario rispetto: se funziona quanto basta,
 - Customer sceglie fra quelle che può
 - Poi si costruisce
 ### Valori XP (4) 🟨++
-- semplicità (vedi 11 [#Principi (12) 🟨](/notes/#principi-(12)-🟨))
+- semplicità (vedi 11 [#Principi (12) 🟨](#principi-(12)-🟨))
 - comunicazione (ossia collaborazione internamente)
 - feedback (comunicazione con l'utente)
 - coraggio 
@@ -128,7 +128,7 @@ Questo è un metodo utilizzato per **scegliere** quali user stories andare ad im
 [https://www.agilebusiness.org/page/ProjectFramework_10_MoSCoWPrioritisation](https://www.agilebusiness.org/page/ProjectFramework_10_MoSCoWPrioritisation)
 
 #### Backlog 🟩
-È **l'insieme** dei task (ossia delle #User stories 🟨) che devono essere fatte, e hanno delle *priorità*, che ad ogni iterazione possono cambiare l'ordine.
+È **l'insieme** dei task (ossia delle [#User stories 🟨](#user-stories-🟨)) che devono essere fatte, e hanno delle *priorità*, che ad ogni iterazione possono cambiare l'ordine.
 
 Questa parte viene *solitamente divisa in due* perché una è nel backlog, l'altro quello che si vuole implementare durante lo sprint.
 
@@ -223,17 +223,3 @@ Questo poi è una cosa normalissima in [Scrum Method](/notes/scrum-method), in c
 1. Cosa fatto ieri
 2. Cosa si vuole fare oggi
 3. Quali sono i problemi maggiori, è per portare il team tutti sulla stessa pagina.
-
-## Note di ripasso
-- Quali sono i 4 principi di AGILE?
-- Perché si può dire che l'ingegneria del software è una disciplina sociale
-- Cosa sono le user stories? Perché sono utili
-- Cosa è l'XP e perché è importante
-- cosa è il backlog di un prodotto?
-- Cosa è un planning game? Cosa è uno story point
-- Definisci refactoring
-
-| Data       | Commenti |
-| ---------- | -------- |
-| 10/22/2023 | Non mi ricordo esattamente tutti i valori e etica agile, quello sarebbe da migliorare ma per tutto l'altro lessico ci dovrebbe essere dai         |
-| 11/21/2023| Dovrei provare a creare discorsi a riguardo, perché credo sia questa parte di esposizione quello che conta, non la conoscenza, per ora la maggior parte delle cose non le ho provate (poi i principi non me li ricordo a memoria, tipo non sai come descrivere la differenza fra XP e Agile, solo che uno è ili primo metodo, se devi fare orale, questo è messo un po' male.) |

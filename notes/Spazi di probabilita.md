@@ -196,18 +196,3 @@ In modo simile è definito la continuità dal basso, solo che ora sono insiemi u
 **Sommatoria finita di eventi disgiunti**
 
 **Principio di inclusione-esclusione** 🕳️
-
-# Registro ripassi
-
-| 02/04/23 | Alla fine chiede molto poco della roba che c’è qua, la considero già fatta tutta bene. |
-| --- | --- |
-|  |  |
-|  |  |
-*Principio di inclusione-esclusione** 🕳️
-
-# Registro ripassi
-
-| 02/04/23 | Alla fine chiede molto poco della roba che c’è qua, la considero già fatta tutta bene. |
-| --- | --- |
-|  |  |
-|  |  |

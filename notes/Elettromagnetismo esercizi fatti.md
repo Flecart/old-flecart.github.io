@@ -546,7 +546,7 @@ NOTA: la cosa figa è che se è costante allora posso utilizzare la legge di gau
 #### Problema: campo elettrico su piano elettrico, $$\sigma$$ costante 🟩
 Consideriamo una superficie con densità di carica $$\sigma$$ che sia costante, andiamo a valutare il campo elettrico in un punto $$p$$ a distanza $$r$$ dalla superficie.
 
-Campo elettrico-1696847883210.jpeg | 600|Campo elettrico-1696847883210.jpeg | 600
+![ 600](/notes/campo-elettrico-1696847883210.jpeg-)
 
 **Osservazione**:
 Il campo di E è diretto perpendicolarmente, in modo simile alla precedente, sempre per ragioni di simmetria, per ogni carica ne esiste una simmetrica, quindi il campo è strutturato in questo modo...
@@ -621,7 +621,7 @@ $$
 E(r) = \frac{\lambda}{2\pi\varepsilon_{0}r}\hat{r}
 $$
 
-Che è molto simile al problema del filo di lunghezza infinita, anche con il cilindro esterno (ed è sensato perché un filo infinito è come se se fosse un cilindro!) vai a vedere Campo elettrico#Distribuzione di carica uniforme lineare infinita
+Che è molto simile al problema del filo di lunghezza infinita, anche con il cilindro esterno (ed è sensato perché un filo infinito è come se se fosse un cilindro!) vai a vedere [Campo elettrico#Distribuzione di carica uniforme lineare infinita](/notes/campo-elettrico#distribuzione-di-carica-uniforme-lineare-infinita)
 
 Con questa analisi possiamo dire che segue questo andamento.
 <img src="/images/notes/Campo elettrico-1697028175427.jpeg" alt="Campo elettrico-1697028175427">

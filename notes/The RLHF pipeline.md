@@ -31,11 +31,3 @@ Come descritto da @zieglerFineTuningLanguageModels2020, un approccio inizialment
 Segue poi uno schema del genere:
 $$y_{1}, y_{2}, y_{3}, y_{4}$$ generati dal modello, poi questi vengono rankati in ordine di preferenza (oppure anche solamente il migliore fra i quattro, poi si utilizzano 4 e non due in questo papero perché così una persona può scegliere, solo più veloce per dire).
 E da questo si può allenare in un modo che non ho ancora capito una cosa di preferenza.
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

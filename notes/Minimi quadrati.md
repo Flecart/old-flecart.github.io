@@ -209,13 +209,3 @@ Vogliamo in questa sezione andare ad indagare quanto influenza il numero di cond
 
 
 Da ricordarsi di [Norme e Condizionamento](/notes/norme-e-condizionamento), che il condizionamento ci dice quanto cambia la soluzione quando cambio i dati (la b)
-
-# Registro ripassi
-
-| 22/10/22 |  Decomposizione diadica e il metodo di risoluzione delle SVD è ancora buio nel significato. |
-| --- | --- |
-| 26/10/22 | Ho fatto sia la dimo di SVD normale che con Equazione normale, dovrei saperle ma sono fortemente insicure, le dovrei fa melgio. |
-| 01/11/22 | Non ho voglia di far per bene la dimo di eq normale e svd, prendo anche la scomposizione diadica per vera, tanto non la chiedera mai sta prof… E non è che mi interessi molto, quindi passo… |
-| 11/11/22 | Ho fatto un ripassetto veloce, non facendo le dimo, non credo proprio di fare le dimo con questa prof…. Credo di di ricordarmi le formule, quindi è già ok. La dec diadica non me la ricordavo proprio, quindi converrebbe farlo un pò meglio. Sul perché funzioni non lo so proprio |
-| 02/01/22 | Sono al ripasso preesame che c’è fra 9 giorni, non mi ricordo quasi nulla sulle dimostrazioni, sto provando a cachare tutto, e direi che per ora non stiamo affatto andando molto bene. |
-ripasso preesame che c’è fra 9 giorni, non mi ricordo quasi nulla sulle dimostrazioni, sto provando a cachare tutto, e direi che per ora non stiamo affatto andando molto bene. |

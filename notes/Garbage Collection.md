@@ -91,20 +91,3 @@ Questa è la cosa nuova introdotta da Rust.
 ### Ownership
 
 ### Lifetimes
-
-# Registro ripassi
-
-| 10/05/23 | Ok, dovrei farmi meglio la soluzione con i due puntatori e fare più esercizi però in pratica ci sarei diciamo. |
-| --- | --- |
-|  |  |
-|  |  |
-ip
-
-### Lifetimes
-
-# Registro ripassi
-
-| 10/05/23 | Ok, dovrei farmi meglio la soluzione con i due puntatori e fare più esercizi però in pratica ci sarei diciamo. |
-| --- | --- |
-|  |  |
-|  |  |

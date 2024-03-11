@@ -216,19 +216,3 @@ macchina con Linguaggio di alto livello → macchina di altro livello → … �
 - Esempio di astrazione solita
 
     <img src="/images/notes/image/universita/ex-notion/Macchine Astratte/Untitled 13.png" alt="image/universita/ex-notion/Macchine Astratte/Untitled 13">
-
-
-# Registro ripassi
-
-| 30/09/2022 | Ok direi, da ripassare ancora un po’ bootstrapping e fare meglio i metodi 3 di implementazione di un linguaggio |
-| --- | --- |
-| 28/10/2022 | Tutto apposto direi |
-| 14/11/2022 | Apposto, anche bootstrap è simili sono apposto, bisogna solo avere discorso preparato per ogni argomento. |
-| 07/12/2022 |  Maggior parte delle cose riesci a dirle. |
-| 21/12/2022 | Ok |
-| 03/02/2023 | Dai è Ok, non ci sono stato molto |
-| 03/04/2023 | Ok |
-| 04/06/2023 | Siamo ancora Ok, dovrò probabilmente ripassarlo per benissimo per l’l esame che è vicino, ma credo che ci siamo. |
-23 | Dai è Ok, non ci sono stato molto |
-| 03/04/2023 | Ok |
-| 04/06/2023 | Siamo ancora Ok, dovrò probabilmente ripassarlo per benissimo per l’l esame che è vicino, ma credo che ci siamo. |

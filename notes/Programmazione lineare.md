@@ -272,24 +272,3 @@ Da notare che se non è un vincolo attivo allora ho una disuguaglianza stretta a
 - Dimostrazione dispense
 
     !<img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled 12.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled 12">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-o e creando il vettore da questo punto a quello nostro iniziale.
-
-- Dimostrazione dispense
-
-    !<img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled 12.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled 12">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

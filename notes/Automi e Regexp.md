@@ -363,19 +363,3 @@ C'è veramente in questo passo una **esplosione esponenziale** perché il numero
 
 
 Questo concetto di chiusura Epsilon ci racchiude il concetto degli stati raggiungibili in un NFA senza leggere nessun input.
-
-# Registro ripassi
-
-| 18/10/2022 | Non sai bene la dimostrarezione DFA = NFA, l’algoritmo per creare DFA da NFA, né il funzionamento della macchina astratta dell’automa |
-| --- | --- |
-| 28/10/2022 | Un esempio di conversione NFA a dfa può essere molto comodo. |
-| 08/11/22 | Tutto apposto, dovrei fare qualche esercizio per essere sicuro se ho capito però  |
-| 20/11/22 | Fra le proprietà dei linguaggi regolari (relativamente alle operazioni possibili), non ho dato molta attenzione al vuoto.
-Descrizione matematica dello stato accettato per NFA è carente.
-
-Per il resto l’algoritmo di conversione da NFA a DFA sembri padroneggiarla, non ci sono stati molti problemi |
-| 23/03/23 | Fare leggermente meglio la parte sulle proprietà di equivalenza fra linguaggi regolari. |
-| 04/06/23 | Tutto ok direi no? |
-mbri padroneggiarla, non ci sono stati molti problemi |
-| 23/03/23 | Fare leggermente meglio la parte sulle proprietà di equivalenza fra linguaggi regolari. |
-| 04/06/23 | Tutto ok direi no? |

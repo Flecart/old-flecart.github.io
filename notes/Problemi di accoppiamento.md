@@ -70,18 +70,3 @@ Importante notare che **gli accoppiamenti devono essere perfetti**, ossia non ho
 Anche qui deve esere fra **tutti gli accopiamenti perfetti**.
 
 In questo caso si cerca di avere il minimo arco maggiore possibile, non per forza il minimo di costo.
-
-# Registro ripassi
-
-| 25/11/22 | Ok molta poca roba riguardo questa. |
-| --- | --- |
-| 22/12/22 | Boh, ma questo lo conosco per CP dai. |
-|  |  |
- maggiore possibile, non per forza il minimo di costo.
-
-# Registro ripassi
-
-| 25/11/22 | Ok molta poca roba riguardo questa. |
-| --- | --- |
-| 22/12/22 | Boh, ma questo lo conosco per CP dai. |
-|  |  |

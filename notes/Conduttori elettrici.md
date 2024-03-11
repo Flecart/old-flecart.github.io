@@ -34,7 +34,7 @@ Ma questa carica da dove origina? Dove sono posizionate? Sono sulla superficie o
 
 Questo implica che da dentro il conduttore non cambia niente.
 
-Si può dimostrare con la Divergenza e Circuitazione|circuitazione|Divergenza e Circuitazione|divergenza, praticamente che la densità di carica volumetrica resta nulla, perché il campo elettrico totale è ancora nullo.
+Si può dimostrare con la [divergenza](/notes/divergenza-e-circuitazione), praticamente che la densità di carica volumetrica resta nulla, perché il campo elettrico totale è ancora nullo.
 
 
 $$
@@ -69,7 +69,7 @@ dove $$\hat{n}$$ è il vettore normale alla superficie equipotenziale
 Se è negativa è esattamente il contrario
 
 #### Influenza sul campo elettrico 🟩
-Materiali e campo elettrico-1697449430923.jpeg|400|Materiali e campo elettrico-1697449430923.jpeg|400
+<img src="/images/notes/Materiali e campo elettrico-1697449430923.jpeg" width="400" alt="Materiali e campo elettrico-1697449430923">
 
 > Dato un conduttore immerso in un campo elettrico esterno, all'equilibrio, altera le linee di campo **anche** all'esterno del conduttore. 
 > Il cambiamento delle linee di campo dipende dalla **geometria** del conduttore.
@@ -85,7 +85,7 @@ Questo è anche un modo per **testare la conduttività di un materiale**, le lin
 #### Superficie equipotenziale come conduttore 🟩
 > La superficie del conduttore è equipotenziale, così come l'interno
 
-Per avere questo risultato vedere sotto #Potenziale sulla superficie.
+Per avere questo risultato vedere sotto [#Potenziale sulla superficie](#potenziale-sulla-superficie).
 
 #### Campo elettrico in geometria cava 🟩
 
@@ -95,7 +95,7 @@ Poniamo che la nostra geometria abbia un buco, è corretto che certe cariche si 
 
 Se proviamo a considerare Gauss una superficie che comprende tutta la superficie, la **carica totale** della nostra superficie è 0, ma non mi dà informazioni su come sono messe le cariche, stessa cosa probabilmente per la divergenza utilizzato in questo caso.
 
-Consideriamo in questo caso la Divergenza e Circuitazione|circuitazione|Divergenza e Circuitazione|circuitazione, allora
+Consideriamo in questo caso la [circuitazione](/notes/divergenza-e-circuitazione), allora
 
 $$
 \oint_{\Gamma}\vec{E} \cdot d\vec{r} = 0 = \int _{A}^{B} \vec{E} \, d\vec{r} + \int _{B}^{A} \vec{E} \, d\vec{r}  = \int _{A}^{B} \vec{E} \, d\vec{r} 
@@ -118,7 +118,7 @@ Negli ascensori se varia troppo in fretta, non viene fermato, perché gli elettr
 
 ### Altri fenomeni
 #### Singola Carica elettrica in geometria cava 🟩
-Materiali e campo elettrico-1697452550332.jpeg|200|Materiali e campo elettrico-1697452550332.jpeg|300
+<img src="/images/notes/Materiali e campo elettrico-1697452550332.jpeg" width="300" alt="Materiali e campo elettrico-1697452550332">
 Le cariche si sposteranno, e cercheranno anche in questo caso di schermare.
 Se considero una superficie che li rinchiude, in questo caso avrò un campo elettrico.
 
@@ -138,7 +138,7 @@ Perché la carica del conduttore è neutra, per ipotesi non era carica. $$Q_{C} 
 $$Q_{E} = -Q_{I} = Q$$, ossia sia una superficie esterna, sia la superficie interna vengono influenzate da questa carica.
 
 #### Induzione completa 🟩
-Materiali e campo elettrico-1697452550332.jpeg|200|Materiali e campo elettrico-1697452550332.jpeg|200
+<img src="/images/notes/Materiali e campo elettrico-1697452550332.jpeg" width="200" alt="Materiali e campo elettrico-1697452550332">
 Fenomeno descritto in precedenza è **l'induzione completa** come fenomeno. Nel caso in cui **tutte le linee di campo** entrano nel conduttore.
 In un certo senso se stai fuori dal materiale conduttore, è come se lasciasse passare il campo senza problemi (se sto molto lontano **sembra singola carica**) (invece di renderlo radiale, sto cambiando leggermente la\ direzione del campo *sulla superficie* se sto vicino).
 **Il campo interno non viene schermato**
@@ -190,7 +190,7 @@ $$
 
 
 In cui la densità superficiale è **maggiore**! Questo spiega anche i casi in cui più è piccola la superficie, la densità superficiale è maggiore, e questo spiega il motivo per cui nei temporali non piace stare in cose sottili. Se il raggio di curvatura è piccola, la carica sarà molto più densa. (punta = raggio di curvatura infinitesimo).
-Sembra in qualche modo questo concetto una naturale ottimizzazione che segue Sampling Techniques|lola voronoi|Sampling Techniques|lola voronoi perché se una cosa è appuntita, cambia in fretta, ha bisogno di più punti per essere descritta, sembra che in modo naturale avviene anche in questo caso :).
+Sembra in qualche modo questo concetto una naturale ottimizzazione che segue [lola voronoi](/notes/sampling-techniques) perché se una cosa è appuntita, cambia in fretta, ha bisogno di più punti per essere descritta, sembra che in modo naturale avviene anche in questo caso :).
 
 Questa cosa funziona anche per la **Terra stessa**, e si potrebbe considerare come quantità infinita di carica, ed è questo il significato di mettere a terra (si può scaricare a terra carica in eccesso).
 
@@ -214,14 +214,3 @@ Si può concludere che in questo caso l'intera superficie è equipotenziale.
 $$
 \Delta V = V(C) - V(D) = \int _{C}^{D} \vec{E} \, d\vec{r} = 0 
 $$
-
-
-
-## Note di ripasso
-- Come hanno misurato il campo elettrico dentro un materiale conduttore?
-
-| Data | Commenti |
-| ---- | ---- |
-| 22/10/2023 | Praticamente quasi tutto di questa lezione è ok, le proprietà dei conduttori sono ora conosciute |
-| 14/11/2023 | Alla fine lo ho studiata per il parziale, lo dovrei conoscere bene questo fenomeno |
-| 05/01/2024 | Non sapevo esattamente come dimostrare che campo elettrico è normale sulla superficie (basta l'argomentazione sul gradiente della differenza di potenziale alla fine) per il resto credo di riuscire a spiegarlo bene.<br>Unica pecca è l'argomento sulla concentrazione di carica su superficie più piccola. |

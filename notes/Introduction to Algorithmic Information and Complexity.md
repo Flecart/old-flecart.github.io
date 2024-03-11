@@ -67,7 +67,7 @@ $$
 
 Mentre sappiamo che per una funzione continua quello dovrebbe essere 0.
 
-Generati da [questo codice]([https://aiai.telecom](https://aiai.telecom)-paris.fr/src_CompactIntegerCoding.html)
+Generati da [questo codice](https://aiai.telecom-paris.fr/src_CompactIntegerCoding.html)
 <img src="/images/notes/Introduction to Algorithmic Information and Complexity-20240212185519221 1.webp" alt="Introduction to Algorithmic Information and Complexity-20240212185519221 1">
 <img src="/images/notes/Introduction to Algorithmic Information and Complexity-20240212185511465 1.webp" alt="Introduction to Algorithmic Information and Complexity-20240212185511465 1">
 #### Compressibilità di stringhe binarie
@@ -131,9 +131,9 @@ Questo spiega anche cose sulla ripetizione spaziata in @brownMakeItStick2014. E 
 Basato su @liSimilarityMetric2004. 
 > For any pair of objects, NID determines what is common to them, and only keeps their difference to measure the distance that separates them.
 ####  Calcolo del NID
-1. Misurare la differenza di informazione attraverso il Kolmogorov complexity#Kolmogorov condizionato |Kolmogorov Condizionato|Kolmogorov complexity#Kolmogorov condizionato |Kolmogorov Condizionato quindi $$max[K(x|y), K(y|x)]$$ il max ci aiuta a rendere la distanza *simmetrica*. 
+1. Misurare la differenza di informazione attraverso il [Kolmogorov Condizionato](/notes/kolmogorov-complexity#kolmogorov-condizionato-) quindi $$max[K(x|y), K(y|x)]$$ il max ci aiuta a rendere la distanza *simmetrica*. 
 2. **Normalizzare** la differenza di informazione, perché vogliamo una nota relativa di questa misura. $$max(K(x), K(y))$$ che rappresenta la massima complessità di entrambi gli oggetti che vogliamo confrontare.
-3. Usare Kolmogorov complexity#Chain Rule cosicché possiamo riscrivere il numeratore.
+3. Usare [Kolmogorov complexity#Chain Rule](/notes/kolmogorov-complexity#chain-rule) cosicché possiamo riscrivere il numeratore.
 
 In questo modo otteniamo (a volte definito con la prima parte)
 
@@ -158,8 +158,3 @@ $$
 $$
 
 Questo: $$max[K(x|y), K(y|x)]$$ è una distanza universale. Che è una cosa molto interessante.
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

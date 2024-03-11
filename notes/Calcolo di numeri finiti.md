@@ -86,7 +86,7 @@ Notiamo che questo caso succede quando $$\exists i > t : d_i \neq 0$$.
 
 **Troncamento** rappresento tutto il numero fino a $$t$$ e poi ignoro il resto. Un altro modo per vedere il troncamento è che arrotonda sempre al ribasso, mai dopo, prende il numero di $$\mathbb{F}$$ più vicino e minore del numero che vogliamo convertire.
 
-**Arrotondamento** simile al troncamento, ma arrotonda. Che si conosca non c’è un coso hardware che lo faccia (o comunque implementa questo algo:[https://stackoverflow.com/questions/4572556/concise-way-to-implement-round-in-c]([https://stackoverflow.com/questions/4572556/concise-way-to-implement-round-in](https://stackoverflow.com/questions/4572556/concise-way-to-implement-round-in)-c))
+**Arrotondamento** simile al troncamento, ma arrotonda. Che si conosca non c’è un coso hardware che lo faccia (o comunque implementa questo algo:[https://stackoverflow.com/questions/4572556/concise-way-to-implement-round-in-c](https://stackoverflow.com/questions/4572556/concise-way-to-implement-round-in-c))
 
 ### 1.3.3 Breve discussione sui parametri 🟩
 
@@ -135,7 +135,7 @@ Con double $$\approx 10^{-16}$$, con float $$\approx 10^{-7}$$
 *eps* è il più piccolo numero macchina positivo tale che $$eps + 1 > 1$$, in pratica è il più piccolo numero che è arrotondato al più piccolo numero rappresentabile da $$\mathbb{F}$$.
 
 Per il calcolo dell’eps per il valore dell’errore macchina ti puoi rifare a questo post
-[machine epsilon value for IEEE double precision standard alternative proof using relative error]([https://math.stackexchange.com/questions/3861976/machine-epsilon-value-for-ieee-double-precision-standard-alternative-proof](https://math.stackexchange.com/questions/3861976/machine-epsilon-value-for-ieee-double-precision-standard-alternative-proof)-using)
+[machine epsilon value for IEEE double precision standard alternative proof using relative error](https://math.stackexchange.com/questions/3861976/machine-epsilon-value-for-ieee-double-precision-standard-alternative-proof-using)
 
 La prof ha sbagliato in questa parte, ha copiato il valore di epsilon per l’arrotondamento con normalizzazione che parte da 1, quindi il valore corretto di epsilon dovrebbe essere
 $$\varepsilon_{mach} = \dfrac{1}{2}\beta ^ {1-t}$$. Anche la pagina di wiki spiega bene questa parte di dimostrazione dell[’errore macchina]([https://en.wikipedia.org/wiki/Machine_epsilon](https://en.wikipedia.org/wiki/Machine_epsilon)#Relationship_to_absolute_relative_error)

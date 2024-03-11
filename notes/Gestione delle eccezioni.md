@@ -59,9 +59,9 @@ Possiamo utilizzare la machinery di [Polimorfismo](/notes/polimorfismo) anche in
 
 È anche considerata una bad practice, perché vorresti catturare una eccezione specifica (più facile da capirne la causa diciamo)
 
-[https://stackoverflow.com/questions/2416316/why-is-the-catchexception-almost-always-a-bad-idea]([https://stackoverflow.com/questions/2416316/why-is-the-catchexception-almost-always-a-bad](https://stackoverflow.com/questions/2416316/why-is-the-catchexception-almost-always-a-bad)-idea)
+[https://stackoverflow.com/questions/2416316/why-is-the-catchexception-almost-always-a-bad-idea](https://stackoverflow.com/questions/2416316/why-is-the-catchexception-almost-always-a-bad-idea)
 
-[https://stackoverflow.com/questions/6083248/is-it-a-bad-practice-to-catch-throwable]([https://stackoverflow.com/questions/6083248/is-it-a-bad-practice-to-catch](https://stackoverflow.com/questions/6083248/is-it-a-bad-practice-to-catch)-throwable)
+[https://stackoverflow.com/questions/6083248/is-it-a-bad-practice-to-catch-throwable](https://stackoverflow.com/questions/6083248/is-it-a-bad-practice-to-catch-throwable)
 
 - CATCH è un controllo Con subtyping!
 
@@ -105,34 +105,3 @@ Tutti i blocchi sono tenuti in maniera ordinata, in modo da farci una ricerca bi
 ### Tipologie di eccezioni (2)
 
 <img src="/images/notes/image/universita/ex-notion/Gestione delle eccezioni/Untitled 1.png" alt="image/universita/ex-notion/Gestione delle eccezioni/Untitled 1">
-
-# Registro ripassi
-
-| 22/04/23 | Ok, mi devo fare meglio l’implementazione per ricerca binaria. |
-| --- | --- |
-| 29/04/23 | No problema, credo di aver capito anche la cosa della ricerca binaria. |
-| 12/05/23 | Same, ricerca binaria non la so, però non credo chieda proprio quello, quindi la salto. La teoria su cosa sia una eccezione e l’implementazione easy credo di saperla. quindi ok. |
-
-- interruzione del flusso di computazione. Come venivano gestiti in C? :D
-
-3 punti per definire una eccezione
-
-Come viene sollevato une rrore?
-Come avviene la gestione degli errori?	 Cosa è un gestore di defualt?
-
-Quali sono alcune caratteristiche delle eccezioni?
-
-un'eccezione viene gestita dall'ultimo gestore che ~1a st
-to posto sulla pila d'esecuzione
-
-Come si implementa un gestore delle eccezioni?
-
-1. Implementazione semplice, con overhead sulla pila
-2. Implementazione mediate tabella eccezioni
-imo gestore che ~1a st
-to posto sulla pila d'esecuzione
-
-Come si implementa un gestore delle eccezioni?
-
-1. Implementazione semplice, con overhead sulla pila
-2. Implementazione mediate tabella eccezioni

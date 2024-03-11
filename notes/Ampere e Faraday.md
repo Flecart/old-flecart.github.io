@@ -352,13 +352,3 @@ Abbiamo una giustificazione che **la forza elettromotrice** è generata dalla **
 E solitamente questo non è conservativo (se è indotto non è statico solitamente, perché ci sarà qualcosa che varia).
 
 Vogliamo cercare di ricavare una equazione di conservazione dell'energia in elettromagnetismo classico
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 31/12/23 | Tutto apposto questo. |
-| 11/01/24 | Derivazione di ampere Maxwell (con continuità di corrente) non l'avevo ben chiara. |
-|  |  |
-
-z

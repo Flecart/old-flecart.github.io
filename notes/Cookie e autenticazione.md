@@ -10,8 +10,6 @@ Ultima modifica: May 6, 2023 6:25 PM
 Primo Abbozzo: March 30, 2023 4:20 PM
 Studi Personali: No
 
-# Elementi di ripasso
-
 # Cookies
 
 Gli utilizzi più soliti sono per Autenticazione e per  Autorizzazione, perché sono delle informazioni che il server genera e mette al client, come se fossero dei segreti cifrati.
@@ -173,22 +171,3 @@ Questo perché spesso
 
 
 Se è non modificata ti mando un codice 304 Not modified altrimenti ti risponso, così non devo fare due richeiste, una head per veder elast modified e una altra per mandarti la get.
-
-## Autorizzazione
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-ponso, così non devo fare due richeiste, una head per veder elast modified e una altra per mandarti la get.
-
-## Autorizzazione
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

@@ -14,8 +14,6 @@ Studi Personali: No
 
 # Javascript
 
-[16-javascript-1.pdf](Javascript%204d4f7657d6ad4add88721f903566140d/16-javascript-1.pdf)
-
 Obiettivo principale è esegurie codice clientside
 
 ## Un pò di storia
@@ -46,8 +44,6 @@ Asincrono su eventi DOM o callback di eventi di rete. (esempio chiamata AJAX asi
 Brevi e veloci per i sincroni! No n2.
 
 ### Posizionamento del codice (3)
-
-[https://www.fabiovitali.it/TW/2023/js/](https://www.fabiovitali.it/TW/2023/js/)
 
 1. Si può posizionare inline come il codice css
 - Esempio 1.
@@ -85,28 +81,21 @@ Queste sono funzioni dichiarate e subito eseguite, sono utili per avere delle **
 
 ## Client defined classes
 
-Un sacco di robe, non ha senso scriverle, quindi le enumero in modo molto breve qui:
-
-[17-javascript-2.pdf](Javascript%204d4f7657d6ad4add88721f903566140d/17-javascript-2.pdf)
+Un sacco di robe, non ha senso scriverle, quindi le enumero in modo molto breve qui
 
 ### Window
-
 In pratica è il **tab** della pagina di questo istante (sia in lettura sia in scrittura), contiene in sé il documento.
 
 ### Document
-
 Sono la rappresentazione in memoria del documento che è mostrato (quindi ci sono tutti i nodi che ci importano!
 
 ## Ajax
 
 **PROBLEMA:**
-
 Ogni volta in cui devo cambiare elemento dell'interfaccia, non posso fare altro che **duplicare la pagina**, ossia fare una piena richiesta HTTP con le modifiche, infatti è grande cambio di informazioni, nel senso che non mi servirebbe.
 
 ### Introduzione Ajax
-
 - Slide introduzione
-
     <img src="/images/notes/image/universita/ex-notion/Javascript/Untitled 4.png" alt="image/universita/ex-notion/Javascript/Untitled 4">
 
 
@@ -199,27 +188,6 @@ Importantissimo per AJAX e js!
 
 **jQuery**
 
-È un framework che è nato per semplificare tutta la parte macchinosa dell’applicazione AJAX, oggi **non`e più utilizzato** perché le funzionalità sono già direttamente presenti sul browser.
-
+È un framework che è nato per semplificare tutta la parte macchinosa dell’applicazione AJAX, oggi **non è più utilizzato** perché le funzionalità sono già direttamente presenti sul browser.
 È più per mantenere codice vecchio.
-
 Ce ne sarebbero altre ma non le ha descritte
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-tamente presenti sul browser.
-
-È più per mantenere codice vecchio.
-
-Ce ne sarebbero altre ma non le ha descritte
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

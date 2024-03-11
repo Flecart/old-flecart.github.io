@@ -12,9 +12,3 @@ Critica:
 > Central-state Materialism holds that when we are aware of our mental states what we are aware of are mere physical states of our brain. But we are certainly not aware of the mental states as states of the brain.
 
 A me sembra in un certo senso simile a quanto detto da @hofstadterAmStrangeLoop2007 in cui i singoli elementi fisici di per sé non hanno nessun significato, solo quando vengono accorpati assieme, diventano dei *symballein* per cui cominciano ad avere senso. Noi abbiamo una percezione dei *symballein* nel nostro cervello, non degli stati fisici, che costituiscono questi simboli.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

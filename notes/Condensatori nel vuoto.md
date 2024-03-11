@@ -35,11 +35,11 @@ il parametro di nostro interesse in questo esempio (almeno la cosa di nostro int
 
 #### Introduzione ai condensatori 🟩
 Poniamo di avere due armature metalliche qualsiasi, che abbiamo **cariche uguali ed opposte in segno** di una forma qualunque a distanza qualunque, in questo setting teorico.
-La cosa interessante è che suppongo di avere #Induzione completa in questo caso.
+La cosa interessante è che suppongo di avere [#Induzione completa](#induzione-completa) in questo caso.
 È una necessità per l'analisi dei condensatori.
 
 #### Potenziale elettrico e carica 🟨+
-Materiali e campo elettrico-1697457325467.jpeg|500|Materiali e campo elettrico-1697457325467.jpeg|500
+<img src="/images/notes/Materiali e campo elettrico-1697457325467.jpeg" width="500" alt="Materiali e campo elettrico-1697457325467">
 Proviamo a seguire una linea di campo elettrico per studiare il potenziale elettrico, andiamo quindi a definire un **tubo di flusso**.
 Per risultato precedente abbiamo che  $$E_{i} = \frac{dQ_{i}}{\varepsilon_{0}dS_{i}}$$
 
@@ -235,7 +235,7 @@ $$
 E la *stessa cosa vale per le superfici* in pratica posso calcolare l'energia totale in ogni configurazione.
 #### Lavoro di carica dei condensatori 
 ##### Primo modo: lavoro punto per punto 🟨++
-Condensatori-1697534464287.jpeg | 500| Materiali e campo elettrico-1697457325467.jpeg|500
+![ 500](/notes/condensatori-1697534464287.jpeg-)
 Consideriamo un condensatore, alla prima carica non c'è lavoro, ma poi si crea un campo elettrico che si prova ad opporre al caricamento (quindi **lavoro positivo**, forza di Coulomb è positivo).
 
 Man mano che si carica la $$\Delta V(q)$$ cambia. Proviamo a vedere la formula superficiale.
@@ -449,15 +449,3 @@ $$
 Questo scegliendo la superficie più semplice che esisteva.
 Posso però scegliere una altra superficie che passa dalle facce del condensatore, in questo caso io non ho corrente! Ecco che entra in gioco la correzione di Maxwell, per la corrente di spostamento.
 E facendo i calcoli si è scoperto che la predizione era corretta, e il valore è esattamente lo stesso.
-
-## Note di ripasso
-
-
-
-| Data | Commenti |
-| ---- | ---- |
-| 10/25/2023 | Abbastanza bene riesci anche a fare esercizietti con la carica per benino diciamo :) |
-| 11/14/2023 | abbastanza tutto apposto, dovrei solo studiarmi di nuovo l'analisi con i tubi di flusso, quella è un po così così, poi anche il calcolo dell'energia per i condensatori |
-| 12/06/2023 | Sarebbe buono provare a fare le dimostrazioni di scarica e carica da zero, delle disposizioni, e del lavoro per la carica, anche l'analisi del tubo di flusso, però quello credo tu lo sappia un po' meglio |
-| 12/28/2023 | Mi manca da fare per bene la parte di energia di interazione. |
-| 02/01/2024 | Leggera difficolta per la dimostrazione per condensatori in serie. Non mi ricordo esattamente come si calcola energia di condensatore con energia di interazione. |

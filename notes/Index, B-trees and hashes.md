@@ -118,10 +118,3 @@ Posso fare cose come
 **Stemming**: in cui rimuovo lo *stem*della parole, quindi suffissi o prefissi ricorrenti
 **Normalization**: ad esempio metto tutto minuscolo.
 **Rimozione stop worlds**: perché sono inutili ché non danno molte informazioni
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 28/12/2023 | Devo farmi meglio gli algoritmi di hash, e anche ivnerted indexes si potrebbe fa meglio, però nice come prima nota. |
-| 05/01/2024 | linear hashing non lo ho bene presente<br><br>Le operazioni di insertion e deletion nella nostra versione dei b-trees lo devo ancora fare meglio (sembra che insertion diversa a seconda se è foglia o meno lol). Poi le rotation non sono bene definite mi sembra. |
-| 12/01/2024 | Dovrei sapere tutti 3 tre le versioni di hash, e anche i B-trees, non ci dovrebbero essere problemi. |

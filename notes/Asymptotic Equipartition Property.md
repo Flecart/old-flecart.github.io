@@ -14,7 +14,7 @@ $$
 -\frac{1}{n} \log p(X_{1}, X_{2}, \dots, X_{n}) \to H(X)
 $$
 
-in probability (la definizione data in Central Limit Theorem and Law of Large Numbers#Convergence in probability).
+in probability (la definizione data in [Central Limit Theorem and Law of Large Numbers#Convergence in probability](/notes/central-limit-theorem-and-law-of-large-numbers#convergence-in-probability)).
 
 #### Dimostrazione
 Principalmente sorvolata, ma utilizza cose simili a [Central Limit Theorem and Law of Large Numbers](/notes/central-limit-theorem-and-law-of-large-numbers), e una idea simile a [Monte carlo integration](/notes/monte-carlo-integration) per le probabilità.
@@ -39,10 +39,3 @@ Se si espande quanto è presente dentro si ottiene quel bound di sopra.
 Vedi 3.1.2 di @coverElementsInformationTheory2012.
 
 Il risultato importante è che possiamo rappresentare sequenze di $$X^{n}$$ in media usando $$nH(X)$$ bits, senza perdita di informazione.
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

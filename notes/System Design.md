@@ -65,9 +65,3 @@ Esempio:
 #### Introduzione a OCL🟥
 è un **linguaggio di modellazione** utilizzato per modellare in modo *non ambiguo* tutte le **pre e post condizioni** per un linguaggio.
 È un **linguaggio puro**. Secondo Succi è utile quando facciamo i test durante il progetto.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

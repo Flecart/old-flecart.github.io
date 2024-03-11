@@ -158,30 +158,3 @@ L’implementazione di questo passaggio è molto interessante, perché dovrei pa
 
 
 Solitamente è molto **costoso** perché per valutare devo sempre andare in un ambiente diverso dall'attuale, poi anche dal fatto che il valore è rivalutato ad ogni occorrenza!
-
-# Registro ripassi
-
-| 25/03/23 | Boh, too ez. |
-| --- | --- |
-| 09/04/23 | Still ez. semmai solo la concezione di astrazione in questo setting. |
-| 06/05/23 | Same as before tutto troppo ez. Fare esercizi piuttosto.  |
-
-definizione di funzione
-
-1. definizione
-2. chiamata
-
-Cosa è l'intestazione e il corpo di una ufnzione?
-
-come scambia valori con le altre funzioni?
-
-Cosa sono i parametri formali e attuali? Che significa il fatto che siano variabili legate?
-
-Cosa è una astrazione funzionale?
-
-Come vengono classificati i passaggi di parametri? cosa è il passaggio per costante? ci sono 5 modi per passare i parametri lol, chi lo sapeva.
-no variabili legate?
-
-Cosa è una astrazione funzionale?
-
-Come vengono classificati i passaggi di parametri? cosa è il passaggio per costante? ci sono 5 modi per passare i parametri lol, chi lo sapeva.

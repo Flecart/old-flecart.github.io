@@ -345,16 +345,3 @@ C'è una MMU del sistema operativo che mappa alla VM fisica, che si deve basare 
 <img src="/images/notes/image/universita/ex-notion/Architettura software dell’OS/Untitled 20.png" alt="image/universita/ex-notion/Architettura software dell’OS/Untitled 20">
 
 MINI SCHEMA
-
-# Registro ripassi
-
-| 02/04/23 | Tranne la parte sulla virtualizzazione dovrei avere tutto apposto di questi appunti qui. Non riesco però a creare un discorso per la prima parte, dovrei studiarmi meglio questo punto di vista credo. Però intuitivamente credo di avercelo. |
-| --- | --- |
-| 16/04/23 |  Still, virtualizzazione un pò di fatica, però, però sulla roba di design dei kernel credo di sapere dire qualcosa. |
-|  |  |
-
-[Debate Tanenbaum Linus]([https://en.wikipedia.org/wiki/Tanenbaum%E2%80](https://en.wikipedia.org/wiki/Tanenbaum%E2%80)%93Torvalds_debate)
-ne un pò di fatica, però, però sulla roba di design dei kernel credo di sapere dire qualcosa. |
-|  |  |
-
-[Debate Tanenbaum Linus]([https://en.wikipedia.org/wiki/Tanenbaum%E2%80](https://en.wikipedia.org/wiki/Tanenbaum%E2%80)%93Torvalds_debate)

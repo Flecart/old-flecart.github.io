@@ -36,7 +36,7 @@ Ossia
 <img src="/images/notes/Inverse Transform-1700141332706.jpeg" alt="Inverse Transform-1700141332706">
 
 #### Probability of accepting
-dato una certa $$M$$ allora ho probabilità $$\frac{1}{M}$$ di accettare un sample generato in questo modo, vedere dimostrazione su [https://en.wikipedia.org/wiki/Rejection_sampling#Theory](wikipedia). 
+dato una certa $$M$$ allora ho probabilità $$\frac{1}{M}$$ di accettare un sample generato in questo modo, vedere dimostrazione su [wikipedia]([https://en.wikipedia.org/wiki/Rejection_sampling](https://en.wikipedia.org/wiki/Rejection_sampling)#Theory). 
 Ma qui diamo una altro valore:
 
 

@@ -66,9 +66,3 @@ $$
 Si generalizza scegliendo degli insiemi $$V_{m}$$ su cui valutare, sul libro ci sono esempi 2.4.1, 2.4.2.
 Se vale la cosa di sopra vuol dire che il test è superato a quel livello. Non so quanto possa essere utile questa def, ma sicuramente è qualcosa.
 In pratic
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

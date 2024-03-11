@@ -49,16 +49,3 @@ Poi per fare inferenza vedo il documento attuale è più simile rispetto a quale
 Questa è una metrica molto utilizzata per dare una idea di **somiglianza di vettori**.
 
 <img src="/images/notes/Bag of words-1696859419879.jpeg" alt="Bag of words-1696859419879">
-
-## Note di ripasso
-#### Da risolvere
-- Perché log durante la inference?
-#### da ripasso
-- Cosa è una bag of words?
-- Cosa è cosine similarity
-- Come è il modello di forward inference per una bag of words?
-- Dimostra l'equivalenza fra la forma algebrica e geometrica del prodotto scalare.
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

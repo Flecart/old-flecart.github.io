@@ -72,14 +72,3 @@ Semplicemente in C tutte le funzioni passate come parametro vengono risolte nell
 ### Funzioni come ritorno di funzione 🟩
 
 Quello che viene ritornato è una **chiusura**, ma come valutare una chiusura in un ambiente che è già scomparso :O  ?? Scomparso nel senso che non l’avremmo più sulla stack sto ambiente! Non possiamo fare altro che utilizzare un ambinete illimitato di vita. E dare la responsabilità al garbace collector l'onere di liberare questo ambiente.
-
-# Registro ripassi
-
-| 31/03/23 | Nessun problema, anche troppo ez. (poco in questo appunto). Bisognerebbe solo fare tanti esercizi riguardo questo. |
-| --- | --- |
-| 22/04/23 | Questa parte è troppo easy, dovrei fare più esercizi per essere sicuro, però il concettualmente è molto semplice |
-|  |  |
-solo fare tanti esercizi riguardo questo. |
-| --- | --- |
-| 22/04/23 | Questa parte è troppo easy, dovrei fare più esercizi per essere sicuro, però il concettualmente è molto semplice |
-|  |  |

@@ -9,7 +9,7 @@ title: Naïve Bayes
 Bisognerebbe in primo momento avere benissimo in mente il significato di **probabilità condizionata** e la regola di naive Bayes in seguito.
 #### Bayes ad alto livello 🟩
 Da un punto di vista intuitivo non è altro che predire la cosa che abbiamo **visto più spesso in quello spazio**
-Naïve Bayes-1696854772448.jpeg|500|Naïve Bayes-1697461152973.jpeg|500
+<img src="/images/notes/Naïve Bayes-1696854772448.jpeg" width="500" alt="Naïve Bayes-1696854772448">
 #### Assunzioni principali per naïve Bayes 🟩
 - I sample di input sono **condizionalmente indipendenti** uno con l'altro.
 Questo permette di utilizzare questa ipotesi
@@ -101,19 +101,19 @@ E con queste possiamo definire concetti come **accuratezza, recall e precisione*
 <img src="/images/notes/Naïve Bayes-1697460382306.jpeg" alt="Naïve Bayes-1697460382306">
 #### Inferenza nel caso continuo 🟩--
 Sembra molto simile a una Gaussian Mixture Models, perché alla fine è una interpolazione in un certo senso, solo che è motivato in modo diverso.
-Naïve Bayes-1697461135694.jpeg|500|Naïve Bayes-1697461152973.jpeg|500
+<img src="/images/notes/Naïve Bayes-1697461135694.jpeg" width="500" alt="Naïve Bayes-1697461135694">
 
 #### Training nel caso continuo
-Naïve Bayes-1697461152973.jpeg|500|Naïve Bayes-1697461152973.jpeg|500
+<img src="/images/notes/Naïve Bayes-1697461152973.jpeg" width="500" alt="Naïve Bayes-1697461152973">
 E probabilmente si può dimostrare, facendo un ragionamento come Maximum Likelihood extimate anche in questo caso.
 
 ### Algoritmo di fitting
 
-Naïve Bayes-1696854865537.jpeg|500|Naïve Bayes-1697461152973.jpeg|500
+<img src="/images/notes/Naïve Bayes-1696854865537.jpeg" width="500" alt="Naïve Bayes-1696854865537">
 Si tratta quindi di creare tutti i parametri $$\theta_{ijk}$$, anche se in questo momento non sto capendo in che modo
 
 Al fine di stimare questo usiamo **maximum likelihood extimate**.
-Guardare #Sul MLE sotto per capire in che modo sono stimati.
+Guardare [#Sul MLE](#sul-mle) sotto per capire in che modo sono stimati.
 
 #### Stima P(Y) 🟩
 Poniamo la cosa più banale, la stima di $$P(Y = y_{i})$$ è solamente la percentuale delle labels che abbiamo, ossia
@@ -148,7 +148,7 @@ Bayes è probabilmente non molto utile in questi casi, perché questo caso viola
 
 #### Introduzione al problema
 C'è una parte teorica molto più interessante per quanto si tratta di **maximum likelihood estimation**.
-Andiamo a giustificare il motivo per cui stime molto semplici ed intuitive come quelli presenti in [#Stima P(Y)](/notes/#stima-p(y)) e [#Stima parametri P(X Y)](/notes/#stima-parametri-p(x-y)) possono funzionare.
+Andiamo a giustificare il motivo per cui stime molto semplici ed intuitive come quelli presenti in [#Stima P(Y)](#stima-p(y)) e [#Stima parametri P(X Y)](#stima-parametri-p(x-y)) possono funzionare.
 Ci chiediamo in questa istanza **quale sia il caso più probabile** ossia quello con maximum likelihood
 
 #### MLE su bernoulli 🟩
@@ -193,14 +193,3 @@ $$
 
 
 E se ben ricordiamo, $$\alpha$$ non era altro che il numero di samples negativi, quindi questo è un esempio locale in cui MLE è la soluzione ottimale per stimare.
-
-## Note di ripasso
-- Perché esattamente (matematicamente parlando) utilizzare Gaussiana è la cosa migliore? Perché questa è la cosa che prende meno assunzioni diciamo?
-- Cosa è una MLE?
-- Come funziona naïve Bayes?
-
-| Data     | Commenti                                                                                              |
-| -------- | ----------------------------------------------------------------------------------------------------- |
-| 10/20/23 | abbastanza ok, tutto, solo che non mi ricordavo bene esattamente il motivo per cui nel caso complesso andiamo ad utilizzare solamente gaussiane |
-| 10/30/23         |      Lo ho ripassato in classe durante la introduzione al deep learning alla fine, buono dai.                                                                                                 |
-| 12/26/23 | Lo tolgo, non credo ci sia molto da mantenere di questo... |

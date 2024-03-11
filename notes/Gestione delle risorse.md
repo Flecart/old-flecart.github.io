@@ -317,15 +317,3 @@ Semplicemente tutte le ipotesi dell’algoritmo del banchiere non sono spesso so
 1. Si assume che il numero dei processi sia noto all’inizio
 2. Si assume che le risorse necessarie al processo siano note
 3. Si assume che le risorse saranno sempre quelle (invece si potrebbero rompere a caso)
-
-# Registro ripassi
-
-| 26/03/23 | Credo di aver studiato bene, non dovrei avere nessun dubbio in teoria su sta parte. Magari difficile definire in modo chiaro cosa sia una risorsa, ma è più una cosa in ambito economia, quialcosa di scarso. |
-| ---- | ---- |
-| 01/04/23 | Sorvolato molto in fretta, mi sembra ancora tutto apposto.; |
-|  | Riguardare le slides sulla recovery sui deadlocks |
-| 01/04/23 | Sorvolato molto in fretta, mi sembra ancora tutto apposto.; |
-| 28/12/23 | Oggi mi è capitato di riguardare questo documento, alla fine non mi ricordavo molte cose, come condizioni necessarie per deadlock (quei 4 principi), Holt mi ricordavo come funzionavano, anche know, anche recovery methods, prevention invece no, banchiere abbastanza, ma non i teoremi, nel complesso lo ho studiato bene direi. |
-in ambito economia, quialcosa di scarso.
-
-Riguardare le slides sulla recovery sui deadlocks

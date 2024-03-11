@@ -499,18 +499,3 @@ Questo protocollo che si occupa di trovare il percorso più breve, e di **framme
 ### CIDR Classless Inter Domain Routing
 
 Si utilizza una scrittura molto compatta per
-
-# Registro ripassi
-
-| 02/12/22 | Boh, apposto, più o meno sono famigliari ste cose. |
-| --- | --- |
-| 09/02/23 |  Boh abbastanza apposto, non mi ricordavo cosa era supernetting |
-|  |  |
-
-Questo sotto è il registro ripassi per IP header, fragmentazione e DHCP
-
-| 16/03/23 | Lo ho fatto ieri, quindi ancora chiarissimo! |
-| --- | --- |
-| 28/03/23 | I tre argomenti di sopra sembrano apposto. |
-| 09/05/23 | Non mi ricordo perfettamente nel tunneling come fa il router d'arrivo a capire di spachettare. Poi per il resto fragmentation ok, devo fare pratica di progettazione, per il resto questa parte di protocolli di livelli 3 me li sento abbastanza ok.  |
-arrivo a capire di spachettare. Poi per il resto fragmentation ok, devo fare pratica di progettazione, per il resto questa parte di protocolli di livelli 3 me li sento abbastanza ok.  |

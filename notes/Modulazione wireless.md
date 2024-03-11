@@ -271,18 +271,3 @@ Una cosa che accade con 64 QAM che invece di fare 1/2 di protezione viene fatto 
 E c’è un programma di controllo che decide quale codifica andarea d utilizzare (tornando indietro se non (riceve gli acks)
 
 Nel caso io abbia bisogno di ancora altri bit potrei aggiungere altri subcarriers (e si può fare in modo dinamico, si chiama **channel bonding**. (canali di frequenza arbitraria in base a quanto ne ho bisogno ! esempi di tecnologie che lo utilizzano: 802.11 af ac)
-
-# Registro ripassi
-
-| 29/04/23 | Sembra ok |
-| --- | --- |
-| 06/05/23 | Boh, okey. |
-| 12/05/23 | Non dovrei avere problemi in questo modulo, molto buono. |
-che lo utilizzano: 802.11 af ac)
-
-# Registro ripassi
-
-| 29/04/23 | Sembra ok |
-| --- | --- |
-| 06/05/23 | Boh, okey. |
-| 12/05/23 | Non dovrei avere problemi in questo modulo, molto buono. |

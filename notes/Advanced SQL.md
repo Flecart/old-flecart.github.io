@@ -103,7 +103,7 @@ Se è vera la comparazione, si ritorna Null in automatico
 - Isolation: simile ad atomico, le transazioni non devono influenzarsi fra di loro per tempo.
 - Durability: non è su ram diciamo
 #### Example in sql for transactions
-Structured Query Language-1697712948716.jpeg | 600|Structured Query Language-1697712948716.jpeg | 600
+![ 600](/notes/structured-query-language-1697712948716.jpeg-)
 
 
 ### Authorization
@@ -142,10 +142,3 @@ from Users [ restrict | cascade ]
 
 Usare i ruoli è un metodo classico, potremmo considerarlo come una astrazione su cosa ogni utente deve fare sul database (quindi le sue operazioni ideali) e da quello andare a descrivere cosa esattamente ha bisogno di poter fare.
 In questo modo definisco i permessi su questi ruoli ideali invece di andare a farli sui singoli utenti, magari anche ripetendo un sacco di queries.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 26/11/2023 | Gran parte delle cose spiegate qui, dovrei rileggermele almeno un po', ci sono alla fine moltissime funzioni che non ho fatto. |
-| 07/01/2024 | Non so cosa studiare di questo, di questa parte può chiedere solamente su parte teorica tramite le domande aperte credo. |

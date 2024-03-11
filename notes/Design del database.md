@@ -105,7 +105,7 @@ Usually is given a name to the relationship, that summarizes his **semantic** me
 Singular nouns are preferred.
 
 Example of relationship:
-Design del database-1698924834575.jpeg | 500|Design del database-1698924834575.jpeg | 500
+![ 500](/notes/design-del-database-1698924834575.jpeg-)
 
 #### Arity of relationship 🟩
 A relationship is not limited to connect two entity types, it can connect more, and this value defines the arity of the relationship.
@@ -144,16 +144,4 @@ In the example in the image it's the address.
 #### Cardinality of attributes 🟩
 It is possible to define a cardinality for single attributes, because an employee could have more phone numbers, or the driving licence is optional (not everybody has it!)
 
-Design del database-1698926543311.jpeg|400|Design del database-1698926543311.jpeg|400
-
-## Note di ripasso
-- Quali sono le tre fasi di design del database? Spiegale nel dettaglio
-- Spiega cosa è UML e perché serve (non utile)
-- In che modo si può condurre una interview?
-- Cosa sono le traduzioni di certe cose come MadeOf, partOf?? Che relazioni sono?
-
-| Data | Commenti |
-| ---- | ---- |
-| 06/12/2023 | Non ho capito bene in che modo dovrei studiare questa parte, dato che non c'è nemmeno l'orale credo sia importante solo sapere farei quei design concettuali in esercizio |
-| 27/12/2023 | Non ti ricordavi esattamente la definizione di entità, non sapevi spiegare bene la generalizzazione e il fatto delle proprietà. |
-| 05/01/2024 | Tutto ok velocissimo |
+<img src="/images/notes/Design del database-1698926543311.jpeg" width="400" alt="Design del database-1698926543311">

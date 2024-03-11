@@ -70,18 +70,3 @@ At the end yes! Even with single hidden layer NN! The argument is based on step 
 See [this](http://neuralnetworksanddeeplearning.com/chap4.html) for more information!
 
 We should not be surprised by this expressiveness, also a big table of numbers would be able to aproximate quite well some functions, to an arbitrarily precise fascion.
-
-# Registro ripassi
-
-| 01/04/23 | Mi sa che mi resta l’intuizione sull’aggiungere e il togliere, non vado avanti su questo. |
-| --- | --- |
-|  |  |
-|  |  |
-y precise fascion.
-
-# Registro ripassi
-
-| 01/04/23 | Mi sa che mi resta l’intuizione sull’aggiungere e il togliere, non vado avanti su questo. |
-| --- | --- |
-|  |  |
-|  |  |

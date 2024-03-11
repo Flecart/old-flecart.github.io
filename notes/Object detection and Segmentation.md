@@ -79,10 +79,3 @@ In pratica è un algoritmo greedy, che va così:
 2. Prendo la prima come vera
 3. Le prossime le elimino se hanno una intersection over union alta, altrimenti le tengo.
 4. Così finché non finiscono tutte le bounding box.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 26/12/2023 | C'è solo Yolo da fare in questo e credo di saperlo abbastanza bene. |
-| 07/01/2024 |  |

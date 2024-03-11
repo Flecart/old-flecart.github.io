@@ -390,18 +390,3 @@ Parallelismo perché può eseguire in contemporanea le istruzioni (in questo sen
 - Esempio di esecuzione non deterministica
 
     <img src="/images/notes/image/universita/ex-notion/Semantica di un linguaggio/Untitled 28.png" alt="image/universita/ex-notion/Semantica di un linguaggio/Untitled 28">
-
-
-# Registro ripassi
-
-| 23/10/22 | Tutto apposto, dovrei forse fare qualche esercizio sulla SOS, ma per il resto è ok mi pare.  |
-| --- | --- |
-| 22/11/22 | Faccio fatica a ripetere a memoria tutte le regole, ma dovrei riuscire comunque a fare es. Dovrei fare più esercizi.
-
-Non sapevo come spiegare i vincoli sintattici contestuali, e le descrizioni della semantica. |
-| 09/12/22 | Decente per la descrizione, si dovrebbe fare molto meglio la parte di SoS |
-| 06/02/23 | Direi Ok. |
-| 22/04/23 | Non mi ricordo esattamente la pragmatica o l’implementazione del linguaggio, non mi ricordo esattamente gli insiemi su cui sono definiti gli elementi della SoS. |
-|
-| 06/02/23 | Direi Ok. |
-| 22/04/23 | Non mi ricordo esattamente la pragmatica o l’implementazione del linguaggio, non mi ricordo esattamente gli insiemi su cui sono definiti gli elementi della SoS. |

@@ -113,11 +113,3 @@ Con n → inf, l’errore tende a zero! Quindi la **convergenza dell’interpola
 Dato che non ci conviene di interpolare troppi punti vogliamo spezzare l’interpolazione a tratti! E inoltre per avere una regolarità **impongo uguaglianza delle derivate 1 e 2** evitando spigoli nelel funzioni finali.
 
 Ma questo è quanto ci vuole insegnare a riguardo la prof. quindi mi fermo in questo punto per questi appunti.
-
-# Registro ripassi
-
-| 31/10/22 | Devo fare più attenzione a runge e stima dell’errore di interpolazione |
-| -------- | ---------------------------------------------------------------------- |
-| 05/11/22 | Boh okey.                                                              |
-| 18/11/22 | Boh okey x2                                                            |
-| 02/01/22 | Non mi ricordavo niente lel                                            |

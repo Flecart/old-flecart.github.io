@@ -28,11 +28,3 @@ Definiamo questa **non triviale** se esiste una macchina per cui è 0, e una per
 Se $$P$$ è una proprietà dei linguaggi TM, allora è indecidibile questo problema $$\mathcal{M}$$ ha la proprietà $$P$$.
 
 ### L'insieme delle funzioni non decidibili
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

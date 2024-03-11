@@ -265,19 +265,3 @@ E si può sempre trovare una grammatica in questa forma, questa cosa ci piace.
 
 
 Anche questa si può sempre fare, ed è una forma che ci piace perché non abbiamo derivazione ricorsive sinistre brutte che ci distruggono tutto.
-
-# Registro ripassi
-
-| 14/11/22 | Forti dubbi riguardo tutto. (non mi ricordo in che modo sono ricavati tramite ricorsione i vari metodi per semplificare grammatiche!) |
-| --- | --- |
-| 20/11/22 |  Forti dubbi a ricavare di nuovo praticametne tutte le forme di semplificazione (forti dubbi riguardo eliminazione della ricorsiva sinistra non immediata).
-
-Non conosco le proprietà delle forme normali, ma conosco il tipo di grammatiche che ha. |
-| 03/12/22 |  Ho implementato nel progetto anche, direi tutto ok |
-| 09/02/23 | Abbastanza apposto quasi tutto! |
-| 16/04/23 | Ok |
-| 09/06/23 | Fare meglio Eliminazione delle produzioni ricorsive sinistre generali. |
-  Ho implementato nel progetto anche, direi tutto ok |
-| 09/02/23 | Abbastanza apposto quasi tutto! |
-| 16/04/23 | Ok |
-| 09/06/23 | Fare meglio Eliminazione delle produzioni ricorsive sinistre generali. |

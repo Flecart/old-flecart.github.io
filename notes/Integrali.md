@@ -12,11 +12,6 @@ Primo Abbozzo: February 21, 2022 1:20 PM
 Stato: 🌕🌕🌕🌕🌗
 Studi Personali: No
 
-# Elementi di ripasso
-
-- dimostrazione continuità implica integrabilità (e osservazioni)
--
-
 # 8 Integrali
 
 ## 8.1 Introduzione
@@ -63,9 +58,7 @@ $$
 > Se una funzione è continua su un certo intervallo, allora è integrabile secondo Riemann qui
 >
 - Dimostrazione (Non richiesta)
-
     Servono teoremi che non hai mai fatto tipo heine borel etc.
-
 
 ### 8.3.2 Osservazioni su questo integrale
 
@@ -96,20 +89,16 @@ $$
 
 
 $$
-f:[a,b] \to \R \text{  continua}\\
+f:[a,b] \to \mathbb{R} \text{  continua }\\
 \exists c \in [a,b] \, t.c. \,\\
 \dfrac{1}{b-a} \int_a^bf(x)dx = f(c)
 $$
 
 
 - Dimostrazione:
-
     Si utilizza il teorema del valore intermedio: qui in passato
-
     $$\exists x_0, x_1 \in [a,b]$$, questi sono scelti in modo tale per cui $$f(x_0) = min, f(x_1) = max$$
-
     che è effettivamente ciò che dice weierstrass per l'estremo valore, poi utilizziamo la definizione di funzione per diree che esitono anche tali x0 e x1, per ricordarci delle loro proprietà li chiamiamo m e M sotto.
-
     $$
     \exists m, M \in [a,b]\text{ che diano massimo e minimo per weierstrass, ovvero che:} \\
     f(m) \leq f(x) \leq f(M) \, \forall x \in [a,b] \text{  utilizziamo la monotonia dlel'integrale} \\
@@ -356,13 +345,3 @@ esempio (sostituendo con t^2)
 $$
 \int e^{\sqrt{x}}dx = 2e^{\sqrt{x}}(\sqrt{x} - 1) + c
 $$
-
-
-# Registro ripassi
-
-| 21/02/22 | Primo ripasso assoluto, i due teoremi principali sono l’unicità per la primitiva a meno di costante, il teorema del valor intermedio e la caratteristica sulla funzione integrale, li sai abbastanza bene, è il primo ripasso. 4.5/5 |
-| --- | --- |
-| 09/03/22 | Ho notato che ci sono un sacco di cose che do, per scontato, se vorrei ripassare bene dovrei rifarmi le dimostrazioni (oggi unicità delle primitive e fondamentale 1) in particolare il passaggio con le successioni in fondametntale uno è da rifare. |
-| 20/03/22 |  Il passaggio con le successioni va bene, l’unica cosa a cui dovrei dare più attenzione è la dimostrazione di integrazione per parti. Per il resto lo sai abbastanza bene. |
-| 19/05/22 |  Più o meno ci sei,  volte sei insicuro su come sono esattamente definite le funzioni per i vari teoremi, ma per la maggior parte ci sei. Bisognerebbe fare un ripasso finale e direi che sie pronto per sta parte |
-ono esattamente definite le funzioni per i vari teoremi, ma per la maggior parte ci sei. Bisognerebbe fare un ripasso finale e direi che sie pronto per sta parte |

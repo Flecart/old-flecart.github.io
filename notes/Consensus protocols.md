@@ -80,18 +80,3 @@ Questa è la proprietà che tutti i nodi sono d’accordo sulla storia, permette
 ### Liveness e Safety
 
 queste sono le stesse proprietà descritte in [Programmi Concorrenti](/notes/programmi-concorrenti). Con la liveness vogliamo che non ci siano deadlocks, e blocchi con la stessa logica → **alla fine il nodo dovrà essere aggiunto!**
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-alla fine il nodo dovrà essere aggiunto!**
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

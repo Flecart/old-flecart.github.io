@@ -10,13 +10,10 @@ Ultima modifica: May 11, 2023 8:38 PM
 Primo Abbozzo: May 5, 2023 2:21 PM
 Studi Personali: No
 
-# Elementi di ripasso
-
-[https://csunibo.github.io/tecnologie-web/lucidi/teoria/23-metadati.pdf]([https://csunibo.github.io/tecnologie-web/lucidi/teoria/23](https://csunibo.github.io/tecnologie-web/lucidi/teoria/23)-metadati.pdf)
-
-[https://csunibo.github.io/tecnologie-web/lucidi/teoria/24-a-web-semantico-lod-rdf-json-ld.pdf]([https://csunibo.github.io/tecnologie-web/lucidi/teoria/24-a-web-semantico-lod-rdf-json](https://csunibo.github.io/tecnologie-web/lucidi/teoria/24-a-web-semantico-lod-rdf-json)-ld.pdf)
 
 # Metadati web
+[https://csunibo.github.io/tecnologie-web/lucidi/teoria/23-metadati.pdf](https://csunibo.github.io/tecnologie-web/lucidi/teoria/23-metadati.pdf)
+[https://csunibo.github.io/tecnologie-web/lucidi/teoria/24-a-web-semantico-lod-rdf-json-ld.pdf](https://csunibo.github.io/tecnologie-web/lucidi/teoria/24-a-web-semantico-lod-rdf-json-ld.pdf)
 
 ### inconfrontabilità del sapere
 
@@ -146,19 +143,3 @@ Serializzazione significa dare una **sintassi** per andare a descrivere le infor
 ### Web Ontology language (OWL)
 
 ### SPARQL
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-
-4 esercizi
-
-- 5 domande di base da rispondere (regola css tag html?, in cui bisonga essere veloci, valgono 6 sui 34 totali)
-- HTML CSS in cui si va a ricreare una pagina HTML. 10 punti su questo
-- Javascript, che sono tutit identific secondo il prof, in cui bisogna interrogare un servizio serverside, e visualizzarle in modo sensato, con anche delle operazioni da fare. 12 punti
-- O semantic web , o componenti in angular, react o vue. 6 punti., con anche dei bonus.
-e un servizio serverside, e visualizzarle in modo sensato, con anche delle operazioni da fare. 12 punti
-- O semantic web , o componenti in angular, react o vue. 6 punti., con anche dei bonus.

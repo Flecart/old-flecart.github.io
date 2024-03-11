@@ -358,11 +358,3 @@ $$
 $$
 
 Questo vale solo se il ramo è chiuso, altrimenti bisogna aggiungere in RHS una componente per la differenza di potenziale in quei due punti.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 12/06/2023 | Dovrei ripassare meglio la parte di forza elettromotrice e ragionamento sul campo. Anche il ragionamento sulla divisione delle cariche non lo hoc apito |
-| 12/27/2023 | Non mi ricordavo esattamente bene la definizione di ramo |
-| 11/01/2024 | Ieri l'ho fatta bene, e non ci dovrebbero essere problemi, forse l'unico è per i nomi (dare un nome alla formula questa dovrei ripassarla.) |

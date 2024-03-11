@@ -241,12 +241,3 @@ Questa è l'equazione di continuità in forma differenziale:
 $$
 \vec{\nabla} \cdot \vec{J} + \frac{\delta \rho}{\delta t} = 0
 $$
-
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 27/12/2023 | Tutto ok direi. |
-| 12/01/2024 | Nessun problema, studiata con Matti, avevo una misconception riguardante l'equazione di continuità, però ora è apposto direi. |

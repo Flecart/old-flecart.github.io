@@ -10,7 +10,7 @@ title: Condensatori con dielettrici
 #### Esperimenti metalli e dielettrici 🟩
 
 Verso gli anni del 1840 Faraday ha fatto molti sistematici esperimenti per scoprire come si comportava il potenziale e il campo elettrico di fronte a certi materiali.
-Sono stati principalmente posti delle sostanza (conduttrici o meno) in mezzo a lastre di Condensatori nel vuoto|condensatori|Condensatori nel vuoto|condensatori, e hanno misurato come cambiava il potenziale elettrico fra le due lastre (che si può vedere attraverso il modo con cui cambiano sull'elettroscopio).
+Sono stati principalmente posti delle sostanza (conduttrici o meno) in mezzo a lastre di [condensatori](/notes/condensatori-nel-vuoto), e hanno misurato come cambiava il potenziale elettrico fra le due lastre (che si può vedere attraverso il modo con cui cambiano sull'elettroscopio).
 Così ha scoperto che
 
 $$
@@ -350,7 +350,7 @@ $$
 
 Quindi so esattamente in che modo il modulo e la direzione di $$E$$ cambia all'interno della superficie di separazione dei mezzi.
 Quindi se passo da superficie con $$k_{2}$$ più alto i raggi tendono verso l'esterno (angolo più grande), e stessa cosa al contrario.
-Condensatori con dielettrici-1698655976503.jpeg | 500|Condensatori con dielettrici-1698655976503.jpeg | 500
+![ 500](/notes/condensatori-con-dielettrici-1698655976503.jpeg-)
 
 NOTA: **il modulo del campo elettrico cambia sempre**.
 NOTA-2: basta guardare le linee di campo per sapere se il materiale è conduttore o meno (perché per il conduttore cambia le linee di campo anche all'esterno).
@@ -395,14 +395,3 @@ u_{E}
 $$
 
 Perché devo contare la parte parallela.
-
-## Note di ripasso
-
-
-| Data | Commenti |
-| ---- | ---- |
-| 14/11/2023 | Lo ho studiato un po' meglio per il parziale, però era roba che inizialmente non avevo capito bene, Zoccoli spiega bene ma mi ero perso questa sua lezione |
-| 06/12/2023 | Credo bisogna fare meglio la parte di snell, per il resto credo sia abbastanza OK sta parte, poi sarebbe meglio provare a spiegare questa parte |
-| 28/12/2023 | Ho avuto dei problemi a spiegare la polarizzazione del dielettrico dal punto di vista microscopico (non mi ricordavo la giustificazione della creazione del dipolo.)<br>- Non mi ricordavo nemmeno la giustificazione sulla densità superficiale e momento di dipolo totale. |
-| 09/01/2024 | Ancora non ho capito in deep la relazione fra densità superficiale e momento di dipolo elettrico. Ho sbagliato in modo leggero la derivazione della legge di snell. Un errore grave è che avevo invertito la costante dielettrica relativa.... |
-| 10/01/2024 | Bono |

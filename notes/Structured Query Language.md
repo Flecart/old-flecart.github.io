@@ -61,7 +61,7 @@ In più possono essere definite view diverse o anche **authorization**.
 ### Table 
 La tavola **specifica** una relazione vuota, che può seguire o meno uno schema, come definito di sopra.
 #### Create table 🟩
-Structured Query Language-1697621915956.jpeg |500|Structured Query Language-1697621915956.jpeg |500
+![500](/notes/structured-query-language-1697621915956.jpeg-)
 #### Table constraints 🟩
 Durante la creazione di una table posso specificare cose come
 1. Tipo (intero, carattere?)
@@ -141,15 +141,15 @@ Si potrebbe semplificare affermando
 - FROM = prodotto cartesiano.
 
 Esempio complesso di query con Cartesian product e renaming
-Structured Query Language-1697018107929.jpeg | 500|Structured Query Language-1697021145298.jpeg | 500
+![ 500](/notes/structured-query-language-1697018107929.jpeg-)
 #### Like and null values 🟩
 Like è utilizzato per fare **pattern matching** sulla stringa.
-Structured Query Language-1697017834963.jpeg | 300|Structured Query Language-1697017834963.jpeg | 300
+![ 300](/notes/structured-query-language-1697017834963.jpeg-)
 Mentre i null values si possono gestire con sintassi $$AGE\, is \, NULL$$
 
 ### Join
 #### Sintassi 🟨
-precedentemente nella sezione #Select abbiamo utilizzato join delle tables in **maniera implicita** utilizzando il prodotto cartesiano.
+precedentemente nella sezione [#Select](#select) abbiamo utilizzato join delle tables in **maniera implicita** utilizzando il prodotto cartesiano.
 Esiste però anche una istruzione esplicita per dire che vogliamo fare JOIN, molto coerente con la teoria presente in [Relational Algebra](/notes/relational-algebra).
 
 ```pseudocode
@@ -180,7 +180,7 @@ NOTE: è **importante l'ordine di inserimento!**
 INSERT INTO table [attrs]
 VALUES(vals) | SELECT roba..
 ```
-Structured Query Language-1697023320700.jpeg | 500|Structured Query Language-1697021145298.jpeg | 500
+![ 500](/notes/structured-query-language-1697023320700.jpeg-)
 
 
 #### Update 🟩
@@ -211,13 +211,13 @@ DEFAULT: descending.
 - Uso normale: come in figura
 - Nel caso venga definito **ALL**, anche se è doppio, viene mantenuto.
 - Nel caso di conflitti semantici, utilizzare **positional notation**, se sono nella stessa posizione vengono messi assieme (il nome dell'attributo è sempre della prima tavola)
-Structured Query Language-1697021145298.jpeg | 500|Structured Query Language-1697021145298.jpeg | 500
+![ 500](/notes/structured-query-language-1697021145298.jpeg-)
 
 **DIFFERENZA**
 Si usa **except**, e poi altre notazioni sono simil ial precedente.
 
 **INTERSEZIONE**
-Si usa **intersect** come istruzione. (ma è meglio usare il where, descritto in #Select, che è equivalente).
+Si usa **intersect** come istruzione. (ma è meglio usare il where, descritto in [#Select](#select), che è equivalente).
 
 **Intersection**
 
@@ -235,7 +235,7 @@ WHERE Name IN
 In questo caso IN si aspetta poi un insieme, che è quanto ritornato nella subquery, il vantaggio principale di questo approccio è la **leggibilità**, 
 
 #### Visibilità 🟩
-Ci sono due note riguardo la visibilità, perché seguendo una logica simile agli Nomi e Scope|scopes strutturali|Nomi e Scope|scopes strutturali se sono in scope esterno non posso accedere a quello internamente definito.
+Ci sono due note riguardo la visibilità, perché seguendo una logica simile agli [scopes strutturali](/notes/nomi-e-scope) se sono in scope esterno non posso accedere a quello internamente definito.
 Mentre la query innestata può leggere variabili definite esternamente.
 Chiaramente se hai due nested diverse, non riescono ad avere stesso variabile, segui le stesse regole di scoping definito in linguaggi di programmazione.
 
@@ -282,7 +282,7 @@ Giustifica anche il motivo per cui devi fare select dell'attributo di cui vuoi f
 NOTA: aggregate è eseguito sul **singolo** gruppo!
 
 #### Other conditions 🟩
-Si può usare **HAVING** per aggiungere altre condizioni sui gruppi in modo simile a quanto faceva **WHERE** dentro #Select.
+Si può usare **HAVING** per aggiungere altre condizioni sui gruppi in modo simile a quanto faceva **WHERE** dentro [#Select](#select).
 #### Comportamento con i NULLs
 <img src="/images/notes/Structured Query Language-1697023133005.jpeg" alt="Structured Query Language-1697023133005">
 
@@ -291,13 +291,3 @@ Si può usare **HAVING** per aggiungere altre condizioni sui gruppi in modo simi
 - È il DBMS che si occupa di eseguire la query ed ottimizzarla.
 - Avere query corrette e leggibili è più importante.
 - Questo descrive anche il perché sarebbe a volte sensato farle innestate.
-
-
-
-## Note di ripasso
-- In che modo la join decide di joinare le cose? Vedere [Relational Algebra](/notes/relational-algebra) per questo, c'è la descrizione matematica, che è uguale, e abbastanza clean credo (forse qui è un po' diverso, perché si trattano sempre come attributi differenti)
-
-| Data | Commenti |
-| ---- | ---- |
-| 26/11/2023 | Dovrebbe essere apposto, dovrei solo fare più esercizi, con un poco di costanza su questo |
-| 04/01/2024 | Dovrei fare più esercizi, sono stato un po' lento a collegare la sintassi su come si fanno effettivamente le query... |

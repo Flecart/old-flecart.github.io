@@ -248,17 +248,3 @@ Oltre a questo si può implementare con altre istruzioni atomiche come  fetch an
 
 
 Con questo abbiamo raggiunto una notevole semplificazione nella programmazione (ed anche della generalizzazione di questa soluzione), ma non sono risolti i problemi di starvation né busy waiting, ancora fortemente inefficiente.
-
-# Registro ripassi
-
-| 15/10/22 |  Spin lock (non hai capito perché non starvation) e peterson qualche imprecisione sull’algoritmo. |
-| --- | --- |
-| 22/10/22 | Ho fatto una lettura velocissima riguardo, principalmente tutto è ancora famigliare, sposto molto avanti… |
-| 01/11/22 | Bisogna guardare meglio i spinlock e poi sei apposto |
-| 18/11/22 |  Non mi ricordavo molto bene dekker, peterson invece apposto, il resto, tra cui Test and set, interrupt e svantaggi delle soluzioni software sembra OK. |
-| 12/12/22 | Ok, dovrei sempre ripassare un pochetto test and set e i due algoritmi per le sezioni critiche |
-| 14/01/22 | Non mi ricordo benissimo dekker e peterson, ma più o meno sono sempre questi, test and set e roba hardware e interrupt mi sembrano boni |
-| 12/03/23 |  Ancora, ora dekker e peterson non riesco proprio a ricordarmeli, secondo me quando li avevo studiati erano troppo a memoria. Le altre cose sono decenti, non me li ricordo tutte, ma l’idea principale ci dovrebbe essere. |
-|  |  |
- a ricordarmeli, secondo me quando li avevo studiati erano troppo a memoria. Le altre cose sono decenti, non me li ricordo tutte, ma l’idea principale ci dovrebbe essere. |
-|  |  |

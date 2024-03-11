@@ -15,7 +15,7 @@ Esempio di sopra.
 La cosa carina è che il dizionario si può ricostruire in fase di decoding.
 
 Tutti gli altri, tipo zip, gzip, png si basano poi su questa idea.
-Per certi versi la cosa di raggruppare è simile a Tokenization|Byte pair encoding|Tokenization|Byte pair encoding. 
+Per certi versi la cosa di raggruppare è simile a [Byte pair encoding](/notes/tokenization). 
 
 
 ### Huffman Codes
@@ -71,10 +71,3 @@ def Huffman_code(_vals):
 	tree = assign_code (nodes, root, code) # assignment of the code for the given binary tree
 	return code, tree
 ```
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

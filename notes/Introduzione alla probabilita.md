@@ -15,7 +15,7 @@ Studi Personali: Yes
 
 Questo corso è troppo astratto. Più che probabilità tratta di teoria della Misura. Quindi affossato…
 
-Link della serie: [https://www.youtube.com/watch?v=172m7qVy_FQ&list=PLrb6X_RiBI94b6dzCx-QwM-r0aZpJyPxS]([https://www.youtube.com/watch?v=172m7qVy_FQ&list=PLrb6X_RiBI94b6dzCx-QwM](https://www.youtube.com/watch?v=172m7qVy_FQ&list=PLrb6X_RiBI94b6dzCx-QwM)-r0aZpJyPxS)
+Link della serie: [https://www.youtube.com/watch?v=172m7qVy_FQ&list=PLrb6X_RiBI94b6dzCx-QwM-r0aZpJyPxS](https://www.youtube.com/watch?v=172m7qVy_FQ&list=PLrb6X_RiBI94b6dzCx-QwM-r0aZpJyPxS)
 
 # Campo (di probabilità)
 
@@ -226,11 +226,3 @@ Abbiamo visto alcune proprietà importanti da dover verificare per la dimostrazi
     <img src="/images/notes/Introduzione alla probabilità/Untitled 43.png" alt="Introduzione alla probabilità/Untitled 43">
 
     <img src="/images/notes/Introduzione alla probabilità/Untitled 44.png" alt="Introduzione alla probabilità/Untitled 44">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

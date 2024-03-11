@@ -111,24 +111,3 @@ Gli unici isomorfismi di Zn a se stesso sono gli elementi che sono coprimi con z
 - Dimostrazione
 
     !<img src="/images/notes/image/universita/ex-notion/Isomorfismi/Untitled 5.png" alt="image/universita/ex-notion/Isomorfismi/Untitled 5">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-lto livello è questo è il motivo per cui vale questo teorema.
-
-- Dimostrazione
-
-    !<img src="/images/notes/image/universita/ex-notion/Isomorfismi/Untitled 5.png" alt="image/universita/ex-notion/Isomorfismi/Untitled 5">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

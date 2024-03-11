@@ -18,18 +18,3 @@ Studi Personali: No
 Questo documento sono appunti riguardanti strumenti di sniffing di wireshark.
 
 **strumento passivo** che ascolta ebbasta tutti i pacchetti che può (ovviamente può solo se riceve il segnale fisico…, quindi se uno switch non mi invia proprio il segnale, non c'è comunque modo per me di sniffare il pacchetto, ma se invece è un hub, allora sentirei tutto.)
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-prio il segnale, non c'è comunque modo per me di sniffare il pacchetto, ma se invece è un hub, allora sentirei tutto.)
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

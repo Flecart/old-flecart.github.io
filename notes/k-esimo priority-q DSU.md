@@ -310,18 +310,3 @@ Voglio cercare di limitare il tempo di ricerca del rappresentante.  L'idea è ne
 
 
 In questo modo riesco proprio a creare un upper bound logaritmico al find, a differenza del costo ammortizzato di questo con l'euristica del peso in quickfind.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-oprio a creare un upper bound logaritmico al find, a differenza del costo ammortizzato di questo con l'euristica del peso in quickfind.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

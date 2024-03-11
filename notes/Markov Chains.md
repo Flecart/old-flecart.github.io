@@ -56,7 +56,7 @@ $$
 P_{ij}^{m} > 0
 $$
 
-Molto più facile vedere sta cosa se lo rappresentiamo come un comunissimo Grafi|grafo|Grafi|grafo.
+Molto più facile vedere sta cosa se lo rappresentiamo come un comunissimo [grafo](/notes/grafi).
 
 #### Classe di stati
 Sono un insieme di stati tutti raggiungibili fra di loro (comunque presi due stati all'interno della classe, esiste un percorso che parte da uno e finisce sull'altro per dire).
@@ -133,9 +133,3 @@ g = \sum \pi_{j}r_{j} = \vec{\pi} \cdot \vec{r}
 $$
 
 Indipendentemente allo stato iniziale (che stupisce molto).
-
-## Note di ripasso
-
-| Data       | Commenti                                                                |
-| ---------- | ----------------------------------------------------------------------- |
-| 04/03/2024 | Non mi ricordavo cosa significasse periodico o aperiodico, o recurrent. |

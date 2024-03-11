@@ -308,18 +308,3 @@ Questo implica aumento della frammentazione interna. dato che per ogni segmento 
 
 
 Eccesso del segmento → **segmentation fault** ecco da dove deriva il nome 😀
-
-# Registro ripassi
-
-| 26/03/23 | Non mi ero studiato le parti di bitmap e linked list per allocazione a blocchi statico e contigui a partizioni dinamiche |
-| --- | --- |
-| 02/04/23 | Ora apposto. |
-| 16/04/23 | Nessun problema direi. |
-| 09/05/23 | Non mi ricordavo l'allocazione statica di partizioni |
-- che succede se ho deadlock?
-oni dinamiche |
-| --- | --- |
-| 02/04/23 | Ora apposto. |
-| 16/04/23 | Nessun problema direi. |
-| 09/05/23 | Non mi ricordavo l'allocazione statica di partizioni |
-- che succede se ho deadlock?

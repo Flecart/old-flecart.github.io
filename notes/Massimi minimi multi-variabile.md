@@ -20,11 +20,9 @@ Studi Personali: No
 - Riguardarsi come la continuità finisce la dimostrazione di schwarz
 - Rivedere i calcoli e l'idea principale per taylor al secondo ordine di coso.
 
-# 11 Massimi e Minimi multivariabile
+# Massimi e Minimi multivariabile
 
-[Cauchy e fq.pdf](Massimi%20minimi%20multi-variabile%20a1606d986ccc46eb9e22fbad97385e74/Cauchy_e_fq.pdf)
-
-## 11.1 Matrice Jacobiana
+## Matrice Jacobiana
 
 È un modo per scrivere il gradiente di una funzione quando è in una certa forma.
 
@@ -73,13 +71,13 @@ J_{g \cdot f}(v)= J_g(f(v)) J_f(v)
 $$
 
 
-### 11.1.1 Studio del massimo e del minimo
+### Studio del massimo e del minimo
 
 In più dimensioni non possiamo più applicare lo studio del segno della derivata come nella prima dimensione, in questo momento abbiamo più derivate, e non abbiamo nemmeno il concetto di funzione crescente. Vogliamo affidarci al concetto delle derivate seconde (concavità e convessità)
 
 Vedere che $$f'(x) = 0 \land f''(x)>0$$ oppure minore. Andremo a generalizzare questa idea.
 
-### 11.1.2 Condizione di stazionarietà (fermat) !!!
+### Condizione di stazionarietà
 
 Andiamo a definire una condizione di stazionarietà a più dimensione, che ci sarà molto utile per trovare il minimo locale (o massimo locale).(è anche chiamato fermat, come ti ricordi qui [Teoremi Base Analisi](/notes/teoremi-base-analisi))
 
@@ -116,7 +114,7 @@ Questo è utile per le considerazioni dell'inverso, in quanto per f(x) = |x| , n
     Ho che la derivata di g è la derivata parziale di f (per come è definita), quindi g è differenziabile poiché per ipotesi f è differenziabile. Per fermat, in quanto t=0 è un punto di minimo, ho che la derivata di g in t = 0 è 0, quindi applicando questa idea per ogni direzione ho che l'intero gradiente è 0.
 
 
-### 11.1.3 Derivata seconda
+### Derivata seconda
 
 Possiamo derivare parzialmente in più direzioni
 
@@ -124,7 +122,7 @@ Possiamo derivare parzialmente in più direzioni
 
 **Derivate seconde miste** se derivo rispetto a una variabile differente.
 
-## 11.2 Matrice Hessiana
+## Matrice Hessiana
 
 Questa matrice contiene tutte le derivate seconde possibili per una certa funzione da Rn a R (sarà di dimensione n x n
 
@@ -139,7 +137,7 @@ Hf(x) = \begin{pmatrix}
 $$
 
 
-### 11.2.1 Teorema di Schwarz (!!)
+### Teorema di Schwarz
 
 Sia f una funzione ben definita, con dominio multidimensionale.
 
@@ -148,52 +146,35 @@ Siano tutte le derivate seconde ben definite.
 Allora $$\forall ij \in \{1,..,n\}, i \neq j$$ si ha che $$\delta_{ij}f = \delta_{ji}f$$, ossia è un altro modo per dire che la **matrice hessiana è simmetrica**.
 
 - Dimostrazione
-
     l'idea principale è utilizzare qualcosa di simile alla differenziabilità per continuità e derivabilità parziale.
-
     Considero
-
     $$g(h) = f(x + h, y+h) + f(x, y) - f(x + h,y) - f(x, y + h)$$
 
     poi considero
-
     $$u(t) = f(x + t, y+h) + f(x, y) - f(x + t,y) - f(x, y + h)$$ e utilizzando lagrange due volte ottengo che
-
     $$g(h) = \delta_{xy}f(x + ah, y + bh)h^2$$
-
     - Come usare Lagrange due volte
-
         Noto che $$u(h) = g(h)$$ e che $$u(0) = 0$$.
-
         Per lagrange noto che $$u(h) - u(0) = h\cdot u'(\theta_1 h)$$ con theta da 0 a 1.
-
         Facendo la derivata prima di $$u$$ ottengo che è uguale a
-
         $$\delta_x f(x + t, y+ h) - \delta_x f(x + t, y)$$ perché il resto è costante in t.
-
         Utilizzando di nuovo taylor su questo (su y) ottengo che
-
         $$
         \delta_x f(x + t, y+ h) - \delta_x f(x + t, y) = h \delta_y(\delta_x f(x + t, y + \theta_2 y))
         $$
-
         mettendo tutto all'inizio, ottengo che
-
         $$g(h) = u(h) - u(0) = h^2 \delta_y(\delta_x f(x + \theta_1h, y + \theta_2 h))$$
 
 
     Lo faccio ancora per il simmetrico  (cioè costruendomi una funzione v(t) che vari a seconda della y e mi trovo che
-
     $$g(h) = \delta_{yx}f(x + ah, y + bh)h^2$$
 
     Faccio il limite per h tendente a 0, dividendo per la stessa variabile, e trovo che sono esattamente uguali.
-
     cioè
-
     $$\lim_{h \to 0} \dfrac{\delta_{yx}f(x + ah, y + bh)h^2}{h^2} = \lim_{h \to 0} \delta_{yx}f(x + ah, y + bh)=  \delta_{yx}f(x,y)$$  l'ultimo uguale è giustificabile per la continuità della funzione f (basta aprire e controllare 🙂).
 
 
-### 11.2.2 Forma Hessiana
+### Forma Hessiana
 
 Conoscendo le forme quadratiche, possiamo andare a definire una forma Hessiana di una funzione di classe $$C^{2}$$.
 
@@ -201,7 +182,7 @@ La forma hessiana di una funzione di class $$C^2$$ è la funzione così definita
 
 $$h\to \langle Hf(x) h, h\rangle$$
 
-## 11.2.3 Taylor di ordine 2 (!!!!!)
+## Taylor di ordine 2
 
 ### Resto secondo Peano
 Questa è una analisi **multivariabile** vedere sotto per il caso univariabile col resto espresso in altro modo.
@@ -295,7 +276,7 @@ $$
 ### Polinomio di Taylor
 È un taylor senza opiccolo, però di devi andare a cercare l'appunto giusto.
 
-## 11.3 Forme quadratiche
+## Forme quadratiche
 
 Queste cose sembrano essere un buon utilizzo della matrice hessiana.
 Comunque vediamo cosa sono:
@@ -315,7 +296,7 @@ Ma questo vale nel caso solo in cui $$a_ia_k = a_{ik}$$, da ricordare!. Comunque
 
 <img src="/images/notes/image/universita/ex-notion/Massimi minimi multi-variabile/Untitled.png" alt="image/universita/ex-notion/Massimi minimi multi-variabile/Untitled">
 
-### 11.3.1 Segno della forma quadratica
+### Segno della forma quadratica
 
 <img src="/images/notes/image/universita/ex-notion/Massimi minimi multi-variabile/Untitled 1.png" alt="image/universita/ex-notion/Massimi minimi multi-variabile/Untitled 1">
 
@@ -333,7 +314,7 @@ Se esistono due h diversi fra loro per cui la forma della prima è minore di 0, 
 Ci sono anche altre caratterizzazione della forma quadratica.
 ad esempio q(h1, h2) = h2^2 non è né indefinita, né positiva questa è **semidefinita**
 
-### Classificazione del segno n-dimensionale (!!)
+### Classificazione del segno n-dimensionale
 
 Vogliamo una forma quadratica in Rn, con n≥3 ora.(fino ad ora abbiamo solamente considerato il caso in cui forma quadratica è 2).
 
@@ -354,7 +335,7 @@ Mi sono costruito molte sottomatrici.
 
 <img src="/images/notes/image/universita/ex-notion/Massimi minimi multi-variabile/Untitled 5.png" alt="image/universita/ex-notion/Massimi minimi multi-variabile/Untitled 5">
 
-### 11.3.2 Teorema criterio classificazione 2x2 (!)
+### Teorema criterio classificazione 2x2
 
 Consideriamo la matrice
 
@@ -395,30 +376,23 @@ sse il determinante è negativo., se il determinante è 0 si dice che è una **m
 
 Quando ho il determinante che è 0
 
-### 11.3.3 Caratteristica positività negatività della Forma Quadratica (!!)
+### Caratteristica positività negatività della Forma Quadratica
 
 Possiamo trovare una caratteristica fondante per le matrici positive e negative (sono uguali ma inverse, enunciamole).
 
 Sia $$A = A ^t \in \mathbb{R} ^{n \times n}$$  allora se $$A$$ è positivo si ha che  $$\exists m > 0$$
 
-$$\langle Ah, h\rangle \geq m |h|^2$$
+$$\langle Ah, h\rangle \geq m \lvert h \rvert^2$$
 
 - Hint di dimostrazione (osservazione)
-
     Questo è vero perché se consideriamo un $$h \neq 0$$, possiamo riscrivere l'equazione in tesi come
-
-    $$\langle A \dfrac{h}{|h|}, \dfrac{h}{|h|}\rangle \geq m$$, che è equivalente a dire che comunque prendo un vettore unitario, si ha che la forma quadratica è maggiore di un numero m.
+    $$\langle A \dfrac{h}{\lvert h \rvert}, \dfrac{h}{\lvert h \rvert}\rangle \geq m$$, che è equivalente a dire che comunque prendo un vettore unitario, si ha che la forma quadratica è maggiore di un numero m.
 
 - Dimostrazione
-
     Allora scrivo h con coordinate polari, apro A in dimensione 2 e raccolgo questo $$r ^2$$.
-
     Allora ho in tesi qualcosa di questo tipo
-
     $$r ^2 f(\theta) \geq r^2 m$$ e devo dire che esiste questo m.
-
     utilizziamo 2 cose per terminare.
-
     1. $$r^2 f(\theta) > 0$$ in quanto la forma quadratica è positiva
     2. f è una funzione continua, e limitata in $$[0, 2\pi] \in \R$$, quindi possiamo usare weierstrass per concludere che esiste un minimo. è proprio questo il minimo!
 
@@ -429,7 +403,7 @@ $$\langle Ah, h\rangle \geq m |h|^2$$
     <img src="/images/notes/image/universita/ex-notion/Massimi minimi multi-variabile/Untitled 6.png" alt="image/universita/ex-notion/Massimi minimi multi-variabile/Untitled 6">
 
 
-### 11.3.4 Condizione sufficiente per minimo e massimo e sella (!!!!)
+### Condizione sufficiente per minimo e massimo e sella
 
 Questa cosa ci piace per calcolare i punti di massimi e minimi!
 
@@ -451,20 +425,16 @@ Se gradiente è 0 e la hessiana è indefinita è un punto di sella
     $$f(a + h) - f(a) = \dfrac{1}{2} \langle Hf(a),h,h \rangle + o(|h^2|)$$ voglio dimostrare che per un delta opportuno RHS sia maggiore di 0, se ho questa cosa ho finito, in qualche modo voglio utilizzare la positività della matrice hessiana.
 
     Per il teorema caratterizzante della matrice della forma quadratica, so che
-
-    $$\exists m >0 \in \R :\langle Hf(a),h,h \rangle \geq m |h^2|, \forall h \in \R^n$$
-
+    $$\exists m >0 \in \R :\langle Hf(a),h,h \rangle \geq m \lvert h^{2} \rvert, \forall h \in \R^n$$
     Allora continuando il ragionamento
-    Ottengo che $$\dfrac{1}{2} m |h^2|+ o(|h^2|) = |h^2|(\dfrac{m}{2} + \dfrac{o(|h^2|)}{|h^2|})$$
-
+    Ottengo che $$\dfrac{1}{2} m \lvert h^{2} \rvert+ o(\lvert h^{2} \rvert) = \lvert h^{2} \rvert(\dfrac{m}{2} + \dfrac{o(\lvert h^{2} \rvert)}{\lvert h^{2} \rvert})$$
     Ragioniamo ora sull'o-piccolo.
     Allora per definizione di o piccolo, so che posso prendere questa cosa piccola quanto mi pare.
     In particolare scelgo un intorno in cui questo o piccolo sia compreso fra $$m/4$$, allora l'intorno delta è definito da questo momento.
-    Scelto questo intervallo allora finire la dimostrarezione è veloce, ottengo che
+    Scelto questo intervallo allora finire la dimostrazione è veloce, ottengo che
     $$
     f(a + h) - f(a) \geq |h^2|(m/2 - m/4) \geq 0
     $$
-
     (abbiamo anche dimostrato che dipende da h) però è finito, questa cosa vale per ogni h nell'intorno scelto sopra.
 
 
@@ -472,23 +442,6 @@ Se gradiente è 0 e la hessiana è indefinita è un punto di sella
 
 Nel caso in cui il determinante della hessiana è 0, non posso utilizzare i metodi precedenti, quindi in questo caso devo dividere il processo analizzando le derivate parziali.
 
-### 11.3.5 Condizione necessaria per minimo e massimo (non chiede)
+### Condizione necessaria per minimo e massimo
 
 È molto simile alla condizione sufficiente, solo è abbiamo ora che la hessiana può anche essere semidefinita positiva.
-
-# 12 Registro ripassi
-
-| 02/05 | Teorema di schwarz da fare meglio (definizione del dominio di g, e poi conclusione con l’unicità del limite)
-Th di classificazione è da rifare in modo formale (anche la dimostrazione di Taylor con entrambi i resti)  |
-| --- | --- |
-| 08/05 | Taylor con resto secondo Lagrange in R R e anche multivariabile è da rifare assolutamente. |
-|  |  |
-(anche la dimostrazione di Taylor con entrambi i resti)  |
-| --- | --- |
-| 08/05 | Taylor con resto secondo Lagrange in R R e anche multivariabile è da rifare assolutamente. |
-|  |  |
-
-
-|            |                                              |
-| ---------- | -------------------------------------------- |
-| 03/03/2024 | Hehe, mi ripasso il Taylor con resto diverso |

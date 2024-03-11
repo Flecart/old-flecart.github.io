@@ -14,7 +14,7 @@ Questo è descritto nell'esempio 8.1 del Mazzoldi.
 #### Spira circolare 🟩
 Vedere pagina 245
 Vogliamo cercare il valore del campo sull'asse della spira circolare.
-Geometrie di spire-1704296692075.jpeg|500|Geometrie di spire-1704296692075.jpeg|500
+<img src="/images/notes/Geometrie di spire-1704296692075.jpeg" width="500" alt="Geometrie di spire-1704296692075">
 Questo è semplice, basta usare la prima di Laplace e trovare l'apporto del campo magnetico al centro.
 Si può anche pensare come momento magnetico, allora si utilizza sempre lo stesso discorso per la spira quadrata classica e il suo momento.
 
@@ -403,11 +403,3 @@ E si può fare la stessa cosa con il vettore di spostamento, in questo caso con 
 $$
 u_{l} = \frac{1}{2} \mu_{0} H^{2} = \frac{1}{2 }HB
 $$
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 06/12/2023 | Dovrei fare la dimostrazione per induttanza e mutua induzione, per il resto credo sia ok. |
-| 03/01/2024 | Sono forti dubbi riguardo alla derivazione di proprietà del solenoide (campo magnetico interno dico)<br>Bisogna studiare npo meglio il calcolo di energia per l'induttanza, e scarica e carica di essa. |
-| 12/01/2024 | Sono riuscito a fare Energia senza problemi direi. |

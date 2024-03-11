@@ -39,9 +39,9 @@ Common attack vector:
 > The security of a protocol should rely only on the secrecy of the keys,
 while protocol designs should be made public
 
-Ne parliamo un po'  meglio in Classical Cyphers#Kerckhoffs’ Principle 1883
+Ne parliamo un po'  meglio in [Classical Cyphers#Kerckhoffs’ Principle 1883](/notes/classical-cyphers#kerckhoffs’-principle-1883)
 ### Substitution Ciphers
-Vedi Classical Cyphers#Substitution cipher Il discorso qui è leggermente più formale.
+Vedi [Classical Cyphers#Substitution cipher](/notes/classical-cyphers#substitution-cipher) Il discorso qui è leggermente più formale.
 Creiamo una funzione $$f$$ che è una permutazione delle lettere (quindi associo ogni lettera a qualcos'altro)
 Per romperlo si può analizzare la frequenza delle lettere (Criptanalisi)
 
@@ -64,10 +64,3 @@ si usa una chiave che è una parola, la si ripete per tutta la lunghezza e poi s
 - Guess the length of the key l using some methods
 - Divide the ciphertext into l shift cipher encryptions
 - Use frequency analysis on each shift cipher
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

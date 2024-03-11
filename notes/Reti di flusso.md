@@ -328,28 +328,3 @@ Il motivo è che per il lemma precedente ogni arco può essere considerato al pi
 - Slide algoritmo
 
     !<img src="/images/notes/image/universita/ex-notion/Reti di flusso/Untitled 30.png" alt="image/universita/ex-notion/Reti di flusso/Untitled 30">
-
-
-# Registro ripassi
-
-| 22/12/22 | Oke |
-| --- | --- |
-|  |  |
-|  |  |
-
-    <img src="/images/notes/Reti di flusso/Untitled 29.png" alt="Reti di flusso/Untitled 29">
-
-
-## Goldberg-Tarjan
-
-- Slide algoritmo
-
-    !<img src="/images/notes/image/universita/ex-notion/Reti di flusso/Untitled 30.png" alt="image/universita/ex-notion/Reti di flusso/Untitled 30">
-
-
-# Registro ripassi
-
-| 22/12/22 | Oke |
-| --- | --- |
-|  |  |
-|  |  |

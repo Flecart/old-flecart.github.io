@@ -118,13 +118,3 @@ Poi prendiamo l'altra relazione, passiamo dalla stessa hash, questa avrà anche 
 #### Sort Merge Join 🟩
 L'algoritmo lineare di sort merge, utile quando si ha un doppio ordinamento per andare a confrontare per benino i due cosi.
 (this should be the fastest !?!?! solo per dati generali però, but needs ordering).
-
-
-
-## Note di ripasso
-
-
-| Data | Commenti |
-| ---- | ---- |
-| 05/01/2024 | Dovrei fare meglio la parte di serializzazione, poi non ho capito molto bene le hash based joins., poi sta parte si può rifare il 15, per ora dovrei fare solamente la parte di serializzazione. |
-| 09/01/2024 | Tutta la parte su ARIES non la ho ancora fatta, non so se sia importante, fino alla parte che ho scritto invece è letta, non totalmente cmpresa però. |

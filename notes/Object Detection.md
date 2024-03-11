@@ -41,7 +41,7 @@ Questi sono più veloci dei precedenti, quindi sono buoni per applicazioni real 
 
 [https://pjreddie.com/darknet/yolo/](https://pjreddie.com/darknet/yolo/)
 
-[https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo-dad8e40f7109]([https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo](https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo)-dad8e40f7109)
+[https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo-dad8e40f7109](https://towardsdatascience.com/yolo-v4-or-yolo-v5-or-pp-yolo-dad8e40f7109)
 
 Prova a trovare il bounding box con la predizione con una singola passata! CNN per individuare i boxes, poi algoritmicamente per cancellare i boxes.
 
@@ -80,24 +80,3 @@ Nota: c’è una binary map, che che è in una cella e 0 in tutto il resto (ques
 - Classification loss
 
     !<img src="/images/notes/image/universita/ex-notion/Object Detection/Untitled 2.png" alt="image/universita/ex-notion/Object Detection/Untitled 2">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-lo che gli sta intorno, il resto lo ignora tutto).
-
-- Classification loss
-
-    !<img src="/images/notes/image/universita/ex-notion/Object Detection/Untitled 2.png" alt="image/universita/ex-notion/Object Detection/Untitled 2">
-
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

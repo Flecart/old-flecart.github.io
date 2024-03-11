@@ -16,20 +16,3 @@ Studi Personali: No
 [](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)
 
 [https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-88.pdf)
-
-[https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

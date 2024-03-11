@@ -152,7 +152,7 @@ $$
 E ci permette di fare gradient ascent. Abbiamo un problema di come fare sample.
 
 Usiamo @williamsSimpleStatisticalGradientfollowing1992. Chiamato anche **Reinforce**.
-Da quello e da [questo punto]([https://youtu.be/aQJP3Z2Ho8U?si=9VNP2oO9rj7pVg1X&t](https://youtu.be/aQJP3Z2Ho8U?si=9VNP2oO9rj7pVg1X&t)=2365) della lezione deriviamo
+Da quello e da [questo punto](https://youtu.be/aQJP3Z2Ho8U?si=9VNP2oO9rj7pVg1X&t=2365) della lezione deriviamo
 
 $$
 \nabla_{\theta}\mathbf{E}[R_{t}|\theta] = \nabla_{\theta}\mathbf{E}[R_{t}\nabla_{\theta}\log \pi_{\theta}(A_{t})]
@@ -255,9 +255,3 @@ Per calcolare questo si può utilizzare **Thompson sampling**.
 - Sample $$Q_{t}(a) ~~~ p_{t}q(a)$$
 - Seleziona l'azione che massimizza $$Q_{t}(a)$$ per ogni $$a$$ all'interno di $$\mathcal{A}$$.
 Questo si avvicina al limite teorico ottimo, quindi nice. Ma il problema è che non sono scalabili questi algoritmi.
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

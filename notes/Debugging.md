@@ -9,10 +9,6 @@ Ultima modifica: February 25, 2023 2:07 PM
 Primo Abbozzo: November 9, 2021 3:00 PM
 Studi Personali: No
 
-# Elementi di ripasso
-
-# Debugging
-
 Il debugging è un ambito che interessa molto a Lanese perché è molto affine al suo ambito di ricerca.
 
 ## Condizioni di correttezza

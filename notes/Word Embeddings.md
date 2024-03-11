@@ -8,8 +8,8 @@ title: Word Embeddings
 ### Word2Vec
 Paper di riferimento: @mikolovEfficientEstimationWord2013.
 
-[Video youtube intuitivo]([https://www.youtube.com/watch?v=viZrOnJclY0&ab_channel](https://www.youtube.com/watch?v=viZrOnJclY0&ab_channel)=StatQuestwithJoshStarmer)
-[Blog pratico]([https://towardsdatascience.com/a-word2vec-implementation-using-numpy-and-python](https://towardsdatascience.com/a-word2vec-implementation-using-numpy-and-python)-d256cf0e5f28)
+[Video youtube intuitivo](https://www.youtube.com/watch?v=viZrOnJclY0&ab_channel=StatQuestwithJoshStarmer)
+[Blog pratico](https://towardsdatascience.com/a-word2vec-implementation-using-numpy-and-python-d256cf0e5f28)
 
 È stato uno dei primi approcci che provano a fare un **embedding semantico** del significato delle parole.
 Semplicemente andare a fare [Tokenization](/notes/tokenization) per andare a encodare le parole non è sufficiente, perché questi non hanno nessun apporto semantico alle parole.
@@ -200,9 +200,3 @@ if __name__ == "__main__":
 ### GloVe
 
 ### ELMo
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |

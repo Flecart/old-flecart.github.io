@@ -397,12 +397,3 @@ $$
 
 E la relazione stupenda è con la velocità della luce, e si nota come queste sono veramente costanti fondamentali dell'universo!?
 È da notare però che questo vale solo per valori della velocità tali per cui siano molto minori rispetto alla velocità della luce. (regimi non relativistici).
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 03/12/2023 | Dovrebbe essere apposto questo, conosco bene direi la teoria di questa parte direi. |
-| 29/12/2023 | Oggi ho spostato ampere e Faraday in file a parte perché altrimenti questa prima parte diventava troppo grossa. Poi da fare un po' meglio (perché non sono riuscito a ricavarlo da me) la parte con relazione singola carica e campo elettrico. |
-| 11/01/2024 | Buono direi, bisogna fare un ripasso veloce per capire se riesco a spiegarle. |

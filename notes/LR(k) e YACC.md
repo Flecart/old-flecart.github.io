@@ -14,21 +14,11 @@ Studi Personali: No
 
 # Elementi di ripasso
 
-- Domande
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled.png)
-
-
 # LR(k) e YACC
 
 ## LR(k)
 
 ### Grammatiche LR(k) 🟩
-
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%201.png)
-
 
 Anche in questo caso proviamo a generalizzare il concetto dei pirmi k caratteri, in modo da generalizzare in qualche senso il concetto di LR(k), quindi **andiamo a modificare la closure** considerando ora first k
 
@@ -37,10 +27,6 @@ Per ricordarti come si calcolava first k, andare a guardare [Top-down Parser](/n
 il problema che poi diventa pratico riguardo questo è l'impossibilità di gestire **stringhe lunghezza k** che sono una assurdità (esponenziale per la lunghezza)
 
 ### Grammatiche SLR(k) 🟩
-
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%202.png)
 
 
 Uguale a SLR(k), ma possiamo andare a fare il reduce solamente quando il nostro terminale di interesse **appartiene al follow k!**
@@ -52,10 +38,6 @@ Questo è esattamente identico a LALR, si va a considerare il concetto di nucleo
 ## Classificazione dei linguaggi
 
 ### Gerarchia generale 🟨
-
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%203.png)
 
 
 Da qui si può creare una semplicissima gerarchia dei parser, che si possono riassumere in
@@ -72,10 +54,6 @@ E oltre questo inclusioni per ogni k, rispetto al k minore e la non inclusione. 
 
 È molto più facile classificare un **linguaggio invece che grammatica** potrei avere delle grammatiche che non siano LL(k), mentre il linguaggio che genera lo è
 
-- Esempio di quanto detto sopra
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%204.png)
-
 
 **Esiste grammatica non ambigua non deterministica!**
 
@@ -90,10 +68,6 @@ $$
 Si può vedere subito il conflitto shift reduce al primo passo, persino con un parser LR(1).
 
 **Teoremi sulla classificazione dei linguaggi**
-
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%205.png)
 
 
 Importante l'equivalenza del fatto che $$LL(k)  \equiv SLR(1)$$, qualunque sia k! posso andare a costruire una grammatica equivalente che sia in grado di fare ciò. (credo valga anche LR(k) = SLR(1), dato che è un sse per entrambi riguardo linguaggi liberi deterministici).
@@ -112,11 +86,6 @@ Le osservazioni di maggior rilievo riguardo questo sono
 
 Quindi un sacco di nozioni negative!
 
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%206.png)
-
-
 ## YACC
 
 In modo simile a quanto presentato per Lex in Lex/Flex  e Yacc. Yacc è l'equivalente utilizzato per i Parser.
@@ -128,7 +97,6 @@ Solitamente YACC non è impiegato da solo, ma in stretta collaborazione col LEX.
 Infatti esistono delle funzioni **yylex()** e la variabile **yylval** che sono spesso utilizzate per gestire il tempo di lettura diciamo.
 
 yylex - chiedi il prossimo token
-
 yylval - puntatore nella tabella dei simboli dell’ultimo lessema.
 
 ### Descrizione input e output 🟨
@@ -146,20 +114,13 @@ Questo programma può essere compilato, e poi sarà in grado di ricevere in inpu
 
 Come abbiamo detto nel documento precedente, yacc lavora in strettissimo contatto con il lexer, al quale chiede di volta in volta altri token ogni volta in cui ne ha bisogno, quindi chiede sul momento!
 
-- Slide riguardo questo sopra
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%207.png)
-
 
 **Condivisione di variabili!**
 
 ### Struttura di un file Yacc (4)
 
-[https://www.ibm.com/docs/en/aix/7.1?topic=information-example-program-lex-yacc-programs]([https://www.ibm.com/docs/en/aix/7.1?topic=information-example-program-lex-yacc](https://www.ibm.com/docs/en/aix/7.1?topic=information-example-program-lex-yacc)-programs)
+[https://www.ibm.com/docs/en/aix/7.1?topic=information-example-program-lex-yacc-programs](https://www.ibm.com/docs/en/aix/7.1?topic=information-example-program-lex-yacc-programs)
 
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%208.png)
 
 1. Prologo (defines)
 2. Definizioni (token o operatori)
@@ -167,19 +128,7 @@ Come abbiamo detto nel documento precedente, yacc lavora in strettissimo contatt
 4. Funzioni ausiliarie (utilizzate in azioni semantiche spesso).
 - Esempio di un file YACC
 
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%209.png)
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%2010.png)
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%2011.png)
-
-
 ### Sintassi regole e funzioni ausiliarie
-
-- Slide
-
-    [LR(k](/notes/lr(k)%20e%20YACC%20af47672b50fb43258a6aecef0bacf891/Untitled%2012.png)
-
 
 Le regole sono proprio nella forma
 
@@ -214,12 +163,3 @@ Se ci sono alcune forme di conflitti shift/reduce o reduce/reduce vengono risolt
 **Shift-reduce** viene sempre risolto in favore alla shift
 
 **Reduce reduce** viene risolto col reduce listato prima (quindi una forma di precedenza).
-
-# Registro ripassi
-
-| 12/12/2022 |  Abbastanza Ok. |
-| --- | --- |
-| 26/02/2023 | Non mi ricordo la Parte di YACC per niente, un pò da fare meglio proprietà dei Parser, per il resto riguardante la generalizzazione mi sembra apposto. |
-| 27/03/2023 | Ho avuto modo di provare yacc, molto carino, un interprete in live :D. |
-a fare meglio proprietà dei Parser, per il resto riguardante la generalizzazione mi sembra apposto. |
-| 27/03/2023 | Ho avuto modo di provare yacc, molto carino, un interprete in live :D. |

@@ -424,15 +424,3 @@ Non ci importa l'ordine di arrivo né per forza alcuni buchi.
 Questo è come sono le reti normali, normalmente sono connectionless, con un protocollo in più sono connection-oriented.
 
 In modo molto veloce si potrebbe dire che i servizi non orientati alla connessione non garantiscono nulla.
-
-# Registro ripassi
-
-| 21/10/22 | Boh, tutto ok direi |
-| --- | --- |
-| 29/10/22 | Tutto appostooo |
-| 12/11/22 | Fare un pò meglio differenze fra commutazione pacchetto o circuito, e le cose garantite dai servizi orientati alla connessione. |
-| 02/12/22 | Ok. |
-| 27/01/23 | Ok riguardo quanto ho scritto, ma ho notato che ci sono alcune cose che non so che sono invece presenti sulle slides |
-| 18/03/23 | Boh, mi sembra tutta roba base, nel senso che non potrebbe chiedere niente di questo perché è implicito in cose che ci sono più avanti, lo considero fatto tutto bene dai. |
-
-| 18/03/23 | Boh, mi sembra tutta roba base, nel senso che non potrebbe chiedere niente di questo perché è implicito in cose che ci sono più avanti, lo considero fatto tutto bene dai. |

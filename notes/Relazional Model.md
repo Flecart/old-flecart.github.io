@@ -5,7 +5,7 @@ tags: italian
 title: Relazional Model
 ---
 
-This is the classical format that we encounter, it is the format used for relational databases introduced in Introduction to data-bases|databases course introduction|Introduction to data-bases|databases course introduction, introduced in @coddRelationalModelData1970. 
+This is the classical format that we encounter, it is the format used for relational databases introduced in [databases course introduction](/notes/introduction-to-data-bases), introduced in @coddRelationalModelData1970. 
 
 ### Introduzione, i modelli di dati
 #### Lista modelli di dati (4)
@@ -43,7 +43,7 @@ In pratica abbiamo $$D_{1}, \dots D_{n}$$ **domini** a cui spesso sono associati
 Un campione di questo dataset non è altro che un cittadino nell'insieme $$D_{1} \times \dots \times D_{n}$$, in cui non importa né l'ordine dei singoli elementi all'interno della tupla, ma non importa per gli elementi fra una tupla e una altra.
 
 Nel caso in cui la posizione degli attributi non è importante (quindi posso mischiare una colonna a una altra) si dice che il database è **non-posizionale**
-Modello Relazionale-1695508072434.jpeg | 350|Modello Relazionale-1695508072434.jpeg | 350
+![ 350](/notes/modello-relazionale-1695508072434.jpeg-)
 Le due colonne scambiate non ci fanno differenza dal punto di vista logico.
 
 #### Schemi matematici o relazionali 🟩
@@ -105,7 +105,7 @@ on the relation such as primary and foreign key constraints.
 
 ## Standardization
 Da questa parte trattiamo meglio quando parliamo di forma Normale in seguito
-Abbiamo detto che il dataset relazionale ha un formato preciso [#Condizioni necessarie per relazione (3)](/notes/#condizioni-necessarie-per-relazione-(3)) espresso in questo punto, ma ci sono alcuni formati comuni che non lo sono, andiamo a vedere come si possono riportare nel formato standard
+Abbiamo detto che il dataset relazionale ha un formato preciso [#Condizioni necessarie per relazione (3)](#condizioni-necessarie-per-relazione-(3)) espresso in questo punto, ma ci sono alcuni formati comuni che non lo sono, andiamo a vedere come si possono riportare nel formato standard
 ### Unnesting 
 Per questo riguarda questo un
 
@@ -117,14 +117,3 @@ Per questo motivo si utilizza **NULL** che rappresenta proprio il dato mancante,
 - **Inexistant**
 - **Uninformative**
 Ma nei DBMS non si fa distinzione, quindi si utilizza un **unico null type**.
-
-
-
-## Note di ripasso
-- Perché lo rappresento con una relazione, se non è importante l'ordine? Se ho una tupla l'ordine è importante.
-
-| Data | Commenti |
-| ---- | ---- |
-| 14/11/2023 | Boh, non c'è un cazzo da studiare qui. |
-| 26/11/2023 | Mi sono accorto che non riesco a dare la definizione matematica esatta di tupla relazionale, anche riguardo gli attributi... |
-| 12/01/2024 | Non credo ci sia necessità di studiare questo modulo. |

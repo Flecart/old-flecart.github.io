@@ -25,7 +25,7 @@ $$
 $$
 
 Nota **il flusso dipende solamente dalla CARICA**, indipendente dalla singola posizione.
-Campo elettrico-1696844095493.jpeg | 300|Campo elettrico-1696844095493.jpeg | 300
+![ 300](/notes/campo-elettrico-1696844095493.jpeg-)
 
 
 
@@ -77,7 +77,7 @@ $$
 
 #### Legge di Gauss in forma differenziale (locale) 🟩
 
-Esiste anche una altra forma, che è si può vedere sopra la dimo #Teorema della divergenza riguardo alle motivazioni.
+Esiste anche una altra forma, che è si può vedere la dimo in [Divergenza e Circuitazione](/notes/divergenza-e-circuitazione) riguardo alle motivazioni.
 
 $$
 \vec{\nabla}\cdot\vec{E} = \frac{\rho}{\varepsilon_{0}}
@@ -110,12 +110,4 @@ $$
 \oint_{\sum}\lvert  \vec{E} \rvert ds \cos \theta = \lvert \vec{E} \rvert \oint_{\sum}ds\cos \theta \implies \lvert \vec{E} \rvert = \frac{Q_{T}}{\varepsilon_{0}} \frac{1}{\oint_{\sum}ds\cos \theta}
 $$
 
-Un aspetto particolare è che questo integrale $$\oint_{\sum}ds \cos \theta$$ è **semplicemente l'area della superficie**. 
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | ---- |
-| 22/10/2023 | 1. Non hai capito per niente la giustificazione con angoli solidi del perché vale gauss |
-| 06/12/2023 | Dovrei ripassare meglio solo l'angolo solido ma credo di avercelo. |
-| 12/01/2024 | Dovrei fare il discorso dell'angolo solido prima dell'orale, ma in generale ci siamo. |
+Un aspetto particolare è che questo integrale $$\oint_{\sum}ds \cos \theta$$ è **semplicemente l'area della superficie**.

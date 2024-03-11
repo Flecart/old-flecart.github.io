@@ -18,7 +18,7 @@ Studi Personali: No
 
 # Elementi di computabilità
 
-[https://virtuale.unibo.it/pluginfile.php/1295166/mod_resource/content/0/Lez18-Gorrieri.pdf]([https://virtuale.unibo.it/pluginfile.php/1295166/mod_resource/content/0/Lez18](https://virtuale.unibo.it/pluginfile.php/1295166/mod_resource/content/0/Lez18)-Gorrieri.pdf)
+[https://virtuale.unibo.it/pluginfile.php/1295166/mod_resource/content/0/Lez18-Gorrieri.pdf](https://virtuale.unibo.it/pluginfile.php/1295166/mod_resource/content/0/Lez18-Gorrieri.pdf)
 
 ## Halting problem
 
@@ -134,7 +134,7 @@ $$
 E quindi avrei una funzione che calcoli se una funzione è 0.
 
 ## Decidibilità
-Vedere La macchina di Turing#Problemi di decisione per definizione più adatta e corrente.
+Vedere [La macchina di Turing#Problemi di decisione](/notes/la-macchina-di-turing#problemi-di-decisione) per definizione più adatta e corrente.
 
 ### Introduzione 🟨+
 
@@ -238,12 +238,3 @@ Abbiamo visto che
     3. Find/replace
 
     principalmente è tutto decibile per questo qua.
-
-
-# Registro ripassi
-
-| 20/02/23 | Dovrei farmi meglio la parte della comparazione delle macchine (PDA, DFA, e Turing, secondo la decidiblità, e poi vedere se riesco a ricavere quei 3 programmi da solo in futuro. |
-| --- | --- |
-| 10/03/23 | Resta il fatto che dovrei farmi meglio la parte di comparazione fra le macchine,  ma direi che la parte sulla decidibiltia e paradossi è leggermente migliore, in breve direi che si possa migliorare ancora questa parte. |
-| 11/04/23 | La comparazione non dovrebbe essere un grosso problema, anche se non la ho capita, me la dovrei ricordare. Ho fatt omolta fatica a ricavarmi da solo halting problem, ma ci sono riuscito. Poi definizioni di decidibilità sem, ok, Turing ok, resto tutto abbastanza Ok direi. |
-ita, me la dovrei ricordare. Ho fatt omolta fatica a ricavarmi da solo halting problem, ma ci sono riuscito. Poi definizioni di decidibilità sem, ok, Turing ok, resto tutto abbastanza Ok direi. |

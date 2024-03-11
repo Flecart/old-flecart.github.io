@@ -133,15 +133,3 @@ Chiaramente non abbiamo molto vantaggio se tutti gli alberi che vengono così cr
 - Esistono molti alberi per lo stesso dataset (instabile con le features e struttura dell'albero)
 - Possono diventare molto unbalanced se c'è qualche predittore forte (andare a guardare questo).
 ## Side notes (altro)
-## Note di ripasso
-- Cosa è l'entropia di un sistema? Cosa è definita? Cosa induce?
-- Cosa è l'information gain?
-- Qual è la definizione di overfitting? (slide 52) el'underfitting?
-- Definizione di index di gini, a cosa serve? 
-	- Spiega come è definito l'indice di impurità di gini?
-- Quali sono svantaggi e vantaggi degli alberi di decisione? (4 + 3)
-
-| Data | Commenti |
-| ---- | -------- |
-|10/29/2023      |      non ho approfondito molto i caratteri tecnici, ma ad alto livello mi sento in grado di spiegare in che modo funzionano questi    |
-L'albero di per sé non è in grado di capire la semantica o perché fa quelle scelte.

@@ -106,15 +106,3 @@ Basta ricordarsi di fare anche il filosofo mancino e poi siamo apposto! Sarebbe 
 - Slide
 
     <img src="/images/notes/image/universita/ex-notion/Message Passing/Untitled 6.png" alt="image/universita/ex-notion/Message Passing/Untitled 6">
-
-
-# Registro ripassi
-
-| 25/11/22 | Primo pezzo della lezione è oK! |
-| --- | --- |
-| 27/01/23 | Ok post esame. (quanto rosico di aver sbagliato questo all’esame cazzo quei due punti dimmerda) |
-| 07/03/23 | Non credo ci sia nessun problema, non ho ripassato i problemi classici, ma ho ben in mente il sincrono e l’asincrono. |
-|  |  |
-esame cazzo quei due punti dimmerda) |
-| 07/03/23 | Non credo ci sia nessun problema, non ho ripassato i problemi classici, ma ho ben in mente il sincrono e l’asincrono. |
-|  |  |

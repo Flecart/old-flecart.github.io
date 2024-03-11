@@ -8,7 +8,7 @@ title: Entropy
 ### Entropy
 Questo è stato creato da 1948 Shannon in @shannonMathematicalTheoryCommunication. Questa nozione è basata sulla nozione di probabilità, perché le cose rare sono più informative rispetto a qualcosa che accade spesso.
 [Kolmogorov complexity](/notes/kolmogorov-complexity) è un modo diverso per definire la complessità.
-Legato è Neural Networks#Kullback-Leibler Divergence.
+Legato è [Neural Networks#Kullback-Leibler Divergence](/notes/neural-networks#kullback-leibler-divergence).
 
 We can model the classical view of entropy as the from [^1]
 > Expected value of **Surprisal** which is the uncertainty of a random variable $$X$$ taking a certain value which is $$p(X = x) = P(x)$$, but we want to measure it using log-likelihood.
@@ -67,7 +67,7 @@ Uso l'upper bound e il fatto che KL è convesso per dimostrare questa cosa.
 
 #### Functional dependency
 Se $$Y = f(X)$$ per qualche funzione, allora $$H(Y|X) = H(X|Y) = 0$$ si può risolvere con qualche ragionamento sul supporto di entropia.
-Interessante vedere che ha una piccola relazione con Normalizzazione dei database#Dipendenze funzionali.
+Interessante vedere che ha una piccola relazione con [Normalizzazione dei database#Dipendenze funzionali](/notes/normalizzazione-dei-database#dipendenze-funzionali).
 
 ### Relative Entropy or Kullback-Leibler
 <img src="/images/notes/image/universita/ex-notion/Neural Networks/Untitled 2.png" alt="image/universita/ex-notion/Neural Networks/Untitled 2">
@@ -108,7 +108,7 @@ Si può intendere la mutual information anche come KL fra le distribuzioni $$p(x
 
 ### Sufficient Statistics
 
-Possiamo rappresentare il sampling da una certa famiglia di distribuzioni $$f_{\theta}(x)$$ , rappresentato da $$X$$, e una sua statistica a caso (media varianza etc, che credo basti una funzione sul valore) come T, allora possiamo rappresentarlo come una Markov Chains#Catena di 3 variabili $$\theta \to X \to T(X)$$
+Possiamo rappresentare il sampling da una certa famiglia di distribuzioni $$f_{\theta}(x)$$ , rappresentato da $$X$$, e una sua statistica a caso (media varianza etc, che credo basti una funzione sul valore) come T, allora possiamo rappresentarlo come una [Markov Chains#Catena di 3 variabili](/notes/markov-chains#catena-di-3-variabili) $$\theta \to X \to T(X)$$
 E vale il teorema di information processing
 
 
@@ -212,14 +212,3 @@ $$
 
 Qualunque sia l'altra distribuzione.
 Si può dimostrare in modo abbastanza diretto utilizzando il fatto che la Kullback Leibler divergence, presentato in [Neural Networks](/notes/neural-networks), è sempre positiva o uguale a 0.
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|      |          |
-
-
-
-
-[^1]: [http://www.cs.toronto.edu/~yangxu/information-theory-v3.pdf](http://www.cs.toronto.edu/~yangxu/information-theory-v3.pdf) basic properties of information
-[^2]: [https://bjlkeng.io/posts/maximum-entropy-distributions/](https://bjlkeng.io/posts/maximum-entropy-distributions/) with examples and codes

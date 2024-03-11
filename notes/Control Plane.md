@@ -115,13 +115,3 @@ Una volta che un sistema autonomo è a conoscenza di tutte le rotte verso un cer
     4. Identificatori BGP (che non trattiamo)
 
     Quindi uno dopo l’altro utilizzo quelle per discriminare le routes e scegliere, quindi al passo 2 saranno rimaste tutte le routes con stessa preferenza locale, al numero 3 ho tutte le routes con stesso numero di hops, al passo 4 ho tutte le routes con stessa preferenza locale, stesso numero di hops, e stesso costo interno.
-
-
-# Registro ripassi
-
-| 02/04/23 | Il prof. non ha spiegato quasi nulla di questo capitolo, però va bene dai 😀. |
-| --- | --- |
-| 09/04/23 | Il prof ha saltato, però credo che quello che dovrei sapere su questo la so, quindi non c’è molto problema. |
-| 25/04/23 | Dovrei fare pratica per questi quesiti, però ci sono diciamo. |
-ha saltato, però credo che quello che dovrei sapere su questo la so, quindi non c’è molto problema. |
-| 25/04/23 | Dovrei fare pratica per questi quesiti, però ci sono diciamo. |

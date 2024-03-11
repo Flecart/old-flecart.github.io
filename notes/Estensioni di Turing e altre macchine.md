@@ -64,7 +64,7 @@ Sulle slides c'è un esempio di MTnd molto semplice per dimostrare che la primal
 
 
 #### Sketch di dimostrazione di equivalenza 🟨++
-Supponendo che abbiamo l'albero di computazione, posso esplorare con Grafi#BFS tutto l'albero di computazione e avere alla fine lo stesso risultato.
+Supponendo che abbiamo l'albero di computazione, posso esplorare con [Grafi#BFS](/notes/grafi#bfs) tutto l'albero di computazione e avere alla fine lo stesso risultato.
 
 Qui c'è un albero di computazione. (poi probabilmente bisognerà codificare un backtracking)
 <img src="/images/notes/Estensioni di Turing e altre macchine-20240222125426485.webp" alt="Estensioni di Turing e altre macchine-20240222125426485">
@@ -86,7 +86,7 @@ Esistono un sistema di istruzioni che muovono e modificano le cose dei registri:
 3. **Move** $$R(n, m)$$ $$m$$ è messo uguale a $$n$$ (sono registri)
 4. **Jump** $$J(n, m, p)$$ Salta a istruzione $$I_{p}$$ se i registri $$n$$ e $$m$$ sono uguali. altrimenti ignora istruzione.
 
-Ora possiamo definire una specie di CPU e storia degli elaboratori#3.1.2 ALU che è la cosa classica di programma imperativo.
+Ora possiamo definire una specie di [CPU e storia degli elaboratori#3.1.2 ALU](/notes/cpu-e-storia-degli-elaboratori#3.1.2-alu) che è la cosa classica di programma imperativo.
 
 
 #### Enunciato equivalenza 🟩
@@ -100,7 +100,7 @@ Che possono anche non terminare (in questo caso parziale).
 > Una funzione parziale è calcolabile in URM sse è calcolabile su TM
 
 #### Idea TM => URM 🟩
-Uso il risultato in #Turing con nastri addizionali, ho tanti nastri che fanno cose:
+Uso il risultato in [#Turing con nastri addizionali](#turing-con-nastri-addizionali), ho tanti nastri che fanno cose:
 1. Fa *instruction pointer* e punta all'istruzione attuale
 2. Ha il codice del programma
 3. Ha il valore dei registri in notazione unaria (che è equivalente), separati da U.
@@ -130,18 +130,18 @@ Abbiamo:
 2. Cicli while
 3. seguenziamento
 
-Possiamo definirlo in Sintassi e RI strutturali#4.2 Backus-Naur Form
-Estensioni di Turing e altre macchine-20240222133654619.webp|464|Estensioni di Turing e altre macchine-20240222133654619.webp|464
+Possiamo definirlo in [Sintassi e RI strutturali#4.2 Backus-Naur Form](/notes/sintassi-e-ri-strutturali#4.2-backus-naur-form)
+<img src="/images/notes/Estensioni di Turing e altre macchine-20240222133654619.webp" width="464" alt="Estensioni di Turing e altre macchine-20240222133654619">
 
 Ci sono tre forme di assegnazione, uno zero, uno successivo, uno uguale credo.
 Non viene fatta la parte della semantica che abbiamo fatto tempo fa a linguaggi.
 #### Dimostrazione equivalenza 🟨+
 > Una funzione (parziale) é computabile da un programma WHILE se e solo se é computabile da una macchina di Turing.
 
-Si dimostra per Sintassi e RI strutturali#4.7 Induzione strutturale sulla BNF lì precedente.
+Si dimostra per [Sintassi e RI strutturali#4.7 Induzione strutturale](/notes/sintassi-e-ri-strutturali#4.7-induzione-strutturale) sulla BNF lì precedente.
 I casi base sono i 3 assegnamenti e il programma vuoto.
 
-Per il caso base, utilizzo un nastro separato come ho fatto per #Turing con nastri addizionali, su questo ci metto le variabili di interesse.
+Per il caso base, utilizzo un nastro separato come ho fatto per [#Turing con nastri addizionali](#turing-con-nastri-addizionali), su questo ci metto le variabili di interesse.
 Su questo posso codificare i casi base accennati di sopra.
 
 Poi caso induttivo è while e sequenza di istruzioni.
@@ -150,11 +150,3 @@ Poi per codificare la sequenza, basta concatenare molte macchine di turing norma
 Per il while possiamo usare due macchine, una per il test, una per il corpo del while e dire che accetta quando esco dal ciclo.
 <img src="/images/notes/Estensioni di Turing e altre macchine-20240228131659027.webp" alt="Estensioni di Turing e altre macchine-20240228131659027">
 È interessante osservare come siano uguali questi.
-
-
-## Note di ripasso
-
-| Data       | Commenti                                                                                                                                                                       |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 27/02/2024 | Abbastanza bene, dovrei rifare le dimo, forse dettagliare i passaggi, ma ad alto livello ci siamo. Dovrei fare degli esercizi su questi forse. L'esercitazione del 28 è buona. |
-| 04/03/2024 | Non ho bene capito nello sketch di dimostrazione in che modo esattamente uso l'address tape.                                                                                   |

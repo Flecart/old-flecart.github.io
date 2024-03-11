@@ -11,7 +11,7 @@ title: Legge di Coulomb
 
 Il concetto di **campo** è fondamentale per l'elettromagnetismo (vs forza in meccanica)
 da un punto di vista storico è nato tramite l'osservazione in fenomeni come lo strofinio fra vetro e pelle, dopo il quale hanno osservato ci fosse una forza nascosta (appunto **ombra** dal greco di electron).
-Il vetro si caricava poi abbastanza da poter attrarre carta per esempio. [esempio dell'esperimento]([https://youtu.be/iHBNWiHJaQQ?si](https://youtu.be/iHBNWiHJaQQ?si)=0GPKmcE2Oeh69zXj).  Se viene fatto invece fra due lastre in vetro invece diventa *repulsiva* invece che attrattiva.
+Il vetro si caricava poi abbastanza da poter attrarre carta per esempio. [esempio dell'esperimento](https://youtu.be/iHBNWiHJaQQ?si=0GPKmcE2Oeh69zXj).  Se viene fatto invece fra due lastre in vetro invece diventa *repulsiva* invece che attrattiva.
 Questo effetto è chiamato **triboelettricità**.
 
 ### Dimensioni atomo
@@ -25,7 +25,7 @@ Abbiamo che la differenza in modulo della forza di gravità e forza elettrica si
 ### Esperimenti classici
 #### Elettroscopio a foglie 🟩
 <img src="/images/notes/Introduzione-1696711860049.jpeg" alt="Introduzione-1696711860049">
-[Video per l'esperimento]([https://youtu.be/XXVUuW5F0xU?si](https://youtu.be/XXVUuW5F0xU?si)=eKnTMxnoIitJdTB_) in cui vengono presentati tre casi (e tre cariche risultanti diverse).
+[Video per l'esperimento](https://youtu.be/XXVUuW5F0xU?si=eKnTMxnoIitJdTB_) in cui vengono presentati tre casi (e tre cariche risultanti diverse).
 
 1. avvicinando un oggetto carico, le foglie si separavano, questa è una **carica indotta** dalla presenza di un altro oggetto, allontanando rimaneva poi uguale.
 2. Se tocco, caricherò con la stessa carica del mi oggetto (scambio di elettroni)
@@ -34,8 +34,8 @@ Abbiamo che la differenza in modulo della forza di gravità e forza elettrica si
 L'angolo di separazione fra le foglie hanno permesso di **misurare la carica per la prima volta**. (poi probabilmente qualcosa di meccanica per calcolare).
 
 #### Bilancia a torsione 🟩-
-Questo è un setting un po' più complesso anche se l'idea è ancora quella presente in #Elettroscopio a foglie di misurare un angolo per avere la distanza.
-[video esempio]([https://youtu.be/FYSTGX-F1GM?si=PLB61tg1ljz](https://youtu.be/FYSTGX-F1GM?si=PLB61tg1ljz)-XbRb).
+Questo è un setting un po' più complesso anche se l'idea è ancora quella presente in Elettroscopio a foglie di misurare un angolo per avere la distanza.
+[video esempio](https://youtu.be/FYSTGX-F1GM?si=PLB61tg1ljz-XbRb).
 
 <img src="/images/notes/Introduzione-1696712750452.jpeg" alt="Introduzione-1696712750452">
 L'unica cosa importante era l'angolo di torsione, da cui si poteva dedurre la forza.
@@ -55,7 +55,7 @@ Da cui si può derivare la forza, e quindi sperimentalmente anche i valori di qu
 ### Enunciato a parole 🟩
 > Date due cariche elettriche poste a una distanza $$r$$, tra di esse esercita una forza che è direttamente proporzionale al prodotto delle cariche ed inversamente proporzionale al quadrato della distanza, tale forza è diretta fra la congiungente delle cariche elettriche, repulsiva se i segni sono concordi e attrattiva se discordi.
 
-### I risultati di coulomb 🟩
+### I risultati di coulomb
 Grazie al suo lavoro metodico di sperimentazione è riuscito ad elaborare la legge che viene presentata subito sopra, è riuscito a ridurre il tutto a tre proprietà fondamentali
 1. la forza è diretta sulla congiungente
 2. A volte è attrattiva, altre volte repulsiva
@@ -104,12 +104,12 @@ Si può dire che un protone e un neutrone è formato da quark, anche se non so e
 
 
 #### Carica protoni ed elettroni 🟩
-Stiamo provando a rispondere alla domanda *perché la carica di elettroni e protoni è uguale?* Proviamo a ragionare per assurdo, assumendo le costanti che conosciamo già sopra in #I risultati di coulomb.
+Stiamo provando a rispondere alla domanda *perché la carica di elettroni e protoni è uguale?* Proviamo a ragionare per assurdo, assumendo le costanti che conosciamo già sopra nella sezione sui risultati di coulomb.
 
 Supponiamo ci sia una differenza di carica fra protoni ed elettroni, anche piccolissima, mettiamo caso sia $$1.6 \cdot 10^{-28}C$$, e consideriamo due palle di ferro puro di massa $$1Kg$$ e raggio $$1m$$, allora dato che la $$\Delta q \neq 0$$ si avrà una forza, che sarà di $$k \Delta q \frac{\Delta q_{2}}{r^{2}}$$,  considerando che il ferro nella tavola periodica ha $$Z=26$$ ossia il numero totale di protoni e $$A=55$$, il numero di massa, avremo che $$\Delta Q = N_{protoni}\cdot \Delta q$$, e da questo si può ricavare un valore simile a $$0,0455 C$$, e considerando che $$N_{p} = z \cdot N_{atomi} = Z \cdot \frac{M}{A} N_{a}$$ dove l'ultimo è il numero di avocadro credo, la forza che sarebbe presente sarebbe di circa $$1.7 \cdot 10^{7} N$$, e si avrebbe il terzo principio della dinamica, ma sperimentalmente non esiste questa forza
 ### Principio di sovrapposizione
 
-#### Enunciato del principio di sovrapposizione 🟩
+#### Enunciato del principio di sovrapposizione
 Questo è uno dei metodi principali che sarà utilizzato per calcolare il [Campo elettrico](/notes/campo-elettrico), dice semplicemente che i vettori della forza di Coulomb si possono semplicemente sommare fra di loro
 
 $$
@@ -137,24 +137,10 @@ $$
 
 #### Densità lineare di carica 🟩
  
-Stesso concetto per la lineare, ma anche qui non lo riscrivo però, scrivo però l'equivalente dell #Enunciato del principio di sovrapposizione per più facile comprensione.
+Stesso concetto per la lineare, ma anche qui non lo riscrivo però, scrivo però l'equivalente dell [#Enunciato del principio di sovrapposizione](#enunciato-del-principio-di-sovrapposizione) per più facile comprensione.
 
 $$
 \vec{F}_{l} = \frac{1}{4\pi \varepsilon_{0}} Q_{p} \int _{l} \frac{\lambda(\vec{r})}{\Delta r^{2}} \hat{\Delta}r \, dl 
 $$
 
 Integrale lineare
-
-## Note di ripasso
-- Spiega la triboelettricità, cosa è?
-- Perché vetro o plastica si caricano con la seta? perché la seta è in grado di dare o cedere elettroni?
-- Quali sono esperimenti comuni per la triboelettricità?
-- Come si calcolano il numero di protoni in un elemento data la sua massa, numero Z e atomico?
-
-| Data | Commenti |
-| ---- | ---- |
-| 21/10/23 | Alla fine non conoscevi bene le grandezze classiche di atomi e la loro carica (questo dovrebbe essere a memoria), inoltre non mi ricordavo delle proprietà della carica per bene (il fatto che fosse costante etc.) |
-| 09/11/23 | Mi sembra apposto alla fine di questo è importante sapere soltanto gli esperimenti principali e la proprietà della carica |
-| 03/12/23 | Non credo di essere riuscito a spiegare bene il funzionamento della bilancia di torsione |
-| 31/12/23 | Non mi ricordavo come ricavare la formula della forza per la bilancia a torsione, però per il resto credo nice, dovrei saperlo |
-| 13/01/24 | Sapevo bene la bilancia a torsione |

@@ -62,7 +62,7 @@ Andiamo a derfinire un modulo di inception (in cui va a fare in un certo senso s
 
 !<img src="/images/notes/image/universita/ex-notion/Convolutional NN/Untitled 3.png" alt="image/universita/ex-notion/Convolutional NN/Untitled 3">
 
-  [https://www.youtube.com/watch?v=VxhSouuSZDY&ab_channel=Udacity]([https://www.youtube.com/watch?v=VxhSouuSZDY&ab_channel](https://www.youtube.com/watch?v=VxhSouuSZDY&ab_channel)=Udacity)
+  [https://www.youtube.com/watch?v=VxhSouuSZDY&ab_channel=Udacity](https://www.youtube.com/watch?v=VxhSouuSZDY&ab_channel=Udacity)
 
 
 ### Residual layers
@@ -179,10 +179,3 @@ Potremmo provare a **normalizzare per canale**
 - Slide normalizations
 
 !!<img src="/images/notes/image/universita/ex-notion/Convolutional NN/Untitled 15.png" alt="image/universita/ex-notion/Convolutional NN/Untitled 15">
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

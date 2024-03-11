@@ -30,12 +30,10 @@ A Work Breakdown Structure (WBS) is a hierarchical decomposition of a project in
 
 [https://chat.openai.com/share/1d74fa24-d198-4c17-9fbe-1c8cc93333d4](https://chat.openai.com/share/1d74fa24-d198-4c17-9fbe-1c8cc93333d4)
 
-Si può rappresentare con un **grafico di gantt** quelli che abbiamo usato per [Scheduler](/notes/scheduler). Perché così so quando ogni singola attività inizia e finisce.
+Si può rappresentare con un **grafico di Gantt** (vedi [Scheduler#Diagramma di Gantt](/notes/scheduler#diagramma-di-gantt)). Perché così so quando ogni singola attività inizia e finisce.
 
 #### Milestone e percorso critico
-
 #### Debito tecnico
-
 > Il debito tecnico è una stima del costo di futuro sforzo addizionale causato da una soluzione prematura adottata oggi pur di consegnare un prodotto con qualche valore (lo sforzo futuro andrà ripagato con gli interessi)
 
 Il costo di versioni successive, è costo in debito tecnico, per questo motivo è maggiore. E si dovrebbe dare valore prima.
@@ -43,7 +41,6 @@ Il costo di versioni successive, è costo in debito tecnico, per questo motivo �
 ## Misura dei costi di sviluppo
 
 ### Misura nel software
-
 #### costo e valore del software
 Valore è sul ricavo -> numero di utenti * ricavo medio.
 Mentre il costo del software e tempo persona.
@@ -66,9 +63,6 @@ Fisiche sono quelle effettivamente presenti nel codice, invece le linee logiche 
 Se si riesce a fare una stima dell'architettura del progetto, e poi delle linee logiche necessarie per fare questo sviluppo, possiamo tenere conto di una *media di numeri giornalieri*, e possiamo calcolare cose come costo totale del software avendo una media per riga.
 Chiaramente mi sembra che questa stima sia fortemente imprecisa.
 
-
-
-
 #### Vantaggi e svantaggi di LOC
 La cosa carina di questo metodo è che è **facile** da fare.
 Poi abbiamo metriche derivate molto semplici da intendere come:
@@ -84,10 +78,6 @@ Però
 - **Non tiene conto della complessità**, certe istruzioni possono fare un sacco di cose, a seconda del livello di astrazione.
 - Non possiamo distinguere bene le linee logiche con quelle fisiche, non abbiamo un metodo per contarle per dire.
 
-
-
-
-
 ### Function point
 
 #### Idea principale del metodo
@@ -99,10 +89,9 @@ Cerchiamo di analizzare il software tramite le funzionalità nuove che possono v
 L'idea è partire da quello che è necessario all cliente, quelli che chiamiamo **functional requirements** trattati a [Requisiti e backlog del software](/notes/requisiti-e-backlog-del-software).
 Insieme a questi sono collegati i *non functional requirements* che sono features necessarie a sviluppatori, e non utenti.
 
-/h4
-
 #### UFC e TFC
 
 Ufc è **Unadjusted Function Count** che è la somma semplice di tutte le funzionalità su tutti i lati in cui potrebebro essere necessità di function points.
 
 ### Cocomo e modelli di costo
+Non fatti.

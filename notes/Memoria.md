@@ -159,7 +159,7 @@ Se però si tenta di accedere alla cache allo stesso momento, si possono esserci
 
 Se vuoi approfondire su algoritmi per la gestione della cache:
 
-[https://en.wikipedia.org/wiki/Cache-oblivious_algorithm]([https://en.wikipedia.org/wiki/Cache](https://en.wikipedia.org/wiki/Cache)-oblivious_algorithm)
+[https://en.wikipedia.org/wiki/Cache-oblivious_algorithm](https://en.wikipedia.org/wiki/Cache-oblivious_algorithm)
 
 e altro ancora
 

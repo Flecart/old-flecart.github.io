@@ -19,10 +19,3 @@ Praticamente non assumo niente… Se riesco a dire qualcosa sarebbe molto intere
 
 ## FLP impossibility
 TODO: continuare
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

@@ -22,7 +22,7 @@ Solitamente il nome scheduler è solamente un gestore dell'avvicendamento, si pu
 
 ## Note introduttive
 
-### Diagramma di gantt 🟩
+### Diagramma di Gantt
 
 Questo è il diagramma per presentare lo scheduling, ossia da quando a quando è eseguito cosa
 
@@ -232,7 +232,7 @@ Questa politica è molto simile a quello utilizzato nei router in [Data Plane](/
     <img src="/images/notes/image/universita/ex-notion/Scheduler/Untitled 16.png" alt="image/universita/ex-notion/Scheduler/Untitled 16">
 
 
-Esempio: [https://www.geeksforgeeks.org/multilevel-queue-mlq-cpu-scheduling/]([https://www.geeksforgeeks.org/multilevel-queue-mlq-cpu](https://www.geeksforgeeks.org/multilevel-queue-mlq-cpu)-scheduling/)
+Esempio: [https://www.geeksforgeeks.org/multilevel-queue-mlq-cpu-scheduling/](https://www.geeksforgeeks.org/multilevel-queue-mlq-cpu-scheduling/)
 
 ### SISTEMI A REALTIME (non fare)
 
@@ -257,13 +257,3 @@ Per periodici come **rate monotonic** (praticamente a priorità, quelli a freque
     The key difference between RMS and EDF is that RMS uses a fixed priority assignment based on task period, while EDF assigns priority dynamically based on the task deadline.
 
     In summary, both RMS and EDF are real-time scheduling algorithms used to schedule tasks in real-time systems. RMS assigns priority based on the task period, while EDF assigns priority dynamically based on the task deadline.
-
-
-# Registro ripassi
-
-| 18/03/23 | In questo momento so presentare bene questi algoritmi. (mi sono scordato della convoy effect) |
-| --- | --- |
-| 10/04/23 | Non mi ricordavo altri casi in cui faceva preemptive scheduling (differenze preemptive non preemeptive), il convoy effect, la media esponenziale |
-| 06/05/23 | Ok, dovrei farmi meglio quelli a frequenza, anche se non li ha fatti bene |
-ing (differenze preemptive non preemeptive), il convoy effect, la media esponenziale |
-| 06/05/23 | Ok, dovrei farmi meglio quelli a frequenza, anche se non li ha fatti bene |

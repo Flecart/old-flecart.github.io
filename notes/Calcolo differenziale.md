@@ -85,13 +85,10 @@ Vorrei considerare un limite simile a  $$f(x + h, y+ h) - f(x, y)$$, che possiam
 
 **Def o-piccolo a più dimensioni:**
 
-$$g: \R^2 \to \R$$ si dice che $$g(h,k) = o(|(h,k)
-|)$$ se ho che $$|g(h,k)|/ |(h,k)| < \epsilon$$ , con $$0< |(h,k)|  < \delta$$ per ogni epsilon maggiore di 0, quindi considero la norma (che mi da una nozione di distanza).  Ma i concetto di o-piccolo è ancora ben presente.
+$$g: \mathbb{R}^2 \to \mathbb{R}$$ si dice che $$g(h,k) = o(\lvert(h,k)\rvert)$$ se ho che $$\lvert g(h,k)\rvert/ \lvert (h,k)\rvert < \epsilon$$ , con $$0< \lvert(h,k)\rvert  < \delta$$ per ogni epsilon maggiore di 0, quindi considero la norma (che mi da una nozione di distanza).  Ma i concetto di o-piccolo è ancora ben presente.
 
 Possiamo anche scrivere la stessa definizione utilizzando le successione.
-
 - Come qui
-
     <img src="/images/notes/image/universita/ex-notion/Calcolo differenziale/Untitled.png" alt="image/universita/ex-notion/Calcolo differenziale/Untitled">
 
 
@@ -113,13 +110,13 @@ Sia $$f$$ una funzione da $$A \subseteq \R^2$$  aperto da $$f: A \to \R$$. Si di
 
 
 $$
-f((x + h, y + k)) = f((x, y) + (h,k)) = f(x,y) + \langle\nabla f(x,y), (h,k)\rangle + o(|h, k|)
+f((x + h, y + k)) = f((x, y) + (h,k)) = f(x,y) + \langle\nabla f(x,y), (h,k)\rangle + o(\lvert h,k \rvert )
 $$
 
 
 Possiamo scrivere questa cosa con una altra notazione equivalente:
 
-$$f(x, y) = f(\bar{x}, \bar{y}) +\langle\nabla f(x,y), (x - \bar{x},y - \bar{y})\rangle + o((|x - \bar{x},y - \bar{y}|)$$  con $$(x,y) \to(\bar{x}, \bar{y})$$
+$$f(x, y) = f(\bar{x}, \bar{y}) +\langle\nabla f(x,y), (x - \bar{x},y - \bar{y})\rangle + o((\mid x - \bar{x},y - \bar{y} \mid)$$  con $$(x,y) \to(\bar{x}, \bar{y})$$
 
 E questo assomiglia di più rispetto al polinomio di taylor, perché effettivamente qui si ha l’approssimazione in bella vista.
 
@@ -206,30 +203,28 @@ Questo è uno dei teoremi principali della differenziabilità. Collega questo co
 
     Allora riscriviamo la equazione iniziale, e vediamo che sia corretta effettivamente:
 
-    $$\langle\nabla f(a,b), (h,k)\rangle + o(|h, k|) = \delta_yf(a+h , b+\beta k)k + \delta_x f(a + \alpha h, b) h$$
+    $$\langle\nabla f(a,b), (h,k)\rangle + o(\lvert h,k \rvert) = \delta_yf(a+h , b+\beta k)k + \delta_x f(a + \alpha h, b) h$$
 
-    Ho $$h\delta_x f(x,y) + k \delta _yf(x,y) + o(|h,k|)$$ dal gradiente. Se riesco a dimostrare questo allora ho finito.
+    Ho $$h\delta_x f(x,y) + k \delta _yf(x,y) + o(\lvert h,k \rvert)$$ dal gradiente. Se riesco a dimostrare questo allora ho finito.
 
-    Se riusciamo a dimostrare $$\delta_x f(a + \alpha h, b) h = h\delta_x f(x,y) + o(|h,k|)$$ allora ho finito (stessa cosa per l’altra).
+    Se riusciamo a dimostrare $$\delta_x f(a + \alpha h, b) h = h\delta_x f(x,y) + o(\lvert h, k \rvert)$$ allora ho finito (stessa cosa per l’altra).
 
-    L’ultima proposizione è equivalente a dire che $$\delta_x f(a + \alpha h, b) h - h\delta_x f(a,b) = o(|h,k|)$$
+    L’ultima proposizione è equivalente a dire che $$\delta_x f(a + \alpha h, b) h - h\delta_x f(a,b) = o(\lvert h,k \rvert)$$
 
     ovvero che (per definizione di o piccolo) quella cosa tenda a 0, ossia che.
 
     $$
-    \lim_{h,k \to (0,0)} \dfrac{h}{|h,k|} [\delta_x f(a + \alpha h, b) - \delta_x f(a,b)] = 0
+    \lim_{h,k \to (0,0)} \dfrac{h}{\lvert h, k \rvert} [\delta_x f(a + \alpha h, b) - \delta_x f(a,b)] = 0
     $$
 
-    $$\dfrac{h}{|h,k|} [\delta_x f(a + \alpha h, b) - \delta_x f(a,b)]   \leq  [\delta_x f(a + \alpha h, b) - \delta_x f(a,b)]$$  per le proprietà della norma.
+    $$\dfrac{h}{\lvert h,k \rvert} [\delta_x f(a + \alpha h, b) - \delta_x f(a,b)]   \leq  [\delta_x f(a + \alpha h, b) - \delta_x f(a,b)]$$  per le proprietà della norma.
 
     Ora utilizziamo la continuità della derivata, che si ha in ipotesi e possiamo concludere che quella differenza.
 
     - Conclusione con la continuità
-
         <img src="/images/notes/image/universita/ex-notion/Calcolo differenziale/Untitled 3.png" alt="image/universita/ex-notion/Calcolo differenziale/Untitled 3">
 
         E si può dimostrare che $$a + \alpha h, b) \in B(a,b),\delta)$$
-
         <img src="/images/notes/image/universita/ex-notion/Calcolo differenziale/Untitled 4.png" alt="image/universita/ex-notion/Calcolo differenziale/Untitled 4">
 
         <img src="/images/notes/image/universita/ex-notion/Calcolo differenziale/Untitled 5.png" alt="image/universita/ex-notion/Calcolo differenziale/Untitled 5">
@@ -242,12 +237,11 @@ Questo è uno dei teoremi principali della differenziabilità. Collega questo co
 Il concetto di derivata direzionale generalizza il concetto di derivata parziale, perché ora invece di andare in una direzione di una base canonica, andiamo nella direzione di un vettore.
 
 ### 10.3.1 Definizione
-
-Dato $$x \in \R^n$$ e $$v\in \R^n-\{0\}$$, consideriamo l'insieme $$\{x + tv | t \in \R\}$$, abbiamo l'insieme di una linea, passante per il nostro punto che abbia la direzione del vettore preso.
+Dato $$x \in \mathbb{R}^n$$ e $$v\in \mathbb{R}^n-\{0\}$$, consideriamo l'insieme $$\{x + tv | t \in \mathbb{R}\}$$, abbiamo l'insieme di una linea, passante per il nostro punto che abbia la direzione del vettore preso.
 
 Allora con tutto questo iniziamo la definizione:
 
-$$f:A \to \R, (a,b) \in A$$ e dato $$v = (v_1, v_2)$$ un vettore unitario, allora si ha che la derivata direzionale è
+$$f:A \to \mathbb{R}, (a,b) \in A$$ e dato $$v = (v_1, v_2)$$ un vettore unitario, allora si ha che la derivata direzionale è
 
 
 $$
@@ -258,11 +252,8 @@ $$
 In pratica stiamo andando in una direzione scelta di v. (da notare infatti che se preso il vettore in una direzione parallela alla base canonica, allora ho le derivate parziali).
 
 **Osservazione 2**
-
 Posso creare una funzione ausiliaria, e vedo che la derivata direzionale è uguale alla derivata (normale 1-variabile) della funzione ausiliaria:
-
 $$g(t) = f(a + tv_1, b+ tv_2)$$
-
 Si nota che $$D(g(t)) = \lim_{h \to 0} \dfrac{g(h) -g(0)}{h} = \dfrac{f(a + tv_1, b+ tv_2) - f(a, b)}{h}$$
 
 ### 10.3.2 Formula del gradiente (!!!)
@@ -274,19 +265,14 @@ $$\dfrac{\delta f}{\delta v} (a,b) = \langle \nabla f(a,b), (v_1,v_2)\rangle$$
 **Osservazione**
 
 Questa è una cosa forte, perché mi dice che se conosco le derivate parziali riesco a trovare il valore della derivata in qualunque direzione. Ma da notare che deve essere *differenziabile!*.
-
 - Dimostrazione
-
     $$
-    f(a + tv_1, b+ tv_2) - f(a, b) = \langle\nabla f(a,b), tv\rangle + o(||tv||)
+    f(a + tv_1, b+ tv_2) - f(a, b) = \langle\nabla f(a,b), tv\rangle + o(\lvert tv \rvert)
     $$
-
     Questo vale per la formula di Taylor, noi siamo però interessati al limite, quindi siamo interessati a questo:
-
     $$
-    \lim_{t \to 0} \dfrac{ \langle\nabla f(a,b), tv\rangle + o(||tv||)}{t}
+    \lim_{t \to 0} \dfrac{ \langle\nabla f(a,b), tv\rangle + o(\lvert tv \rvert )}{t}
     $$
-
     Ed è abbastanza ovvio che la soluzione di questo limite è $$\langle\nabla f(a,b), v\rangle$$ (basta portare fuori la t e dividerla con la t di sotto), mentre l'o-piccolo tende a 0 per definizione di o piccolo.
 
 
@@ -298,7 +284,7 @@ Dato il gradiente (consideriamo questo diverso da 0 perché nell'altro caso è q
 
 
 $$
-\nabla f(a,b) = |\nabla f(a,b)| \cdot (\cos\theta, \sin \theta)
+\nabla f(a,b) = \lvert \nabla f(a,b) \rvert \cdot (\cos\theta, \sin \theta)
 $$
 
 
@@ -308,7 +294,7 @@ $$\langle \nabla f(a,b), (v_1,v_2)\rangle$$, (notiamo che v è definito come ver
 
 
 $$
-\langle \nabla f(a,b), (\cos\gamma,\sin\gamma)\rangle = |\nabla f(a,b)| \cdot \cos(\theta - \gamma)
+\langle \nabla f(a,b), (\cos\gamma,\sin\gamma)\rangle = \lvert \nabla f(a,b) \rvert \cdot \cos(\theta - \gamma)
 $$
 
 
@@ -318,7 +304,7 @@ Ma esiste solamente un unico vettore unitario per cui succede, questa è la dire
 
 
 $$
-v_{max} = \dfrac{\nabla f(a,b)}{ |\nabla f(a,b)|}
+v_{max} = \dfrac{\nabla f(a,b)}{ \lvert \nabla f(a,b)  \rvert }
 $$
 
 
@@ -328,7 +314,7 @@ Avendo il vettore di direzione per il massimo possiamo calcolare effettivamente 
 
 
 $$
-\langle \nabla f(a,b), v_{max})\rangle = |\nabla f(a,b)|
+\langle \nabla f(a,b), v_{max})\rangle = \mid\nabla f(a,b)\mid
 $$
 
 
@@ -393,10 +379,6 @@ Quando la derivata è nulla in tutti i punti si dice che quel punto della traiet
 
 Come si nota, la curva non è detto che sia derivabile, quindi prima la parametriziammo, e poi calcoliamo la derivata della funzione composta, e nient’altro.
 
-- formula
-
-
-
 ### 10.4.5 Ortogonalità del differenziale (!)
 
 <img src="/images/notes/image/universita/ex-notion/Calcolo differenziale/Untitled 14.png" alt="image/universita/ex-notion/Calcolo differenziale/Untitled 14">
@@ -415,12 +397,3 @@ f una funzione differenziabile, e voglio la derivata di $$f(h_1(s),..., h_n(s))$
 $$r(s) = (h_1(s),...,h_n(s))$$ e calcolarmi la derivata di $$f(r(s))$$ che abbiamo discusso sopra, alla fine avrò qualcosa del tipo
 
 $$\delta_{e_1}f(r(s))\delta_s(h_1(s)) + ... + \delta_{e_n}f(r(s) \delta_s(h_n(s))$$
-
-| 20/03 |  Bene la parte su derivate parziali e differenziabilità, il teorema sulla differenziaibilità la devi ancora fare per bene (la sai abbastanza male).  |
-| --- | --- |
-| 19/05 | L’ultima cosa sul fatto che erano perpendicolari non credo lo chieda, e non lo fa bien. Comunque il resto è apposto?!?!? |
-|  |  |
-astanza male).  |
-| --- | --- |
-| 19/05 | L’ultima cosa sul fatto che erano perpendicolari non credo lo chieda, e non lo fa bien. Comunque il resto è apposto?!?!? |
-|  |  |

@@ -287,14 +287,3 @@ Il backoff è via via crescente, si potrebbe dire che sia la come la dimensione 
 La cosa brutta è che deve andare a sperimentare contesa per sapere quanta contesa ci sia! Per questo motivo si dice che non sia efficiente: se il canale è occupato con questo metodo ci provi lo stesso e quindi vai a disturbare.
 
 Quando va a 0 allora io faccio proprio la tramissi contione e aspetto ack, se arrivo è ok, altrimenti si aumenta timer nel backoff e si rifà. Continua finché non ce la fai.
-
-# Registro ripassi
-
-| 12/05/23 | Abbastanza buono, non mi ricordavo i protocolli ad hoc come MACA e le differenze con quelle con infrastruttura come DCF o PCF, bisogna fare leggermente meglio le cose del backoff e degli spazi vuoti, ma generalemnte è buon risultato. |
-| --- | --- |
-|  |  |
-|  |  |
-lle con infrastruttura come DCF o PCF, bisogna fare leggermente meglio le cose del backoff e degli spazi vuoti, ma generalemnte è buon risultato. |
-| --- | --- |
-|  |  |
-|  |  |

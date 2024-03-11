@@ -134,7 +134,7 @@ Ti basti sapere che la funzione deve essere:
     <img src="/images/notes/image/universita/ex-notion/Equazioni non lineari/Untitled 9.png" alt="image/universita/ex-notion/Equazioni non lineari/Untitled 9">
 
 
-Nota; questo teorema è abbastanza importante (e anche tosto se si vuole far bene), lo puoi trovare in questa pagina di [wiki]([https://en.wikipedia.org/wiki/Banach_fixed](https://en.wikipedia.org/wiki/Banach_fixed)-point_theorem)
+Nota; questo teorema è abbastanza importante (e anche tosto se si vuole far bene), lo puoi trovare in questa pagina di [wiki](https://en.wikipedia.org/wiki/Banach_fixed-point_theorem)
 
 Nota: derivabilità e contrazione:
 Se il modulo della derivata è minore di 1 allora è una contrazione! (non il perché ti basta ricordare sta cosa lel).

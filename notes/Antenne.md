@@ -171,12 +171,3 @@ Vogliamo il minimo link-budget positivo.
 Questo si chiama **system operative margin** o valore operativo del sistema.
 
 Il margine extra è chiamato **fade margin** per resister al path loss, fase, e riflessioni e simili, in generale questo fade margin è un +10 fino +20
-
-# Registro ripassi
-
-| 22/04/23 | Non mi ricordavo che era la beam width, cosa era la line of sight per le highly directional antennas, la path loss non me la ricordavo proprio. |
-| --- | --- |
-| 01/05/23 | Path loss meglio, beam width più o meno simile, line of sight è intuitivo now., per il resto meglio fare esercizi. |
-| 14/05/23 | Questo praticamente molto easy, dovrei solo saperlo ritrovare poi per l’esame. |
-eno simile, line of sight è intuitivo now., per il resto meglio fare esercizi. |
-| 14/05/23 | Questo praticamente molto easy, dovrei solo saperlo ritrovare poi per l’esame. |

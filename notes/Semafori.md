@@ -343,13 +343,3 @@ I semafori pongono **forti problemi di leggibilità** dato che sono costrutti a 
 È possibile inoltre compiere **errori stupidi** in modo molto facile, come scambiare P o V, omettere Po V.
 
 E pone un **sacco di responsabilità sul prorammatore** che deve gestire lui in modo corretto le risorse e definire gli accessi.
-
-# Registro ripassi
-
-| 15/10/22 | Ripassare la slide sulle invarianti. |
-| --- | --- |
-| 05/11/22 |  Ok, bisogna fare forse un ripasso più strutturato dopo, ma ci siamo direi. |
-| 29/11/22 | Alla fine non mi ricordo proprio a memoria queste soluzioni, ma penso di aver capito molto bene i modi soliti per applicare questi concetti, quindi credo mi vada tutto apposto |
-| 27/01/23 |  Tranne un pò andrews per il resto mi sembra molto introiettato, quindi apposto direi. |
-iti per applicare questi concetti, quindi credo mi vada tutto apposto |
-| 27/01/23 |  Tranne un pò andrews per il resto mi sembra molto introiettato, quindi apposto direi. |

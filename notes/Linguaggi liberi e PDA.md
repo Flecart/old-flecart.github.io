@@ -229,11 +229,3 @@ In generale si può estendere dicendo
 - Automi di Turing riconoscono i linguaggi ricorsivi, e sono in grado di enumerare ricorsivamente quelle generali. (anche se è semidecidibile, quindi forse non riesce a ricononscerli tutte??)
 
 <img src="/images/notes/image/universita/ex-notion/Linguaggi liberi e PDA/Untitled 32.png" alt="image/universita/ex-notion/Linguaggi liberi e PDA/Untitled 32">
-
-# Registro ripassi
-
-| 29/11/22 | Il pumping theorem non me lo ricordavo proprio, avevo anche qualche difficoltà a rifare la dimostrarazione di computazione parallela.                                                                                              |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 21/12/22 | Fare meglio pumpint theorem e Gerarchia atuomi.                                                                                                                                                                                    |
-| 06/02/23 | Non sai formalizzare la computazione degli automi a pila, anche se lo sai spiegare a voce.Certi piccoli dettagli nella dimostrazione ed enunciato di pumping theorem non vanno bene. (E nemmeno chomsky non è che vada tanto bene. |
-| 25/04/23 | La formalizzazione della computazione degli automi a pila è ok. Fatto fatica con chomsky. E mi sono ripassato enunciato e dipo del pumping theorem quindi bono.                                                                    |

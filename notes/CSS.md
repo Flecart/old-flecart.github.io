@@ -64,7 +64,7 @@ E il problema per uno sviluppatore è conoscere cosa fa una proprietà e che esi
 2. first Line
 3. Before, after sono aree, che normalmente sono vuote, riempibili con `content`
 4. Esempio hover, active e molte altre!
-5. [https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements]([https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo)-elements)
+5. [https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
 - Selettori di prossimità
 
@@ -91,7 +91,7 @@ E il problema per uno sviluppatore è conoscere cosa fa una proprietà e che esi
 
 - Selettori pseudoclassi
 
-    Qui ci sono molti altr icontenuti [https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes]([https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo)-classes)
+    Qui ci sono molti altr icontenuti [https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
     <img src="/images/notes/image/universita/ex-notion/CSS/Untitled 11.png" alt="image/universita/ex-notion/CSS/Untitled 11">
 
@@ -471,25 +471,3 @@ Una griglia può essere densa o con molto spazio, in questo caso si dice che le 
 
 
 È un rapporto che sembra molto carino.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-e aurea
-
-    <img src="/images/notes/CSS/Untitled 42.png" alt="CSS/Untitled 42">
-
-    <img src="/images/notes/CSS/Untitled 43.png" alt="CSS/Untitled 43">
-
-
-È un rapporto che sembra molto carino.
-
-# Registro ripassi
-
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |

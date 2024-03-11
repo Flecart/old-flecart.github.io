@@ -216,15 +216,3 @@ Questi sono alcuni tipi ispirati alle monadi, solamente capire in che formato so
 
 - Maybe: Some<qualcosa> + None
 - Result: come le promises di js, possiamo esprimere i risultati di errore e nel caso sia andato tutto bene.
-
-# Registro ripassi
-
-| 01/05/23 | Boh, direi che sia apposto, dovremmo vedere come fare gli esercizi ma per la maggior parte direi che siano apposto.. |
-| --- | --- |
-| 14/05/23 | Non mi ricordavo esattamente definizioni di tipi monomorfi o polimorfi. Non mi ricordavo alcune cose come polimorfismo parametrizzato esplicito oppure implicito.
-Non mi ricordavo le cose di static dispathc o dinamic dispatch del polimorfismo ah-hoc.
-Non mi ricordavo i metodi per l’ibridizzazione col poli di sottotipo (in generale per il parametrico universale non posso proprio supporre nulla). |
-|  |  |
-spatch del polimorfismo ah-hoc.
-Non mi ricordavo i metodi per l’ibridizzazione col poli di sottotipo (in generale per il parametrico universale non posso proprio supporre nulla). |
-|  |  |

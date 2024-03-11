@@ -281,20 +281,3 @@ $$h(k, i) = h_1(k) + ih_2(k) \mod n$$
 - Esempio
 
     <img src="/images/notes/image/universita/ex-notion/Tabelle di hash/Untitled 22.png" alt="image/universita/ex-notion/Tabelle di hash/Untitled 22">
-
-
-# Registro ripassi
-
-- Le slide della lezione
-
-    [08 - Tabelle Hash.pdf](Tabelle%20di%20hash%201ddc1850d44c4a95949cc1f8b629e2c7/08_-_Tabelle_Hash.pdf)
-
-
-| 09/04 | Non hai subito richiamabile in mente tutte le analisi dei casi (specialmente caso medio) di concatenazione e le varie tipologie di ispezione. Questa è una parte che ti manca, però credo tu sappia fare bene gli esercizi comunque, non dovrebbe valere la pena fare tutto per bene.  |
-| --- | --- |
-| 30/04 |  Potresti studiarti meglio le analisi, ma sai che è improbabilissimo che ti chiedano una analisi approfondita, quindi non le fai e staifelicio. |
-|  |  |
-bene.  |
-| --- | --- |
-| 30/04 |  Potresti studiarti meglio le analisi, ma sai che è improbabilissimo che ti chiedano una analisi approfondita, quindi non le fai e staifelicio. |
-|  |  |

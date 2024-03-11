@@ -21,7 +21,7 @@ Sono **ciò che permetterà di fare il sistema**
 *Esempio*:
 > Il sistema permetterà di prenotare un taxi e di avere una stima del tempo di attesa
 
-Nel nostro caso possiamo anche definire **scenario** ossia un caso di utilizzo concreto del sistema e Modelli AGILE#User stories|user story|Modelli AGILE#User stories|user story come ciò che **il cliente** vuole che il sistema debba fare.
+Nel nostro caso possiamo anche definire **scenario** ossia un caso di utilizzo concreto del sistema e [user story](/notes/modelli-agile#user-stories) come ciò che **il cliente** vuole che il sistema debba fare.
 
 #### Legge di Humphrey 🟨-
 > I requisiti di un nuovo prodotto software non saranno chiari finché gli utenti non iniziano a usarlo
@@ -59,10 +59,3 @@ Ci chiediamo cosa fa questo utente ideale? Quali sono i suoi obiettivi? Cosa fa 
 1. **Ricerca di mercato**: ci chiediamo quali sono i prodotti utili?
 2. **Ideazione del prodotto:** quali sono i target principali? Cosa deve essere il prodotto? Per chi è buono il prodotto?
 3. **Requisiti del prodotto** piano dettagliato di tutti i requisiti
-
-
-## Note di ripasso
-
-| Data | Commenti |
-| ---- | -------- |
-|12/06/2023      | Tolto dalle note che tanto c'è poca roba.          |
