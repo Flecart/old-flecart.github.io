@@ -263,6 +263,8 @@ Ossia può scegliere quanti messaggi vuole per un certo esperimento
 
 Notiamo che 
 #### Nonce based-security
+L'idea è la stessa di cui abbiamo parlato in [Sicurezza delle reti](/notes/sicurezza-delle-reti) per un protocollo di autenticazione.
+Un esempio carino di questo è in [Block Ciphers#Cipher Block Chaining (CBC)](/notes/block-ciphers#cipher-block-chaining-(cbc)) per cercare di randomizzare l'IV.
 
 #### Randomized encryption
 Sono delle funzioni che ritornano cyphertext in modo probabilistico (non sempre la stessa)

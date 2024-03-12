@@ -87,7 +87,7 @@ Sia $$v_1... v_n$$ un insieme che genera $$V$$, allora un sottoinsieme di questi
 
 **Dimostrazione**
 
-Se i vettori sono linearmente indipendenti allora ho la base, se sono dipendenti allora sia $$\omega$$ il vettore dipendente, allora si può scrivere come combinazione lineare per la 3.2.4, e per la proposizione 3.1.8 lo spazio generato da tali vettori è esattamente lo stesso.
+Se i vettori sono linearmente indipendenti allora ho la base, se sono dipendenti allora sia $$\omega$$ il vettore dipendente, allora si può scrivere come combinazione lineare per la (3.2.4), e per la proposizione 3.1.8 lo spazio generato da tali vettori è esattamente lo stesso.
 
 Posso continuare con questo argomento finché non ottengo la base o non ci sono più vettori. (nel caso in cui è lo spazio nullo).
 

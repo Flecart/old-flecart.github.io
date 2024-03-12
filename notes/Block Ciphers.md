@@ -11,7 +11,7 @@ Utilizzano blocchi per cifra invece che stream generators.
 - 3DES 56*3 bit di chiave
 - AES che può andare a 128, 196 o 256
 Solitamente i stream ciphers studiati in [OTP and Stream Ciphers](/notes/otp-and-stream-ciphers) sono più veloci.
-### Data Encryption standard
+### Data Encryption Standard
 
 - 1974 da IBM su commissione di NSA
 
@@ -50,7 +50,7 @@ $$
 
 Si può verificare in modo facile che funziona questo.
 
-#### Funzionamento DES
+#### Funzionamento DES 🟩
 Quindi
 1. mapping iniziale $$IP$$ che crea $$L^{0}R^{0}$$ 
 2. rounds di Feistel
@@ -60,7 +60,7 @@ La decryption è simmetrica con la conoscenza della chiave.
 
 <img src="/images/notes/Block Ciphers-20240305095533560.webp" alt="Block Ciphers-20240305095533560">
 
-#### $$f$$ function in DES
+#### $$f$$ function in DES 🟨+
 Dove $$A$$ è il 32 bit plaintext e $$J$$ è la chiave.
 
 <img src="/images/notes/Block Ciphers-20240305100001596.webp" alt="Block Ciphers-20240305100001596">
@@ -68,17 +68,17 @@ Le funzioni $$S$$ sono tra le più importanti per la sicurezza, perché resiston
 Sono in pratica una mappa di 4 bit e 2 bit a un 4 bit.
 
 
-#### Attacchi a DES
+#### Attacchi a DES 🟩
 Gli attacchi maggiori (alcuni lo vengono anche come servizio commerciale) è semplicemente **bruteforce** perché la chiave di 56 bit usata non è che sia molto utile.
 (In un giorno te o rompe).
 Gli attacchi con known plaintext esistono, ma usano un insieme di dati non feasible. di $$2^{40}$$ coppie di plaintext-ciphertext.
 
-#### Unicità della chiave
+#### Unicità della chiave 🟩-
 È notabile osservare che è probabile sia in DES che AES che è molto probabile che sia unica la chiave usata per cifrare quello.
 Questa nota è utile per dire che se trovi quella chiave, probabilmente ti funziona anche per altre comunicazioni che utilizzano roba simile.
 ### Altre versioni di DES
 In modo semplice per renderlo più sicuro è il **3-DES** in pratica DES applicato 3 volte, con chiave lunga il triplo, quindi più resistente a bruteforce.
-#### Attacco a 2-DES
+#### Attacco a 2-DES 🟩
 Vorremmo trovare una coppia di chiavi $$k_{1}, k_{2}$$ tale che per cui $$E(k_{2}, m) = D(k_{1}, c)$$ ed è possibile con un meet in the middle, che dovrebbe diminuire lo spazio di ricerca.
 <img src="/images/notes/Block Ciphers-20240305112238931.webp" alt="Block Ciphers-20240305112238931">
 **Conseguenza**:
@@ -106,11 +106,11 @@ Da un punto di vista storico è stata una competizione internazionale 1997 che p
 3. Velocità hardware e software.
 Alla fine è un algoritmo molto parallelizzabile.
 
-#### Generazione della chiave
+#### Generazione della chiave 🟨-
 La lunghezza della chiave **decide il numero di rounds**, rispettivamente 10, 12, 14. In base al fatto che usiamo 128, 192, o 256.
 Vedere 4.6 di @stinsonCryptographyTheoryPractice2005. Per l'algoritmo.
 La cosa è che avremo una chiave di 16 bytes in output per il numero di rounds.
-#### Funzionamento del cifrario
+#### Funzionamento del cifrario 🟨-
 Definiamo le operazioni
 **SubBytes** (byte-by-byte substitution using an S-box) 
 **ShiftRows** (a permutation, which cyclically shifts the last three rows in the State)
@@ -132,13 +132,30 @@ In pratica **creo stream di bytes a blocchi** per cifrare
 <img src="/images/notes/Block Ciphers-20240307111202941.webp" alt="Block Ciphers-20240307111202941">
 
 **Th:** questo cipher è semanticamente sicuro se la funzione $$F$$ usata è sicura.
-Ossia ha un buone garanzie teoriche se trovo tale $$F$$.
+Ossia ha un buone garanzie teoriche se esiste e trovo tale $$F$$.
 #### Cipher Block Chaining (CBC)
 Lo conosci.
 
 <img src="/images/notes/Block Ciphers-20240307115310428.webp" alt="Block Ciphers-20240307115310428">
 
+Una nota importante è che si può fare una analisi teorica, e sapere **dopo quanti riusi di chiave** è necessario cambiarla, al fine di mantenere garanzie di sicurezza.
 
+Se si guarda le slides possiamo avere un risultato, che è circa di $$2^{48}$$ blocchi per CBC. Si può fare la stessa analisi per [#Data Encryption Standard](#data-encryption-standard)
+
+
+**NOTA:** CBC non è sicuro con un choosen plaintext e la capacità di predire gli *IV*
+Come:
+1. Scelgo come mio choosen plaintext $$0$$ così ho in pratica la versione criptata di $$IV$$.
+2. Poi mando $$m_{0} = IV \oplus IV_{2}$$   e $$m_{1} \neq m_{0}$$ , se $$c(m_{0})$$ è uguale al primo, allora ho indovinato il messaggio.
+Questo chiaramente dà advantage 1 e rompe la definizione (non so quanto praticamente utile) di semantic security.
+
+
+Una possibilità è usare un **IV** creato dalla cifrazione di un Nonce, così sei abbastanza sicuro che IV sia sicuro.
+
+#### Counter Mode (CTR)
+molto simile al counter mode per [#Electronic Code Book (ECB)](#electronic-code-book-(ecb)) però ora abbiamo IV.
+<img src="/images/notes/Block Ciphers-20240312101447979.webp" alt="Block Ciphers-20240312101447979">
+Anche in questo caso possiamo usare una **nonce based version**.
 ## Substitution-Permutation Networks
 #### 2 componenti principali
 
