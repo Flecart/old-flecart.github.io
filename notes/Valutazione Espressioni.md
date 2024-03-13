@@ -53,7 +53,7 @@ come f(a, b), oppure (f a b) per cambridge
 
 Si potrebbe interpretare la notazione infissa, prefissa o postfissa come una visita dell’albero di valutazione.
 
-1. simmetrica = visita infisa
+1. simmetrica = visita infissa
 2. prefissa = visita prefissa (anticipata) (provo a valutare l’operatore e poi vado giù)
 3. Postfissa = visita postfissa (valuta dopo aver eseguito sinistra e destra)
 

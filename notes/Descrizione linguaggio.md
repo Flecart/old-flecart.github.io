@@ -104,19 +104,14 @@ $$L \subseteq A^*$$, $$A^* = \bigcup_{n \geq 0}A^n$$. Questo insieme si può cre
     <img src="/images/notes/image/universita/ex-notion/Descrizione linguaggio/Untitled 1.png" alt="image/universita/ex-notion/Descrizione linguaggio/Untitled 1">
 
 
-### Numerabilità per alfabeti 🟨
+### Numerabilità per alfabeti
 
-Si può dimostrare che $$A^*$$ formato da alfabeti infiniti è ancora un infinito numerabile, si utilizza un argomento simile a Cantor spiegato in [Analisi](/notes/analisi) (anche se ho controllato non ce l’ho negli appunti, l’ho saltato)
-
-- Esercizio
-
-    Prova a ricrearmi te la dimostrazione di questa parte, può essere un buon esercizio.
+Si può dimostrare che $$A^*$$ formato da alfabeti infiniti è ancora un infinito numerabile, si utilizza un argomento simile a Cantor spiegato in [R e Intervalli](/notes/r-e-intervalli) e in [Relazioni fra insiemi](/notes/relazioni-fra-insiemi).
 
 - Dimostrazione numerabilità di A-star
-
     <img src="/images/notes/image/universita/ex-notion/Descrizione linguaggio/Untitled 2.png" alt="image/universita/ex-notion/Descrizione linguaggio/Untitled 2">
 
-
+Questo dimostra che **ogni unione di insiemi numerabili è numerabile.**
 ### Definizioni operazioni di base (6) 🟩
 
 **Lunghezza**

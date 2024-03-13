@@ -298,9 +298,9 @@ Esiste una classe di equivalenza di ordinamento lasco sse dati due insiemi A, B 
 
 È simile al precedente, ma devo togliere l'uguale quindi dico che non esiste una bigezione.
 
-## 3.8 Diagonalizzazione di Cantor
+## Diagonalizzazione di Cantor
 
-### 3.8.1 Dimostrazione
+### Dimostrazione diagonalizzazione di Cantor
 
 Teorema $$|T| < | 2^T|$$
 
@@ -317,6 +317,20 @@ Definiamo quindi un insieme $$A = \{x \in T| x \not\in  g(x) \}$$ data la funzio
 (Possiamo definire x che appartiene all'insieme imamgine perché l'insieme di arrivo sono degli insiemi, in quanto è l'insieme delle parti).
 
 Ma allora data l'iniettività della funzione $$g(y) \in 2^T$$ esiste un $$y \in T$$, ma allora $$y \in g(x) \iff y \not\in g(x)$$ e quindi porta all'assurdo.
+
+#### Dimostrazione con tabella
+Questa è quella usata in [R e Intervalli#Innumerabilità di R](/notes/r-e-intervalli#innumerabilità-di-r).
+
+Supponiamo che l'intervallo $$[0, 1[$$ sia numerabile, ossia esiste una funzione $$f: \mathbb{N} \to [0, 1[$$ che sia bigettiva.
+Scriviamo tutti i numeri possibili in forma binaria
+
+Avremo una tabella simile: che ci dice che 
+
+| Natural | Real number      |
+| ------- | ---------------- |
+| 1       | 0,00001010101... |
+| 2       | 0,100101011010   |
+E continua all'infinito (poi sopra sarebbe bello avere anche uno 0), allora posso creare un nuovo numero che per costruzione non è mappato da nessun naturale (flippo i numeri sulla diagonale). Quindi non è suriettiva, e la costruzione porta ad un assurdo.
 
 ### 3.8.2 Sintesi Dim
 

@@ -27,8 +27,6 @@ Per ricordarti come si calcolava first k, andare a guardare [Top-down Parser](/n
 il problema che poi diventa pratico riguardo questo è l'impossibilità di gestire **stringhe lunghezza k** che sono una assurdità (esponenziale per la lunghezza)
 
 ### Grammatiche SLR(k) 🟩
-
-
 Uguale a SLR(k), ma possiamo andare a fare il reduce solamente quando il nostro terminale di interesse **appartiene al follow k!**
 
 ### Grammatiche LALR(k)🟨+
@@ -38,8 +36,6 @@ Questo è esattamente identico a LALR, si va a considerare il concetto di nucleo
 ## Classificazione dei linguaggi
 
 ### Gerarchia generale 🟨
-
-
 Da qui si può creare una semplicissima gerarchia dei parser, che si possono riassumere in
 
 

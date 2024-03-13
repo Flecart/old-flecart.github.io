@@ -70,14 +70,16 @@ Si ottiene completando Q con i pezzi mancanti, per farlo si deve introdurre il c
 
 Questa proprietà di R è molti importante perché **permette di avere sup e inf**  definiti in seguito [qui](/notes/qui)
 
-### 2.1.4 Innumerabilità di R
+### Innumerabilità di R
 
 **Cardinalità**
 
 Si può affermare che la cardinalità di R sia molto maggiore di N, infatti si può dimostrare che è innumerabile grazie
 
-Cantor, si fa la costruzione a tabella e si dimostra che non è suriettiva, ovvero che nell'intervallo $$[0,1[$$ esiste un numero che non è mai raggiunto da un numero naturale, infatti riesco a costruire un numero che sia diverso in una cifra da tutti i numeri decimali in tabella
+Cantor, si fa la costruzione a tabella e si dimostra che non è suriettiva, ovvero che nell'intervallo $$[0,1[$$ esiste un numero che non è mai raggiunto da un numero naturale, infatti riesco a costruire un numero che sia diverso in una cifra da tutti i numeri decimali in tabella.
+Questa è la dimostrazione più semplice di Cantor.
 
+Un altro argomento insiemistico lo puoi trovare qui [Relazioni fra insiemi#Diagonalizzazione di Cantor](/notes/relazioni-fra-insiemi#diagonalizzazione-di-cantor).
 ### 2.1.5 Esistenza unicità della radice
 
 [File per pdf di lezione per questa](https://www.dropbox.com/s/uei17il1wnc43bh/11-10-2021-Analisi.pdf?dl=0)

@@ -147,25 +147,16 @@ C'è la negazione, c'è l'uso meta-linguistico (composizione di funzione) e se a
 
 ### 1.4.3 Paradosso sulla divergenza
 
+Questo è il problema della fermata discusso in [Halting Theorem and Reducibility#Halting theorem](/notes/halting-theorem-and-reducibility#halting-theorem)
 Nelle funzioni informatiche c'è una fase di calcolo ed elaborazione delle informazioni.
-
 Nelle funzioni matematiche sono solamente una relazione fra insiemi (ossia calcolano un unico input).
-
 Una funzione tale che $$f(g,x) = true \, iff \, g(x) \downarrow$$
-
 Definisco una funzione: $$h(g) = \uparrow if \,f(g,g) \, else \downarrow$$
 
 Questo porta alla conclusione che **non esiste un programma che decida se un altro diverga**.$$f(g) = \uparrow if \,f(g,g) \, else \downarrow$$
 
 ### 1.4.4 Paradosso sull'espressività di funzioni matematiche
 
-Spiegata per filo e per segno per la diagonalizzazione di cantor [qui](/notes/qui)
-
-Si risolve una assurdità attraverso il *teorema della diagonalizzazione di Cantor.*
-
-!<img src="/images/notes/image/universita/ex-notion/Logica meta-linguistica/Untitled 2.png" alt="image/universita/ex-notion/Logica meta-linguistica/Untitled 2">
-gno per la diagonalizzazione di cantor [qui](/notes/qui)
-
-Si risolve una assurdità attraverso il *teorema della diagonalizzazione di Cantor.*
+Spiegata per filo e per segno per la diagonalizzazione di cantor [Relazioni fra insiemi#Diagonalizzazione di Cantor](/notes/relazioni-fra-insiemi#diagonalizzazione-di-cantor)
 
 !<img src="/images/notes/image/universita/ex-notion/Logica meta-linguistica/Untitled 2.png" alt="image/universita/ex-notion/Logica meta-linguistica/Untitled 2">
