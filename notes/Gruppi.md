@@ -12,58 +12,77 @@ Primo Abbozzo: March 20, 2022 3:44 PM
 Stato: 🌕🌕🌕🌑🌑
 Studi Personali: No
 
-# Elementi di ripasso
 
-# 1 Gruppi
+## Definizione gruppo
+Qualunque insieme più operazione tale per cui:
+1. Esistenza dell'inverso per ogni elemento
+2. Esistenza di un elemento neutro
+3. Associatività.
 
-## 1.1 Definizione gruppo
+### Unicità dell’elemento neutro
+Supponiamo di avere un gruppo $$G$$ e due elementi neutri $$e, f$$
+Allora abbiamo che
+$$ae = a = af$$ però se moltiplichiamo per l'inversa abbiamo che
+$$a^{-1}ae = a^{-1}af \implies e = f$$
 
-### 1.1.1 Unicità dell’elemento neutro
+### Unicità dell’inverso
+Supponiamo di avere un gruppo $$G$$ e due elementi inversi per ogni $$a \in G$$
+Sia $$a$$ un elemento e gli inversi $$a_{1}$$ e $$a_{2}$$, allora abbiamo:
+$$aa_{1} = e = aa_{2}$$ ma se moltiplico a sinistra per l'inversa abbiamo
 
-### 1.1.2 Unicità dell’inverso
+$$a_{1}aa_{1} = a_{1}aa_{2} \implies ea_{1} = ea_{2} \implies a_{1} = a_{2}$$
+Dove abbiamo utilizzato anche l'associatività.
 
-### 1.1.3 Proprietà di cancellazione
+### Proprietà di cancellazione
 
 <img src="/images/notes/image/universita/ex-notion/Gruppi/Untitled.png" alt="image/universita/ex-notion/Gruppi/Untitled">
+È ovvio se moltiplichiamo per le cose giuste.
 
-### 1.1.4 L’inverso del prodotto
+### L’inverso del prodotto
 
 Enunciato:
+$$(ab)^{-1} = b^{-1}a^{-1}$$ e per gruppi abeliani abbiamo $$(ab)^{-1} = a^{-1}b^{-1}$$
 
-$$(ab)^{-1} =a^{-1}b^{-1}$$
+La dimostrazione è molto semplice ed è lasciato al visitatore :D
 
-## 1.2 Test per gruppo
+## Test per gruppo
 
-### 1.2.1 Ordine di gruppo e di elemento
+### Ordine di gruppo e di elemento
 
 L'ordine di un gruppo è **la cardinalità dell'insieme**,
+L'ordine dell'elemento del gruppo è **la potenza a cui si eleva questo elemento per avere il neutro**
 
-l'ordine dell'elemento del gruppo è **la potenza a cui si eleva questo elemento per avere il neutro**
-
-### 1.2.2 Test unico per il gruppo
+### Test unico per il sotto-gruppo
 
 
 $$
 \forall a,b \in H ,H \subseteq G, ab^{-1} \in H \implies H \text{ is a subgroup of G}
 $$
 
+Se vale questa proprietà possiamo già avere un sottogruppo! Quindi è abbastanza comodo!
 
-### 1.2.3 Test doppio per il gruppo
+Dimostrazione:
+1. Associatività si ha per $$G$$.
+2. Se prendo $$a, a$$ come la coppia abbiamo che $$aa^{-1}=e$$ appartiene a $$H$$, quindi c'è l'elemento neutro.
+3. Se prendo $$e, a$$ vedo che $$a^{-1} \in H$$.
 
-Mostrare che sia chiuso rispetto all'operazione e ci sia sempre l'inverso
+Quindi abbiamo che vale.
 
-### 1.2.4 Test per gruppi finiti
+### Test doppio per il gruppo
+
+Mostrare che sia chiuso rispetto all'operazione e ci sia sempre l'inverso. Questo in pratica va per la [#Definizione gruppo](#definizione-gruppo) come espresso sopra!
+
+### Test per gruppi finiti
 
 Mostrare solamente che sia chiuso per l'operazione (nella dimostrazione di deve mostrare che è chiuso per l'inverso, cosa che si va per il terzo escluso
 
-## 1.3 Sottogruppi
+## Sottogruppi
 
-### 1.3.1 Sottogruppi generati da un elemento (ciclico)
+### Sottogruppi generati da un elemento (ciclico)
 
 <img src="/images/notes/image/universita/ex-notion/Gruppi/Untitled 1.png" alt="image/universita/ex-notion/Gruppi/Untitled 1">
 
 - Dimostrazione
-
     <img src="/images/notes/image/universita/ex-notion/Gruppi/Untitled 2.png" alt="image/universita/ex-notion/Gruppi/Untitled 2">
 
 
@@ -71,7 +90,7 @@ Mostrare solamente che sia chiuso per l'operazione (nella dimostrazione di deve 
 
 Ogni sottogruppo generato in questo modo è abeliano, perché è in isomorfismo con il gruppo additivo Z (si vedrà dopo di questo isomorfismo)
 
-### 1.3.2 Il centro di un gruppo è un sottogruppo
+### Il centro di un gruppo è un sottogruppo
 
 <img src="/images/notes/image/universita/ex-notion/Gruppi/Untitled 3.png" alt="image/universita/ex-notion/Gruppi/Untitled 3">
 
@@ -84,12 +103,11 @@ Ogni sottogruppo generato in questo modo è abeliano, perché è in isomorfismo 
     <img src="/images/notes/image/universita/ex-notion/Gruppi/Untitled 5.png" alt="image/universita/ex-notion/Gruppi/Untitled 5">
 
 
-### 1.3.3 Centralizzatore di un gruppo è un sottogruppo
+### Centralizzatore di un gruppo è un sottogruppo
 
 <img src="/images/notes/image/universita/ex-notion/Gruppi/Untitled 6.png" alt="image/universita/ex-notion/Gruppi/Untitled 6">
 
 Osservazione: quando il centralizzatore è l'intero gruppo, l'elemento su cui stiamo centralizzando è esattamente il centro.
 
 - Dimostrazione
-
     Analoga alla precedente del centro

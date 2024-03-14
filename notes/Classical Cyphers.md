@@ -70,7 +70,7 @@ Canali insicuri possono essere per esempio
 <img src="/images/notes/Introduzione a crittografia-20240222094332860.webp" alt="Introduzione a crittografia-20240222094332860">
 Questo è un scenario leggermente più generale, in cui nel mezzo c'è un attaccante, solitamente un *eve* o altro che ha accesso a $$c$$ e prova a decrittare.
 
-### On security of cipher 🟩
+### On security of cipher
 
 One important note is that the security of the cipher is **not** enough to mantain a security of the algorithm. But experience says it’s not!  (Ma nonostante questo è stato fatto per centinaia e centinaia di anni, ora sappiamo che è cosa stupida).
 

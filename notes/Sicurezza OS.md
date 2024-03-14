@@ -24,11 +24,11 @@ Su tre fronti
 
 - Hardware
 - Software
-- humanware (lol).
+- human-ware (lol).
 
 Una altra tendenza generale è che **più è complessa più è insicura**. e questo senso di insicurezza cresce in modo maggiore rispetto al lineare.
 
-### Tre capisaldi (!!!) 🟩
+### CIA properties
 
 Ne abbiamo parlato in modo leggermente inverso in [Sicurezza delle reti](/notes/sicurezza-delle-reti).
 
@@ -200,3 +200,7 @@ Si possono fare attacchi Toc Tou anche su questi checks (real son oquelli effett
 ### MAC and DAC
 
 Mac BLP (bell lapadula)
+
+## Accounting
+
+Si interessa dei sistemi di logging. Come per esempio il Journal che utilizzano tutti i servizi nel sistema operativo. In Ext4, forse citato in [Filesystem](/notes/filesystem) viene trattato in breve.

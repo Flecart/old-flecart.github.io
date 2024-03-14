@@ -38,7 +38,7 @@ Vedremo in seguito che il primo obiettivo viene raggiunto senza molti problemi u
 La sicurezza del messaggio non dovrebbe essere basato sull’algoritmo utilizzato per codificare, ma solamente sull’utilizzo della chiave.
 
 Il primo è molto facile da recuperare, o farci reverse engineering, ne abbiamo parlato qui in breve On security of cipher 🟩.
-
+[Classical Cyphers#On security of cipher](/notes/classical-cyphers#on-security-of-cipher)
 ### Tipologie di attacchi (!!) 🟨
 
 Se è possibile l’attaccante può avere moltissimi vettori di attacchi che possono incrinare i principi di sicurezza che abbiamo enunciato sopra
@@ -54,6 +54,7 @@ La crittografia diventa una delle tecnologie chiave per poter garantire i princi
 
 ### Alcune tipologie di cifrari simmetrici 🟩
 
+Approfonditi in [Block Ciphers](/notes/block-ciphers) che solitamente sono utiizzati negli scambi di messaggi simemtrici.
 Elenco qui alcuni cifrari classici:
 
 1. Cifrario monoalfabetico (sostituzione) (come codice cesare, in cui c´è una mappatura per ogni singola lettera ad altra lettera).
@@ -241,15 +242,15 @@ La cosa particolare è che i dati e il mac sono entrambi criptati con la chiave 
 
 Questo è un protocollo di sicurezza a livello Rete e non più a livello socket!
 
-Perché vorremmo avere sicurezza a questo livello? È una cosa molto utile per implementare cose come i VPN di aziende.
+Perché vorremmo avere sicurezza a questo livello? 
+È una cosa molto utile per implementare cose come i **VPN** di aziende.
 
-- Slide di esempio
+**Esempio:**
+<img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 20.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 20">
 
-    <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 20.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 20">
+Nota l'imbustamento e imbustamento è fatto nei router nell'esempio qui, ma può essre fatto anche di computer.
 
-    Nota l'imbustamento e sbustamento è fatto nei router nell’esempio qui, ma può essre fatto anche di computer.
-
-    In qualche modo, che non ho capito, lo puoi vedere come ses fosse la stessa rete, perché l’IP locale è messo nell’IP sec credo, anche se non sono molto sicuro
+In qualche modo, che non ho capito, lo puoi vedere come se fosse la stessa rete, perché l’IP locale è messo nell'IP sec credo, anche se non sono molto sicuro
 
 
 ### Garanzie IPsec (4)
@@ -258,9 +259,9 @@ Perché vorremmo avere sicurezza a questo livello? È una cosa molto utile per i
 
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 21.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 21">
 
-- Integrià
+- Integrità
 - Confidenzialità
-- Autenticazione dell’origine (credo perché conoscono solamente la chiave della VPN
+- Autenticazione dell’origine (credo perché conoscono solamente la chiave della VPN)
 - Replay attack non funziona
 
 ### **Tunnelling mode (2)** 🟩
@@ -310,7 +311,7 @@ Cose che vengon ostorate qui sono:
 3. Interfaccia di inizio e arrivo della SA
 4. MAC e chiave di MAC
 
-### IPsec Datagram 🟨—
+### IPsec Datagram 🟨
 
 Si noti che anche il pacchetto di livello trasporto è cifrato, quindi anche l'indirizzo di porta e l'indirizzo IP finale dovrà essere cifrato
 
@@ -341,12 +342,9 @@ Per fare ciò possono avere a disposizione tre tipologie di firewalls, quelly ch
 
 
 ### Access control List 🟨+
-
-- Slide of a ACL
-
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 29.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 29">
 
-
+In sede diversa, questa strategia è stata analizzata anche in analisi delle autorizzazioni nei sistemi operativi. Vedi [Sicurezza OS](/notes/sicurezza-os).
 Vogliamo permettere certe cose, e negarne altre. La ACL è solamente una lista di regole di permessi e negazioni, con specificazione di source, address, protocollo, porta di arrivo e di partenza e flag…
 
 Con queste regole posso implementare senza problemi il Stateless filtering
@@ -354,10 +352,10 @@ Con queste regole posso implementare senza problemi il Stateless filtering
 ### Stateless/Stateful Packet filtering 🟩
 
 - Alcuni pacchetti vengono droppati quando ci sono certe informazioni all'interno del pacchetto.
-- Informazion icome Source e destination IP
+- Informazione come Source e destination IP
 - Port numbers for TCP or UDP
 - ICMP messages
-- Syn and ack bits, and maybe more
+- Syn and Ack bits, and maybe more
 - Slides Stateless packet filtering
 
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 30.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 30">
@@ -365,7 +363,6 @@ Con queste regole posso implementare senza problemi il Stateless filtering
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 31.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 31">
 
 - More examples of these
-
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 32.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 32">
 
 

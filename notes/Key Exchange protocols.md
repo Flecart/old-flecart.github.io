@@ -48,3 +48,7 @@ In pratica così
 3. Alice sceglie $$a$$, e manda $$g^{a}$$ a Bob
 4. Bob fa lo stesso con $$b$$
 5. Il segreto è $$g^{ab}$$ , che è difficile da capire con i moduli...
+
+#### Attacco a DH
+DH è insicuro dal punto di vista del **Man in the middle**. Perché se uno in mezzo intercetta, può usare la sua chiave privata al posto di quella dell'altro interlocutore. Tanto conosce il valore di $$g$$ e gli basta questo.
+<img src="/images/notes/Key Exchange protocols-20240314093203133.webp" alt="Key Exchange protocols-20240314093203133">

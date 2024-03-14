@@ -12,24 +12,22 @@ Primo Abbozzo: March 23, 2022 10:33 AM
 Stato: 🌕🌕🌑🌑🌑
 Studi Personali: No
 
-# Elementi di ripasso
-
-# Lagrange
 
 ## Classi laterali
 
 <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled">
 
-- Dimostrazione
-
+- Dimostrazione dei lemmi sopra.
     <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 1.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 1">
 
     <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 2.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 2">
 
-
-## Il teorema di lagrange
+La cosa interessante di questa parte è possiamo usare una classe laterale per partizionare il gruppo iniziale!
+## Il teorema di Lagrange
 
 <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 3.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 3">
+Dividere significa che **partiziona** l'insieme iniziale in alcuni insiemi distinti.
+L'insieme $$G:H$$ è l'insieme che contiene tutti i cosets, credo.
 
 - Dimostrazione
 
@@ -44,11 +42,12 @@ Studi Personali: No
 
 <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 6.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 6">
 
-Ossia un corollario dopo il teorem ai = aj
+Ossia un corollario dopo il teorema di Lagrange. La cosa citata è dimostrata in [Gruppi ciclici e permutazioni#Criterio $$a {i} = a {j}$$](/notes/gruppi-ciclici-e-permutazioni#criterio-$$a-{i}-=-a-{j}$$).
+
 
 ### I gruppi di ordine primo sono ciclici
 
-Se ho un gruppo di ordine primo, per il teorema di lagrange non posso avere sottogruppi propri, perché l’ordine di questi dovrebbe dividere l’ordine del gruppo di partenza. Per questo motivo ho un unico gruppo. Ossia ogni elemento genera l’intero gruppo
+Se ho un gruppo di ordine primo, per il teorema di Lagrange non posso avere sottogruppi propri, perché l’ordine di questi dovrebbe dividere l’ordine del gruppo di partenza. Per questo motivo ho un unico gruppo. Ossia ogni elemento genera l’intero gruppo
 
 - Dimostrazione
 
@@ -60,12 +59,12 @@ Se ho un gruppo di ordine primo, per il teorema di lagrange non posso avere sott
 <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 8.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 8">
 
 - Dimostrazione
+    L’ordine dell’elemento a deve dividere l’ordine di |G| per Lagrange, quindi, in simboli
 
-    L’ordine dell’elemento a deve dividere l’ordine di |G| per lagrange, quindi, in simboli
+$$
+|a| =n, |G| = m, n \mid m \implies m = nj, a^{|G|} = a^{nj} = e ^j = e
+$$
 
-    $$
-    |a| =n, |G| = m, n \mid m \implies m = nj, a^{|G|} = a^{nj} = e ^j = e
-    $$
 
 
 ### Il piccolo teorema di fermat
@@ -75,7 +74,24 @@ Se ho un gruppo di ordine primo, per il teorema di lagrange non posso avere sott
 - Dimostrazione
 
     <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 10.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 10">
+Solitamente si usa la versione
 
+$$
+a^{p - 1} = 1 \mod  p
+$$
+
+E la cosa comoda è che $$a^{p - 2}$$ è l'inversa di quello.
+
+### Teorema di Eulero
+Questa è una generalizzazione di [#Il piccolo teorema di fermat](#il-piccolo-teorema-di-fermat).
+Afferma che $$\forall n \in \mathbb{N}$$ vale che
+
+$$
+a^{\varphi(n)} = 1 \mod n
+$$
+
+
+Questo è molto più complesso da descrivere e dimostrare. Bisognerebbe per esempio anche definire proprietà della funzione di Eulero.
 
 ### Classificazione dei gruppi di ordine 2p
 

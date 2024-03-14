@@ -5,52 +5,42 @@ tags: italian
 title: Algebra modulare
 ---
 
-Ripasso Prox: 5
-Ripasso: May 26, 2022
-Ultima modifica: October 19, 2022 5:02 PM
-Primo Abbozzo: May 3, 2022 9:26 AM
-Stato: 🌕🌕🌕🌕🌕
-Studi Personali: No
+# Algebra modulare
 
-# Elementi di ripasso
+## Assunzioni
 
-# 7 Algebra modulare
+Andiamo ora ad assumere  l'esistenza e correttezza di alcune cose di base. (in teoria si possono dimostrare da cose più di base, ma non ho tempo).
 
-## 7.1 Assunzioni
-
-Andiamo ora ad assumere  l'esistenza e correttezza di alcune cose di base.
-
-**Teorema fondamentale dell'algebra**
+### Teorema fondamentale dell'algebra
 
 Ogni numero intero si fattorizza in modo unico.
 
-**Algoritmo di divisione**
+### Algoritmo di Euclide
+La conseguenza più importante di questo teorema, dovuto ad Euclide è che
+se ho $$a, b \in \mathbb{Z}$$ allora esistono resto e dividendo fra i due. Ossia
+$$\exists q, p : a\mid b = qk + p$$ per qualche $$k$$ intero
 
-Se ho a, b negli interi, allora esistono resto e dividendo.
+Dare una occhiata all' [implementazione](https://www.geeksforgeeks.org/python-program-for-basic-and-extended-euclidean-algorithms-2/) potrebbe essere interessante.
+### MCD e divisibilità
 
-**mcd e divisibilità**
-
-Se a | d e sono interi allora esiste esiste c tale per cui d = ca. (tutti interi senza restrizioni)
-
+Se $$a \mid d$$ e sono interi allora esiste esiste c tale per cui d = ca. (tutti interi senza restrizioni)
 mcd fra interi a e b è il più grande intero che divide sia a sia b.
+Osservazione: $$mcd(a, 0) = a$$
 
-Osservazione: mcd(a, 0) = a
-
-**Teorema di Bezout**
+### Teorema di Bezout
 
 che dice che esistono r ed s tali che per ogni 2 interi a,b ho che ar + sb = gdc(a,b);
+E da questo possiamo andare a fare algoritmo di Euclide esteso.
 
-E da questo possiamo andare a fare algoritmo di euclide esteso.
-
-## 7.2 Classi di resto modulo n
+## Classi di resto modulo n
 
 Si dicono che $$a \equiv b \mod n \iff n | a - b$$
 
-SI indica con $$[a]_n = \{ b \in \Z :b \equiv a \mod n\} =$$  elementi la cui differenza con a è divisibile per n
+SI indica con $$[a]_n = \{ b \in \mathbb{Z} :b \equiv a \mod n\}$$  elementi la cui differenza con a è divisibile per n
 
-E indichiamo con $$\Z_n$$ come l'insieme di tutte le classi di quivalenza ossia $$\{[[a]_n : a \in \Z\}$$ ossia **insieme quoziente**, [Relazioni fra insiemi]].
+E indichiamo con $$\mathbb{Z}_n$$ come l'insieme di tutte le classi di equivalenza ossia $$\{[[a]_n : a \in \mathbb{Z}\}$$ ossia **insieme quoziente**, [Relazioni fra insiemi](/notes/relazioni-fra-insiemi).
 
-### 7.2.1 Dimostrazione classe di equivalenza
+### Dimostrazione classe di equivalenza
 
 **Riflessività**
 
@@ -64,28 +54,28 @@ se $$a \equiv b \iff b \equiv a$$ in quanto se $$a \equiv b \iff n | a - b \iff 
 
 Allora sappiamo di avere una classe di equivalenza (una partizione su Z in pratica).
 
-### 7.2.2 Prop equivalenza con resto  (!!!)
+### Prop equivalenza con resto
 
-Sia $$a\in \Z$$ e r il suo resto di divisione per n, allora $$a \equiv r \mod n$$ ossia appartengono alla stessa classe di equivalenza
+Sia $$a\in \mathbb{Z}$$ e r il suo resto di divisione per n, allora $$a \equiv r \mod n$$ ossia appartengono alla stessa classe di equivalenza
 
-### 7.2.3 Prop costituzione dell'insieme quoziente (!!!)
+### Prop costituzione dell'insieme quoziente
 
 Per la proposizione precedente posso trovare proprio come è costituito
 
 $$Z_n = \{[0]_n, [1]_n...,[n-1]_n\}$$
 
-- Dim
+- **Dimostrazione:**
 
     dimostrare che $$\impliedby$$ ossia destra è contenuto in sinistra è ovvio per definizione di Zn, per dimostrare che $$\implies$$si utilizza la proposizione sopra:
 
-    Sia $$[a]_n \in \Z_n$$ per proposizione sopra si ha che $$[a]_n = [r]_n \in \{[0]_n,...,[n - 1]_n\}$$
+    Sia $$[a]_n \in \mathbb{Z}_n$$ per proposizione sopra si ha che $$[a]_n = [r]_n \in \{[0]_n,...,[n - 1]_n\}$$
 
     Per concludere (se voglio dimostrare nel modo classico utilizzando classe di equivalenza) devo dimostrare che tutte le classi presenti in Zn sono effettivamente distinte.
 
     Prendo $$i,j \in [0...n-1]$$ wlog $$i > j$$ allora $$0 < i - j \leq i \leq n- 1$$ allora $$n \not | i-j,$$  quindi si ha che $$i \not\equiv j \mod n$$ e questo conclude che Zn ha n elementi
 
 
-### 7.2.4 Somma e prodotto in questa classe
+### Somma e prodotto in questa classe
 
 La definizione di classe modulo resto in questo modo è molto simile alla classica definizione di somma e prodotto (ma non per la divisione, non è sempre invertibile).
 
@@ -96,20 +86,15 @@ E si dimostrano anche
 3. Distributività (entrambe, destro e sinistra)
 4. C'è il neutro per la somma
 
-### 7.2.5 Prop. invertibilità di una classe (!!!)
+### Prop. invertibilità di una classe
 
-Si dice che $$[a]_n \in \Z_n$$ è invertibile se esiste $$[b]_n \in \Z_n : [a][b] = [1]$$ (sottinteso indici)
+Si dice che $$[a]_n \in \mathbb{Z}_n$$ è invertibile se esiste $$[b]_n \in \mathbb{Z}_n : [a][b] = [1]$$ (sottinteso indici)
 
-Si dimostra che è invertibile se solo se è coprimo col modulo poi( perché con euclide esteso riesco a trovarmi l'inversa).
+Si dimostra che è invertibile se solo se è co-primo col modulo poi (perché con Euclide esteso riesco a trovarmi l'inversa).
 
-### 7.2.6 Prop. unica soluzione diofantea (!!)
+### Prop. unica soluzione diofantea
 
-È un corollario della precedente, praticamente dice che se  ax = b, e gcd(a, n) è 1 allora esiste una unica soluzione.
+È un corollario della precedente, praticamente dice che se  $$ax = b, gcd(a,n) = 1$$ allora esiste una unica soluzione.
 
-# 8 Registro ripassi
 
-|  |  |
-| --- | --- |
-|  |  |
-|  |  |
-un corollario della precedente, praticamente dice che se  ax = b, e gcd(a, n) è 1 allora esiste una unica soluzione.
+Un approfondimento è presente nella teoria dei gruppi per sta parte (le cose che potrebbero essere interessanti sono i Campi da questo punto di vista). Vedere [Gruppi](/notes/gruppi) [Gruppi ciclici e permutazioni](/notes/gruppi-ciclici-e-permutazioni) e [Gruppi Normali](/notes/gruppi-normali).
