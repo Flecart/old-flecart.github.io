@@ -69,7 +69,6 @@ Here you can find the categories of all the notes on the site:
 - [Algo from Youtube](/notes/algo-from-youtube)
 - [Tabelle di hash](/notes/tabelle-di-hash)
 - [Tecniche algoritmiche](/notes/tecniche-algoritmiche)
-- [Misura performance](/notes/misura-performance)
 - [Strutture di dati elementari](/notes/strutture-di-dati-elementari)
 - [Notazione Asintotica](/notes/notazione-asintotica)
 - [Algoritmi di ordinamento](/notes/algoritmi-di-ordinamento)
@@ -97,6 +96,7 @@ Here you can find the categories of all the notes on the site:
 - [La macchina di Turing](/notes/la-macchina-di-turing)
 - [Teorema di Rice](/notes/teorema-di-rice)
 - [Estensioni di Turing e altre macchine](/notes/estensioni-di-turing-e-altre-macchine)
+- [Time Complexity](/notes/time-complexity)
 - [Tiling problem](/notes/tiling-problem)
 - [Halting Theorem and Reducibility](/notes/halting-theorem-and-reducibility)
 

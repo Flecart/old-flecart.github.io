@@ -106,11 +106,11 @@ Si potrebbe fare la stessa cosa per gli infinitesimi, si otterrebbero risultati 
     <img src="/images/notes/image/universita/ex-notion/Hopital, Taylor, Peano/Untitled 12.png" alt="image/universita/ex-notion/Hopital, Taylor, Peano/Untitled 12">
 
 
-## 7.3 O-piccolo di funzione
+## O-piccolo di funzione
 
 Il concetto di O-piccolo riesce a catturare il concetto di errore di misura (più o-piccolo è grande, più precisa è la mia misura).
 
-### 7.3.1 Definizione
+### Definizione
 
 **Intuizione**
 
@@ -119,8 +119,7 @@ In modo grossolano, se f è infinitesimo  di ordine maggiore rispetto al denomin
 In pratica si dice che una funzione g è un o-piccolo di una funzione f se per il punto di cui stiamo calcolando il limite, g è un infinitesimo di ordine superiore rispetto a f. (ricolleghiamo con il confronto fra infinitesimi)
 
 - Enunciato
-
-    <img src="/images/notes/image/universita/ex-notion/Hopital, Taylor, Peano/Untitled 13.png" alt="image/universita/ex-notion/Hopital, Taylor, Peano/Untitled 13">
+<img src="/images/notes/image/universita/ex-notion/Hopital, Taylor, Peano/Untitled 13.png" alt="image/universita/ex-notion/Hopital, Taylor, Peano/Untitled 13">
 
 
 ### 7.3.2 Proprietà algebriche

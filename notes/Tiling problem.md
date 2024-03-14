@@ -30,6 +30,8 @@ Questo è un linguaggio non riconoscibile, perché il suo complemento è riconos
 Questa dimostrazione avrà un sacco di punti molto tecnici per dire che una macchina di turing deve essere tradotta in un problema di tiling...
 
 ### Dimostrazione inriconoscibilità del tiling
+L'idea principale è che con un tiling posso **simulare l'esecuzione** di una macchina di Turing.
+E in questo modo riduco il problema a un Halt. Perché sapere tassellare significa sapere dire quando una macchina di Turing finisce.
 #### Codifica delle regole dei tiling
 Posso codificare sia i tile disponibili, sia le regole di adiacenza in questo modo.
 

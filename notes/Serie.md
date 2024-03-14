@@ -5,8 +5,7 @@ tags: italian
 title: Serie
 ---
 
-Questo è un tentativo di aggiungere un argomento che non era presente quando abbiamo fatto il corso due anni fa. Inizio la scrittura il 2024-03-03.
-
+Questo è un tentativo di aggiungere un argomento che non era presente quando abbiamo fatto il corso due anni fa. Inizio la scrittura il 2024-03-03. Questo non è stato trattano nel corso, ma è importante per molte cose. Quindi introduco questo appunto.
 
 ### Introduzione alle serie
 

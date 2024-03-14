@@ -32,8 +32,9 @@ I concetti generali di matematica che si sono sviluppati nei secoli sono astrazi
 
 ## 11.2 Astrazione e generalizzazione
 
-### 11.2.1 Tesi di Church-Turing
-
+### Tesi di Church-Turing
+Vedere [La macchina di Turing#Tesi di Church-Turing](/notes/la-macchina-di-turing#tesi-di-church-turing)
+Guarda 
 Questa tesi (non è un teorema) definisce il significato di **espressività di un linguaggio di programmazione**.
 
 In altre parole deve avere:

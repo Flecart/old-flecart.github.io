@@ -91,7 +91,7 @@ $$
 
 (da notare l'ordine opposto dei divide rispetto al corollario 2 del teorema precedente)
 
-**Corollario 2 criterio |ai| = |aj|**
+**Corollario 2 criterio $$\lvert a_{i} \rvert = \lvert a_{j} \rvert$$**
 
 Questo è molto simile al teorema precedente, ma ora stiamo parlando di ordine.
 

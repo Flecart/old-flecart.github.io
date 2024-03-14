@@ -207,7 +207,7 @@ Il teorema di JB ci dice che se un linguaggio di programmazione possiede
 Come conseguenza di questo teorema ci fu, storicamente parlando, uno sviluppo della programmazione strutturata, in cui andiamo solamente a guardare i parametri locali per decidere e capire cosa faccia la funzione.
 
 ### Tesi di church turing
-🟩
+Vedere [La macchina di Turing#Tesi di Church-Turing](/notes/la-macchina-di-turing#tesi-di-church-turing)
 
 > Se una funzione può essere calcolata algoritmicamente in un qualche formalismo allora è calcolabile con il formalismo della macchina di turing
 >
@@ -216,7 +216,7 @@ Questo non è un teorema è solamente una tesi che è riuscita a resistere al te
 
 La nota informale di questa tesi che non permette ancora un attacco matematico-formale è che
 
-1. il concetto di algoritmo non è ancora stato ben formalizzato, e non si può applicare per tutti i formalisimo
+1. il concetto di algoritmo non è ancora stato ben formalizzato, e non si può applicare per tutti i formalsimo
 2. Questa cosa deve essere vera per ogni formalismo, ma come formalizzare il formalismo stesso e poter parlare subito per tutti i formalismi?
 
 ## Note finali (modulo 1)

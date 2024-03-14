@@ -112,6 +112,11 @@ Si può dimostrare che $$A^*$$ formato da alfabeti infiniti è ancora un infinit
     <img src="/images/notes/image/universita/ex-notion/Descrizione linguaggio/Untitled 2.png" alt="image/universita/ex-notion/Descrizione linguaggio/Untitled 2">
 
 Questo dimostra che **ogni unione di insiemi numerabili è numerabile.**
+C'è una altra dimostrazione molto più semplice rispetto a questa costruzione di funzioni.
+
+Praticamente numeriamo l'alfabeto finito che abbiamo, in ordine $$\sigma_{1} \sigma_{2}, \dots, \sigma_{n}$$
+Allora questi hanno valore $$1, \dots, n$$, poi per le stringhe nella forma $$\sigma_{1}\sigma_{2}, \sigma_{1}\sigma_{3}, \dots \sigma_{n}\sigma_{n}$$ li metto anche ora in ordine di indice e inizio a contare da $$n + 1$$ e così via. Così so che ogni singola stringa del linguaggio ha un intero associato e posso dire che $$A^{*}$$ è numerabile.
+
 ### Definizioni operazioni di base (6) 🟩
 
 **Lunghezza**
