@@ -419,5 +419,5 @@ Here you can find the categories of all the notes on the site:
 
 ## Theory Of Mind
 - [Map of Mind Theories](/notes/map-of-mind-theories)
-- [Central-state theory of the Mind](/notes/central-state-theory-of-the-mind)
+- [Inferential Social Learning](/notes/inferential-social-learning)
 - [Effetti del linguaggio](/notes/effetti-del-linguaggio)
