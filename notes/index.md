@@ -365,6 +365,7 @@ Here you can find the categories of all the notes on the site:
 
 ## Crittografia
 - [Classical Cyphers](/notes/classical-cyphers)
+- [Asymmetric Cryptography](/notes/asymmetric-cryptography)
 - [OTP and Stream Ciphers](/notes/otp-and-stream-ciphers)
 - [Block Ciphers](/notes/block-ciphers)
 

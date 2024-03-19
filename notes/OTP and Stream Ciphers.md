@@ -219,6 +219,8 @@ A me sembra abbastanza inutile questa definizione.
 Però può essere utile per definire che il PRNG non è abbastanza simile al random.
 L'algoritmo $$A$$ è spesso chiamato **oracolo**.
 #### Security with advantage
+Secondo la prof. questa "advantage" è una misura di quanto il sistema è rompibile. Se è simile a 1 sono abbastanza sicuro, altrimenti è 0. 
+
 A PRNG $$G : K \to \left\{ 0, 1 \right\}^{n}$$ è sicuro se per ogni test possibile (e questo è già molto irrealistico) è vero che
 
 $$

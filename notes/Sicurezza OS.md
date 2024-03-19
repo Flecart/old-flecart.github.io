@@ -59,22 +59,17 @@ già descritta in [Architettura software dell’OS](/notes/architettura-software
 ### Crittografia 🟩
 
 Anche questo è stato descritto in [Sicurezza delle reti](/notes/sicurezza-delle-reti), pubbliche private, simmetriche asimmetriche, DES AES RSA e ora curve elittiche etc.
-
-**One-way functions**. difficili da invertire.
+Puoi approfondire in [OTP and Stream Ciphers](/notes/otp-and-stream-ciphers) e [Asymmetric Cryptography](/notes/asymmetric-cryptography).
+[One-way functions](/notes/asymmetric-cryptography#one-way-hash-algorithms) difficili da invertire.
 
 Simmetrica, in cui sapere la chiave sai tutto.
 
 ### Tipologie di attacchi 🟨
-
-- Slides attacchi tipologie
-
-    <img src="/images/notes/image/universita/ex-notion/Sicurezza OS/Untitled.png" alt="image/universita/ex-notion/Sicurezza OS/Untitled">
+<img src="/images/notes/image/universita/ex-notion/Sicurezza OS/Untitled.png" alt="image/universita/ex-notion/Sicurezza OS/Untitled">
 
 
 Divisione per attività dell’attaccante
-
 Per veicolo dell'attacco (se da dentro o da fuori)
-
 Obiettivi dell’attacco (quindi gravità della compromissione della macchina diciamo.
 
 - Slides veicoli di attacco (3)

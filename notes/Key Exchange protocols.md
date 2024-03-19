@@ -22,7 +22,7 @@ Se c'è un trusted key parties il numero delle chiavi si riduce di molto, ritorn
 ### Protocols
 
 #### Toy Exchange protocol
-TTP = Trusted Third party
+TTP = Trusted Third party (simile a quanto poi si avrà in [Asymmetric Cryptography](/notes/asymmetric-cryptography))
 <img src="/images/notes/Key Exchange protocols-20240312110014411.webp" alt="Key Exchange protocols-20240312110014411">
 
 Questa è la base del servizio di Kerberos!

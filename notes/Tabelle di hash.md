@@ -12,10 +12,6 @@ Primo Abbozzo: March 22, 2022 11:41 AM
 Stato: 🌕🌕🌕🌕🌑
 Studi Personali: No
 
-# Elementi di ripasso
-
-- LE STRAtegie di ispezione per l’hashing aperto
-
 # 5 Tabelle di Hash
 
 ## 5.1 Introduzione
