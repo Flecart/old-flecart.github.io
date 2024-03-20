@@ -12,21 +12,21 @@ Primo Abbozzo: November 10, 2021 9:33 AM
 Stato: 🌕🌕🌕🌕🌕
 Studi Personali: No
 
-# Elementi di ripasso
 
-- Vecchi dubbi
-    - Come si dimostra la correttezza e l'invertibilita di una regola?
-    - il concetto di derivabilità
-    - Perché la eliminazione della negazione non è l'introduzione del bottom?
-- il concetto di armonia DA CHIEDERE
+La deduzione naturale è un possibile sistema deduttivo che utilizza il linguaggio naturale per questo motivo più beginner friendly. Lo facciamo prima per la [Logica Proposizionale](/notes/logica-proposizionale) che è molto facile
 
-# 7 Deduzione naturale
+## Il sistema deduttivo
 
-La deduzione naturale è un possibile sistema deduttivo che utilizza il linguaggio naturale per questo motivo più beginner friendly.
+Poniamo l'esistenza di Assiomi (formule in una certa logica) e [regole di inferenza](#regole-di-inferenza) definite sotto.
+Esempi sono $$P \vdash \varphi$$ se $$\varphi$$ è un assioma. O altre cose simili con $$\land$$ e simili...
 
-## 7.1 Sintassi
+Una **dimostrazione** allora è una sequenza di $$\varphi_{1}, \dots, \varphi_{n}$$ dove $$\varphi_{i}$$ è derivata con le regole di inferenza e $$\varphi_{1}, \dots, \varphi_{i - 1}$$.
 
-### 7.1.1 Caratteristiche (4)
+La differenza con la deduzione naturale è che solitamente non ci sono assiomi
+
+## Sintassi
+
+### Caratteristiche della sintassi (4)
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled">
 
@@ -37,17 +37,17 @@ Si utilizza una BNF bidimensionale per rappresentare la ramificazione di una dim
 3. Le **foglie** sono formule **scaricate** (con parentesi quadre), queste sono ipotesi locali che valgono solo in quel ramo (come l'analisi per l'or).
 4. Le **foglie non scaricate**  rappresentano le ipotesi del problema
 
-### 7.1.2 La ricorsività
+### La ricorsività
 
 Come caratteristica delle BNF io opero in modo ricorsivo su sotto-alberi più semplici.
 
 Per ogni albero utilizzo delle regole di eliminazione o di introduzione  per collegare gli alberi insieme, ecco che **utilizzo le regole di introduzione ed eliminazione per collegare le regole fra di loro** e così faccio la verifica di correttezza della dimostrazione.
 
-## 7.2 Regole di inferenza
+## Regole di inferenza
 
-### 7.2.1 Sintassi delle regole di inferenza
+### Sintassi delle regole di inferenza
 
-Dobbia lettura (top-down, bottom up)!
+Doppia lettura (top-down, bottom up)!
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled 1.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled 1">
 
@@ -66,7 +66,7 @@ In modo più generale
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled 3.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled 3">
 
-### 7.2.2 Regole di inferenza (2)
+### Regole di introduzione ed elimitazione
 
 Queste regole sono state per la prima volta utilizzate in [Teoria assiomatica degli insiemi](/notes/teoria-assiomatica-degli-insiemi) per i primi esercizi.
 
@@ -76,19 +76,19 @@ Cosa viene ricavata da una conoscenza?
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled 4.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled 4">
 
-### 7.2.3 Regole Bottom up e top down
+### Regole Bottom up e top down
 
 Di solito le dimostrazioni sono presentate come bottom up, perché è considerato più elegante, ma di solito si lavora sulla conclusione nel caso di troppe ipotesi (due letture per BNF)
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled 5.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled 5">
 
-### 7.2.4 Correttezza di una regola
+### Correttezza di una regola
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled 6.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled 6">
 
 Poi si potrà dimostrare che si avrà conseguenza logica per regole assemblate fra di loro. (ipotesi scaricate, devono essere rappresentate con un implica, ricorda che scaricate vuol dire che hanno ipotesi locali).
 
-### 7.2.5 Invertibilità di una regola
+### Invertibilità di una regola
 
 Motivo: Ci permette di dire che le regole che stiamo dimostrando saranno poi ancora conseguenze logiche per la nostra tesi finale.
 
@@ -98,7 +98,7 @@ Motivo: Ci permette di dire che le regole che stiamo dimostrando saranno poi anc
 
 <img src="/images/notes/image/universita/ex-notion/Deduzione naturale/Untitled 7.png" alt="image/universita/ex-notion/Deduzione naturale/Untitled 7">
 
-## 7.3 Dimostrazione correttezza e invertibilità di regole classiche
+## Dimostrazione correttezza e invertibilità di regole classiche
 
 ### 7.3.1 AND **∧**
 
@@ -381,3 +381,11 @@ are la semantica del mondo.
 ## 7.7 Deduzione naturale in logica di primo ordine
 
 Possiamo estendere la deduzione naturale con alcune regole di $$\forall, \exists$$ [qui](/notes/qui)
+
+# Registro Ripassi
+
+- Vecchi dubbi
+    - Come si dimostra la correttezza e l'invertibilita di una regola?
+    - il concetto di derivabilità
+    - Perché la eliminazione della negazione non è l'introduzione del bottom?
+- il concetto di armonia DA CHIEDERE
