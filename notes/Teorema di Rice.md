@@ -9,7 +9,7 @@ title: Teorema di Rice
 Ci sono molti teoremi che non possono essere decisi, vedere [Halting Theorem and Reducibility](/notes/halting-theorem-and-reducibility).
 Qui andiamo a chiederci quale sia l'insieme dei problemi decidibili.
 
-### Proprietà dei linguaggi TM
+### Proprietà dei linguaggi TM 🟩
 Data una macchina $$\mathcal{M}$$ definiamo il suo linguaggio come
 
 $$
@@ -25,7 +25,7 @@ $$
 Definiamo questa **non triviale** se esiste una macchina per cui è 0, e una per cui è 1 (ossia non è costante).
 Practically this definition is useful when we need to have a difference between the language and the Turing machine that decides that language.
 
-### Three properties of Turing Machines
+### Three properties of Turing Machines 🟩
 1. Language properties (what language does it decide? This property concerns Rice's Theorem)
 2. Structural properties (what are constituents of turing machine?)
 3. Algorithmic properties (how is computing)
@@ -46,12 +46,12 @@ This proves Rice Theorem by [mapping reducibility](/notes/halting-theorem-and-re
 ## L'insieme delle funzioni non decidibili
 Qui andiamo a dimostrare che la stragrande maggioranza dei linguaggi non sono riconoscibili.
 
-#### Unione di insiemi numerabili è numerabile
+#### Unione di insiemi numerabili è numerabile 🟩
 Vedi [Descrizione linguaggio#Numerabilità per alfabeti](/notes/descrizione-linguaggio#numerabilità-per-alfabeti) per costruzione e dimostrazione. Sarebbe buono saperlo fare da solo.
 L'idea è avere un parametro che di dice quanto è l'esponente dell'insieme. E poi andare per sorta di ricorsione.
-#### L'insieme delle TM è numerabile.
+#### L'insieme delle TM è numerabile. 🟩
 Basta vedere che l'insieme delle TM è un sottoinsieme di $$A^{*}$$, che è numerabile. Questo quando usiamo la codifica binaria, quindi $$A = \left\{ 0, 1 \right\}$$.
-#### L'insieme dei linguaggi su alfabeto finito non è numerabile
+#### L'insieme dei linguaggi su alfabeto finito non è numerabile 🟩
 
 Possiamo rappresentare un linguaggio su un alfabeto con funzioni indicatrici. Avremmo così una stringa binaria che ci indica o no se una stringa è presente nel linguaggio o meno.
 Allora posso praticamente usare lo stesso argomento usato in [diagonalizzazione di Cantor](/notes/relazioni-fra-insiemi#dimostrazione-con-tabella) e avere il risultato.

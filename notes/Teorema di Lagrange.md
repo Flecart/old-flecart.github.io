@@ -49,9 +49,7 @@ Ossia un corollario dopo il teorema di Lagrange. La cosa citata è dimostrata in
 
 Se ho un gruppo di ordine primo, per il teorema di Lagrange non posso avere sottogruppi propri, perché l’ordine di questi dovrebbe dividere l’ordine del gruppo di partenza. Per questo motivo ho un unico gruppo. Ossia ogni elemento genera l’intero gruppo
 
-- Dimostrazione
-
-    <img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 7.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 7">
+<img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 7.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 7">
 
 
 ### a elevato all’ordine del gruppo è uguale ad e
@@ -83,6 +81,8 @@ $$
 E la cosa comoda è che $$a^{p - 2}$$ è l'inversa di quello.
 
 ### Teorema di Eulero
+Proof. [http://www.fen.bilkent.edu.tr/~franz/nt/ch7.pdf.](http://www.fen.bilkent.edu.tr/~franz/nt/ch7.pdf.)
+
 Questa è una generalizzazione di [#Il piccolo teorema di fermat](#il-piccolo-teorema-di-fermat).
 Afferma che $$\forall n \in \mathbb{N}$$ vale che
 

@@ -143,12 +143,12 @@ Una altra cosa curiosa è che EQ non è riconoscibile, e nemmeno il suo opposto 
 z
 ### Turing riducibilità
 
-#### Definizione di oracolo
+#### Definizione di oracolo 🟩
 Dato un linguaggio $$L$$ e una stringa $$x$$, l'oracolo mi dice in tempo finito se $$x \in L$$.
 
-#### Definizione Turing-riducibilità
+#### Definizione Turing-riducibilità 🟩
 > Dato un  $$L'$$ , questo è Turing riducibile a $$L$$, quindi $$L' \leq_{TM} L$$, se dato un oracolo per $$L$$ possiamo decidere $$L'$$
 
-#### Mapping reducibility => Turing-riducibilità
+#### Mapping reducibility => Turing-riducibilità 🟩-
 Possiamo dimostrare in modo semplice che con Turing-riducibilità $$HALT$$ è riducibile a $$HALT^{-}$$. Senza problemi.
 Mentre non posso farlo con Mapping reducibility.

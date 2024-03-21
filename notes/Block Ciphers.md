@@ -60,7 +60,7 @@ La decryption è simmetrica con la conoscenza della chiave.
 
 <img src="/images/notes/Block Ciphers-20240305095533560.webp" alt="Block Ciphers-20240305095533560">
 
-#### $$f$$ function in DES 🟨+
+#### $$f$$ function in DES 🟨
 Dove $$A$$ è il 32 bit plaintext e $$J$$ è la chiave.
 
 <img src="/images/notes/Block Ciphers-20240305100001596.webp" alt="Block Ciphers-20240305100001596">
@@ -121,7 +121,7 @@ L'immagine è sbagliata per la grandezza della chiave di input, per il resto è 
 
 ### Modes of operation
 #### Electronic Code Book (ECB)
-Il problema principale di questo metodo naïve è il fatto che posso vedere se blocchi hanno avuto stesso input, perché non dipendono dalla posizione.
+Il problema principale di questo metodo naïve è il fatto che posso vedere s e blocchi hanno avuto stesso input, perché non dipendono dalla posizione.
 
 <img src="/images/notes/Block Ciphers-20240307095344292.webp" alt="Block Ciphers-20240307095344292">
 
@@ -156,7 +156,7 @@ Una possibilità è usare un **IV** creato dalla cifrazione di un Nonce, così s
 molto simile al counter mode per [#Electronic Code Book (ECB)](#electronic-code-book-(ecb)) però ora abbiamo IV.
 <img src="/images/notes/Block Ciphers-20240312101447979.webp" alt="Block Ciphers-20240312101447979">
 Anche in questo caso possiamo usare una **nonce based version**.
-## Substitution-Permutation Networks
+## Substitution-Permutation Networks (not required for exam)
 #### 2 componenti principali
 
 Abbiamo un box di sostituzione e un box di permutazione.
@@ -168,9 +168,11 @@ la cosa carina è che queste funzioni alla fine sono molto semplici da implement
 In un unico round, viene encryptato molte volte (un round è fra 10-20 cicli di criptazione) si chiamano **iterated ciphers**, e dalla chiave iniziale vengono generate 16 chiavi, una per ogni round.
 Questo lo chiamiamo **round function** e la funzione che genera le chiavi per ogni round sono **key schedule**.
 
-### Pseudo random function
+## Pseudo random function
 #### Main definition
 <img src="/images/notes/OTP and Stream Ciphers-20240307110352630.webp" alt="OTP and Stream Ciphers-20240307110352630">
 
 #### Pseudo random permutation
+Solamente una **pseudorandom-function** tale per cui inizio e fine sono le stesse, quindi è **bigettiva**
 #### Secure PRF
+TODO:

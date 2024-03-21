@@ -75,7 +75,7 @@ Una altra macchina di Turing di interesse che non trattiamo qui è il prefix tur
 ### Macchine a registri
 Chiamato anche **URM** *unlimited register machine*, è un formalismo più simile a come sono fatti i computer moderni perché utilizzano i regsitri. 
 Definito in @shepherdsonComputabilityRecursiveFunctions1963.
-#### Descrizione Unlimited Register Machine 🟨+
+#### Descrizione Unlimited Register Machine 🟨++
 Supponiamo di avere $$R_{1}, R_{2}, R_{3}, \dots$$ registri, ogni registro ha un numero naturale indicato con $$r_{n}$$ (contenuto di registro $$n$$)
 Se la computazione finisce, questa viene messa in $$R_{1}$$ (simile a RAX in archietture intel).
 L'input $$N^{k}$$ è messo in tutti i registri in ordine (se non definito sono a 0).
@@ -86,7 +86,7 @@ Esistono un sistema di istruzioni che muovono e modificano le cose dei registri:
 3. **Move** $$R(n, m)$$ $$m$$ è messo uguale a $$n$$ (sono registri)
 4. **Jump** $$J(n, m, p)$$ Salta a istruzione $$I_{p}$$ se i registri $$n$$ e $$m$$ sono uguali. altrimenti ignora istruzione.
 
-Ora possiamo definire una specie di [CPU e storia degli elaboratori#3.1.2 ALU](/notes/cpu-e-storia-degli-elaboratori#3.1.2-alu) che è la cosa classica di programma imperativo.
+Ora possiamo definire una specie di [ALU](/notes/cpu-e-storia-degli-elaboratori#3.1.2-alu) che è la cosa classica di programma imperativo.
 
 
 #### Enunciato equivalenza 🟩
@@ -99,7 +99,7 @@ $$
 Che possono anche non terminare (in questo caso parziale).
 > Una funzione parziale è calcolabile in URM sse è calcolabile su TM
 
-#### Idea TM => URM 🟩
+#### Idea TM => URM 🟨
 Uso il risultato in [#Turing con nastri addizionali](#turing-con-nastri-addizionali), ho tanti nastri che fanno cose:
 1. Fa *instruction pointer* e punta all'istruzione attuale
 2. Ha il codice del programma
@@ -109,7 +109,7 @@ Uso il risultato in [#Turing con nastri addizionali](#turing-con-nastri-addizion
 Allora posso usare il contenuto del nastro 1 per trovare l'istruzione, poi uso altro per interpretarla ed eseguirla. Alla fine uso il primo valore del terzo nastro per avere il risultato.
 Per la modifica dei registri posso usare nastri ausiliari.
 
-#### Idea TM <= URM 🟩
+#### Idea TM <= URM 🟨
 Supponiamo di avere un URM, vogliamo simulare una macchina di turing con la classica tupla $$\Sigma, Q, q_{0}, H, \delta$$  
 Chiamo un registro *TAPE* che conterrà i valori presenti su un nastro di Turing.
 Inoltre dobbiamo ricordarci che questa macchina contiene **numeri naturali** per questo motivo abbiamo bisogno di una codifica.
@@ -123,7 +123,7 @@ Poi introduciamo registri per codificare $$\delta$$ la funzione di transizione.
 Questo è un formalismo più simile a uno di alto livello (quindi programma normale).Descritto in 
 > Kfoury, Moll, Arbib - A programming approach to computability.
 
-#### Descrizione del modello WHILE (3) 🟨+
+#### Descrizione del modello WHILE (3) 🟩
 Questo è simile a quanto descritto per la [Semantica di un linguaggio](/notes/semantica-di-un-linguaggio) per la parte procedurale.
 Abbiamo:
 1. Assegnazione
@@ -135,11 +135,11 @@ Possiamo definirlo in [Sintassi e RI strutturali#4.2 Backus-Naur Form](/notes/si
 
 Ci sono tre forme di assegnazione, uno zero, uno successivo, uno uguale credo.
 Non viene fatta la parte della semantica che abbiamo fatto tempo fa a linguaggi.
-#### Dimostrazione equivalenza 🟨+
+#### Dimostrazione equivalenza 🟩
 > Una funzione (parziale) é computabile da un programma WHILE se e solo se é computabile da una macchina di Turing.
 
-Si dimostra per [Sintassi e RI strutturali#4.7 Induzione strutturale](/notes/sintassi-e-ri-strutturali#4.7-induzione-strutturale) sulla BNF lì precedente.
-I casi base sono i 3 assegnamenti e il programma vuoto.
+Si dimostra per [induzione strutturale](/notes/sintassi-e-ri-strutturali#4.7-induzione-strutturale) sulla BNF lì precedente.
+I casi base sono i 3 assegnamenti (zero, successore, e predecessore) e il programma vuoto.
 
 Per il caso base, utilizzo un nastro separato come ho fatto per [#Turing con nastri addizionali](#turing-con-nastri-addizionali), su questo ci metto le variabili di interesse.
 Su questo posso codificare i casi base accennati di sopra.

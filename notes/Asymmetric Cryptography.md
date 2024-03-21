@@ -78,3 +78,59 @@ NOTE: normal RSA as defined above is not secure.
 I can get back to the original message with a small effort. The percentage of success is high enough not to be negligible.
 
 <img src="/images/notes/Asymmetric Cryptography-20240319114920695.jpg" alt="Asymmetric Cryptography-20240319114920695">
+#### Advantage notation for RSA
+We want the possibility to compute the $$e$$ root modulo $$N$$ to be small, and using the notion of advantage developed in [OTP and Stream Ciphers#Security with advantage](/notes/otp-and-stream-ciphers#security-with-advantage) we write
+
+$$
+Pr\left[ A(N, e, y) = y ^{1/e} \right] < \varepsilon
+$$
+
+Where $$\varepsilon$$ is very small, **negligible** so to say, and $$A$$ is the $$F$$ trapdoor function used for RSA.
+
+#### Wiener's attack
+This section is not useful for the exam, just for personal knowledge!
+If the private keys have certain properties, there exists some attacks, one example is the Wiener's attack
+<img src="/images/notes/Asymmetric Cryptography-20240321101500213.webp" alt="Asymmetric Cryptography-20240321101500213">
+#### Low public exponent attack
+This is a stupid attack. Then the exponent is small enough, and it is not able to wrap the module, then the root is quite easy to achieve.
+This is why the **recommended value** is big, usually = $$2^{16} + 1 = 65537$$.
+
+Usually this is used to **speed up** encryption, it easier to compute. Other variants, like *Elgamal* have almost same time to encrypt and decrypt.
+
+#### Comparison with symmetric keys
+
+| AES key size | RSA modulus size |
+| ------------ | ---------------- |
+| 80 bit       | 1024 bits        |
+| 128 bits     | 3072 bits        |
+| 256 bits     | 15360 bits       |
+We observe that RSA needs a lot more bits to ensure the same security!
+
+### Side channel attacks
+these attacks do not directly attack the cipher, but the infrastructure or computing that it uses.
+#### Timing attack
+Can leak $$d$$ secret key by tracking the compute time. (Kocher 1997)
+
+#### Power attack
+Can leak $$d$$ by tracking power usage. (Kocher 1999)
+#### Faults attack
+Errors can leak $$d$$ somehow (don't know!) (BDL 1997).
+<img src="/images/notes/Asymmetric Cryptography-20240321110527763.webp" width="481" alt="Asymmetric Cryptography-20240321110527763">
+In questa fase viene leakato il valore di $$p$$ che permette di ricostruire la chiave privata.
+#### Key generation
+<img src="/images/notes/Asymmetric Cryptography-20240321110517713.webp" alt="Asymmetric Cryptography-20240321110517713">
+### Variations
+#### Elgamal
+#### Rabin cryptosystem
+we create $$p,q$$ such that their modulus $$4$$ is 3, probably for some nice properties I don't know of...
+The advantage is that his security is prooved.
+## Digital signatures
+The main idea is to cipher with the private key, so that it can be verifiable using the public.
+It was cited in [Sicurezza delle reti](/notes/sicurezza-delle-reti) times before.
+To overcome the burden to encrypt the whole text, usually only an hash is encrypted.
+
+### Advantages of Digital signatures
+- Unforgeable
+- Un-deniable by the signatory (if you have signed it, it was you!)
+- Universally verifiable (everybody can verify it)
+- Every doc's signature is different.

@@ -27,7 +27,7 @@ Se $$a \mid d$$ e sono interi allora esiste esiste c tale per cui d = ca. (tutti
 mcd fra interi a e b è il più grande intero che divide sia a sia b.
 Osservazione: $$mcd(a, 0) = a$$
 
-### Teorema di Bezout
+### Teorema di Bézout
 
 che dice che esistono r ed s tali che per ogni 2 interi a,b ho che ar + sb = gdc(a,b);
 E da questo possiamo andare a fare algoritmo di Euclide esteso.

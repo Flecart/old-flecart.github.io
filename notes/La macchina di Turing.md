@@ -106,7 +106,12 @@ La cosa interessante di queste macchine comunque è che [La macchina di Turing](
 1. Rigorosità di algoritmo. (anche se non mi sembra buono per esprimere certe forme di calcolo @denningUbiquitySymposiumWhat2010).
 2. Teoremi di calcolabilità possono essere estese a qualunque altro formalismo, se vale.
 
-
+#### Versione rafforzata
+Questa versione è una estensione della tesi di Church-Turing in modo che comprenda la parte in [Time Complexity](/notes/time-complexity).
+> Ogni modello di calcolo deterministico
+sicamente realizzabile può essere simulato da
+una TM (deterministica, su nastro singolo) con
+overhead al più polinomiale.
 ### Chiusura del linguaggio di TM
 
 #### Chiusura sulla decidibilità 🟩

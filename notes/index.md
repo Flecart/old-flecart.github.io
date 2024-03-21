@@ -337,7 +337,6 @@ Here you can find the categories of all the notes on the site:
 ## Sicurezza
 - [Linux command line](/notes/linux-command-line)
 - [Process loading](/notes/process-loading)
-- [Introduction to Cybersecurity](/notes/introduction-to-cybersecurity)
 - [gdb](/notes/gdb)
 - [Key Exchange protocols](/notes/key-exchange-protocols)
 - [Introduction to the course mit cyber sec (old)](/notes/introduction-to-the-course-mit-cyber-sec-(old))

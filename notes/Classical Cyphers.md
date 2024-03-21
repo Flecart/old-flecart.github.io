@@ -162,7 +162,7 @@ Andiamo in questa parte a misurare la sicurezza di una chiave di fronte agli att
 
 <img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled 3.png" alt="image/universita/ex-notion/Introduzione/Untitled 3">
 
-#### Segretezza perfetta 🟩
+#### Segretezza perfetta 🟨+
 Secondo Shannon 1949.
 Consideriamo un cifrario $$E, D$$ su $$K, M, C$$, allora si dice che si ha perfect secrecy quando 
 $$\forall m_{0},m_{1} \in M$$ tale per cui $$\mid m_{0} \mid = \mid m_{1} \mid$$ , dove $$k$$ è presa uniforme. e $$\forall c \in C$$ 
@@ -175,7 +175,7 @@ $$
 Detto in altre parole, se ho un certo cipher-text, ho la stessa probabilità di avere qualunque messaggio possibile di una certa lunghezza rispetto al messaggio iniziale.  Quando succede questo 
 there are no computational assumptions about the attacker, this is why this is also called **unconditional security or perfect security.**
 
-Il ciphertext porebbe essere *qualunque messaggio!*, cioè non posso attaccare il $$c$$ sapendo solo $$c$$ con la segretezza perfetta.
+Il cyphertext potrebbe essere *qualunque messaggio!*, cioè non posso attaccare il $$c$$ sapendo solo $$c$$ con la segretezza perfetta.
 Altri autori come Stinson definisco tale per cui $$P(E|M) = P(E)$$. 
 Attualmente non mi è chiaro se le due definizioni sono equivalenti.
 
