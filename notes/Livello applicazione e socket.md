@@ -5,53 +5,39 @@ tags: italian
 title: Livello applicazione e socket
 ---
 
-Ripasso Prox: 60
-Ripasso: June 12, 2023
-Ultima modifica: May 12, 2023 12:28 PM
-Primo Abbozzo: November 22, 2022 11:36 AM
-Stato: 🌕🌕🌕🌕🌑
-Studi Personali: No
-
-# Elementi di ripasso
-
 # Livello trasporto
 
 ## Protocolli classici
 
-### Intro TCP (3) e UPD 🟩
+### Introduzione a TCP e UPD
 
-- Slide
-
-    <img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled">
+<img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled">
 
 
 Il quarto livello dei protocolli dell’architettura di Internet è il livello trasporto (transport), ed è basato su due protocolli in particolare: il Transmission Control Protocol (**TCP**) e lo User Data Protocol (**UDP**), che possono essere usati in alternativa tra loro.
 
-Questo è nel genere di **connession orientet** e non, il primo, TCP è connection oriented, l'altro no, questa è l’unica differenza fra i due. Questa differenza è spiegata in maggior dettaglio qui [0.3.8 Servizi orientati alla connessione  e non 🟨+](/notes/0.3.8-servizi-orientati-alla-connessione--e-non-🟨+)
+Questo è nel genere di **connession oriented* e non, il primo, TCP è connection oriented, l'altro no, questa è l’unica differenza fra i due. Questa differenza è spiegata in maggior dettaglio qui [0.3.8 Servizi orientati alla connessione  e non 🟨+](/notes/0.3.8-servizi-orientati-alla-connessione--e-non-🟨+)
 
 **TCP**
 
 1. Connection oriented (garantire il ripristino dell’ordinamento dei pacchetti e la ri-trasmissione dei pacchetti perduti)
 2. **Numero** dell’ordine (a cui riceve ack per questo numero)
 3. Controllare la velocità di invio → Finestra scorrevole
-La parte importante di questo è che la congestione si può **allargare a macchia d’olio** all’interno di internet, e questo è una cosa molto brutta!
+La parte importante di questo è che la congestione si può **allargare a macchia d’olio** all'interno di internet, e questo è una cosa molto brutta!
 
 Quindi prova a risolvere gli errori di comunicazione di rete, cercando di garantire una buona trasmissione. Il problema è l'efficienza, si possono inviare segmenti in più e **congestionare la rete**.
 
 Si può dire che questa è la semantica diversa.
 
-Con la **treeway handshake** si apre una connessione socket, quindi una coppia porta IP, per poter comunicare!
+Con la **tree-way handshake** si apre una connessione socket, quindi una coppia porta IP, per poter comunicare!
 
 **UDP**
 
 1. È semplice perché non fa tutte le cose di TCP (no duplicati, no riordinamento, no checks)
 2. Tipo connectionless
 
-### Socket (!!!) 🟩
-
-- Slide
-
-    <img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled 1.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled 1">
+### Socket
+<img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled 1.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled 1">
 
 - Slide immagini
 
@@ -80,7 +66,7 @@ Welcoming è l'unico socket di ricezione di un server, che prende tutto e manda 
 
 Client sockets sono i molteplici sockets che il server utilizza per comunicare con il singolo client, vengono solitamente istanziati grazie al welcoming socket dopo che ho fatto richiesta di connessione.
 
-### Controllo della congestione TCP (2) 🟨+
+### Controllo della congestione TCP (2)
 
 Questa parte ora è trattata meglio in [Livello di trasporto](/notes/livello-di-trasporto)
 
@@ -105,17 +91,12 @@ Il problema del controllo di flusso dei pacchetti nel protocollo TCP si basa su 
 pacchetti, provenienti da flussi TCP diversi, i pacchetti si accumulano fino ad andare perduti e la rete va in crisi. In tal caso si deve ricorrere a una tecnica di controllo della congestione.
 Una forma di congestione può comparire anche sul destinatario finale, nel caso in cui esso non sia in grado di ricevere i pacchetti inviati troppo velocemente. In tal caso si deve ricorrere a una tecnica di controllo di flusso.
 
-### **Finestra scorrevole** 🟩-
+### **Finestra scorrevole** 
 
 Si parla di metodi di congestione, viene trattato meglio in [Livello di trasporto](/notes/livello-di-trasporto)
+<img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled 5.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled 5">
 
-- Slide
-
-    <img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled 5.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled 5">
-
-- Schema
-
-    Osservando l’esempio, partendo con SW uguale a 1, se la conferma è ricevuta, la finestra viene raddoppiata, spedendo due pacchetti al massimo ritmo di invio. Se entrambi i pacchetti vengono confermati, si passa alla finestra di dimensione quattro, inviando quattro pacchetti al massimo ritmo di invio. Se i pacchetti sono confermati si passa a finestra di otto pacchetti. A
+Osservando l’esempio, partendo con SW uguale a 1, se la conferma è ricevuta, la finestra viene raddoppiata, spedendo due pacchetti al massimo ritmo di invio. Se entrambi i pacchetti vengono confermati, si passa alla finestra di dimensione quattro, inviando quattro pacchetti al massimo ritmo di invio. Se i pacchetti sono confermati si passa a finestra di otto pacchetti. A
     questo punto, nell’esempio, almeno uno degli otto pacchetti non viene confermato. Si suppone che questo fatto sia dovuto a un router congestionato e quindi si rallenta il ritmo di invio ripartendo dalla finestra minima (pari a uno). Il massimo grado sostenibile di invio per la rete in esame nell’esempio è stato quindi ottenuto con finestra pari a quattro.
 
     <img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled 6.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled 6">
@@ -137,7 +118,7 @@ Se i pacchetti vengono confermati, si può adottare un meccanismo dinamico per a
 
 Se i pacchetti vanno perduti, TCP assume anche che la causa di ciò sia la presenza di un router intermedio congestionato, e quindi rallenta il ritmo di invio dei pacchetti per dare modo al router congestionato di smaltire i pacchetti accumulati. Tale meccanismo, sommariamente descritto, è il meccanismo di controllo della congestione di rete di TCP.
 
-### Multiplexing e Demultiplexing e porte 🟥
+### Multiplexing e Demultiplexing e porte
 
 Questi termini non hanno una traduzione diretta con l'italiano, la cosa più simile possibile è aggregare e disaggregare, perché da una unica scheda direte arriva tutto, questa cosa deve essere demultiplexata alla porta corretta, e multiplexata all'unica scheda di rete che si ha.
 
@@ -181,10 +162,7 @@ All'inizio bisognava **aprire connessione** per ogni singolo file che bisognava 
 
 Molto bene è descritto in [HTTP e REST](/notes/http-e-rest)
 
-### DNS 🟨
-
-- Slide
-
+### Domain Name System
     <img src="/images/notes/image/universita/ex-notion/Livello applicazione e socket/Untitled 9.png" alt="image/universita/ex-notion/Livello applicazione e socket/Untitled 9">
 
 - Immagine di spiegazione
@@ -218,6 +196,10 @@ Ricoversivo quando il DNS stesso va a chiedere, e quindi quando ti risponde ti d
 
 Quindi in un caso si pone molto più onere sul client che ha richiesto, nel secondo caso si pone onere sul server DNS. Quindi a seconda di quanto hai bisogno puoi fare l’uno o l’altro direi.
 
+#### Typosquatting attack
+Questo è un attacco sui DNS. Sappiamo che questo servizi risolvono testo in IPs che poi vengono utilizzati per mandare le richieste sulla rete. Però questo approccio è attaccabile da domini che hanno codifiche diverse, ma carattere uguale all'utilizzatore.
+In questo modo un utente può essere ingannato a cliccare su quell'url, anche se il domain name originale è diverso perché invece di A scrive А, per esempio hex-dump di `A А` è `41 20 d0 90 a` vediamo chiaramente che la seconda A in cirillico è rappresentato da tre bytes, anche se sembrano esattamente essere uguali. Questo può essere utilizzato e attaccato.
+
 ### Sulla connessione
 
 Riassumento, per poterci connettere sulla rete abbiamo bisogno di queste informazioni e stack di rete qui:
@@ -228,7 +210,7 @@ Riassumento, per poterci connettere sulla rete abbiamo bisogno di queste informa
 - DNS
 - DHCP
 
-### Architetture a livello applicazione 🟩
+### Architetture a livello applicazione
 
 - Client/server
 - Peer To peer

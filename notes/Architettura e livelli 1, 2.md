@@ -77,7 +77,7 @@ A questo livello il pacchetto si chiama *FRAME.*
         3. Gestire pacchetti duplicati.
 3. **Il livello rete** si occupa di frammentare i dati in pacchetti, scrivere gli indirizzi dei destinatari finali e instradare i pacchetti verso i destinatari intermedi del cammino.
 In questa sezione andiamo oltre alla rete locale, è qui che nasce internet vero!
-Il router è un elemento principale di questo.
+Il [router](/notes/control-plane) è un elemento principale di questo.
     1. Frammentazione dei pacchetti
     2. Indirizzamento *IP* che servono a dare un identificativo alla scheda di rete in ambito locale per capire in quale direzione trasferire.
 4. **Il livello trasporto** si occupa di garantire i servizi di trasmissione dei pacchetti (orientati alla connessione e non) e del controllo della congestione della rete.

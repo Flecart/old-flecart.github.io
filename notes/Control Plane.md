@@ -5,20 +5,7 @@ tags: italian
 title: Control Plane
 ---
 
-Ripasso Prox: 30
-Ripasso: June 3, 2023
-Ultima modifica: May 14, 2023 6:09 PM
-Primo Abbozzo: March 16, 2023 10:23 AM
-Stato: 🌕🌕🌕🌕🌕
-Studi Personali: No
-
-# Elementi di ripasso
-
-# Control Plane
-
-## Introduzione
-
-### Tipologie di control plane 🟩
+### Tipologie di control plane
 
 La control plane è la parte al livello di rete che si occupa di **riempire le tabelle di istradamento dei router**. In questo caso si possono in generare dividere gli algoritmi in due grandi famiglie
 
@@ -31,7 +18,7 @@ Si possono anche differenziare secondo la **sensibilità al carico**. Anche se g
 
 ## Algoritmi per Control Plane
 
-### Link state e Dijkstra (!!!) 🟩
+### Link state e Dijkstra
 
 Questa è la parte più importante per il prof
 
@@ -44,22 +31,22 @@ NOTA: ci potrebbero essere problemi di **oscillazione dei percorsi calcolati** s
     <img src="/images/notes/image/universita/ex-notion/Control Plane/Untitled.png" alt="image/universita/ex-notion/Control Plane/Untitled">
 
 
-### Distance vectors 🟥++
+### Distance vectors
 
 - Non hanno visto Bellman ford e distance vector routing, però sarebbe carino farle
 - TODO:
 
-## Autonous sistems (!)
+## Autonomous systems
 
-### Definizione AS 🟩
+### Definizione AS
 
-Alcuni vorrebbero essere in grado di gestire un blocco di router come vogliono loro, ossia vogliono avere una autonomia amministrativa su un insieme di router. Possiamo quindi **dividere tutti i router in delle AS**, alcune grandi, di primo livello, più piccole, decide l’ISP in che modo gestirsele. (ad ogni AS è associato, sembra, un numero). La cosa importante però è che
+Alcuni vorrebbero essere in grado di gestire un blocco di router come vogliono loro, ossia vogliono avere una *autonomia amministrativa* su un insieme di router. Possiamo quindi **dividere tutti i router in delle AS**, alcune grandi, di primo livello, più piccole, decide l’ISP in che modo gestirsele. (ad ogni AS è associato, sembra, un numero). La cosa importante però è che
 
-- Tutti i router all’interno di una AS eseguogno lo stesso protocollo di intradamento.
+- Tutti i router all'interno di una AS eseguono lo stesso protocollo di instradamento.
 
-### Intra e inter routing (intro non fare)
+### Intra e inter routing
 
-Algoritmi di routing a due livelli diversi (BGP BOrder Gateway protocol per inter, che non chiede, ma sa che esiste. e altri per Intra.)
+Algoritmi di routing a due livelli diversi (BGP Border Gateway protocol per inter, che non chiede, ma sa che esiste. e altri per Intra.)
 
 Intra sono algoritmi di routing omogenei.
 
@@ -67,9 +54,9 @@ Inter in cui ci interessa solamente capire in che modo si interfaccia in altri s
 
 In pratica non ha fatto niente di control plane…
 
-### Open Shortest Path first (intra) 🟩
+### Open Shortest Path first (intra)
 
-OSPF è un algoritmo link state che regola il routing all’interno di un sistema autonomo. Per il resto non ci importa sapere altro.
+OSPF è un algoritmo link state che regola il routing all'interno di un sistema autonomo. Per il resto non ci importa sapere altro.
 
 - Utilizza Dijkstra
 - I pesi possono essere messi a mano seguendo certi criteri
@@ -80,12 +67,11 @@ OSPF è un algoritmo link state che regola il routing all’interno di un sistem
 
 ## Border Gateway Protocol (!)
 
-### Introduzione al protocollo 🟩
+### Introduzione al protocollo BGP
 
 Border Gateway Protocol è uno dei protocolli più importanti insieme a IP. È il protocollo che ci permette di comunicare fra AS divers, si può dire infatti che sia un protocollo **inter-AS** per questo motivo.
 
 Ha due funzioni principali:
-
 - Annunciare che un host o un router è raggiungibile a tutti gli AS
 - Trovare il percorso più veloce per raggiungere quell’host
 
@@ -93,20 +79,20 @@ In generale qui vengono utilizzati algoritmi Distance Vector decentralizzati sui
 
 Per far questo in generale ci teniamo una coppia (**prefisso, interfaccia**) ossia il prefisso contiene un range di indirizzi, e interfaccia è l’interfaccia del router che possiede quei prefissi.
 
-### Annuncio presenza 🟩
+### Annuncio presenza
 
 In questa fase facciamo distinzione ai messaggi **eBGP** annunci di messaggi fra router di AS diversi fra di loro e di **iBGP** annunci fra router degli stessi AS.
 
 Per dare l’intuizione generale, quando un nuovo router si connette, manda un messaggio iBGP a tutti i router dell’AS, quando il messaggio viene a un **router gateway,** così chiamati i router che hanno connessioni con AS diverse, questa manda una **eBGP** al router dell’altro BGP, con informazioni sulla presenza di x e di come raggiungere x, il processo di ripete finché non è stato recepito da tutte le AS.
 
-### Ricerca del percorso più breve (2) 🟨+
+### Ricerca del percorso più breve (2)
 
-Ricordiamo prima che le rotte sono delle coppie (”percorso fra sistemi autonomi”, primo router fuori dall’AS attuale).
+Ricordiamo prima che le rotte sono delle coppie (”percorso fra sistemi autonomi”, primo router fuori dall'AS attuale).
 
 Una volta che un sistema autonomo è a conoscenza di tutte le rotte verso un certo router può utilizzare questi due algoritmi:
 
 - Hot potato
-    - Quando provo a **uscire più in fretta possibile dall’AS attuale**. Sfruttando protocolli di intrarouting per sapere dove andare.
+    - Quando provo a **uscire più in fretta possibile dall'AS attuale**. Sfruttando protocolli di intra-routing per sapere dove andare.
 - Selezione delle rotte
     - Ho delle regole da seguire che eliminano tutte le rotte fino ad avere una singola
     1. Preferenza locale (impostata manualmente da un operatore solitamente)

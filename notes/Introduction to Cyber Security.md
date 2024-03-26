@@ -1,18 +1,80 @@
 ---
 layout: page
-permalink: notes/introduction-to-the-course-mit-cyber-sec-(old)
+permalink: notes/introduction-to-cyber-security
 tags: italian
-title: Introduction to the course mit cyber sec (old)
+title: Introduction to Cyber Security
 ---
 
-Ultima modifica: November 19, 2022 10:43 AM
-Primo Abbozzo: November 19, 2022 9:26 AM
-Studi Personali: No
+## Security principles
+We have already  outlined these principles in [Sicurezza delle reti](/notes/sicurezza-delle-reti) and talked about the concepts of authentication and integrity. Here we try to deepen these concepts and delve a little bit more on the attack vectors
+These are acronyms, usually called CIA and AAA for infrastructure
 
-# Elementi di ripasso
+### Confidentiality
+This is one concerns about the secrecy of the sent message. We do not want others to be able to access and read what we are doing.
 
-# Introduction
+#### Eavesdropping
+This is an example of attack of confidentiality. The setting is usually like this: Eve that intercepts the message sent by each other.
+For example in network security, it is quite easy to eavesdrop with Wireshark or similars.
+### Integrity
+Integrity concerns with message tampering. The received message should be the same as the sent one (man in the middle are common attacks).
 
+
+#### Authentication
+Authentication is important when we **need to know** to whom we are talking to. We should need to be sure that that is exactly the person (or the machine) we are trying to connect (or talk to). In this framework it is about integrity.
+
+#### Spoofing attacks
+When an attacker authenticates as another user.
+
+#### Manipulation attacks
+This is tampering.
+
+
+### Availability
+The system should be available, that is accessible by its users.
+
+#### Denial of service attacks
+For example if you have limited number of ports, a common example of denial of service attack is the **Syn flooding** where multiple services ask to open a TCP connection, but it doesn't continue with the communication, leaving the port occupied but useless.
+
+
+
+
+### Anonymity
+
+On the internet we **are not anonymous** we are always tracked by ISP, cookies and many other strategies that I am not even aware of.
+This is a problem we we want to be anonymous, so how can we reach this target??
+
+#### Anonymity by proxy
+We just use another computer to repeat my information, this computer doesn't have access to the underlying information, but it substitutes his IP to ours, so the end receiver doesn't exactly know where the initial message comes from.
+
+#### Mix-based systems
+Created in 1981 by David Chaum. 
+Very similar to the previous one, in practice, in the end, it acts as a proxy but not only does it take and receive, but it also mixes together the packets it has received from the sources, applying its key.
+
+<img src="/images/notes/Introduction to Cyber Security-20240326102655961.webp" alt="Introduction to Cyber Security-20240326102655961">
+
+**Disadvantage:** 
+The public-private mixing system is very slow. For this reason, a network of nodes is established, each having a symmetric key, making it much faster.
+
+The important thing to note is that this system has been influential in modern tor networks.
+
+
+## The Tor Ecosystem
+
+This system tries to anonymize the user with principles similar to [#Anonymity by proxy](#anonymity-by-proxy). The initial user message goes through different relays before reaching the end destination. The system is a little bit more complex than this, so we are breaking down a connection example 
+
+It's called onion because each relay has only an outer layer of the onion. The core is what the end user receives.
+
+### How Tor Works
+The Tor network sends the payload through three **random relay servers** in the network.
+Information about what we are accessing, from who, is not accessible.
+But some information is still accessible, for example:
+1. Our ISP knows that we are trying to access the Tor network, because we need a listing of tor nodes.
+2. The exit relay knows to whom we are talking to, as this information is needed to send the message.
+
+
+
+## Old section
+### Some concepts
 **Security** vogliamo impedire modi che un altro possa accedere ad informazioni riservate
 
 **Obiettivo** solo qualcuno può leggere una password.

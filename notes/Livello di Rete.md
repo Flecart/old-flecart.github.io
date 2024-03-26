@@ -12,10 +12,6 @@ Primo Abbozzo: October 12, 2022 9:50 AM
 Stato: 🌕🌕🌕🌕🌗
 Studi Personali: No
 
-# Elementi di ripasso
-
-- Ripassare DHCP e IP nuovi di qui
-
 # Reti di Reti
 
 Le parti importanti per questo sono [Data Plane](/notes/data-plane) e [Control Plane](/notes/control-plane) (che ha saltato quasi tutto, ma almeno dijkstra lo dovresti fare bene)
@@ -89,7 +85,7 @@ Sono improntate alla efficienza! Principalmente è solo hardware che è in grado
 
 Si è tentato di cercare di predire i dati futuri pensando a quanti dati ho ora. Ma si è scoperto che non è proprio possibile, perché ci sono dei **burst** di richieste, dipendenti dalle richieste delle singole applicazione, per questo motivo sembra che sia un sistema caotico (esempio della farfalla). Principalmente perché questo è dipendente dai media (es. youtube).
 
-## Indirizzo IP (!!!)
+## Indirizzo IP
 
 > Gli indirizzi IP sono una nuova specie di indirizzi rispetto al MAC, necessari per il Protocollo omonimo;
 >
@@ -445,8 +441,6 @@ Si chiama tunnelling perché il wrap ci assomiglia tanto!
 ### NAT
 
 # Cose vecchie
-
-### Indirizzo IP
 
 ### Confronto col MAC
 
