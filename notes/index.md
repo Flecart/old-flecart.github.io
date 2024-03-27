@@ -36,6 +36,7 @@ Here you can find the categories of all the notes on the site:
 - [Reinforcement Learning](#reinforcement-learning)
 - [Intelligenza Artificiale](#intelligenza-artificiale)
 - [Random Ai](#random-ai)
+- [Convex Optimization](#convex-optimization)
 - [Theorical Ai](#theorical-ai)
 - [Theory Of Mind](#theory-of-mind)
 
@@ -406,6 +407,10 @@ Here you can find the categories of all the notes on the site:
 - [Autoencoders](/notes/autoencoders)
 - [Neural Networks](/notes/neural-networks)
 - [The RLHF pipeline](/notes/the-rlhf-pipeline)
+
+
+## Convex Optimization
+- [Introduction to Convex Optimization](/notes/introduction-to-convex-optimization)
 
 
 ## Theorical Ai

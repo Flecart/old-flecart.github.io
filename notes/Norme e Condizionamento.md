@@ -12,19 +12,22 @@ Primo Abbozzo: September 28, 2022 4:34 PM
 Stato: 🌕🌕🌕🌕🌑
 Studi Personali: No
 
-# Elementi di ripasso
-
 # Errore inerente
 
 Bisogna cercare di generalizzare il concetto di errore e lo si fa con la norma
 
 ## Norma vettoriale
 
-È una funzione da $$f: \R ^n \to \R$$ indicata con due barrette, questa funzione mi dà un concetto di distanza.
+È una funzione da $$f: \mathbb{R}^n \to \mathbb{R}$$ indicata con due barrette, questa funzione mi dà un concetto di distanza.
 
-### Proprietà 🟨+
+### Proprietà della norma
+Si definisce una norma una funzione che soddisfa queste proprietà
+1. $$\lVert x \rVert \geq 0$$ per ogni $$x \in \mathbb{R}^{n}$$
+2. $$\lVert x \rVert = 0 \iff x = 0$$
+3. $$\lVert \alpha x \rVert = \lvert \alpha \rvert \lVert x \rVert$$ per ogni $$x \in \mathbb{R}^{n}$$ e $$\alpha \in \mathbb{R}$$
+4. Vale la disuguaglianza triangolare, ossia $$\forall x, y \in \mathbb{R}^{n}, \lVert x + y \rVert \leq \lVert x \rVert + \lVert y \rVert$$.
 
-<img src="/images/notes/image/universita/ex-notion/Norme e Condizionamento/Untitled.png" alt="image/universita/ex-notion/Norme e Condizionamento/Untitled">
+
 
 ### Norma p 🟩-
 

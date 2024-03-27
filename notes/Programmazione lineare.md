@@ -22,28 +22,67 @@ Questo è **possiamo ridurci a considerare i vertici** del poliedro che si costr
 
 ## Nozioni preliminari
 
-### Iperpiano, semispazio poliedro, convesso 🟩
+### Iperpiano, semispazio poliedro, convesso
 
-- Slide
-
-    <img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled">
-
-
-Definiamo **Iperpiano**, un insieme di condizioni soddisfatte per quivalenza:
+#### Iperpiano
+L'insieme delle soluzioni di equazioni in
 
 
 $$
-Ax = b, A \in \R^{m \times n}, x \in \R ^n, b \in \R^m
+\left\{ x \in \mathbb{R}^{n} \mid a^{T}x = b, a \neq 0 \right\} 
+$$
+
+E si può dimostrare che questo è un insieme affine, quindi è una linea. Questi piani sono anche convessi perché prendiamo tutti i punti 🤠.
+
+#### Semispazio
+
+$$
+\left\{ x \in \mathbb{R}^{n} \mid a^{T}x \geq b, a \neq 0 \right\} 
 $$
 
 
-Mentre un semispazio è un iperpiano soddisfatto per disuguaglianza lasca.
+Lo spazio è diviso fra zone in cui è maggiore e altre in cui è minore.
+Questi **non sono affini** ma sono solo convessi (perché limitati in certe zone)
+
+#### Palla euclidea
+
+
+$$
+B(x_{c}, r) = \left\{ x \mid \lvert x - x_{c} \rvert _{2} \leq r \right\}  = \left\{ x _{c} + ru \mid \lvert u \rvert _{2} \leq 1 \right\} 
+$$
+
+Dove $$r$$ è chiamato raggio.
+
+#### Ellissoide
+È un insieme formato in questo modo
+
+$$
+\left\{ x \mid (x - x_{c})^{T} P^{-1} (x - x_{c}) \leq 1 \right\} 
+$$
+
+Quindi è una **forma quadratica** quelle saltate in algebra.
+Nella pratica è una palla, un po' allungata in certe direzioni descritte da $$P$$, che è una matrice **simmetrica definita positiva**. ossia nell'insieme $$S_{++}$$
+Si scrive anche a volte come
+
+$$
+\left\{ x_{c} + Au \mid \lvert u \rvert _{2} \leq 1 \right\} 
+$$
+
+#### Poliedro
+È una intersezione di un numero finito di $$m$$ semispazi come definiti di sopra inoltre non vogliamo che da nessuna parte si estenda all'infinito, quindi vogliamo che valga
+
+$$
+\left\{ x \mid Ax \leq b \right\}
+$$
+
+Per qualche valore di $$A$$ e $$b$$.
+
+<img src="/images/notes/Programmazione lineare-20240327205441381.webp" alt="Programmazione lineare-20240327205441381">
+
 
 Un **poliedro** è una qualunque intersezione di semispazi (anche vuota, ma non è molto interessante un poliedro vuoto), ed è un insieme sempre convesso perché l’intersezione di cose convesse è ancora convesso.
 
-TODO: se hai tempo dimostra che intersezione di cose convesse è a sua volta ancora convesso, dovrebbe essere cosa molto semplice.
-
-L’amico del poliedro che deve essere per forza finito è il **politopo.**
+L’amico del poliedro che deve essere per forza finito è il **politopo.** (che è la versione non bounded, ma alcuni autori utilizzano una definizione opposta, ma comunque non è molto importante).)
 
 ### Facce 🟨
 
@@ -113,6 +152,7 @@ $$
 Questa notazione più o meno ci dice quante righe della matrice sto andando poi a contare
 
 ## Cose convesse
+Trattate un po' meglio in [Analisi di Convessità](/notes/analisi-di-convessità).
 
 ### Inviluppi convessi 🟩
 
@@ -128,16 +168,14 @@ Questo insieme ci è sufficiente per avere un **politopo**, per il caso infinito
 
 Per ora basta avere un intuizione per questo. Riusciamo a costruire in questo modo tutti i spigoli che uniscono i nostri punti di vertice, e partendo da questi possiamo andare a costruire l’intero politopo, ma la dimostrazione formale non la andiamo a dare.
 
-### Coni convessi 🟨+
-
-- Slide
-
+### Coni convessi 
+See [Analisi di Convessità#Convex Cone](/notes/analisi-di-convessità#convex-cone).
     <img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled 3.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled 3">
 
 
 Il concetto di cono convesso ci aiuta a costruire il caso infinito, considerando alcune operazioni di prolungamento e somma
 
-$$x,y \in C, \lambda, \beta \in \R \implies \lambda x + \beta y \in C$$
+$$x,y \in C, \lambda, \beta \in \mathbb{R} \implies \lambda x + \beta y \in C$$
 
 Possiamo provare a generalizzare questo concetto utilizzando la somma fra tutti i possibili
 
@@ -145,7 +183,7 @@ $$V = \{ v_1, ... v_n\}$$
 
 
 $$
-cono(V) = \{ \sum _{i = 1} \lambda_i v_i | \lambda_i \in \R ^+\}
+cono(V) = \{ \sum _{i = 1} \lambda_i v_i | \lambda_i \in \mathbb{R} ^+\}
 $$
 
 
