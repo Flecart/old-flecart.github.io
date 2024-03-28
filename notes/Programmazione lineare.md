@@ -12,8 +12,6 @@ Primo Abbozzo: November 25, 2022 8:55 AM
 Stato: 🌕🌕🌕🌑🌑
 Studi Personali: No
 
-# Elementi di ripasso
-
 # Programmazione lineare
 
 Vogliamo cercare di restare nel nostro spazio delle soluzioni ammissibili, senza dover stare ad esplorare tutto, vogliamo andare a concentrarci su una parte specifica di essa. Vogliamo utilizzare una struttura fondamentale per i problemi di programmazione lineare, che è quello con cui vogliamo andare a fare. Il fatto è che spostandoci leggermente da un punto tra le soluzioni, possiamo gestire in modo molto semplice il modo con cui si sposta la retta dei valori.
@@ -22,7 +20,7 @@ Questo è **possiamo ridurci a considerare i vertici** del poliedro che si costr
 
 ## Nozioni preliminari
 
-### Iperpiano, semispazio poliedro, convesso
+### Vocabolario di base
 
 #### Iperpiano
 L'insieme delle soluzioni di equazioni in
@@ -85,10 +83,7 @@ Un **poliedro** è una qualunque intersezione di semispazi (anche vuota, ma non 
 L’amico del poliedro che deve essere per forza finito è il **politopo.** (che è la versione non bounded, ma alcuni autori utilizzano una definizione opposta, ma comunque non è molto importante).)
 
 ### Facce 🟨
-
-- Slide
-
-    <img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled 1.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled 1">
+<img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled 1.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled 1">
 
 
 **Formalmente:**
@@ -107,7 +102,6 @@ $$
 
 
 **Intuitivamente**
-
 L'intuizione per questa parte è prendere un sottoinsieme che ci piace riguardante la nostra matrice, quella cosa corrisponderà a una faccia del nostro poliedro.
 
 nozioni sulla **dimensione della matrice finale** è molto buona, ci può dare un concetto di dimensione della faccia che andiamo a prendere. Per fare un esempio, se riusciamo ad avere una faccia di dimensione n, è un singolo punto, quindi è un vertice!
@@ -136,13 +130,10 @@ Parlano dei vertici e lo fanno attraverso il concetto di invertibilità. Una sol
 
 I vincoli attivi sono vincoli del nostro problema che vengono soddisfatte come uguaglianze. Questa è una cosa di interesse, per ragioni che mi sono ancora oscure.
 
-- Slide
-
     <img src="/images/notes/image/universita/ex-notion/Programmazione lineare/Untitled 2.png" alt="image/universita/ex-notion/Programmazione lineare/Untitled 2">
 
 
 Di importanza però è la notazione
-
 
 $$
 I(x) = \{ i |  A_ix = b_i\}

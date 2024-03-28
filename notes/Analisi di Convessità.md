@@ -78,11 +78,45 @@ Also known as Lorentz cone (probably used for things related to relativity).
 
 Let $$S^{n}$$ be the set of symmetric matrices with $$n$$ elements, of dimension $$\frac{(n + 1)n}{2}$$. $$S^{n}_{++}$$ denotes the positive definite set, with one $$+$$ indicating semidefinite.
 <img src="/images/notes/Norme e Condizionamento-20240327205850487.webp" alt="Norme e Condizionamento-20240327205850487">
+#### Sublevel set
+$$f: \mathbb{R}^{n} \to \mathbb{R}$$ such that:
+
+
+$$
+C_{\alpha} = \left\{ x \in dom f \mid f(x) \leq \alpha \right\} 
+$$
+
+It's a function that it's the best limited to a certain value $$\alpha \in \mathbb{R}$$
+
+#### Epigraph of function
+
+
+$$
+epi f = \left\{ (x , t) \in \mathbb{R}^{n + 1} \mid x \in dom f, f(x) \leq t \right\} 
+$$
+
+
+it's the part of the function that is **bigger or equal to the function**.
+
+
+#### Relation with convex functions
+the function $$f$$ is convex iff $$epi f$$  is a convex set.
+So if $$f$$ creates a convex set above it, we can say it's convex, this is a bridge between functions and geometry.
+
 
 ## Convessità e Concavità
 
 ### Definizione di convessità
+Funzione $$f : \mathbb{R}^{n} \to \mathbb{R}$$ è convessa se vale, con $$0 \leq \theta \leq 1$$
 
+$$
+f(\theta x + (1 - \theta)y) \leq \theta f(x) + (1 - \theta) f(y)
+$$
+
+**Concavo** se $$-f$$ è convesso
+
+
+L'approccio seguente è quella fatta in analisi, ma è abbastanza brutta.
 È convessa se la derivata seconda è diversa da 0, ma non è una buona definizione perché non è direttamente relazionata con la concavità.
 
 Possiamo definire la funzione secondo le tangenti, potremmo dire che la retta tangente sia sempre minore del grafico, in altro modo è una forma di tailor!
@@ -110,13 +144,20 @@ Oppure:
 
     Comunque prenda un punto all'interno di un intervallo ho che la funzione valutata in questo punto è minore della somma della congiungente di questi due punti.
 
+#### Examples of convex and concave functions
 
-### Teorema di caratterizzazione delle funzioni convesse(!!)
+<img src="/images/notes/Analisi di Convessità-20240328135038638.webp" alt="Analisi di Convessità-20240328135038638">
+
+### Convex function to a line
+
+Consider $$g(t) = f(x + tv)$$ where the domain of $$g$$ are the $$t$$ such that $$x + vt$$ are in the domain of $$f$$.
+Then $$f$$ is convex iff $$g$$ is.
+
+### First-order condition in $$\mathbb{R}$$
 
 Questo è un risultato molto simile a quanto ottenuto con le funzioni crescenti e la loro derivata prima, che si può trovare in [Teoremi Base Analisi](/notes/teoremi-base-analisi).
 
 **Enunciato**
-
 Sia una funzione $$f: \mathbb{R} \to \mathbb{R}$$, allora $$f$$ è **convessa** sse la sua derivata prima è $$>0$$.
 
 La dimostrazione è abbastanza diretta quindi la si omette. (però la dovresti fare lo stesso perché è importante).
@@ -126,52 +167,42 @@ La dimostrazione è abbastanza diretta quindi la si omette. (però la dovresti f
 
 
 **Corollario**
-
 Possiamo utilizzare il risultato sopra per concludere che una funzione è convessa sse la derivata seconda è maggiore uguale a 0 (si possono utilizzare i teoremi riguardante le relazioni fra derivate e crescenza per questa).
 
 ### Segmento in Rn e convessità di punti
 
-Dati due punti in $$\R^n$$ si può individuare il segmento in due punti $$x, y$$ come l'insieme costituito da
+Dati due punti in $$\mathbb{R}^n$$ si può individuare il segmento in due punti $$x, y$$ come l'insieme costituito da
 
 $$\{x + t (y - x) | t \in [0,1]\} = [x, y]$$
 
 SI può verificare che che è uguale alla linea che li collega, in particolare è una **retta parametrica**.
-
 Avendo questa definizione di segmento, posso andare a definire l'insieme convesso per Rn!.
 
 **Convessità di un insieme di punti**
 
-Un insieme di punti si dice convesso se $$\forall a, b \in A \subseteq \R^n, [a,b] \subseteq A$$ (e la definizione di insieme concavo non esiste, potremmo dire non convesso, ma non che sia concavo).
+Un insieme di punti si dice convesso se $$\forall a, b \in A \subseteq \mathbb{R}^n, [a,b] \subseteq A$$ (e la definizione di insieme concavo non esiste, potremmo dire non convesso, ma non che sia concavo).
 
 Avendo questo si può dimostrare che l'intersezione di semipiani è convesso.
 
-
-
-### Convessità (concavità) in Rn
+### First-order condition in $$\mathbb{R}^{n}$$
 
 Possiamo allargare la definizione di funzione convessa che abbiamo dato poco fa in modo che ora sia buona anche a funzioni di più variabili.
 
 f una funzione ben definita, allora è convessa sse $$\forall a,b \in A$$ si ha che
 
-$$f(a) \geq f(b) + \langle\nabla f(b), (a - b) \rangle$$ e per parlare di funzione concava basta rovesciare la disuguaglianza.
+$$f(a) \geq f(b) + \nabla f(b)^{T}(a - b)$$ e per parlare di funzione concava basta rovesciare la disuguaglianza.
 
 Questa formula da l'idea che la funzione deve essere sempre sopra al piano tangente per ogni punto!
+Si può vedere come *primo ordine Taylor approx* ad un certo punto.
 
-### Caratterizzazione della convessità in più dimensioni (!!!)
+### Second-order condition in $$\mathbb{R}^{n}$$
 
-- Enunciato
-
-    sia $$A \subseteq \mathbb{R}^n$$ che sia aperto e convesso, sia $$f\in C^2(A) \to \mathbb{R}$$ allora
-
-    $$f$$ è convessa su A $$\iff$$ $$Hf(x) \geq 0, \forall x \in A$$.
-
+sia $$A \subseteq \mathbb{R}^n$$ che sia aperto e convesso, sia $$f\in C^2(A) \to \mathbb{R}$$ allora
+$$f$$ è convessa su A $$\iff$$ $$Hf(x) \geq 0, \forall x \in A$$.
 
 Non è definito ora il concetto di crescenza per un gradiente, o vettore, quindi vogliamo passare prima sul gradiente.
-
 Una funzione è convessa sse la matrice hessiana è semi-definita positiva.
-
 Sia la espansione di taylor come l'abbiamo definita prima (con resto secondo Lagrange).
-
 Può essere utile dare un occhiata al teorema di Lagrange al secondo ordine a più dimensioni prima
 
 $$f(w + vt) = f(w) + \langle \nabla f(w), v \rangle t + \dfrac{1}{2}\langle Hf(c)v,v\rangle t^2$$
@@ -183,7 +214,7 @@ $$f(w + vt) = f(w) + \langle \nabla f(w), v \rangle t + \dfrac{1}{2}\langle Hf(c
     Per la convessità ho che $$f(a + h) \geq f(a) + \langle\nabla f(a), h \rangle$$ e questo vale $$\forall h : a + h \in A$$
     Ma allora so che $$\dfrac{1}{2}\langle H(f(a + \theta h)) h, h\rangle \geq 0$$ (perché altrimenti ci sarebbe un valore in input per cui nonvale la condizione di convessità.
 
-    Devo dimostrare che $$v \in \R^n \neq 0 : a + v \in A$$, $$\langle H(f(a)) v, v\rangle \geq 0$$, scelgo una successione in questo modo:
+    Devo dimostrare che $$v \in \mathbb{R}^n \neq 0 : a + v \in A$$, $$\langle H(f(a)) v, v\rangle \geq 0$$, scelgo una successione in questo modo:
     $$h_k = 1/k \cdot v$$ che tende a 0 per k che tende a infinito.
     Definito in questo modo ho che c'è un theta per cui valga   $$\dfrac{1}{2}\langle H(f(a + \theta v/k)) v/k, v/k\rangle \geq 0 \iff \dfrac{1}{2}\langle H(f(a + \theta v/k)) v, v\rangle \geq 0$$ arrivato a questo punto mando k all'infintio e utilizzo
 
@@ -236,7 +267,8 @@ Example of these functions are mapping from 3D in computer geometry to flat came
 <img src="/images/notes/Analisi di Convessità-20240327214317752.webp" alt="Analisi di Convessità-20240327214317752">
 ## Teoremi importanti
 ### Jensen
-Questo è uno dei teoremi legati alla convessità (concavità più usati in assoluto). Una applicazione classica è per il il valore atteso, analizzato in [Variabili aleatorie](/notes/variabili-aleatorie) e simili.
+Questo è uno dei teoremi legati alla convessità (concavità più usati in assoluto). Una applicazione classica è per il il valore atteso, analizzato in [Variabili aleatorie](/notes/variabili-aleatorie) e simili. La cosa carina è che lui non l'ha inventato, ma ha detto che tipo 14 tizi stavano usando sta cosa, senza chiamarla per nessun nome, quindi l'ha popolarizzato.
+
 
 Sia $$f$$ una funzione convessa in un intervallo $$[a, b] \subseteq \mathbb{R}$$, allora vale che
 
