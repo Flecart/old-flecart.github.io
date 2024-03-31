@@ -63,9 +63,11 @@ x = \theta_{1}x_{1} + \theta_{2}x_{2}
 $$
 
 
-1. Closed (contains borders)
-2. Has an interior (some point in the middle of the borders).
-3. Doesn't contain lines (pointed)
+**Proper:**
+1. **Closed** (contains borders)
+2. Has an **interior** (some point in the middle of the borders).
+3. Doesn't contain lines (**pointed**)
+4. It's **convex**
 
 #### Norm Cone
 
@@ -279,3 +281,75 @@ $$
 Questa è la formulazione semplice, ma si può estendere per qualunque combinazione convessa dell'input (per combinazione convessa di $$a_{1}, a_{2}, \dots, a_{n}$$ intendo $$a_{1}\lambda_{1} + \dots + a_{n}\lambda_{n}$$ dei parametri $$\lambda_{1}, \lambda_{2}, \dots, \lambda_{n}$$ tale per cui $$\sum_{i=1}^{n}\lambda_{i} = 1$$).
 
 Non so bene la dimostrazione, ma l'intuizione è abbastanza semplice in due variabili, se combini due punti su una retta sopra la funzione, questa sarà maggiore del valore che ricevi combinando gli input, dato che è convessa è una funzione ad $$U$$.
+
+### Jensen for quasi convex functions
+
+$$
+f(\lambda a + (1 - \lambda)b) \leq \max (f(a), f(b))
+$$
+
+
+
+## Convexity preserving operations
+
+### Pointwise Supremum
+
+If we take the max of some convex functions, this max is convex. (It's intuitive if we see the max as the intersection of the [epi](#epigraph-of-function) sets of the functions!)
+In maths:, given convex functions 
+
+Same with the infimum we can say that
+if $$f(x, y)$$ is convex for $$(x, y) \in C$$ then 
+
+$$
+g(x) = \inf_{y \in C} f(x, y)
+$$
+
+Is convex, sometimes called **partial minimization**. (partial maximization is convex too!).
+This could be used to prove something about shur's complement but I don't remember it.
+
+### Composition of scalar functions
+Given $$f : \mathbb{R}^{n} \to \mathbb{R}$$ and $$h : \mathbb{R} \to \mathbb{R}$$ then the function $$f = h(g(x))$$ is convex if $$g$$ and $$h$$ is and $$\hbar$$ is nondecreasing. Also if $$g$$ is concave and $$\hbar$$ is nonincreasing.
+
+A good way to remember this is proving it for $$n=1$$ and it's differentiable so you can get it back.
+
+This argument is extendable to multiple dimensions, the same conditions hold, just for different indexes.
+
+Given $$g: \mathbb{R}^{n} \to \mathbb{R}^{k}$$ and $$h: \mathbb{R}^{k} \to \mathbb{R}$$
+Then $$f(x) = h(g(x)) = h(g_{1}(x), \dots, g_{k}(x))$$ is convex is
+- $$g_{i}$$ is convex, $$h$$ is convex and $$\hbar$$ is nondecreasing in each argument
+- $$g_{i}$$ is concave, $$h$$ is convex and $$\hbar$$ is nonincreasing in each argument.
+Easy to prove something like
+- $$\sum -\log(x_{i})$$ is convex.
+
+This is a more general test than the others.
+
+###  Perspective functions
+
+the **perspective** of $$f: \mathbb{R}^{n} \to \mathbb{R}$$ is a function $$g: \mathbb{R}^{n} \times \mathbb{R} \to \mathbb{R}$$
+
+$$
+g(x, t) = tf(x / t)
+$$
+
+Where the domain of $$g$$ is $$\left[ (x , t) \mid x / t \in dom f, t > 0 \right]$$
+
+If a function $$f$$ is convex, so is it's perspective!
+
+
+### Conjugate function
+The conjugate function of $$f$$ is
+
+$$
+f^{*}(y) = \sup_{x \in dom f} (y^{T}x - f(x))
+$$
+
+
+And this function is convex, **even if $$f$$** is not!
+The intuition is that this is the *supremum* of an affine function, so it should be more intuitive that that is linear!
+Usually when we are talking about conjugates, we expect that the conjugate of the conjugate is the original thing. In this case, it **not** true. In this case it's the convex envelope, but it's not important here.
+
+### Quasi-convex function
+$$f$$ quasi convex if $$dom f$$ sub-level sets are convex for all $$\alpha$$. (remember the sub-level sets are the parts in the domain such that are less than a value).
+<img src="/images/notes/Analisi di Convessità-20240331152618494.webp" width="497" alt="Analisi di Convessità-20240331152618494">
+
+The intuition is that if the function goes below a certain threshold, it does it only once in the whole domain.

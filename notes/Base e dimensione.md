@@ -68,7 +68,7 @@ Si può notare come sia strettamente collegato alla 4.2.2
 
     Caso 2$$\impliedby$$Se mi prendo un insieme minimale di generatori, mi basta dimostrare che siano indipendenti per sapere che sia una base.
 
-    Supponiamo per assurdo che siano dipendenti. Allora esiste un vettore linearmente dipendente, e quindi esprimibile come combinazione lineare di altri vettori [(3.2.4)](/notes/(3.2.4)), ma se è una combinazione lineare allora non è più l'insieme minimale di generatori (cioè questo vettore non ha contributi sullo spazio) è il teorema 3.1.8 qed.
+    Supponiamo per assurdo che siano dipendenti. Allora esiste un vettore linearmente dipendente, e quindi esprimibile come combinazione lineare di altri vettori 3.2.4, ma se è una combinazione lineare allora non è più l'insieme minimale di generatori (cioè questo vettore non ha contributi sullo spazio) è il teorema 3.1.8 qed.
 
     Caso 1 $$\impliedby$$Se ho un insieme massimale di vettori linearmente indipendenti, voglio dimostrare che genera V.
 

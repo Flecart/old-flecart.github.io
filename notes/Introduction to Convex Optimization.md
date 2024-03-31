@@ -40,6 +40,17 @@ We can understand this as separating line!
 
 ### Minimum and Minimal
 
+
+### Generalized Inequalities
+We now overload the operator $$\leq$$ with a new meaning used. The mean inspiration is from a proper [cone](/notes/analisi-di-convessità#convex-cone).
+We say that given a cone $$K$$ the generalized inequality (partial order) is defined as this:
+
+$$
+x \leq_{K} y \iff y - x \in K
+$$
+
+Similarly the strict partial order is true when $$y - x \in int  K$$ that is, it is in the interior of the cone (no borders).
+
 ### Dual cones
 We define this cones to be, given a cone $$K$$, the dual is:
 
@@ -49,3 +60,7 @@ $$
 
 For definition of cones see [Analisi di Convessità#Convex Cone](/notes/analisi-di-convessità#convex-cone).
 It's called **self dual** when the dual is itself (and example is the first quadrant).
+
+
+### Shur complement
+TODO
