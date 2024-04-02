@@ -5,13 +5,6 @@ tags: italian
 title: OTP and Stream Ciphers
 ---
 
-Ripasso Prox: 17
-Ultima modifica: November 29, 2022 2:20 PM
-Primo Abbozzo: November 5, 2022 11:10 AM
-Stato: 🌕🌕🌕🌕🌗
-Studi Personali: No
-
-
 ### XOR operation
 È una operazione binaria abbastanza semplice  però ci sarà importante per andare ad analizzare dei cifrari di un certo genere. Come il ONE TIME PAD che faremo fra poco in [OTP and Stream Ciphers.](/notes/otp-and-stream-ciphers.)
 
@@ -234,10 +227,13 @@ La cosa interessante con questa definizione è che se è sicura, allora non è p
 Questa definizione comunque secondo @stinsonCryptographyTheoryPractice2005 chapt 6.9 è molto difficile da raggiungere, perché troppo facile da rompere, perché tratta di leaks di informazione, ma solitamente di molto poco conto.
 
 ### Semantic security (!)
-
+Why is semantic security important? [see here](https://chat.openai.com/share/3de4a58b-707c-465b-8874-1090c23be472).
+It relates to the notion "no information about hte plaintext from the ciphertext".
 #### Definizione semantic security
 Da [https://en.wikipedia.org/wiki/Semantic_security](https://en.wikipedia.org/wiki/Semantic_security)
 > a **semantically secure** [cryptosystem]([https://en.wikipedia.org/wiki/Cryptosystem](https://en.wikipedia.org/wiki/Cryptosystem) "Cryptosystem") is one where only negligible information about the [plaintext]([https://en.wikipedia.org/wiki/Plaintext](https://en.wikipedia.org/wiki/Plaintext) "Plaintext") can be feasibly extracted from the [ciphertext]([https://en.wikipedia.org/wiki/Ciphertext](https://en.wikipedia.org/wiki/Ciphertext) "Ciphertext").
+
+Da un punto di vista teorico, questo è un rilassamento della nozione di [Classical Cyphers#Security of the Key](/notes/classical-cyphers#security-of-the-key), in cui si richiede che siano uguali, in questo setting richiediamo che siano solo vicine le due probabilità. Solo che sembra che sia inutile la nozione per sé quindi introduciamo l'esperimento.
 
 Nelle slides si fa un gioco di questo genere:
 1. Challenger e adversary
@@ -247,7 +243,7 @@ L'obiettivo dell'avversario è identificare quale cyphertext coincide a quale me
 Questo è vero quando [#Security with advantage](#security-with-advantage) è *negligible*, quindi non si può fare.
 
 Per il prof. è leggermente diverso rispetto a questo:
-è la 
+
 > Probabilità di associare il ciphertext al corrispettivo plaintext.
 
 Questo si può riassumere in questo:
@@ -263,7 +259,6 @@ Ossia può scegliere quanti messaggi vuole per un certo esperimento
 
 <img src="/images/notes/OTP and Stream Ciphers-20240307114233707.webp" alt="OTP and Stream Ciphers-20240307114233707">
 
-Notiamo che 
 #### Nonce based-security
 L'idea è la stessa di cui abbiamo parlato in [Sicurezza delle reti](/notes/sicurezza-delle-reti) per un protocollo di autenticazione.
 Un esempio carino di questo è in [Block Ciphers#Cipher Block Chaining (CBC)](/notes/block-ciphers#cipher-block-chaining-(cbc)) per cercare di randomizzare l'IV.

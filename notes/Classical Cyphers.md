@@ -19,9 +19,7 @@ al corso di crittografia di Christof Paar su Youtube, con aggiunte del corso Uni
 
 Classification nowadays as many many applications like, and it’s a increasing important field
 
-- Slide examples of applications
-
-    <img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled.png" alt="image/universita/ex-notion/Introduzione/Untitled">
+<img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled.png" alt="image/universita/ex-notion/Introduzione/Untitled">
 
 
 ### Cryptology (2) 🟩
@@ -87,6 +85,7 @@ This is the most important principle of the course!
 >
 
 How can we make sense of this? This is counterintuitive. Maybe because in the past there were like two keys, the key and the algorithm itself, seems like that this setting didn’t help to have a better security.
+But historically speaking, this principle seems to hold.
 
 ### Substitution cipher
 Vedere [#Affine and Caesar Cipher](#affine-and-caesar-cipher) per definizione formale.
@@ -162,7 +161,7 @@ Andiamo in questa parte a misurare la sicurezza di una chiave di fronte agli att
 
 <img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled 3.png" alt="image/universita/ex-notion/Introduzione/Untitled 3">
 
-#### Segretezza perfetta 🟨+
+#### Segretezza perfetta 🟩-
 Secondo Shannon 1949.
 Consideriamo un cifrario $$E, D$$ su $$K, M, C$$, allora si dice che si ha perfect secrecy quando 
 $$\forall m_{0},m_{1} \in M$$ tale per cui $$\mid m_{0} \mid = \mid m_{1} \mid$$ , dove $$k$$ è presa uniforme. e $$\forall c \in C$$ 
@@ -189,7 +188,7 @@ Questo significa che il $$e$$ è **indipendente da M** quando non si conosce la 
 
 Si può dimostrare che la seconda definizione, più l'ipotesi che $$\lvert K \rvert = \lvert P \rvert = \lvert C \rvert$$ è equivalente alla prima (il contrario dovrebbe essere facile!?).
 
-#### Segretezza perfetta e lunghezza chiave 🟩
+#### Segretezza perfetta e lunghezza chiave 🟨+
 Si può dimostrare che per avere segretezza perfetta è necessario avere 
 
 

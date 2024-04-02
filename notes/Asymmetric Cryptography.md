@@ -22,7 +22,7 @@ Now is this definition useful? i don't think so! We can't create theorems for it
 #### Semantic security to Eavesdropping
 This is the same as explained in [Advantage security](/notes/otp-and-stream-ciphers#security-with-advantage) explained in a previous section.
 We defined the advantage as the ability of the attacker to distinguish the original message. This is still exactly the same, see that section. (the only difference is that here we use public key encryption)
-
+<img src="/images/notes/Asymmetric Cryptography-20240402230103858.webp" alt="Asymmetric Cryptography-20240402230103858">
 #### Resistance against Many Time Pads
 We know that in the symmetric context in [Block Ciphers](/notes/block-ciphers) and [OTP and Stream Ciphers](/notes/otp-and-stream-ciphers), it is often not secure to use the symmetric key to many times. (This is clearly true when we are talking about the OTP cipher).
 
@@ -34,14 +34,14 @@ But in the context of Asymmetric keys this notion is *not true* as the key is pu
 ### Definition of Trapdoor functions
 This is a triple $$G, F, F^{-1}$$ very similar to the previous one (indeed it's kinda the same definition) The only difference is that $$F^{-1}$$ is the inverse.
 
-#### Secure Trapdoor Functions
+#### Secure Trapdoor Functions 🟨-
 NOTE: direct use of $$F$$ and $$F^{-1}$$ to encrypt and decrypt using the created keys is not secure.
 
 A trapdoor is secure if it's difficult to invert without the knowledge of $$sk$$.
 See image
 <img src="/images/notes/Asymmetric Cryptography-20240319111432568.jpg" alt="Asymmetric Cryptography-20240319111432568">
 
-#### Creating a PKE from Trapdoors
+#### Creating a PKE from Trapdoors 🟨--
 
 <img src="/images/notes/Asymmetric Cryptography-20240319101427775.jpg" alt="Asymmetric Cryptography-20240319101427775">
 
@@ -51,7 +51,7 @@ These are different from [Hash tables](/notes/tabelle-di-hash) which is a datast
 We can see that One-Way hashes are a trapdors with $$pk = sk$$.
 Usually it is a function that takes a input of arbitrary length and outputs a limited string with some important properties.
 
-#### Properties of One Way Hash Algorithms
+#### Properties of One Way Hash Algorithms 🟩-
 1. Easy to Evaluate:
 	The hashing algorithm should be fast
 2. Hard to Reverse:
@@ -87,11 +87,13 @@ $$
 
 Where $$\varepsilon$$ is very small, **negligible** so to say, and $$A$$ is the $$F$$ trapdoor function used for RSA.
 
-#### Wiener's attack
+#### Wiener's attack (non fatto)
 This section is not useful for the exam, just for personal knowledge!
 If the private keys have certain properties, there exists some attacks, one example is the Wiener's attack
 <img src="/images/notes/Asymmetric Cryptography-20240321101500213.webp" alt="Asymmetric Cryptography-20240321101500213">
-#### Low public exponent attack
+#### Low public exponent attack 🟩
+Usually minimum that is used is 3. If 2 then the inverse is not guaranteed because $$mcd(2, (p - 1) ( q - 1)) \neq 1$$ .
+
 This is a stupid attack. Then the exponent is small enough, and it is not able to wrap the module, then the root is quite easy to achieve.
 This is why the **recommended value** is big, usually = $$2^{16} + 1 = 65537$$.
 
@@ -121,16 +123,39 @@ In questa fase viene leakato il valore di $$p$$ che permette di ricostruire la c
 <img src="/images/notes/Asymmetric Cryptography-20240321110517713.webp" alt="Asymmetric Cryptography-20240321110517713">
 ### Variations
 #### Elgamal
+Find $$g$$ and $$p$$ such that $$g$$ is primitive root modulo $$p$$. Some strange properties here.
+This means that $$\forall a, \exists k : g^{k} = a  \mod p$$. This is inspired from the [Key Exchange protocols#Diffie-Hellman Protocol](/notes/key-exchange-protocols#diffie-hellman-protocol).
+Then the first person chooses $$a \in \left[ 0, p - 2 \right]$$ randomly and calculates $$A = g^{a} \mod p$$ and the tuple $$(p , g, A)$$ is then considered as the public key.
+When someone wants to send a message $$m$$, he/she does this:
+Chooses a $$b$$ in exact manner as before.
+Computes $$c = A^{b}m \mod p$$ and sends this c.
+The receiver computes the inverse for this exponent, and then inverts $$g^{b} \mod p$$ to calculate the original message $$m$$.
+
+Notes on security -> **Discrete log problem**.
+Efficiency -> No, ciphertext needs that public key to be sent, which is usually long and expensive to calculate compared to AES.
 #### Rabin cryptosystem
 we create $$p,q$$ such that their modulus $$4$$ is 3, probably for some nice properties I don't know of...
 The advantage is that his security is prooved.
+Calculate $$n = pq$$ and this is the public key.
+When somebody wants to communicate, he just calculates
+
+
+$$
+c = m^{2} \mod  n
+$$
+
+And sends this, probably with this setting the properties of $$p, q$$ make that invertible, but not sure why.
+<img src="/images/notes/Asymmetric Cryptography-20240402233238657.webp" alt="Asymmetric Cryptography-20240402233238657">
+If you are curious try to understand why is this valid.
+
 ## Digital signatures
 The main idea is to cipher with the private key, so that it can be verifiable using the public.
 It was cited in [Sicurezza delle reti](/notes/sicurezza-delle-reti) times before.
 To overcome the burden to encrypt the whole text, usually only an hash is encrypted.
 
+
 ### Advantages of Digital signatures
-- Unforgeable
-- Un-deniable by the signatory (if you have signed it, it was you!)
-- Universally verifiable (everybody can verify it)
-- Every doc's signature is different.
+- **Unforgeable**
+- **Un-deniable** by the signatory (if you have signed it, it was you!)
+- **Universally verifiable** (everybody can verify it)
+- Every doc's signature is **different**.

@@ -12,7 +12,7 @@ These are acronyms, usually called CIA and AAA for infrastructure
 ### Confidentiality
 This is one concerns about the secrecy of the sent message. We do not want others to be able to access and read what we are doing.
 
-#### Eavesdropping
+#### Eavesdropping 🟩
 This is an example of attack of confidentiality. The setting is usually like this: Eve that intercepts the message sent by each other.
 For example in network security, it is quite easy to eavesdrop with Wireshark or similars.
 ### Integrity
@@ -22,17 +22,16 @@ Integrity concerns with message tampering. The received message should be the sa
 #### Authentication
 Authentication is important when we **need to know** to whom we are talking to. We should need to be sure that that is exactly the person (or the machine) we are trying to connect (or talk to). In this framework it is about integrity.
 
-#### Spoofing attacks
+#### Spoofing attacks 🟩
 When an attacker authenticates as another user.
 
-#### Manipulation attacks
+#### Manipulation attacks 🟩
 This is tampering.
-
 
 ### Availability
 The system should be available, that is accessible by its users.
 
-#### Denial of service attacks
+#### Denial of service attacks 🟩
 For example if you have limited number of ports, a common example of denial of service attack is the **Syn flooding** where multiple services ask to open a TCP connection, but it doesn't continue with the communication, leaving the port occupied but useless.
 
 
@@ -43,10 +42,10 @@ For example if you have limited number of ports, a common example of denial of s
 On the internet we **are not anonymous** we are always tracked by ISP, cookies and many other strategies that I am not even aware of.
 This is a problem we we want to be anonymous, so how can we reach this target??
 
-#### Anonymity by proxy
+#### Anonymity by proxy 🟩
 We just use another computer to repeat my information, this computer doesn't have access to the underlying information, but it substitutes his IP to ours, so the end receiver doesn't exactly know where the initial message comes from.
 
-#### Mix-based systems
+#### Mix-based systems 🟨
 Created in 1981 by David Chaum. 
 Very similar to the previous one, in practice, in the end, it acts as a proxy but not only does it take and receive, but it also mixes together the packets it has received from the sources, applying its key.
 
