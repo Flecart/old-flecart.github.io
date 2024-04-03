@@ -244,6 +244,7 @@ Here you can find the categories of all the notes on the site:
 - [Serie](/notes/serie)
 - [Successioni](/notes/successioni)
 - [Hopital, Taylor, Peano](/notes/hopital,-taylor,-peano)
+- [Analisi di Convessità.sync-conflict-20240402-162840-HJPKEQF](/notes/analisi-di-convessità.sync-conflict-20240402-162840-hjpkeqf)
 - [Limiti](/notes/limiti)
 - [Preparazione all’orale](/notes/preparazione-all’orale)
 - [Integrali](/notes/integrali)
@@ -338,6 +339,7 @@ Here you can find the categories of all the notes on the site:
 ## Sicurezza
 - [Linux command line](/notes/linux-command-line)
 - [Process loading](/notes/process-loading)
+- [Introduction to Cyber Security.sync-conflict-20240403-151339-HJPKEQF](/notes/introduction-to-cyber-security.sync-conflict-20240403-151339-hjpkeqf)
 - [gdb](/notes/gdb)
 - [Key Exchange protocols](/notes/key-exchange-protocols)
 - [Introduction to Cyber Security](/notes/introduction-to-cyber-security)
@@ -410,6 +412,7 @@ Here you can find the categories of all the notes on the site:
 
 
 ## Convex Optimization
+- [Introduction to Convex Optimization.sync-conflict-20240402-162838-HJPKEQF](/notes/introduction-to-convex-optimization.sync-conflict-20240402-162838-hjpkeqf)
 - [Introduction to Convex Optimization](/notes/introduction-to-convex-optimization)
 
 
