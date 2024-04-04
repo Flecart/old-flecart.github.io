@@ -238,12 +238,14 @@ in questo modo si chiamano i pacchetti di SSL, contengono cose simili a quanto a
 
 La cosa particolare è che i dati e il mac sono entrambi criptati con la chiave simmetrica che abbiamo derivato prima, in modo simile a quanto fatto dal toy-SSL.
 
-## IPsec 🟥
+## IPsec
 
 Questo è un protocollo di sicurezza a livello Rete e non più a livello socket!
 
-Perché vorremmo avere sicurezza a questo livello? 
-È una cosa molto utile per implementare cose come i **VPN** di aziende.
+Perché vorremmo avere sicurezza a questo livello? È una cosa troppo comune da dover mettere a livello superiore (ma solitamente viene messa a questo livello per la sicurezza, quindi non è implementata ovunque per dire).
+
+È una cosa molto utile per implementare cose come i **VPN** di aziende. Solitamente solo per questo, in altro non è implementato perché è troppo complesso, per poco di guadagno.
+
 
 **Esempio:**
 <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 20.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 20">
@@ -253,9 +255,7 @@ Nota l'imbustamento e imbustamento è fatto nei router nell'esempio qui, ma può
 In qualche modo, che non ho capito, lo puoi vedere come se fosse la stessa rete, perché l’IP locale è messo nell'IP sec credo, anche se non sono molto sicuro
 
 
-### Garanzie IPsec (4)
-
-- Slide garanzie IPsec
+### Garanzie IPsec
 
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 21.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 21">
 
@@ -264,37 +264,55 @@ In qualche modo, che non ho capito, lo puoi vedere come se fosse la stessa rete,
 - Autenticazione dell’origine (credo perché conoscono solamente la chiave della VPN)
 - Replay attack non funziona
 
+Con Jocelyn vengono aggiunti anche altre due
+- Access control
+- Integrity
+
+La cosa bella di applicare la sicurezza a questo livello è che diventa **trasparente** rispetto agli utilizzi da utenti non bene addestrati o applicazioni che la ignorano. In ogni caso ho le garanzie di sopra.
+
 ### **Tunnelling mode (2)** 🟩
+<img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 22.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 22">
 
+#### Tunneling mode
 - **Routers IPsec aware**, quando sono i routers che mettono su il protocollo
+Questo metodo solitamente viene utilizzato per reti VPN, perché è il router che si occupa di decriptare ed inoltrare a livello rete locale.
+
+#### Transport mode
 - **Host IPsec-aware**, in modo che siano solamente gli host che siano aware, mentre i routers non sanno niente, e si comportano in modo normale in questo modo, secondo una connessione IP.
-- Slide tunnelling mode
 
-    <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 22.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 22">
+In questo caso viene cryptato solo il payload, viene utilizzato in host-host
 
 
-### Service models (2) (solo ESP) 🟨
 
-Sembra end-to-end, che dovrebbe essere una garanzia a livello trasposrto, dato che alla fine solamente gli utenti finali dovrebbero ricevere il messaggio. Possono essere **Authentication header** oppure **Encapsulation Security Protocol**, la prima non fornisce la confidenzialità, mentre la seconda anche la confidenzialità.
 
-Il primo ha il vantaggio che utilizzi meno energie perché non devi metterti a cifrare, credo solamente quello (l’altro è sicuro con chi sta parlando, per esempio uno streaming può far uso di AH, dato che non ho bisogno di cifrare il tutto).
+### Security Headers - Service Models
 
-- Slide configurazioni di AH e ESP
+Sembra end-to-end, che dovrebbe essere una garanzia a livello trasporto, dato che alla fine solamente gli utenti finali dovrebbero ricevere il messaggio. Possono essere **Authentication header** oppure **Encapsulation Security Protocol**, la prima non fornisce la confidenzialità, mentre la seconda anche la confidenzialità. Questa è praticamente la differenza principale.
 
-    <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 23.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 23">
+Il primo ha il vantaggio che utilizzi meno energie perché non devi metterti a cifrare (l’altro è sicuro con chi sta parlando, per esempio uno streaming può far uso di AH, dato che non ho bisogno di cifrare il tutto).
+<img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 23.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 23">
 
+È la versione più comune Tunnel mode con confidenzialità per gli usi in VPN.
+In entrambi i metodi esiste un **sequence number** che viene utilizzato per evitare replay attacks.
+In entrambi c'è un **hash** per l'integrità.
 
 ### Security Association (4)🟨+
 
-Prima di mettermi a scambiare messaggi, devo essere sicuro con chi sto parlando, quindi vogliamo andare a chreare una **security asssociation**, scambio di chiavi e algoritmi di criptazione comune, solo da una direzione verso l'altra.
+Prima di mettermi a scambiare messaggi, devo essere sicuro con chi sto parlando, quindi vogliamo andare a creare una **security association**, scambio di chiavi e algoritmi di criptazione comune, solo da una direzione verso l'altra.
 
-- Slides su SA
-
-    <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 24.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 24">
+<img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 24.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 24">
 
     <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 25.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 25">
 
+#### Security association parameters
 
+Uses usually three parameters
+- Security Parameter Index  (32 bit) è un **identificatore** della SA.
+- IP destination e sorgente
+- Identifier of the security protocol (ESP or AH).
+- Altre chiavi di codifica e decodifica.
+
+#### Security Association Database
 Posso anche creare un **database di SA** questo si chiama SAD
 
 C’è una security associazione fra tunnel e ogni host
@@ -315,12 +333,17 @@ Cose che vengon ostorate qui sono:
 
 Si noti che anche il pacchetto di livello trasporto è cifrato, quindi anche l'indirizzo di porta e l'indirizzo IP finale dovrà essere cifrato
 
-- Slide datagram of IPsec
-
-    <img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 27.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 27">
+<img src="/images/notes/image/universita/ex-notion/Sicurezza delle reti/Untitled 27.png" alt="image/universita/ex-notion/Sicurezza delle reti/Untitled 27">
 
 
 Il modo con cui queste vengono programmate è attraverso alcune regole del router (che controllano se il datagramma va verso certi host, oppure parte da certi host e simili).
+
+
+### Key Determination Protocol
+Quello che viene usato in questo caso è chiamato IKEv2.
+Che è una versione di Diffie-Hellman in [Key Exchange protocols](/notes/key-exchange-protocols).
+Ma risolve i problemi di Man in the middle, autenticando le due parti. E risolve anche problemi di denial of service dovuti al costo di computazione di diffie-hellman.
+Per il problema di flooding usano delle specie di cookie autenticati, che sono creati da chi vuole comunicare (firmati da questi diciamo). Poi usano un cifrario a chiave asymmetric come curve ellittiche o RSA
 
 ## Firewalls
 

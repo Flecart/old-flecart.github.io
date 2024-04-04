@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: notes/introduction-to-cyber-security
+permalink: notes/secury-principles-and-tor
 tags: italian
-title: Introduction to Cyber Security
+title: Secury Principles and Tor
 ---
 
 ## Security principles
@@ -57,6 +57,17 @@ The public-private mixing system is very slow. For this reason, a network of nod
 The important thing to note is that this system has been influential in modern tor networks.
 
 
+#### Fullz dataleak
+
+A fullz dataleak has the **minimum indispensable** to create bank accounts or pay with credit cards
+- Name and Surname
+- birthdate
+- fiscal code
+- phone number
+- residence address
+
+So its very important to keep this information private!
+
 ## The Tor Ecosystem
 
 This system tries to anonymize the user with principles similar to [#Anonymity by proxy](#anonymity-by-proxy). The initial user message goes through different relays before reaching the end destination. The system is a little bit more complex than this, so we are breaking down a connection example 
@@ -69,6 +80,24 @@ Information about what we are accessing, from who, is not accessible.
 But some information is still accessible, for example:
 1. Our ISP knows that we are trying to access the Tor network, because we need a listing of tor nodes.
 2. The exit relay knows to whom we are talking to, as this information is needed to send the message.
+
+As the exit node is often public, they are often **blocked** by institutions, like banks.
+
+#### Overlay networks
+> Rete “overlay”. Una rete **chiusa** al quale interno vengono distribuiti dati in **forma anonima**. Questo è il principio dei servizi onion.
+
+### Service setup
+When a service is put onto this network it connects to some **intro nodes** whose role is to introduce clients to the servers.
+The map server->intro nodes is then saved into another node, which is called the **directory node**. This node contain mappings from services and intro points.
+
+#### Client Connection
+The client that wants to connect to an anonymous service needs to know who are the intro nodes. 
+He asks the directory node who gives him the connections. Directory gives him a descriptor, that is verified with the original `.onion` address who acts as a secure key.
+
+The the client asks a secret string from a **rendezvous** node. The secret string and rendezvous are then sent to the intro nodes, and these sent it to the original service that decides whether to accept or not that service.
+
+If it accepts, it sends the secret to the rendezvous, who then creates a circuit between the client and the server. Now everything can be sent and received anonymously.
+
 
 
 

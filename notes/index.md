@@ -337,12 +337,9 @@ Here you can find the categories of all the notes on the site:
 
 
 ## Sicurezza
-- [Linux command line](/notes/linux-command-line)
-- [Process loading](/notes/process-loading)
-- [Introduction to Cyber Security.sync-conflict-20240403-151339-HJPKEQF](/notes/introduction-to-cyber-security.sync-conflict-20240403-151339-hjpkeqf)
-- [gdb](/notes/gdb)
+- [TLS-SSL protocol](/notes/tls-ssl-protocol)
+- [Secury Principles and Tor](/notes/secury-principles-and-tor)
 - [Key Exchange protocols](/notes/key-exchange-protocols)
-- [Introduction to Cyber Security](/notes/introduction-to-cyber-security)
 
 
 ## Algebra Astratta
