@@ -9,8 +9,6 @@ Ultima modifica: February 24, 2023 2:04 PM
 Primo Abbozzo: February 24, 2023 1:33 PM
 Studi Personali: No
 
-# Elementi di ripasso
-
 # Un pò di storia
 
 ## Guerre dei browser

@@ -369,7 +369,6 @@ Here you can find the categories of all the notes on the site:
 
 ## Convex Optimization
 - [Introduction to Convex Optimization](/notes/introduction-to-convex-optimization)
-- [Introduction to Convex Optimization.sync-conflict-20240402-162838-HJPKEQF](/notes/introduction-to-convex-optimization.sync-conflict-20240402-162838-hjpkeqf)
 
 
 ## Statistical Learning
