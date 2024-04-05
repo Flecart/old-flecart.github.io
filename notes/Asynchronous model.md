@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/asynchronous-model
-tags: italian
+tags: en
 title: Asynchronous model
 ---
 

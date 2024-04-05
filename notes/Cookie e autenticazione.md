@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/cookie-e-autenticazione
-tags: italian
+tags: en
 title: Cookie e autenticazione
 ---
 

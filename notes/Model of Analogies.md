@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/model-of-analogies
-tags: italian
+tags: en
 title: Model of Analogies
 ---
 

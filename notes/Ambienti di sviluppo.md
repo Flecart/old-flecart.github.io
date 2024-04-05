@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/ambienti-di-sviluppo
-tags: italian
+tags: en
 title: Ambienti di sviluppo
 ---
 

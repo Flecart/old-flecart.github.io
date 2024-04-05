@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/normalizzazione-dei-database
-tags: italian
+tags: en
 title: Normalizzazione dei database
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/the-neuron
-tags: italian
+tags: en
 title: The Neuron
 ---
 

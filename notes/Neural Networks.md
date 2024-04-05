@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/neural-networks
-tags: italian
+tags: en
 title: Neural Networks
 ---
 

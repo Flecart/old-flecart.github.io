@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/tiling-problem
-tags: italian
+tags: en
 title: Tiling problem
 ---
 

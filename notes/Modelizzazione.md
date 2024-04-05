@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/modelizzazione
-tags: italian
+tags: en
 title: Modelizzazione
 ---
 

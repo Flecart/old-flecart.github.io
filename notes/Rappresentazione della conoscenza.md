@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/rappresentazione-della-conoscenza
-tags: italian
+tags: en
 title: Rappresentazione della conoscenza
 ---
 

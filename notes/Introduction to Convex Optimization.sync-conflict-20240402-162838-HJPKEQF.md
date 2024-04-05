@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduction-to-convex-optimization.sync-conflict-20240402-162838-hjpkeqf
-tags: italian
+tags: en
 title: Introduction to Convex Optimization.sync-conflict-20240402-162838-HJPKEQF
 ---
 

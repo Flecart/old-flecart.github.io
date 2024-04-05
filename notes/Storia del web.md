@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/storia-del-web
-tags: italian
+tags: en
 title: Storia del web
 ---
 

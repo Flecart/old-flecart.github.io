@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/html-e-markup
-tags: italian
+tags: en
 title: HTML e Markup
 ---
 

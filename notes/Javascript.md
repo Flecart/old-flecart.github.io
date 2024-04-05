@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/javascript
-tags: italian
+tags: en
 title: Javascript
 ---
 

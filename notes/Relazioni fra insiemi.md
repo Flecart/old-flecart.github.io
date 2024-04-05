@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/relazioni-fra-insiemi
-tags: italian
+tags: en
 title: Relazioni fra insiemi
 ---
 

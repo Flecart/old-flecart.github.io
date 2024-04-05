@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/algorithmic-probability
-tags: italian
+tags: en
 title: Algorithmic Probability
 ---
 

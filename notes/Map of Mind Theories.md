@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/map-of-mind-theories
-tags: italian
+tags: en
 title: Map of Mind Theories
 ---
 

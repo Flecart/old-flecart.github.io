@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/divergenza-e-circuitazione
-tags: italian
+tags: en
 title: Divergenza e Circuitazione
 ---
 

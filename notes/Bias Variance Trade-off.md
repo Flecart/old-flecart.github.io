@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/bias-variance-trade-off
-tags: italian
+tags: en
 title: Bias Variance Trade-off
 ---
 

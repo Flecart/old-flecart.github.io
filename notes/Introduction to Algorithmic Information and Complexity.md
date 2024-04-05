@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduction-to-algorithmic-information-and-complexity
-tags: italian
+tags: en
 title: Introduction to Algorithmic Information and Complexity
 ---
 

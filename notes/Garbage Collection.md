@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/garbage-collection
-tags: italian
+tags: en
 title: Garbage Collection
 ---
 

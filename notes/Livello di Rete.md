@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/livello-di-rete
-tags: italian
+tags: en
 title: Livello di Rete
 ---
 

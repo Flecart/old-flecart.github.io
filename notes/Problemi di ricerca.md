@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/problemi-di-ricerca
-tags: italian
+tags: en
 title: Problemi di ricerca
 ---
 

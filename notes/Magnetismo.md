@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/magnetismo
-tags: italian
+tags: en
 title: Magnetismo
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/object-orientation
-tags: italian
+tags: en
 title: Object orientation
 ---
 

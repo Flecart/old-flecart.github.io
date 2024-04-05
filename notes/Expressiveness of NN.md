@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/expressiveness-of-nn
-tags: italian
+tags: en
 title: Expressiveness of NN
 ---
 

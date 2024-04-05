@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/gruppi
-tags: italian
+tags: en
 title: Gruppi
 ---
 

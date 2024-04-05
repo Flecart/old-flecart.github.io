@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/function-approximation
-tags: italian
+tags: en
 title: Function approximation
 ---
 

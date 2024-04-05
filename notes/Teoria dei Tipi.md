@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/teoria-dei-tipi
-tags: italian
+tags: en
 title: Teoria dei Tipi
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/reti-di-flusso
-tags: italian
+tags: en
 title: Reti di flusso
 ---
 

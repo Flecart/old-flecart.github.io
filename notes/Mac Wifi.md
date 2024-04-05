@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/mac-wifi
-tags: italian
+tags: en
 title: Mac Wifi
 ---
 

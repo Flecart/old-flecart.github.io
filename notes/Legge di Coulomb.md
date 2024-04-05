@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/legge-di-coulomb
-tags: italian
+tags: en
 title: Legge di Coulomb
 ---
 

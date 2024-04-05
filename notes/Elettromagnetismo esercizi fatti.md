@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/elettromagnetismo-esercizi-fatti
-tags: italian
+tags: en
 title: Elettromagnetismo esercizi fatti
 ---
 

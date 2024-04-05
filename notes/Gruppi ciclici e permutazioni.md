@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/gruppi-ciclici-e-permutazioni
-tags: italian
+tags: en
 title: Gruppi ciclici e permutazioni
 ---
 

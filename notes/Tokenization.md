@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/tokenization
-tags: italian
+tags: en
 title: Tokenization
 ---
 

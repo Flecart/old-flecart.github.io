@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/nomi-e-scope
-tags: italian
+tags: en
 title: Nomi e Scope
 ---
 

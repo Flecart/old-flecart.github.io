@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/macchine-astratte
-tags: italian
+tags: en
 title: Macchine Astratte
 ---
 

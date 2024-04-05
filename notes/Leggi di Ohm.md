@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/leggi-di-ohm
-tags: italian
+tags: en
 title: Leggi di Ohm
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/memory-of-the-brain
-tags: italian
+tags: en
 title: Memory of the Brain
 ---
 

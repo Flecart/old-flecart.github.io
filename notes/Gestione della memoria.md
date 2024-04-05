@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/gestione-della-memoria
-tags: italian
+tags: en
 title: Gestione della memoria
 ---
 

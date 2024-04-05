@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/the-database-management-system
-tags: italian
+tags: en
 title: The Database Management System
 ---
 

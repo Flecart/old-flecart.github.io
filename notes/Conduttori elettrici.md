@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/conduttori-elettrici
-tags: italian
+tags: en
 title: Conduttori elettrici
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/compression-algorithms
-tags: italian
+tags: en
 title: Compression Algorithms
 ---
 

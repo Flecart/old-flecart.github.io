@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/training-a-nn
-tags: italian
+tags: en
 title: Training a NN
 ---
 

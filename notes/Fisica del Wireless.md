@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/fisica-del-wireless
-tags: italian
+tags: en
 title: Fisica del Wireless
 ---
 

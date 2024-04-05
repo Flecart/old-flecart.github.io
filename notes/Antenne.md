@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/antenne
-tags: italian
+tags: en
 title: Antenne
 ---
 

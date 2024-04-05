@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/inferential-social-learning
-tags: italian
+tags: en
 title: Inferential Social Learning
 ---
 

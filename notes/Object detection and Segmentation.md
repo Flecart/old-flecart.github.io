@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/object-detection-and-segmentation
-tags: italian
+tags: en
 title: Object detection and Segmentation
 ---
 

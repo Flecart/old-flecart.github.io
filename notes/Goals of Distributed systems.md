@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/goals-of-distributed-systems
-tags: italian
+tags: en
 title: Goals of Distributed systems
 ---
 

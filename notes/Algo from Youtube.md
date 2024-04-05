@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/algo-from-youtube
-tags: italian
+tags: en
 title: Algo from Youtube
 ---
 

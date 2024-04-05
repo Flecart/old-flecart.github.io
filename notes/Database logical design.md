@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/database-logical-design
-tags: italian
+tags: en
 title: Database logical design
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/problemi-di-accoppiamento
-tags: italian
+tags: en
 title: Problemi di accoppiamento
 ---
 

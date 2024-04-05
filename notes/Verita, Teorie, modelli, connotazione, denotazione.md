@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/verita,-teorie,-modelli,-connotazione,-denotazione
-tags: italian
+tags: en
 title: Verita, Teorie, modelli, connotazione, denotazione
 ---
 

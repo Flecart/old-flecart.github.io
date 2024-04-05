@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/dipolo-elettrico
-tags: italian
+tags: en
 title: Dipolo elettrico
 ---
 

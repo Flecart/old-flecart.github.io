@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/wireshark
-tags: italian
+tags: en
 title: Wireshark
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/advanced-sql
-tags: italian
+tags: en
 title: Advanced SQL
 ---
 

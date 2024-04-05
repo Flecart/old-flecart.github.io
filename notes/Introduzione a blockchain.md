@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduzione-a-blockchain
-tags: italian
+tags: en
 title: Introduzione a blockchain
 ---
 

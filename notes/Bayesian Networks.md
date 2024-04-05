@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/bayesian-networks
-tags: italian
+tags: en
 title: Bayesian Networks
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/explainability-of-cnn
-tags: italian
+tags: en
 title: Explainability of CNN
 ---
 

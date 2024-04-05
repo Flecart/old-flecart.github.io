@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/randomness
-tags: italian
+tags: en
 title: Randomness
 ---
 

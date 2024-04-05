@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/alberi-bst-e-avl
-tags: italian
+tags: en
 title: Alberi BST e AVL
 ---
 

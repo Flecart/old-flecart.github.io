@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/n-bandit-problem
-tags: italian
+tags: en
 title: N-Bandit Problem
 ---
 

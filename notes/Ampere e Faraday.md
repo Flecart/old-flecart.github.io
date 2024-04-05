@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/ampere-e-faraday
-tags: italian
+tags: en
 title: Ampere e Faraday
 ---
 

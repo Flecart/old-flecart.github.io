@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/database-exercises
-tags: italian
+tags: en
 title: Database exercises
 ---
 

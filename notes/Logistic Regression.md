@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/logistic-regression
-tags: italian
+tags: en
 title: Logistic Regression
 ---
 

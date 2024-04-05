@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/structured-query-language
-tags: italian
+tags: en
 title: Structured Query Language
 ---
 

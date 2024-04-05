@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/optimization-methods
-tags: italian
+tags: en
 title: Optimization methods
 ---
 

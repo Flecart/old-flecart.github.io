@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/probabilita-condizionata-e-indipendenza
-tags: italian
+tags: en
 title: Probabilita condizionata e indipendenza
 ---
 

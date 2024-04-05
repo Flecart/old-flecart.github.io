@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/analysis-of-neural-codes
-tags: italian
+tags: en
 title: Analysis of Neural Codes
 ---
 

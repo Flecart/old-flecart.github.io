@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/convolutional-nn
-tags: italian
+tags: en
 title: Convolutional NN
 ---
 

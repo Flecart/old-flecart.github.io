@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/notazione-asintotica
-tags: italian
+tags: en
 title: Notazione Asintotica
 ---
 

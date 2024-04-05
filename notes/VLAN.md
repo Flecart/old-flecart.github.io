@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/vlan
-tags: italian
+tags: en
 title: VLAN
 ---
 

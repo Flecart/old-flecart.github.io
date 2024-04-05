@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/algebra-dei-tipi
-tags: italian
+tags: en
 title: Algebra dei tipi
 ---
 

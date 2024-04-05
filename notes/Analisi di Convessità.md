@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/analisi-di-convessità
-tags: italian
+tags: en
 title: Analisi di Convessità
 ---
 

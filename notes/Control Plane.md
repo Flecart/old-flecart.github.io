@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/control-plane
-tags: italian
+tags: en
 title: Control Plane
 ---
 

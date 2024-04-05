@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/bottom-up-parser-lr(0)
-tags: italian
+tags: en
 title: Bottom-up Parser LR(0)
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/simplesso-e-b&b
-tags: italian
+tags: en
 title: Simplesso e B&B
 ---
 

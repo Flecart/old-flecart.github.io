@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/astrazione-sul-controllo
-tags: italian
+tags: en
 title: Astrazione sul controllo
 ---
 

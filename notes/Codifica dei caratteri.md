@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/codifica-dei-caratteri
-tags: italian
+tags: en
 title: Codifica dei caratteri
 ---
 

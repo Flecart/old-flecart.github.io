@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/planning-automatico
-tags: italian
+tags: en
 title: Planning automatico
 ---
 

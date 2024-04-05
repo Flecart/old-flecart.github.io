@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/monte-carlo-integration
-tags: italian
+tags: en
 title: Monte carlo integration
 ---
 

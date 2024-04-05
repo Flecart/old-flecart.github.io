@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/adversarial-search
-tags: italian
+tags: en
 title: Adversarial Search
 ---
 

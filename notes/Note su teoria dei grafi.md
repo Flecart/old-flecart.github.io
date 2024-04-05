@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/note-su-teoria-dei-grafi
-tags: italian
+tags: en
 title: Note su teoria dei grafi
 ---
 

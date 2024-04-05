@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/recurrent-neural-networks
-tags: italian
+tags: en
 title: Recurrent Neural Networks
 ---
 

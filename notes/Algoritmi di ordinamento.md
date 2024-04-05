@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/algoritmi-di-ordinamento
-tags: italian
+tags: en
 title: Algoritmi di ordinamento
 ---
 

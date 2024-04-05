@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduction-to-data-bases
-tags: italian
+tags: en
 title: Introduction to data-bases
 ---
 

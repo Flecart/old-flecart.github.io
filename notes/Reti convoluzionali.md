@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/reti-convoluzionali
-tags: italian
+tags: en
 title: Reti convoluzionali
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduction-to-computational-statistics
-tags: italian
+tags: en
 title: Introduction to computational statistics
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/condensatori-nel-vuoto
-tags: italian
+tags: en
 title: Condensatori nel vuoto
 ---
 

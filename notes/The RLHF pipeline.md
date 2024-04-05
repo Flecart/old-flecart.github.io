@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/the-rlhf-pipeline
-tags: italian
+tags: en
 title: The RLHF pipeline
 ---
 

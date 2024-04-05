@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/variabili-aleatorie
-tags: italian
+tags: en
 title: Variabili aleatorie
 ---
 

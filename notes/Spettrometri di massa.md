@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/spettrometri-di-massa
-tags: italian
+tags: en
 title: Spettrometri di massa
 ---
 

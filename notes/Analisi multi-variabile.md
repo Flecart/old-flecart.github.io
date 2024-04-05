@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/analisi-multi-variabile
-tags: italian
+tags: en
 title: Analisi multi-variabile
 ---
 

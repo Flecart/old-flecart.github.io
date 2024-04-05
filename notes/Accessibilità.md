@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/accessibilità
-tags: italian
+tags: en
 title: Accessibilità
 ---
 

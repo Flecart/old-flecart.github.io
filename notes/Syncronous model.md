@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/syncronous-model
-tags: italian
+tags: en
 title: Syncronous model
 ---
 

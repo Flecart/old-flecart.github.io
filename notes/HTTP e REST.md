@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/http-e-rest
-tags: italian
+tags: en
 title: HTTP e REST
 ---
 

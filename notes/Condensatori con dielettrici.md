@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/condensatori-con-dielettrici
-tags: italian
+tags: en
 title: Condensatori con dielettrici
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/lr(k)-e-yacc
-tags: italian
+tags: en
 title: LR(k) e YACC
 ---
 

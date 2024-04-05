@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/hopital,-taylor,-peano
-tags: italian
+tags: en
 title: Hopital, Taylor, Peano
 ---
 

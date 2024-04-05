@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/algoritmi-per-il-progetto
-tags: italian
+tags: en
 title: Algoritmi per il progetto
 ---
 

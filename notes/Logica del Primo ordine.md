@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/logica-del-primo-ordine
-tags: italian
+tags: en
 title: Logica del Primo ordine
 ---
 

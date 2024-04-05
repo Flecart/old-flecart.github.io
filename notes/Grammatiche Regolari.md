@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/grammatiche-regolari
-tags: italian
+tags: en
 title: Grammatiche Regolari
 ---
 

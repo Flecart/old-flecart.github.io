@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/inverse-transform
-tags: italian
+tags: en
 title: Inverse Transform
 ---
 

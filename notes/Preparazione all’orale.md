@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/preparazione-all’orale
-tags: italian
+tags: en
 title: Preparazione all’orale
 ---
 

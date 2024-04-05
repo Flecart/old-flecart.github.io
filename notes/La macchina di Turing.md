@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/la-macchina-di-turing
-tags: italian
+tags: en
 title: La macchina di Turing
 ---
 

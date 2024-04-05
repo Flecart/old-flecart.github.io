@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/object-detection
-tags: italian
+tags: en
 title: Object Detection
 ---
 

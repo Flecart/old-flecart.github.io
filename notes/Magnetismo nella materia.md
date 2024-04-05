@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/magnetismo-nella-materia
-tags: italian
+tags: en
 title: Magnetismo nella materia
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/clustering-algorithms
-tags: italian
+tags: en
 title: Clustering Algorithms
 ---
 

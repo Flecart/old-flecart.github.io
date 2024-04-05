@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/markov-chains
-tags: italian
+tags: en
 title: Markov Chains
 ---
 

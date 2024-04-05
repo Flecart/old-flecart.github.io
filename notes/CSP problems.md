@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/csp-problems
-tags: italian
+tags: en
 title: CSP problems
 ---
 

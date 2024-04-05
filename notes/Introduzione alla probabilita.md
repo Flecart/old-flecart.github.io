@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduzione-alla-probabilita
-tags: italian
+tags: en
 title: Introduzione alla probabilita
 ---
 

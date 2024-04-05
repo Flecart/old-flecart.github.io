@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/metadati-web-e-web-semantico
-tags: italian
+tags: en
 title: Metadati web e web semantico
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/algebra-logica
-tags: italian
+tags: en
 title: Algebra Logica
 ---
 

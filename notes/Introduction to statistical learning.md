@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduction-to-statistical-learning
-tags: italian
+tags: en
 title: Introduction to statistical learning
 ---
 

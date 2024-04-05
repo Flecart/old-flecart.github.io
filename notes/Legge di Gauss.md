@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/legge-di-gauss
-tags: italian
+tags: en
 title: Legge di Gauss
 ---
 

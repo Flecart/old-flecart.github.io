@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/r-e-intervalli
-tags: italian
+tags: en
 title: R e Intervalli
 ---
 

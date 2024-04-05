@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/preparazione-esame-logica
-tags: italian
+tags: en
 title: Preparazione esame logica
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/teoremi-base-analisi
-tags: italian
+tags: en
 title: Teoremi Base Analisi
 ---
 

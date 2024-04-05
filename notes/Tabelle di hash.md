@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/tabelle-di-hash
-tags: italian
+tags: en
 title: Tabelle di hash
 ---
 

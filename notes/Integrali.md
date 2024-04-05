@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/integrali
-tags: italian
+tags: en
 title: Integrali
 ---
 

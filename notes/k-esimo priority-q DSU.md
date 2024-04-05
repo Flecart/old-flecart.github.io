@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/k-esimo-priority-q-dsu
-tags: italian
+tags: en
 title: k-esimo priority-q DSU
 ---
 

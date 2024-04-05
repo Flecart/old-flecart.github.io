@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/classical-cyphers
-tags: italian
+tags: en
 title: Classical Cyphers
 ---
 

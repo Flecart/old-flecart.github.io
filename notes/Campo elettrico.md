@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/campo-elettrico
-tags: italian
+tags: en
 title: Campo elettrico
 ---
 

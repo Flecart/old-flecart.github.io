@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/l’intelligenza
-tags: italian
+tags: en
 title: l’intelligenza
 ---
 

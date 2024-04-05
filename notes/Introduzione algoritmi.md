@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduzione-algoritmi
-tags: italian
+tags: en
 title: Introduzione algoritmi
 ---
 

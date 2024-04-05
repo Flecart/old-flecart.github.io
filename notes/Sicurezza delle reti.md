@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/sicurezza-delle-reti
-tags: italian
+tags: en
 title: Sicurezza delle reti
 ---
 

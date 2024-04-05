@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/livello-applicazione-e-socket
-tags: italian
+tags: en
 title: Livello applicazione e socket
 ---
 

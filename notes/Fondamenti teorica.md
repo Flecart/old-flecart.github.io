@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/fondamenti-teorica
-tags: italian
+tags: en
 title: Fondamenti teorica
 ---
 

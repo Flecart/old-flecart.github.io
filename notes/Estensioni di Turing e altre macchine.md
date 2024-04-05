@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/estensioni-di-turing-e-altre-macchine
-tags: italian
+tags: en
 title: Estensioni di Turing e altre macchine
 ---
 

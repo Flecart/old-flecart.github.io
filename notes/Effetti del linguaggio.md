@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/effetti-del-linguaggio
-tags: italian
+tags: en
 title: Effetti del linguaggio
 ---
 

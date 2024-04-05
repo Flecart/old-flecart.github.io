@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/automi-e-regexp
-tags: italian
+tags: en
 title: Automi e Regexp
 ---
 

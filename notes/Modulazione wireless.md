@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/modulazione-wireless
-tags: italian
+tags: en
 title: Modulazione wireless
 ---
 

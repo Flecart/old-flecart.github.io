@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/top-down-parser
-tags: italian
+tags: en
 title: Top-down Parser
 ---
 

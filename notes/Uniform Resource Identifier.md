@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/uniform-resource-identifier
-tags: italian
+tags: en
 title: Uniform Resource Identifier
 ---
 

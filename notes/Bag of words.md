@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/bag-of-words
-tags: italian
+tags: en
 title: Bag of words
 ---
 

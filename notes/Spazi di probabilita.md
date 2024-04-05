@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/spazi-di-probabilita
-tags: italian
+tags: en
 title: Spazi di probabilita
 ---
 

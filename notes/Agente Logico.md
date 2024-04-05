@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/agente-logico
-tags: italian
+tags: en
 title: Agente Logico
 ---
 

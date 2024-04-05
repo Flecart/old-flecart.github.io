@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/central-limit-theorem-and-law-of-large-numbers
-tags: italian
+tags: en
 title: Central Limit Theorem and Law of Large Numbers
 ---
 

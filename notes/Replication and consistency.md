@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/replication-and-consistency
-tags: italian
+tags: en
 title: Replication and consistency
 ---
 

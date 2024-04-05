@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/tendermint-protocol
-tags: italian
+tags: en
 title: Tendermint protocol
 ---
 

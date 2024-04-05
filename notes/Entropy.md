@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/entropy
-tags: italian
+tags: en
 title: Entropy
 ---
 

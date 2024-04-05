@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/serie
-tags: italian
+tags: en
 title: Serie
 ---
 

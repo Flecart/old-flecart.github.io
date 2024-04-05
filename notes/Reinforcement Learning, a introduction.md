@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/reinforcement-learning,-a-introduction
-tags: italian
+tags: en
 title: Reinforcement Learning, a introduction
 ---
 

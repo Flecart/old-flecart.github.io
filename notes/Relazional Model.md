@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/relazional-model
-tags: italian
+tags: en
 title: Relazional Model
 ---
 

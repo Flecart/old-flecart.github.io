@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/index,-b-trees-and-hashes
-tags: italian
+tags: en
 title: Index, B-trees and hashes
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduction-to-convex-optimization
-tags: italian
+tags: en
 title: Introduction to Convex Optimization
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/linguaggi-deterministici-e-dpda
-tags: italian
+tags: en
 title: Linguaggi Deterministici e DPDA
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/tecnologia-wireless
-tags: italian
+tags: en
 title: Tecnologia Wireless
 ---
 

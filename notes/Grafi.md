@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/grafi
-tags: italian
+tags: en
 title: Grafi
 ---
 

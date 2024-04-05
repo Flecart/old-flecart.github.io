@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/classi-oop
-tags: italian
+tags: en
 title: Classi OOP
 ---
 

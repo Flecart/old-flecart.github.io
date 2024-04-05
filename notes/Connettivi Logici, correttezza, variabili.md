@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/connettivi-logici,-correttezza,-variabili
-tags: italian
+tags: en
 title: Connettivi Logici, correttezza, variabili
 ---
 

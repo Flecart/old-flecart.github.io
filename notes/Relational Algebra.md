@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/relational-algebra
-tags: italian
+tags: en
 title: Relational Algebra
 ---
 

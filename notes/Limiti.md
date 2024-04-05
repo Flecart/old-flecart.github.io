@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/limiti
-tags: italian
+tags: en
 title: Limiti
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/proximal-policy-optimization
-tags: italian
+tags: en
 title: Proximal Policy Optimization
 ---
 

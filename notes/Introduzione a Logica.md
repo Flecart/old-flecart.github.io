@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduzione-a-logica
-tags: italian
+tags: en
 title: Introduzione a Logica
 ---
 

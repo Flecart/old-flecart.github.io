@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/decision-theory-intro
-tags: italian
+tags: en
 title: Decision Theory Intro
 ---
 

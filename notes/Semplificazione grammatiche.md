@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/semplificazione-grammatiche
-tags: italian
+tags: en
 title: Semplificazione grammatiche
 ---
 

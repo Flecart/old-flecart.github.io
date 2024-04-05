@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/reti-preparazione-esami
-tags: italian
+tags: en
 title: Reti Preparazione Esami
 ---
 

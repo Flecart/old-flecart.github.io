@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/alberi-di-decisione
-tags: italian
+tags: en
 title: Alberi di decisione
 ---
 

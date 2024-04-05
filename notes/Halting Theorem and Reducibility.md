@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/halting-theorem-and-reducibility
-tags: italian
+tags: en
 title: Halting Theorem and Reducibility
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/fn-ordine-superiore
-tags: italian
+tags: en
 title: Fn Ordine superiore
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/kolmogorov-complexity
-tags: italian
+tags: en
 title: Kolmogorov complexity
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduzione-a-reti
-tags: italian
+tags: en
 title: Introduzione a reti
 ---
 

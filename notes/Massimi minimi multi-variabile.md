@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/massimi-minimi-multi-variabile
-tags: italian
+tags: en
 title: Massimi minimi multi-variabile
 ---
 

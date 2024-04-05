@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/network-address-translation
-tags: italian
+tags: en
 title: Network Address Translation
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/strutture-di-dati-elementari
-tags: italian
+tags: en
 title: Strutture di dati elementari
 ---
 

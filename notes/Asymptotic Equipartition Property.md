@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/asymptotic-equipartition-property
-tags: italian
+tags: en
 title: Asymptotic Equipartition Property
 ---
 

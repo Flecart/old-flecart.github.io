@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/autoencoders
-tags: italian
+tags: en
 title: Autoencoders
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/naïve-bayes
-tags: italian
+tags: en
 title: Naïve Bayes
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/tecniche-algoritmiche
-tags: italian
+tags: en
 title: Tecniche algoritmiche
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/descrizione-linguaggio
-tags: italian
+tags: en
 title: Descrizione linguaggio
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/relazioni-di-ricorrenza
-tags: italian
+tags: en
 title: Relazioni di Ricorrenza
 ---
 

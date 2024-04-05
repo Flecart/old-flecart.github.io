@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/geometrie-di-spire
-tags: italian
+tags: en
 title: Geometrie di spire
 ---
 

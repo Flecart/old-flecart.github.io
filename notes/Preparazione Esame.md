@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/preparazione-esame
-tags: italian
+tags: en
 title: Preparazione Esame
 ---
 

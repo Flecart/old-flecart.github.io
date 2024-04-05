@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/otp-and-stream-ciphers
-tags: italian
+tags: en
 title: OTP and Stream Ciphers
 ---
 

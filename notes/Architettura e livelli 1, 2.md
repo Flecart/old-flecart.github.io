@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/architettura-e-livelli-1,-2
-tags: italian
+tags: en
 title: Architettura e livelli 1, 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/insiemi-numerici
-tags: italian
+tags: en
 title: Insiemi numerici
 ---
 

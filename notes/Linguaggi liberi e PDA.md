@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/linguaggi-liberi-e-pda
-tags: italian
+tags: en
 title: Linguaggi liberi e PDA
 ---
 

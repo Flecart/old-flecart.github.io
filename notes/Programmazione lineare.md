@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/programmazione-lineare
-tags: italian
+tags: en
 title: Programmazione lineare
 ---
 

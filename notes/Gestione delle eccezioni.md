@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/gestione-delle-eccezioni
-tags: italian
+tags: en
 title: Gestione delle eccezioni
 ---
 

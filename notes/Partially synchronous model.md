@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/partially-synchronous-model
-tags: italian
+tags: en
 title: Partially synchronous model
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/word-embeddings
-tags: italian
+tags: en
 title: Word Embeddings
 ---
 

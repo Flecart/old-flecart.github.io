@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/teorema-di-lagrange
-tags: italian
+tags: en
 title: Teorema di Lagrange
 ---
 

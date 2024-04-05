@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/semantica-di-un-linguaggio
-tags: italian
+tags: en
 title: Semantica di un linguaggio
 ---
 

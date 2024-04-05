@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/onde-elettromagnetiche
-tags: italian
+tags: en
 title: Onde elettromagnetiche
 ---
 

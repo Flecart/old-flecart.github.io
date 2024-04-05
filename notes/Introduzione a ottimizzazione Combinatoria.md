@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/introduzione-a-ottimizzazione-combinatoria
-tags: italian
+tags: en
 title: Introduzione a ottimizzazione Combinatoria
 ---
 

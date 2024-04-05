@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/css
-tags: italian
+tags: en
 title: CSS
 ---
 

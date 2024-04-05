@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/analisi-di-convessità.sync-conflict-20240402-162840-hjpkeqf
-tags: italian
+tags: en
 title: Analisi di Convessità.sync-conflict-20240402-162840-HJPKEQF
 ---
 

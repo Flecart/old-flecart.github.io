@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/design-del-database
-tags: italian
+tags: en
 title: Design del database
 ---
 

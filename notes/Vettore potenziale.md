@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/vettore-potenziale
-tags: italian
+tags: en
 title: Vettore potenziale
 ---
 

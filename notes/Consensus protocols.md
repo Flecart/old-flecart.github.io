@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: notes/consensus-protocols
-tags: italian
+tags: en
 title: Consensus protocols
 ---
 
