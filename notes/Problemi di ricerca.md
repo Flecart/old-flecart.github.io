@@ -281,3 +281,7 @@ Questa cosa adattata con anche una euristica che ti direzioni verso la parte giu
 
 
 In pratica riaggiorna l’euristica del costo a seconda delle proprie mosse.
+
+
+
+# References

@@ -71,7 +71,7 @@ Col database abbiamo
 - **Schema interno** come sono rappresentati i dati, potremmo dire l'implementazione del livello logico dei dati.
 - **Schema esterno** che a volte è chiamata anche *view*, ossia come gli utenti hanno bisogno di vedere i dati
 
-La cosa interessante di questa parte, è che vorremmo che i dati siano **indipendenti** (sia il fisico dal logico, sia il logico dall'esterno) rispetto a come sono rappresentati, una idea molto importante introdotta per la prima volta da @coddRelationalModelData1970.
+La cosa interessante di questa parte, è che vorremmo che i dati siano **indipendenti** (sia il fisico dal logico, sia il logico dall'esterno) rispetto a come sono rappresentati, una idea molto importante introdotta per la prima volta da [(Codd 1970)](https://dl.acm.org/doi/10.1145/362384.362685).
 
 Credo anche sia la stessa idea, che sta alla base del processo di astrazioni comunissimo in informatica è l'idea di **interfaccia**, un qualcosa che espone solamente la parte logica di quale sarà l'effetto dell'operazione, ma ne nascone le operazioni effettive, che chiamiamo interne. 
 Per i database forse questa cosa era nuova.
@@ -157,3 +157,9 @@ Esiste un comando SQL, nella DDL, che mi permette di definire in modo esplicito 
 - Immediato
 - Dilazionato.
 Questi si possono rappresentare anche con semantica differente.
+
+
+
+# References
+
+[1] Codd [“A Relational Model of Data for Large Shared Data Banks”](https://dl.acm.org/doi/10.1145/362384.362685) Communications of the ACM Vol. 13(6), pp. 377--387 1970

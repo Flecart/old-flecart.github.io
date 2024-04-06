@@ -199,3 +199,5 @@ lche difficoltà a dimostrare tutte le frecce per il teorema di caratterizzazion
 | --- | --- |
 | 20/03 | Tutto senza quasi nessuna difficoltà. |
 | 30/04 | Tutto Ok |
+
+# References

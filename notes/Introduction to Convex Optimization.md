@@ -64,3 +64,7 @@ It's called **self dual** when the dual is itself (and example is the first quad
 
 ### Shur complement
 TODO
+
+
+
+# References

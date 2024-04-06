@@ -209,3 +209,7 @@ Vogliamo in questa sezione andare ad indagare quanto influenza il numero di cond
 
 
 Da ricordarsi di [Norme e Condizionamento](/notes/norme-e-condizionamento), che il condizionamento ci dice quanto cambia la soluzione quando cambio i dati (la b)
+
+
+
+# References

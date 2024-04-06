@@ -166,3 +166,7 @@ Ovvero se vengono soddisfatte delle premesse, e la conseguenza non è assurda, a
 I sistemi come  **JTMS (Justification-based truth maintenance system)** che tengono per tutte le inferenze che hanno una spiegazione ossia le regole usate per inferire questa cosa, quando si aggiorna tale sistema bisogna andare a togliere tutte le regole che hanno questa altra nella spiegazione .
 
 Un suo amico stretto è **ATMS(assumption-based truth maintenance system)** in cui per colmare l’inesistenza di qualcosa si ha qualche regola di default (credo di stare sbagliando in questo passo) ma comunque non è molto importante ed è molto probabile che stia semplificando troppo in questa parte
+
+
+
+# References

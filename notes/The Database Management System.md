@@ -118,3 +118,9 @@ Poi prendiamo l'altra relazione, passiamo dalla stessa hash, questa avrà anche 
 #### Sort Merge Join 🟩
 L'algoritmo lineare di sort merge, utile quando si ha un doppio ordinamento per andare a confrontare per benino i due cosi.
 (this should be the fastest !?!?! solo per dati generali però, but needs ordering).
+
+
+
+
+
+# References

@@ -44,3 +44,9 @@ This is also one of the main pillars of Software engineering.
 In this case it is advised not to generalize too early, probably You aren't gonna need it.
 
 When we are talking about methods instead, you should follow the principles explained in [clean code](https://dl.acm.org/doi/10.5555/1388398), so keep the names descriptive, keep the public methods small and precise, use small functions, and keep code smell low (avoid duplicates for example).
+
+
+
+
+
+# References

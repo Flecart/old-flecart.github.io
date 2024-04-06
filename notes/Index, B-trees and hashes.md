@@ -118,3 +118,6 @@ Posso fare cose come
 **Stemming**: in cui rimuovo lo *stem*della parole, quindi suffissi o prefissi ricorrenti
 **Normalization**: ad esempio metto tutto minuscolo.
 **Rimozione stop worlds**: perché sono inutili ché non danno molte informazioni
+
+
+# References

@@ -406,3 +406,7 @@ Vogliamo cercare di capire se siamo sotto attacco, quindi se qualcuno fa port sc
 in pratica è possiamo considerarla come una rete di appoggio per accedere a una rete untrusted esterna, come Internet.
 
 Solitamente in questa DMZ ci mettiamo cose come Email, web servers e cose simili. È una zona quarantinata, cioè per interagire col network interno si passa di nuovo d aun firewall, questo per garantire maggiore protezione della roba interna, solitamente molto più importante.
+
+
+
+# References

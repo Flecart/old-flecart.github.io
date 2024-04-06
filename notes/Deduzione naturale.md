@@ -389,3 +389,5 @@ Possiamo estendere la deduzione naturale con alcune regole di $$\forall, \exists
     - il concetto di derivabilità
     - Perché la eliminazione della negazione non è l'introduzione del bottom?
 - il concetto di armonia DA CHIEDERE
+
+# References

@@ -64,7 +64,7 @@ Sono un insieme di stati tutti raggiungibili fra di loro (comunque presi due sta
 #### Recurrent vs Transient
 È *recurrent* se per ogni nodo, tutti i nodi raggiungibili da un nodo $$i$$ raggiungono anche il nodo $$i$$ stesso.
 *Transient* se non è *recurrent*
-Alcuni chiamano la *recurrent* come *irreducible* come in @coverElementsInformationTheory2012.
+Alcuni chiamano la *recurrent* come *irreducible* come in [(Cover & Thomas 2012)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X).
 
 #### Periodic vs Aperiodic
 Sia $$d$$ il massimo comune divisore per tutti gli $$m$$ tali per cui vale $$P_{ii}^{m} > 0$$ (ossia può raggiungere sé stesso con probabilità non nulla), allora è periodico se $$m \neq 0$$ altrimenti è aperiodico.
@@ -133,3 +133,9 @@ g = \sum \pi_{j}r_{j} = \vec{\pi} \cdot \vec{r}
 $$
 
 Indipendentemente allo stato iniziale (che stupisce molto).
+
+
+
+# References
+
+[1] Cover & Thomas [“Elements of Information Theory”](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) John Wiley \& Sons 2012

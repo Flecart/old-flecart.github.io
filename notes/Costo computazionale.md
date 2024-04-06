@@ -31,3 +31,5 @@ dia più max guardia
 ### Costo iterativo
 
 `numero_iterazioni*(costo_della_guardia+costo_del_corpo) + costo della guardia`
+
+# References

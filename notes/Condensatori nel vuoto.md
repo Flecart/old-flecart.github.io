@@ -449,3 +449,7 @@ $$
 Questo scegliendo la superficie più semplice che esisteva.
 Posso però scegliere una altra superficie che passa dalle facce del condensatore, in questo caso io non ho corrente! Ecco che entra in gioco la correzione di Maxwell, per la corrente di spostamento.
 E facendo i calcoli si è scoperto che la predizione era corretta, e il valore è esattamente lo stesso.
+
+
+
+# References

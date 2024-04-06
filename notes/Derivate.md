@@ -192,3 +192,5 @@ zare questo dato.
 
 
 Si può notare che una funzione può essere continua in $$C^k$$ ma non in $$C^{k+1}$$.
+
+# References

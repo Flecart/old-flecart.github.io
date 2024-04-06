@@ -193,3 +193,7 @@ Sistema a 3 dato da L, M, e F’, ma in questo caso ora il nodo M simula i nodi 
 Simile al siste a tre nel primo caso, ora L simula L, F’, M’, L’. Quindi per validità M dà in output F.
 
 ma allora bbiamo un assurdo perché L dovrebbe essere uguale a M, invece l'output è diverso. Quindi questo scenario non può succedere.
+
+
+
+# References

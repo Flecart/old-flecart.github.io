@@ -83,3 +83,7 @@ Per questa ragione metto qui alcune cose importanti per l’esame, che sono prob
 - [ ]  Discrepanza di morozov
 - [x]  Regolarizzazione di tickonov
 - [x]  Point spread function
+
+
+
+# References

@@ -352,3 +352,7 @@ I decibels isotropici misurano il **guadagno passivo** dato dall’architettura 
 ### dB-dipole 🟩
 
 Questo è solamente un dipole translato di 2.14 se mi ricordo bene, solamente il compare di una antenna dipolo con una isotropica i suppose, quindi non molto di differenza.
+
+
+
+# References

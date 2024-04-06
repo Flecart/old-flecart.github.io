@@ -400,3 +400,5 @@ n) (t:l) = nthCorto n l
 
 
 Spesso nella vita reale non c'è bisogno di questo, si scriva specifica parziale
+
+# References

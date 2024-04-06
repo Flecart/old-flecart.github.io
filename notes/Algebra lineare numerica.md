@@ -200,3 +200,7 @@ Questo è un metodo di arresto molto misterioso, direi di cacharla 🤑.
 ### Metodi di Rilassamento
 
 ### Metodi di Krylov
+
+
+
+# References

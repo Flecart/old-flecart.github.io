@@ -277,3 +277,5 @@ In alternativa si mettono dei NOP.
 o di arrivo ([qui](https://it.wikipedia.org/wiki/Branch_target_predictor)). Questi sono le componenti principali che determinano la predizione dei salti.
 
 In alternativa si mettono dei NOP.
+
+# References

@@ -171,3 +171,8 @@ Questo perché spesso
 
 
 Se è non modificata ti mando un codice 304 Not modified altrimenti ti risponso, così non devo fare due richeiste, una head per veder elast modified e una altra per mandarti la get.
+
+
+
+
+# References

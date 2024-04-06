@@ -223,3 +223,5 @@ TODO: Capire enunciati di questo
 | 14/11/22 | Boh, okey. |
 | 02/12/22 | Boh okey x2 |
 | 02/01/22 |  Dovrei farmi un po meglio le condizioni, ma più o meno ci sono ancora |
+
+# References

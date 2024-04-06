@@ -185,3 +185,7 @@ Vogliamo cercare di applicare le soluzioni del problema per permettere l’esist
 
 
 La nota principale è quando la soluzione del problema rilassato è esattamente uguale al problema iniziale, in questo caso posso concludere di aver già trovato la soluzione ottimale per il problema iniziale.
+
+
+
+# References

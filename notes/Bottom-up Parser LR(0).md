@@ -252,3 +252,8 @@ Questo algoritmo parte dal NFA dei prefissi viabili, e utilizza Goto e Clos per 
 - Esempio 2
 
     <img src="/images/notes/image/universita/ex-notion/Bottom-up Parser LR(0)/Untitled 24.png" alt="image/universita/ex-notion/Bottom-up Parser LR(0)/Untitled 24">
+
+
+
+
+# References

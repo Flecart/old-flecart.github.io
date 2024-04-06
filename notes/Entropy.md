@@ -6,7 +6,7 @@ title: Entropy
 ---
 
 ### Entropy
-Questo è stato creato da 1948 Shannon in @shannonMathematicalTheoryCommunication. Questa nozione è basata sulla nozione di probabilità, perché le cose rare sono più informative rispetto a qualcosa che accade spesso.
+Questo è stato creato da 1948 Shannon in [(Shannon 1948)](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf). Questa nozione è basata sulla nozione di probabilità, perché le cose rare sono più informative rispetto a qualcosa che accade spesso.
 [Kolmogorov complexity](/notes/kolmogorov-complexity) è un modo diverso per definire la complessità.
 Legato è [Neural Networks#Kullback-Leibler Divergence](/notes/neural-networks#kullback-leibler-divergence).
 
@@ -60,7 +60,7 @@ $$
 H(X) \leq \log \lvert \mathcal{X} \rvert 
 $$
 
-Con $$\mathcal{X}$$ l'insieme immagine della variabile aleatoria **discreta** $$X$$. Importante in questo caso che la nostra variabile sia discreta, altrimenti il teorema provvisto in @coverElementsInformationTheory2012 2.6.4 non funziona.
+Con $$\mathcal{X}$$ l'insieme immagine della variabile aleatoria **discreta** $$X$$. Importante in questo caso che la nostra variabile sia discreta, altrimenti il teorema provvisto in [(Cover & Thomas 2012)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) 2.6.4 non funziona.
 Non è molto banale l'idea di utilizzare la uniforme per modellare il numero di elementi. e usare la positività di KL per finire l'upper bound.
 #### Entropy is concave
 Uso l'upper bound e il fatto che KL è convesso per dimostrare questa cosa.
@@ -89,7 +89,7 @@ $$
 
 E ricordandoci che $$\log$$ è una funzione concava, quindi si può utilizzare Jensen.
 #### KL is convex
-$$DL(p\mid\mid q)$$ è convesso sulla coppia $$(p, q)$$, 2.7.2 di @coverElementsInformationTheory2012.
+$$DL(p\mid\mid q)$$ è convesso sulla coppia $$(p, q)$$, 2.7.2 di [(Cover & Thomas 2012)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X).
 ### Mutual information
 Questa nozione definisce quanta informazione hanno in comune due variabili aleatorie
 #### Definizione
@@ -117,7 +117,7 @@ I(\theta; T(X)) \leq I(\theta; X)
 $$
 
 Si può chiamare una statistica per $$\theta$$ sufficiente se $$X$$ contiene tutta l'informazione di $$\theta$$. Non so bene cosa significhi.
-La cosa importante è che la statistica sufficiente **preserva la mutua informazione** ossia si ha una uguaglianza in quella relazione di sopra. Vedere 2.9 di @coverElementsInformationTheory2012 per esempi .
+La cosa importante è che la statistica sufficiente **preserva la mutua informazione** ossia si ha una uguaglianza in quella relazione di sopra. Vedere 2.9 di [(Cover & Thomas 2012)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) per esempi .
 
 Questa cosa potrebbe permettere di dire che usando quella statistica io posso dimenticarmi del parametro, perché riesco a ricavarmelo senza problemi credo....
 > The purpose of sufficiency is to demonstrate that statistics that satisfy this property do not discard information about the parameter, and as such, estimators that might be based on a sufficient statistic are in a sense "good" ones to choose.
@@ -193,7 +193,7 @@ Si può vedere dall'albero binario corrispondente di un insieme di set binari co
 
 
 #### Relazione con Kolmogorov
-1.11.3 di @liIntroductionKolmogorovComplexity2019, allora se prendiamo un set di code-words con $$L$$ il minimo prefix code che possiamo mai avere
+1.11.3 di [(Li & Vitányi 2019)](http://link.springer.com/10.1007/978-3-030-11298-1), allora se prendiamo un set di code-words con $$L$$ il minimo prefix code che possiamo mai avere
 Ossia $$L = \sum_{x} P(x)l(x)$$, con $$l$$ scelto il minimo possibile. Allora vale che
 
 $$
@@ -212,3 +212,12 @@ $$
 
 Qualunque sia l'altra distribuzione.
 Si può dimostrare in modo abbastanza diretto utilizzando il fatto che la Kullback Leibler divergence, presentato in [Neural Networks](/notes/neural-networks), è sempre positiva o uguale a 0.
+
+
+# References
+
+[1] Cover & Thomas [“Elements of Information Theory”](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) John Wiley \& Sons 2012
+
+[2] Shannon [“A Mathematical Theory of Communication”](https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf) The Bell System Technical Journal Vol. 27, pp. 379--423, 623--656 1948
+
+[3] Li & Vitányi [“An Introduction to Kolmogorov Complexity and Its Applications”](http://link.springer.com/10.1007/978-3-030-11298-1) Springer International Publishing 2019

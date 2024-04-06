@@ -12,10 +12,10 @@ Aristotele faceva la distinzione fra proprietà **essenziali** e **accidentali**
 > Una sedia può essere fatta di legno o di metallo, ma questa proprietà è accidentale, ovvero, essa rimane una sedia indipendentemente dal materiale di cui è fatta.
 
 Solitamente in matematica si prova ad astrarre (vedi [Astrazione sul controllo](/notes/astrazione-sul-controllo) per nota generale sull'astrazione). Però in questo campo si sono trovati molte concezioni equivalenti. Fino ad arrivare a concepire la tesi di Church-Turing. Il prof. nota che questo è strano, perché in altre discipline si converge in unico modello, mentre qui molte cose sono indifferenti.
-Questo è importante per capire come la concezione di Computer Science si è evoluta @denningUbiquitySymposiumWhat2010.
+Questo è importante per capire come la concezione di Computer Science si è evoluta [(Denning 2010)](https://dl.acm.org/doi/10.1145/1880066.1880067).
 
 #### Nascita della calcolabilità: Turing (curiosità)
-Al tempo si voleva in matematica trovare un formalismo, un fondamenta logico alla matematica che poteva permettere di dimostrare tutto dalle fondamenta. Il contributo principale, e secondo il prof il lavoro più importante in tutta l'informatica era @turingComputableNumbersApplication1937, che definisce cosa significa calcolare un problema. Questo porta al significato di calcolare un problema.
+Al tempo si voleva in matematica trovare un formalismo, un fondamenta logico alla matematica che poteva permettere di dimostrare tutto dalle fondamenta. Il contributo principale, e secondo il prof il lavoro più importante in tutta l'informatica era [(Turing 1937)](http://doi.wiley.com/10.1112/plms/s2-42.1.230), che definisce cosa significa calcolare un problema. Questo porta al significato di calcolare un problema.
 È interessante notare come Turing arriva al suo formalismo.
 Osserva
 1. L'esecuzione di certe regole
@@ -103,7 +103,7 @@ Infatti **non dice nulla su semplicità o efficienza** dell'algoritmo (in questa
 
 #### Giustificazione valenza di Turing (non impo)
 La cosa interessante di queste macchine comunque è che [La macchina di Turing](/notes/la-macchina-di-turing) ci permette di formalizzare!
-1. Rigorosità di algoritmo. (anche se non mi sembra buono per esprimere certe forme di calcolo @denningUbiquitySymposiumWhat2010).
+1. Rigorosità di algoritmo. (anche se non mi sembra buono per esprimere certe forme di calcolo [(Denning 2010)](https://dl.acm.org/doi/10.1145/1880066.1880067)).
 2. Teoremi di calcolabilità possono essere estese a qualunque altro formalismo, se vale.
 
 #### Versione rafforzata
@@ -139,7 +139,7 @@ Esempi di macchine universali possono essere
 1. Sistemi operativi
 2. Stack di hardware che abbiamo, ognuna universale che esegue una sopra l'altra.
 
-Anche questo è stato pensato in @turingComputableNumbersApplication1937.
+Anche questo è stato pensato in [(Turing 1937)](http://doi.wiley.com/10.1112/plms/s2-42.1.230).
 Una cosa interessante è che prima di esso, la macchina era pensata per una unica cosa, dopo Turing si può usare la stessa macchina per tutti gli algoritmi possibili. Ha introdotto la nozione di programmabilità!
 Utilizzare il dato (l'algoritmo) come input di sé stesso è stato usato da Gödel nella sua dimostrazione famosa. Ha codificato teoremi come numeri, permettendo l'uso dell'aritmetica stessa.
 #### Descrizione UTM 🟩
@@ -172,3 +172,12 @@ $$
 1. Lettura simboli macchina specifica
 2. Interpretazione di essa
 3. Poi si può continuare ad utilizzare il nastro per simulare la macchina stessa.
+
+
+
+
+# References
+
+[1] Denning [“Ubiquity Symposium 'What Is Computation?': Opening Statement”](https://dl.acm.org/doi/10.1145/1880066.1880067) Ubiquity Vol. 2010, pp. 1880066.1880067 2010
+
+[2] Turing [“On Computable Numbers, with an Application to the Entscheidungsproblem”](http://doi.wiley.com/10.1112/plms/s2-42.1.230) Proceedings of the London Mathematical Society Vol. s2-42(1), pp. 230--265 1937

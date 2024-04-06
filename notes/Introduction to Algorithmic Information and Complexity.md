@@ -125,10 +125,10 @@ Minimize effort and time to find the right word to use. Questa è la spiegazione
 3. 
 <img src="/images/notes/Introduction to Algorithmic Information and Complexity-20240217152451349.webp" alt="Introduction to Algorithmic Information and Complexity-20240217152451349">
 
-Questo spiega anche cose sulla ripetizione spaziata in @brownMakeItStick2014. E ha senso, cose che vediamo più spesso ci appaiono come semplici, cose che vediamo singola volta sono abbastanza complesse, la relazione sulla complessità sembra essere fortemente legata alla frequenza della parola. Che bella idea.
+Questo spiega anche cose sulla ripetizione spaziata in [(Brown et al. 2014)](https://books.google.it/books/about/Make_It_Stick.html?id=oneWAwAAQBAJ). E ha senso, cose che vediamo più spesso ci appaiono come semplici, cose che vediamo singola volta sono abbastanza complesse, la relazione sulla complessità sembra essere fortemente legata alla frequenza della parola. Che bella idea.
 
 ### Normalized information distance
-Basato su @liSimilarityMetric2004. 
+Basato su [(Li et al. 2004)](https://ieeexplore.ieee.org/document/1362909). 
 > For any pair of objects, NID determines what is common to them, and only keeps their difference to measure the distance that separates them.
 ####  Calcolo del NID
 1. Misurare la differenza di informazione attraverso il [Kolmogorov Condizionato](/notes/kolmogorov-complexity#kolmogorov-condizionato-) quindi $$max[K(x|y), K(y|x)]$$ il max ci aiuta a rendere la distanza *simmetrica*. 
@@ -149,7 +149,7 @@ $$
 
 
 Questo non è computabile perché $$K$$ non è computabile, ma possiamo stimarlo con un compressore reale. La cosa triste è che il compressore non prende in considerazione la semantica.
-Per la semantica è interessante usare la @cilibrasiGoogleSimilarityDistance2007, usando google per stimare la distanza. e questa la chiama la **Normalized Google Distance**.
+Per la semantica è interessante usare la [(Cilibrasi & Vitanyi 2007)](http://arxiv.org/abs/cs/0412098), usando google per stimare la distanza. e questa la chiama la **Normalized Google Distance**.
 #### Universal distance
 Questo è lavoro di Charles Bennet in 1998. (information Dista)
 
@@ -158,3 +158,12 @@ $$
 $$
 
 Questo: $$max[K(x|y), K(y|x)]$$ è una distanza universale. Che è una cosa molto interessante.
+
+
+# References
+
+[1] Cilibrasi & Vitanyi [“The Google Similarity Distance”](http://arxiv.org/abs/cs/0412098) arXiv preprint arXiv:cs/0412098 2007
+
+[2] Brown et al. [“Make It Stick: The Science of Successful Learning”](https://books.google.it/books/about/Make_It_Stick.html?id=oneWAwAAQBAJ) Harvard University Press 2014
+
+[3] Li et al. [“The Similarity Metric”](https://ieeexplore.ieee.org/document/1362909) IEEE Transactions on Information Theory Vol. 50(12), pp. 3250--3264 2004

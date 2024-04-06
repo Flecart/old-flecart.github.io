@@ -92,3 +92,7 @@ Si può saltare la regolarizzazione con le altre norme 💀 perché alla prof no
 ### Peak signal to Noise Ratio
 
 Quanto più il valore è alto più l’immagine è buona, questo è un buon parametro per valutare che la funzione di approssimazione sia buona.
+
+
+
+# References

@@ -328,3 +328,8 @@ Il motivo è che per il lemma precedente ogni arco può essere considerato al pi
 - Slide algoritmo
 
     !<img src="/images/notes/image/universita/ex-notion/Reti di flusso/Untitled 30.png" alt="image/universita/ex-notion/Reti di flusso/Untitled 30">
+
+
+
+
+# References

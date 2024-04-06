@@ -290,3 +290,7 @@ In gravitazione ho precessione di Mercurio che metteva sotto problema le predizi
 2. Neutrini non hanno massa zero
 3. Galassia ruota in modo costante, nonostante rallentare.
 4. Energia del vuoto predetto male da quantistica.
+
+
+
+# References

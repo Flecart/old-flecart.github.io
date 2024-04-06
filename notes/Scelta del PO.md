@@ -32,3 +32,5 @@ Pensiamo che il PO debba condividere questa informazione e prendere decisioni di
 O mobile o web o come ci pare (non è importante).
 No sicurezza, non è importante.
 50 giocatori max.
+
+# References

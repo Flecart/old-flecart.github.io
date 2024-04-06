@@ -347,3 +347,7 @@ Praticamente sono elementi di  $$A^B$$, con B partenza A arrivo. L’operazione 
 <img src="/images/notes/image/universita/ex-notion/Teoria dei Tipi/Untitled 21.png" alt="image/universita/ex-notion/Teoria dei Tipi/Untitled 21">
 
 <img src="/images/notes/image/universita/ex-notion/Teoria dei Tipi/Untitled 22.png" alt="image/universita/ex-notion/Teoria dei Tipi/Untitled 22">
+
+
+
+# References

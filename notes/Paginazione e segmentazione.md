@@ -308,3 +308,7 @@ Questo implica aumento della frammentazione interna. dato che per ogni segmento 
 
 
 Eccesso del segmento → **segmentation fault** ecco da dove deriva il nome 😀
+
+
+
+# References

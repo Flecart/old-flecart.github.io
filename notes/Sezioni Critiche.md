@@ -248,3 +248,7 @@ Oltre a questo si può implementare con altre istruzioni atomiche come  fetch an
 
 
 Con questo abbiamo raggiunto una notevole semplificazione nella programmazione (ed anche della generalizzazione di questa soluzione), ma non sono risolti i problemi di starvation né busy waiting, ancora fortemente inefficiente.
+
+
+
+# References

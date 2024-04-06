@@ -199,3 +199,8 @@ Mac BLP (bell lapadula)
 ## Accounting
 
 Si interessa dei sistemi di logging. Come per esempio il Journal che utilizzano tutti i servizi nel sistema operativo. In Ext4, forse citato in [Filesystem](/notes/filesystem) viene trattato in breve.
+
+
+
+
+# References

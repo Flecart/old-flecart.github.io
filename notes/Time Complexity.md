@@ -21,7 +21,7 @@ The notion of "computational steps" used to measure the time complexity varies a
 
 ### Influence of the Computational Model
 In Complexity Theory **the choice of the formal model** influences the complexity class of the model!
-This is different from the argument from computational theory of the [Church Turing Thesis](/notes/la-macchina-di-turing#tesi-di-church-turing), where it asserts that a function is Computable in every computational model. See 7.7 in @sipserIntroductionTheoryComputation2012.
+This is different from the argument from computational theory of the [Church Turing Thesis](/notes/la-macchina-di-turing#tesi-di-church-turing), where it asserts that a function is Computable in every computational model. See 7.7 in [(Sipser 2012)](https://books.google.it/books/about/Introduction_to_the_Theory_of_Computatio.html?id=P3f6CAAAQBAJ).
 
 ## The Time Complexity Class
 ### Definition of the Time Complexity Class
@@ -111,3 +111,9 @@ On input $$\langle w, c \rangle$$ we sun $$M(w)$$ and if it accepts, return true
 $$\to$$ : let's assume we have a polynomial verifier, we need to build a TM that decides it non deterministically in polynomial time.
 choose non deterministically a certificate $$c$$ the encodes the path of the non-deterministic computation. If this accepts then accept!
 TODO: fai meglio questa parte
+
+
+
+# References
+
+[1] Sipser [“Introduction to the Theory of Computation”](https://books.google.it/books/about/Introduction_to_the_Theory_of_Computatio.html?id=P3f6CAAAQBAJ) Cengage Learning 2012

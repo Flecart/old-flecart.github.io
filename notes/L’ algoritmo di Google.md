@@ -28,3 +28,7 @@ L’importanza di una pagina $$x_i$$ è uguale a $$\sum_{x_j \in L} x_j/n_j$$ co
 ### La Matrice che si crea
 
 Possiamo creare una matrice dalla uguaglianza fra la sommatoria lì sopra. Si può ancora approfondire sta cosa 🙂...
+
+
+
+# References

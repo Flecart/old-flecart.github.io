@@ -286,3 +286,7 @@ $$\forall y \in codominio, \text{considero } g(x) = f(x) - y$$ e poi utilizzo il
 
 
 La dimostrazione è equivalente a Weierstrass riformulato.
+
+
+
+# References

@@ -575,3 +575,6 @@ Una cosa strana è che $$H$$ dentro a un solenoide è verso giù all'interno, pe
 
 **Solenoide infinitamente lungo**: non abbiamo vettore H perché la circuitazione è sempre 0.
 <img src="/images/notes/Magnetismo nella materia-1704061722916.jpeg" alt="Magnetismo nella materia-1704061722916">
+
+
+# References

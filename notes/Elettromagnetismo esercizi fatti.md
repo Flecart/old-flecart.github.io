@@ -674,3 +674,6 @@ TODO: guardare quanto è buono.
 $$
 \vec{E}(x, y ,z) = \frac{Q}{4\pi\varepsilon_{0}} \frac{xi + yj + zk}{(x^{2} + y^{2} + z^{2})^{3/2}}
 $$
+
+
+# References

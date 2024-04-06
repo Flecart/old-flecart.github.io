@@ -210,3 +210,8 @@ Possiamo enunciare le equivalenze fra cose riguardo le applicazioni lineari
     Sia A la matrice associata a f e B associata a g.
 
     Allora si può dimostrare che la matrice associata a $$f \cdot g$$  è $$AB$$, questo si dimostra utilizzando l'associatività della moltiplicazione matriciale.
+
+
+
+
+# References

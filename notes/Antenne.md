@@ -171,3 +171,7 @@ Vogliamo il minimo link-budget positivo.
 Questo si chiama **system operative margin** o valore operativo del sistema.
 
 Il margine extra è chiamato **fade margin** per resister al path loss, fase, e riflessioni e simili, in generale questo fade margin è un +10 fino +20
+
+
+
+# References

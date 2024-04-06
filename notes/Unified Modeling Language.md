@@ -132,3 +132,8 @@ Per il resto è molto simile rispetto ai [#Sequence diagrams](#sequence-diagrams
 
 Un esempio:
 <img src="/images/notes/Unified Modeling Language-1697538360271.jpeg" alt="Unified Modeling Language-1697538360271">
+
+
+
+
+# References

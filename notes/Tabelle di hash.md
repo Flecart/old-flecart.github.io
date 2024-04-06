@@ -277,3 +277,8 @@ $$h(k, i) = h_1(k) + ih_2(k) \mod n$$
 - Esempio
 
     <img src="/images/notes/image/universita/ex-notion/Tabelle di hash/Untitled 22.png" alt="image/universita/ex-notion/Tabelle di hash/Untitled 22">
+
+
+
+
+# References

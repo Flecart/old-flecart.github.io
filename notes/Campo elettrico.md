@@ -286,3 +286,6 @@ V(x, y, z) = \frac{1}{4\pi\varepsilon_{0}} \int _{\Sigma} \frac{\rho(x', y', z')
 $$
 
 Questo risulta utile per caratterizzare la soluzione dell'equazione di Poisson per il [Vettore potenziale](/notes/vettore-potenziale).
+
+
+# References

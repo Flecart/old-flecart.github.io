@@ -6,10 +6,10 @@ title: Randomness
 ---
 
 ### Introduzione alla Randomicità
-Questo è principalmente basato su @liIntroductionKolmogorovComplexity2019 Capito 1.9
+Questo è principalmente basato su [(Li & Vitányi 2019)](http://link.springer.com/10.1007/978-3-030-11298-1) Capito 1.9
 Sembra che la nozione di random sia alla fine una cosa molto profonda. Per esempio, un caso lampante che le definizioni non funzionano nel caso di numeri trascendenti è che catalogano i numeri di $$\pi$$ come se fossero casuali, mentre in realtà possono essere trovati mediante procedimenti precisi. È una distinzione filosoficamente molto interessante.
 
-Alla fine sembra ci sia un link molto diretto con la crittografia, si può vedere @stinsonCryptographyTheoryPractice2005.
+Alla fine sembra ci sia un link molto diretto con la crittografia, si può vedere [(Stinson 2005)](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ).
 #### Minimum description length come probabilità reale
 Una altra osservazione è che gli assiomi della probabilità sviluppati da Kolmogorov, che puoi trovare in[Introduzione alla probabilita](/notes/introduzione-alla-probabilita), sono nella teoria molto belli, ma mancano un framework reale su cui possono essere applicati. Un possibile ipotesi è che il sistema sviluppato da [Kolmogorov complexity](/notes/kolmogorov-complexity) possa essere alla fine il nostro sistema buono per descrivere le cose randomiche, come programmi che generano la stringa voluta.
 
@@ -66,3 +66,11 @@ $$
 Si generalizza scegliendo degli insiemi $$V_{m}$$ su cui valutare, sul libro ci sono esempi 2.4.1, 2.4.2.
 Se vale la cosa di sopra vuol dire che il test è superato a quel livello. Non so quanto possa essere utile questa def, ma sicuramente è qualcosa.
 In pratic
+
+
+
+# References
+
+[1] Li & Vitányi [“An Introduction to Kolmogorov Complexity and Its Applications”](http://link.springer.com/10.1007/978-3-030-11298-1) Springer International Publishing 2019
+
+[2] Stinson [“Cryptography: Theory and Practice, Third Edition”](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ) CRC Press 2005

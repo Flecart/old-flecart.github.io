@@ -425,3 +425,5 @@ o lo spazio che sto cercando... In poche parole viene qualcosa dimoslto carino..
 ### Formule importanti
 
 [Spazi vettoriali (vecchio](/notes/spazi-vettoriali-(vecchio)%20c59484acce1c4c898b7c0d98e0e0f277/Untitled%2011.png)
+
+# References

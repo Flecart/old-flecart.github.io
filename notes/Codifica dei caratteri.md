@@ -371,3 +371,8 @@ Se mi mancano byte alla fine aggiungo del padding, che sono delle = nella parte 
     <img src="/images/notes/image/universita/ex-notion/Codifica dei caratteri/Untitled 31.png" alt="image/universita/ex-notion/Codifica dei caratteri/Untitled 31">
 
     <img src="/images/notes/image/universita/ex-notion/Codifica dei caratteri/Untitled 32.png" alt="image/universita/ex-notion/Codifica dei caratteri/Untitled 32">
+
+
+
+
+# References

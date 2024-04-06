@@ -16,9 +16,14 @@ Sono delle mappe che rappresentano alcune informazioni interessanti della nostra
 
 ## Principi di base
 ### Nota sulla depth
-Come viene spiegato in @cohenExpressivePowerDeep2016 shallow e deep sono equivalenti, ma c'è una esplosione esponenziale sul numero di neuroni necessari
+Come viene spiegato in [(Cohen et al. 2016)](http://arxiv.org/abs/1509.05009) shallow e deep sono equivalenti, ma c'è una esplosione esponenziale sul numero di neuroni necessari
 
 ### Caratteristiche di convoluzionali
 #### Località, Condivisione, Invarianza per traslazioni
 Località perché ho una field of view, che è la grandezza del kernel precedente, condivisione perché i pesi del kernel sono sempre gli stessi.
 Poi non ho capito perché il pooling fa invarianza per traslazioni.
+
+
+# References
+
+[1] Cohen et al. [“On the Expressive Power of Deep Learning: A Tensor Analysis”](http://arxiv.org/abs/1509.05009) arXiv preprint arXiv:1509.05009 2016

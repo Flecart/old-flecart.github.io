@@ -267,3 +267,7 @@ Si può dimostrare che se ci limitiamo alle espressioni indipendenti col dominio
 La dimostrazione (che non facciamo) andrà per induzione strutturale, quella che trovi in Logica in [Deduzione naturale](/notes/deduzione-naturale).
 
 Possiamo notare che l'algebra è indipendente dal dominio, perché lì non è mai esplicitata la relazione in che dominio sia (abbiamo operazioni chiuse si può dire).
+
+
+
+# References

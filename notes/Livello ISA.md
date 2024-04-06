@@ -187,3 +187,5 @@ Tipo il prof che chiede se ci sono delle domande.
 e al busi waiting, però invece di non fare nulla e aspettare soltanto quando non va a guardare, fa qualche operazione.
 
 Tipo il prof che chiede se ci sono delle domande.
+
+# References

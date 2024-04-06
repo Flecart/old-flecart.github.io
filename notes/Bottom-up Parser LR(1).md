@@ -154,3 +154,8 @@ Questo è un esempio importante solo perché è richiesto nelle domande, altrime
 
 - Esempio di conflitto
 <img src="/images/notes/image/universita/ex-notion/Bottom-up Parser -LR(1)/Untitled 12.png" alt="image/universita/ex-notion/Bottom-up Parser -LR(1)/Untitled 12">
+
+
+
+
+# References

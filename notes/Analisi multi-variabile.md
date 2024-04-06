@@ -236,3 +236,7 @@ Di solito si trova una **curva di livello,** una curva lineare che rappresenta q
 ### Piani
 
 I piani sono nella forma $$f(x,y) = ax + by + c$$, è abbastanza ovvio, perché in R2 rappresenta una retta, se ho una retta ma posso variare z come mi pare, allora ovvio che si ha il piano...
+
+
+
+# References

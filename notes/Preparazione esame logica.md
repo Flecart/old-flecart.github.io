@@ -33,3 +33,5 @@ Studi Personali: No
 - Non lo chiedera probabilmente allo scritto, ma se si vuole fare anche le logiche intuizioniste [Semantica intuizionista](/notes/semantica-intuizionista)
 la compattezza in [Semantica intuizionista](/notes/semantica-intuizionista)
 - Non lo chiedera probabilmente allo scritto, ma se si vuole fare anche le logiche intuizioniste [Semantica intuizionista](/notes/semantica-intuizionista)
+
+# References

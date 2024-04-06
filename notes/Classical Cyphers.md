@@ -118,7 +118,7 @@ D(C, k_{i}) = M
 $$
 
 Ossia la chiave che usando $$D$$ abbiamo il plaintext.
-Solitamente questo valore non si può calcolare, perché avremmo bisogno di $$M$$, quindi abbiamo il problema dei **falsi positivi** all'interno del nostro spazio di interesse. (vedere sezione 5.2 di @paarUnderstandingCryptographyTextbook2010)
+Solitamente questo valore non si può calcolare, perché avremmo bisogno di $$M$$, quindi abbiamo il problema dei **falsi positivi** all'interno del nostro spazio di interesse. (vedere sezione 5.2 di [(Paar & Pelzl 2010)](http://link.springer.com/10.1007/978-3-642-04101-3))
 
 
 ### Vigenère Cipher
@@ -146,7 +146,7 @@ Queste macchine sono nate principalmente nel secolo scorso, da queste idee
 - Multiple rounds of substitution, encryption consists of mapping a letter many times ○ M
 - Mechanical/electrical wiring to automate the encryption/decryption process
 
-La meccanizzazione è stata risolta dal punto di vista del red team da Turing, che ha dato un contributo fondamentale @turingCOMPUTINGMACHINERYINTELLIGENCE1950.
+La meccanizzazione è stata risolta dal punto di vista del red team da Turing, che ha dato un contributo fondamentale [(Turing 1950)](https://academic.oup.com/mind/article/LIX/236/433/986238).
 
 #### Esempi storici di rotor machines
 <img src="/images/notes/Introduzione a crittografia-20240222101158992.webp" alt="Introduzione a crittografia-20240222101158992">
@@ -183,7 +183,7 @@ L'idea è **limitare qualunque informazione** che si può trovare dalla chiave c
 1. Non posso ritrovare la chiave dai processi di $$E$$ e $$D$$
 2. Non posso ritrovare il plain-text da ciphertext.
 Una definizione equivalente sembra essere:
-dato un $$M$$ deve essere che $$\forall e \in E, P(e|M) = P(e) \not = 0$$ ([https://www3.cs.stonybrook.edu/](https://www3.cs.stonybrook.edu/)~omkant/L02-short.pdf)
+dato un $$M$$ deve essere che $$\forall e \in E, P(e|M) = P(e) \not = 0$$ (https://www3.cs.stonybrook.edu/~omkant/L02-short.pdf)
 Questo significa che il $$e$$ è **indipendente da M** quando non si conosce la chiave, nel senso che non riesci prendere nessuna informazione (se inverti con bayes dovresti avere stesso valore).
 
 Si può dimostrare che la seconda definizione, più l'ipotesi che $$\lvert K \rvert = \lvert P \rvert = \lvert C \rvert$$ è equivalente alla prima (il contrario dovrebbe essere facile!?).
@@ -204,7 +204,7 @@ Questa proprietà rende cifrari come [OTP](/notes/otp-and-stream-ciphers) molto 
 Dove $$H$$ è l'informazione Shannon. quindi $$H(P) = \sum_{x} P(x)\log\left( \frac{1}{P(x)} \right)$$, e la lunghezza è strettamente dipendente dall'entropia.
 Questo Shannon lo ha dimostrato nel 1949.
 
-Una altra dimo è su @stinsonCryptographyTheoryPractice2005 3.3, abbastanza ez.
+Una altra dimo è su [(Stinson 2005)](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ) 3.3, abbastanza ez.
 #### Unconditional security 🟩
 <img src="/images/notes/image/universita/ex-notion/Stream Ciphers/Untitled 5.png" alt="image/universita/ex-notion/Stream Ciphers/Untitled 5">
 
@@ -215,7 +215,7 @@ Come vedremo c’è un cifrario teoricamente sicuro, ma nella pratica di poco ut
 
 ### Affine and Caesar Cipher
 #### Definizione shift cipher 🟩
-Sono definizioni 1.4.3 presenti su @paarUnderstandingCryptographyTextbook2010.
+Sono definizioni 1.4.3 presenti su [(Paar & Pelzl 2010)](http://link.springer.com/10.1007/978-3-642-04101-3).
 **Shift Cipher**
 
 Siano $$x,y,k \in \mathbb{Z}_{26}$$
@@ -269,3 +269,16 @@ Un anello è un insieme di elementi su cui sono definite certe proprietà di int
     <img src="/images/notes/image/universita/ex-notion/Introduzione/Untitled 6.png" alt="image/universita/ex-notion/Introduzione/Untitled 6">
 
     L’inverso non ci deve stare
+
+
+ 
+
+
+
+# References
+
+[1] Turing [“I.—COMPUTING MACHINERY AND INTELLIGENCE”](https://academic.oup.com/mind/article/LIX/236/433/986238) Mind Vol. LIX(236), pp. 433--460 1950
+
+[2] Stinson [“Cryptography: Theory and Practice, Third Edition”](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ) CRC Press 2005
+
+[3] Paar & Pelzl [“Understanding Cryptography: A Textbook for Students and Practitioners”](http://link.springer.com/10.1007/978-3-642-04101-3) Springer 2010

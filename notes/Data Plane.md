@@ -191,3 +191,7 @@ In pratica provo uno per classe ad ogni ciclo.
 Tipo se ho massima priority, ne mando 4, se sono nella seconda ne mano 2, se sono nella terza ne mando 1, quindi **esiste ancora la priority** e non ho starvation perché anche nella coda brutta riesco sempre ad andare avanti.
 
 Sul pacchetto IP [Livello di Rete#Indirizzo IP](/notes/livello-di-rete#indirizzo-ip)
+
+
+
+# References

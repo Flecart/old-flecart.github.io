@@ -683,3 +683,8 @@ Prova a dare una occhiata al kerchoffs principle in [Classical Cyphers](/notes/c
       Policy may be irrelevant if the implementation has bugs.
       But stay tuned; there is hope for the defense.
     ```
+
+
+
+
+# References

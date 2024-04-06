@@ -38,3 +38,7 @@ Mutual preference indipendence.
 La differenza con le [Bayesian Networks](/notes/bayesian-networks), e perché le amplia, cosa sono le cose nuove che sono introdotte con queste nuove reti decisionali.
 
 ### Struttura di queste reti
+
+
+
+# References

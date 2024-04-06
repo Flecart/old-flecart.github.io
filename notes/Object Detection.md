@@ -80,3 +80,8 @@ Nota: c’è una binary map, che che è in una cella e 0 in tutto il resto (ques
 - Classification loss
 
     !<img src="/images/notes/image/universita/ex-notion/Object Detection/Untitled 2.png" alt="image/universita/ex-notion/Object Detection/Untitled 2">
+
+
+
+
+# References

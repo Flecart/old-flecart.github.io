@@ -98,3 +98,7 @@ La seconda tabella modella la parte ricorsiva (in teoria le due chiavi foreign d
 #### Merge di relazioni
 A volte può essere utile unire relazione con l'entità, succede spesso per relazioni unarie da una parte, perché così faccio enforcing del 1.
 È una cosa principalmente pratica, di difficile formalizzazione, ma deve passare l'idea diciamo.
+
+
+
+# References

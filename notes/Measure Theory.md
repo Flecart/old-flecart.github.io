@@ -188,3 +188,7 @@ Quindi quella generata, è l’algebra più piccola che contiene quell’element
 ### Extension of additive measure from semi-algebra to algebra
 
 !<img src="/images/notes/image/universita/ex-notion/Measure Theory/Untitled 21.png" alt="image/universita/ex-notion/Measure Theory/Untitled 21">
+
+
+
+# References

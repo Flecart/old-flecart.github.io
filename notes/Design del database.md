@@ -145,3 +145,7 @@ In the example in the image it's the address.
 It is possible to define a cardinality for single attributes, because an employee could have more phone numbers, or the driving licence is optional (not everybody has it!)
 
 <img src="/images/notes/Design del database-1698926543311.jpeg" width="400" alt="Design del database-1698926543311">
+
+
+
+# References

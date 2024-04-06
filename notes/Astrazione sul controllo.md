@@ -158,3 +158,7 @@ L’implementazione di questo passaggio è molto interessante, perché dovrei pa
 
 
 Solitamente è molto **costoso** perché per valutare devo sempre andare in un ambiente diverso dall'attuale, poi anche dal fatto che il valore è rivalutato ad ogni occorrenza!
+
+
+
+# References

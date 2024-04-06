@@ -74,7 +74,7 @@ Una altra macchina di Turing di interesse che non trattiamo qui è il prefix tur
 
 ### Macchine a registri
 Chiamato anche **URM** *unlimited register machine*, è un formalismo più simile a come sono fatti i computer moderni perché utilizzano i regsitri. 
-Definito in @shepherdsonComputabilityRecursiveFunctions1963.
+Definito in [(Shepherdson & Sturgis 1963)](https://dl.acm.org/doi/10.1145/321160.321170).
 #### Descrizione Unlimited Register Machine 🟨++
 Supponiamo di avere $$R_{1}, R_{2}, R_{3}, \dots$$ registri, ogni registro ha un numero naturale indicato con $$r_{n}$$ (contenuto di registro $$n$$)
 Se la computazione finisce, questa viene messa in $$R_{1}$$ (simile a RAX in archietture intel).
@@ -150,3 +150,10 @@ Poi per codificare la sequenza, basta concatenare molte macchine di turing norma
 Per il while possiamo usare due macchine, una per il test, una per il corpo del while e dire che accetta quando esco dal ciclo.
 <img src="/images/notes/Estensioni di Turing e altre macchine-20240228131659027.webp" alt="Estensioni di Turing e altre macchine-20240228131659027">
 È interessante osservare come siano uguali questi.
+
+
+
+
+# References
+
+[1] Shepherdson & Sturgis [“Computability of Recursive Functions”](https://dl.acm.org/doi/10.1145/321160.321170) Journal of the ACM Vol. 10(2), pp. 217--255 1963

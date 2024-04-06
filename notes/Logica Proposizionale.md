@@ -281,3 +281,5 @@ $$\neg F \equiv F \implies \bot$$
 ash \bot$$ e è soddisfacibile nel caso in cui non è conseguenza logica
 $$\Gamma \Vdash F \iff \Gamma,\neg F$$, insoddisfacibili.,Gamma finito
 $$\neg F \equiv F \implies \bot$
+
+# References

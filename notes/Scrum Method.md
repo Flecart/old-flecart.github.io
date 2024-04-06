@@ -144,3 +144,7 @@ The DoD is a shared understanding among team members of what it means for a prod
 - Scrum master che non fa il lavoro
 - Cattiva comunicazione di PO
 - Cattiva comunicazione dei desiderata da parte degli stakeholders.
+
+
+
+# References

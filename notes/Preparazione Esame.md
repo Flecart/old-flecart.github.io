@@ -98,3 +98,5 @@ Questa parte è importante perché la può chiedere nell’esame nuovo (cioè le
 ando è idempotente? Fare esempi.
 - Cosa sono method e action in un form?
 - Cosa sono e qual è la differenza fra pipelining e multiplexing? Che vantaggio c'è ad utilizzare queste?
+
+# References

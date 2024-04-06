@@ -45,3 +45,5 @@ Le classi daranno incapsulamento, mentre le struct no.
 ### Incapsulamento
 
 Le classi daranno incapsulamento, mentre le struct no.
+
+# References

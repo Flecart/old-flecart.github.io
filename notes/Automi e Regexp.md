@@ -363,3 +363,7 @@ C'è veramente in questo passo una **esplosione esponenziale** perché il numero
 
 
 Questo concetto di chiusura Epsilon ci racchiude il concetto degli stati raggiungibili in un NFA senza leggere nessun input.
+
+
+
+# References

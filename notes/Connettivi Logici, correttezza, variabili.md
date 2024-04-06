@@ -224,3 +224,5 @@ Questo significa che le proposizioni logiche sono valide per tutti i mondi che s
 l valore di verità di una variabile al caso base.
 
 Questo significa che le proposizioni logiche sono valide per tutti i mondi che soddisfino le precodizioni e non solamente nel mondo specifico!
+
+# References

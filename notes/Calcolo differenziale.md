@@ -397,3 +397,7 @@ f una funzione differenziabile, e voglio la derivata di $$f(h_1(s),..., h_n(s))$
 $$r(s) = (h_1(s),...,h_n(s))$$ e calcolarmi la derivata di $$f(r(s))$$ che abbiamo discusso sopra, alla fine avrò qualcosa del tipo
 
 $$\delta_{e_1}f(r(s))\delta_s(h_1(s)) + ... + \delta_{e_n}f(r(s) \delta_s(h_n(s))$$
+
+
+
+# References

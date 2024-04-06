@@ -167,3 +167,7 @@ la differenza principale dei prototipi con le classi è la **flessibilità vs si
 Nelle classi non possiamo andare a cambiare l'implementazione una volta dichiarata.
 
 Si una possibilità di fare una **delegazione** ossia il metodo è implementato in modo dinamico e vado a cercare il primo prototipo per quell'oggetto. È molto flessibile, perché utilizza **duck-typing,**  molto facile cambiare le cose, solo che dal punto di vista della correttezza e sicurezza è un pò più difficile.
+
+
+
+# References

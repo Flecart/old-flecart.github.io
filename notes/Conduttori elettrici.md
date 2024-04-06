@@ -214,3 +214,9 @@ Si può concludere che in questo caso l'intera superficie è equipotenziale.
 $$
 \Delta V = V(C) - V(D) = \int _{C}^{D} \vec{E} \, d\vec{r} = 0 
 $$
+
+
+
+
+
+# References

@@ -6,7 +6,7 @@ title: Word Embeddings
 ---
 
 ### Word2Vec
-Paper di riferimento: @mikolovEfficientEstimationWord2013.
+Paper di riferimento: [(Mikolov et al. 2013)](http://arxiv.org/abs/1301.3781).
 
 [Video youtube intuitivo](https://www.youtube.com/watch?v=viZrOnJclY0&ab_channel=StatQuestwithJoshStarmer)
 [Blog pratico](https://towardsdatascience.com/a-word2vec-implementation-using-numpy-and-python-d256cf0e5f28)
@@ -200,3 +200,9 @@ if __name__ == "__main__":
 ### GloVe
 
 ### ELMo
+
+
+
+# References
+
+[1] Mikolov et al. [“Efficient Estimation of Word Representations in Vector Space”](http://arxiv.org/abs/1301.3781) arXiv preprint arXiv:1301.3781 2013

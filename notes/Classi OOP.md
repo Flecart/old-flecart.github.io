@@ -204,3 +204,7 @@ C’è il problema della **composizionalità**, nel senso che non possiamo andar
 ### In Java fragile
 
 Ci sono alcuni metodi per andare a gestire il problema della classe fragile. Come gestire questo problema quando l'intera classe è stata compilata a sé stante. Viene risolto a caricamento e la prima reference viene risolta e sostituita al codice di ricerca col riferimento al codice effettivo.
+
+
+
+# References

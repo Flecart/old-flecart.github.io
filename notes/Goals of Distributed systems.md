@@ -122,3 +122,7 @@ Paxos è un protocollo utile per risolvere il problema di Bizantine agreement, c
 L’idea è dividire il processo di agreement in due fasi. Una priomise e un commit.
 
 Poi andiamo a definire alcuni agenti principali in questo protocollo. Dei **proposers**,** acceptors, quorum**.** I primi propongono, gli altri accettano. QUando è stato raggiunto un quorum, allora si va alla seconda fase, quella di commit o accettazione, se è rifiutato si torna a prima, altrimenti si va al commit. Può esserci livelock?
+
+
+
+# References

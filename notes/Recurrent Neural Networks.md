@@ -99,3 +99,7 @@ Quando lasciamo una NN a capire come fare un encoding delle parole, in modo che 
 1. Encoding delle informazioni (che ci potrebbero far perdere certe informazioni molto carine a riguardo)
 2. Lentissimo! Non riesco a parallelizzare questa computazione, dato che uno dipende dall’altro!
 3. Alla fine non riesco proprio a fare **long term memory**.
+
+
+
+# References

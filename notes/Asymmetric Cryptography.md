@@ -159,3 +159,7 @@ To overcome the burden to encrypt the whole text, usually only an hash is encryp
 - **Un-deniable** by the signatory (if you have signed it, it was you!)
 - **Universally verifiable** (everybody can verify it)
 - Every doc's signature is **different**.
+
+
+
+# References

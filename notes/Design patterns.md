@@ -110,3 +110,7 @@ Se in un certo punto un check fallisce, la cosa non continua, ma viene cestinata
 Mi sembra simile alla reificazione che abbiamo studiato per la prima volta (in logica un po' ma di più in) [Design del database](/notes/design-del-database). ossia invece di avere $$N^{2}$$ collegamenti, basta avere un punto intermedio di comunicazione e abbassi di una potenza. È la potenza del mediatore.
 
 <img src="/images/notes/Design patterns-1699960130989.jpeg" alt="Design patterns-1699960130989">
+
+
+
+# References

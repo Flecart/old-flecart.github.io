@@ -62,3 +62,7 @@ Vedere System call 🟩- per note leggermente più approfondite sul processo di 
 Settono alcune variabili nei registri e poi manda interrupt di syscall, e il kernel esegue la syscall adatta e restituisce sempre in un registro specifico il valore di ritorno. I parametri sono **sempre 6** (non so perché sono sempre 6). Di solito se ritorna il valore -1 è errore.
 
 **Fork** permette di distinguere l’esecuzione del figlio o del padre a seconda del valore di ritorno (il padre ha True, che è il valore del pid, mentre per il figlio è false.
+
+
+
+# References

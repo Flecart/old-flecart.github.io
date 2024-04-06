@@ -345,3 +345,7 @@ C'è una MMU del sistema operativo che mappa alla VM fisica, che si deve basare 
 <img src="/images/notes/image/universita/ex-notion/Architettura software dell’OS/Untitled 20.png" alt="image/universita/ex-notion/Architettura software dell’OS/Untitled 20">
 
 MINI SCHEMA
+
+
+
+# References

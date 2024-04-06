@@ -219,3 +219,7 @@ Questo è quello che fa WIkiDATA!!!
 Questo si collega senza nessun problema all'ultima parte trattata nel corso riguardante il [Metadati web e web semantico](/notes/metadati-web-e-web-semantico).
 
 In cui si vanno a parlare di **RDF** e simili. (immagine di un web accessibile tanto ai bot quanto agli umani, perché i dati sono tutti tanto strutturati).
+
+
+
+# References

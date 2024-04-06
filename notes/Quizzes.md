@@ -54,3 +54,5 @@ Nel codice di hamming è utilizzato per tenere conto di alcuni bit in certe posi
 10. 1000110100110
 
 !<img src="/images/notes/image/universita/ex-notion/Quizzes/Untitled.png" alt="image/universita/ex-notion/Quizzes/Untitled">
+
+# References

@@ -120,3 +120,5 @@ Idee per minimax forte
  Con voto 26 questo.
 
 Idee per minimax forte
+
+# References

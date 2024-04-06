@@ -100,3 +100,5 @@ menti è la doubling and halving in cui 3 monete per ogni operazione di inserime
 |            |                                   |
 | ---------- | --------------------------------- |
 | 14/03/2024 | Ripassato per [Time Complexity](/notes/time-complexity) |
+
+# References

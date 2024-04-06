@@ -160,3 +160,5 @@ Questo porta alla conclusione che **non esiste un programma che decida se un alt
 Spiegata per filo e per segno per la diagonalizzazione di cantor [Relazioni fra insiemi#Diagonalizzazione di Cantor](/notes/relazioni-fra-insiemi#diagonalizzazione-di-cantor)
 
 !<img src="/images/notes/image/universita/ex-notion/Logica meta-linguistica/Untitled 2.png" alt="image/universita/ex-notion/Logica meta-linguistica/Untitled 2">
+
+# References

@@ -281,3 +281,7 @@ Inizialmente questo linguaggio è nato proprio per scrivere sistemi operativi, n
 Ho un linguaggio di alto livello L, e una macchina fisica M e una macchina intermedia N, vorrei fare un compilatore da L a M.
 
 Allora ho un compilatore da L a M che gira in N molto scrauso. Mi scrivo il compilatore da L a M che gira in N, lo compilo e ho un compilatore da L a M scritto in M
+
+
+
+# References

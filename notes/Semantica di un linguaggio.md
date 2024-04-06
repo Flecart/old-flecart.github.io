@@ -390,3 +390,8 @@ Parallelismo perché può eseguire in contemporanea le istruzioni (in questo sen
 - Esempio di esecuzione non deterministica
 
     <img src="/images/notes/image/universita/ex-notion/Semantica di un linguaggio/Untitled 28.png" alt="image/universita/ex-notion/Semantica di un linguaggio/Untitled 28">
+
+
+
+
+# References

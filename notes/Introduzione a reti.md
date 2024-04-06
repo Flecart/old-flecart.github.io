@@ -424,3 +424,7 @@ Non ci importa l'ordine di arrivo né per forza alcuni buchi.
 Questo è come sono le reti normali, normalmente sono connectionless, con un protocollo in più sono connection-oriented.
 
 In modo molto veloce si potrebbe dire che i servizi non orientati alla connessione non garantiscono nulla.
+
+
+
+# References

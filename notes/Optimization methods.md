@@ -111,3 +111,5 @@ Ma allora continuo a **muovermi di meno** col tempo.
 
 
 ### EM Algorithms
+
+# References

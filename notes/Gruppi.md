@@ -111,3 +111,8 @@ Osservazione: quando il centralizzatore è l'intero gruppo, l'elemento su cui st
 
 - Dimostrazione
     Analoga alla precedente del centro
+
+
+
+
+# References

@@ -277,3 +277,8 @@ Con questo operatore, possiamo anche riscrivere in modo migliore la **policy eva
 - Proof of contraction of bellman operator
 
     <img src="/images/notes/image/universita/ex-notion/Reinforcement Learning, a introduction/Untitled 9.png" alt="image/universita/ex-notion/Reinforcement Learning, a introduction/Untitled 9">
+
+
+
+
+# References

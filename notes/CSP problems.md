@@ -70,3 +70,7 @@ Se vogliamo una unica soluzione che soddisfa vogliamo scegliere variabili che ha
 **Forward check**
 
 Abbastanza simile ad AC-3, toglie dei valori che non possono esserci??? boh cose simili.
+
+
+
+# References

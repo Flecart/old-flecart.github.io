@@ -27,7 +27,15 @@ Partiamo con l'approccio di reinforcement learning che è la parte un po' più i
 Dato che utilizziamo gli LLM come aiutanti per noi umani, è importante che il loro output sia il più possibile allenato sulle preferenze di noi umani. Per questo motivo dobbiamo creare un metodo che permetta di allenare il modello basandoci su queste preferenze.
 
 #### The reward model
-Come descritto da @zieglerFineTuningLanguageModels2020, un approccio inizialmente utilizzato è provare a definire in modo esplicito un modello $$r(x, y)$$ in cui $$x$$ è il prompt iniziale e $$y$$ è la completion data dal modello.
+Come descritto da [(Ziegler et al. 2020)](http://arxiv.org/abs/1909.08593), un approccio inizialmente utilizzato è provare a definire in modo esplicito un modello $$r(x, y)$$ in cui $$x$$ è il prompt iniziale e $$y$$ è la completion data dal modello.
 Segue poi uno schema del genere:
 $$y_{1}, y_{2}, y_{3}, y_{4}$$ generati dal modello, poi questi vengono rankati in ordine di preferenza (oppure anche solamente il migliore fra i quattro, poi si utilizzano 4 e non due in questo papero perché così una persona può scegliere, solo più veloce per dire).
 E da questo si può allenare in un modo che non ho ancora capito una cosa di preferenza.
+
+
+
+
+
+# References
+
+[1] Ziegler et al. [“Fine-Tuning Language Models from Human Preferences”](http://arxiv.org/abs/1909.08593) arXiv preprint arXiv:1909.08593 2020

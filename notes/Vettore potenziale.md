@@ -154,3 +154,7 @@ Quando $$r$$ è minore del raggio del solenoide, se è maggiore abbiamo
 $$
 \vec{A} = B \frac{R^{2}}{2r} \hat{u}
 $$
+
+
+
+# References

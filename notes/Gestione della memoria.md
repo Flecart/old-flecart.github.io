@@ -274,3 +274,8 @@ Per tenere conto dei valori vecchi abbiamo principalmente due metodi:
 - Esempio lista vecchi valori
 
     <img src="/images/notes/image/universita/ex-notion/Gestione della memoria/Untitled 8.png" alt="image/universita/ex-notion/Gestione della memoria/Untitled 8">
+
+
+
+
+# References

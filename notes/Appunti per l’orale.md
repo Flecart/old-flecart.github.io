@@ -39,3 +39,5 @@ igettiva sse invertibile
 ### Capitolo 6
 
 - Teorema caratterizzazione della preimmagine
+
+# References

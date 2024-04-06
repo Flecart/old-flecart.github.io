@@ -38,3 +38,8 @@ L’importanza del gruppo normale è che quando esso vale, possiamo avere il gur
 - Dimostrazione
 
     !<img src="/images/notes/image/universita/ex-notion/Gruppi Normali/Untitled 4.png" alt="image/universita/ex-notion/Gruppi Normali/Untitled 4">
+
+
+
+
+# References

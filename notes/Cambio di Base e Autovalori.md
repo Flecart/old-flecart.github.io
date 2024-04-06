@@ -283,3 +283,5 @@ e molteplicità algebriche e geometriche siano entrambi uguali.
 | --- | --- |
 |  |  |
 |  |  |
+
+# References

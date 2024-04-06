@@ -126,3 +126,8 @@ w_{i} = w_{i} + \mu \frac{\delta \mathcal{L}(w)}{\delta w_{i}}  + \mu \lambda|w_
 $$
 
 Che implica il fatto che se abbiamo un singolo peso grande, farà molta fatica ad esserci nel regolarizzatore (quindi ho meno varianza fra i pesi diciamo).
+
+
+
+
+# References

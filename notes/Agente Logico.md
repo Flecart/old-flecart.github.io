@@ -130,3 +130,7 @@ Da notare che questo **funziona solamente per HORN CLAUSES** perché ci fa molto
 ### Creazione di Plan con SAT solvers
 
 ### Incapacità della logica proposizionale col tempo
+
+
+
+# References

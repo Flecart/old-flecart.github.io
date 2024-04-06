@@ -98,3 +98,6 @@ Si dimostra che è invertibile se solo se è co-primo col modulo poi (perché co
 
 
 Un approfondimento è presente nella teoria dei gruppi per sta parte (le cose che potrebbero essere interessanti sono i Campi da questo punto di vista). Vedere [Gruppi](/notes/gruppi) [Gruppi ciclici e permutazioni](/notes/gruppi-ciclici-e-permutazioni) e [Gruppi Normali](/notes/gruppi-normali).
+
+
+# References

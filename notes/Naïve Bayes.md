@@ -193,3 +193,7 @@ $$
 
 
 E se ben ricordiamo, $$\alpha$$ non era altro che il numero di samples negativi, quindi questo è un esempio locale in cui MLE è la soluzione ottimale per stimare.
+
+
+
+# References

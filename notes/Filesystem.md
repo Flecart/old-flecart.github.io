@@ -420,3 +420,7 @@ Per filesystems che prevengono ,come ext3, prova a vedere tutto come una transaz
 /h3
 
 FAT
+
+
+
+# References

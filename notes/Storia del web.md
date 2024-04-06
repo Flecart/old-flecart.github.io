@@ -32,3 +32,7 @@ Cose strane su brevetti… Non volevano permettere modifiche dal loro standard *
 ### Lock-in technologico e sviluppatori come utenti
 
 Vogliono creare un ambiente di sviluppo facile, e cercare di attirare alcuni sviluppatori, in modo che questi siano bloccati sui loro framework! (infatti costa imparare un nuovo framework, principalmente nuovo tempo, anche chiamao **sunk cost**).
+
+
+
+# References

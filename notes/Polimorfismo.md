@@ -216,3 +216,7 @@ Questi sono alcuni tipi ispirati alle monadi, solamente capire in che formato so
 
 - Maybe: Some<qualcosa> + None
 - Result: come le promises di js, possiamo esprimere i risultati di errore e nel caso sia andato tutto bene.
+
+
+
+# References

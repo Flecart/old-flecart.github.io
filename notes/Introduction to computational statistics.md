@@ -41,3 +41,5 @@ Figa la possibilità di fare sampling secondo una distribuzione, partendo dalla 
 
 #### Cose pratiche
 - Essere in grado di implementare grafico e calcolare i valori per la inverse (esattamente quelli).
+
+# References

@@ -64,3 +64,10 @@ And variations are some examples
 CA's are used to exchange the security keys securely. This is the default, historically there have been some attacks on this method
 
 Other options could be just self sign the certificate and exchange that signed thing (needs other things, like manual operations to validate and trust it).
+
+
+
+
+
+
+# References

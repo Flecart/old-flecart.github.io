@@ -262,3 +262,8 @@ Questa parte è trattata in analisi in [Convessità (cenni)](Convessita%CC%80%20
 - Slide
 
     !<img src="/images/notes/image/universita/ex-notion/Metodi di Discesa/Untitled 19.png" alt="image/universita/ex-notion/Metodi di Discesa/Untitled 19">
+
+
+
+
+# References

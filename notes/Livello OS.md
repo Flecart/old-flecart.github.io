@@ -165,3 +165,5 @@ Viene compilato normalmente, e viene linkato nel momento di esecuzione grazie al
 - Esempio
 
     <img src="/images/notes/image/universita/ex-notion/Livello OS/Untitled 7.png" alt="image/universita/ex-notion/Livello OS/Untitled 7">
+
+# References

@@ -124,3 +124,7 @@ SCHIVA STO TEOREMA CHE NON MI SERVE A NUCAZZU
 ### Teorema orbita stabilizzatore
 
 !<img src="/images/notes/image/universita/ex-notion/Teorema di Lagrange/Untitled 15.png" alt="image/universita/ex-notion/Teorema di Lagrange/Untitled 15">
+
+
+
+# References

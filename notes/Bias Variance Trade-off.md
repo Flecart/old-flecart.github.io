@@ -20,3 +20,5 @@ Dall'espressione matematica, deriviamo che anche nel caso in cui riusciamo ad el
 
 ### Considerazioni generali
 Questo trade-off è nato principalmente nell'analisi teorica dei modelli, però è bene tenere in mente la presenza di ciò anche per i modelli reali. Non possiamo calcolare esplicitamente il MSE, però ci dovrebbe essere. Questa è l'osservazione principale per asserire che non sempre il modelli più complicato è la migliore, abbiamo il no-free-lunch theorem!
+
+# References

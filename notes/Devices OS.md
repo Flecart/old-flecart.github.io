@@ -207,7 +207,7 @@ Non ho problemi di bottleneck, e ho ancora la velocità del livello 1
 
     <img src="/images/notes/image/universita/ex-notion/Devices OS/Untitled 15.png" alt="image/universita/ex-notion/Devices OS/Untitled 15">
 
-    [http://www.cs.unibo.it/~renzo/doc/p245-blaum]([http://www.cs.unibo.it/](http://www.cs.unibo.it/)~renzo/doc/p245-blaum)
+    [http://www.cs.unibo.it/~renzo/doc/p245-blaum](http://www.cs.unibo.it/~renzo/doc/p245-blaum)
 
 
 Questo è per cose sicure, riesce a **tollerare livello 2** fino a due dischi rotti.
@@ -277,3 +277,8 @@ Non ho ancora capito in quali casi può essere utile.
 - Slide esempio C-Look
 
     <img src="/images/notes/image/universita/ex-notion/Devices OS/Untitled 18.png" alt="image/universita/ex-notion/Devices OS/Untitled 18">
+
+
+
+
+# References

@@ -293,3 +293,5 @@ e così facciamo sampling della variabile per le distribuzioni discrete $$X$$
 
 
 ### Altre cose
+
+# References

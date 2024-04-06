@@ -49,3 +49,7 @@ Poi per fare inferenza vedo il documento attuale è più simile rispetto a quale
 Questa è una metrica molto utilizzata per dare una idea di **somiglianza di vettori**.
 
 <img src="/images/notes/Bag of words-1696859419879.jpeg" alt="Bag of words-1696859419879">
+
+
+
+# References

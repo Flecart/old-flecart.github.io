@@ -184,3 +184,5 @@ Poi la predizione di pipelining distrutta dai salti nelle istruzioni presentata 
 almente è il funzionamento della cache [qui](/notes/qui) di cui abbiamo anche fatto degli esercizi.
 
 Poi la predizione di pipelining distrutta dai salti nelle istruzioni presentata [qui](/notes/qui)
+
+# References

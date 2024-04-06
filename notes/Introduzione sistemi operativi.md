@@ -63,3 +63,5 @@ System call vs chiamate di funzione di libreria? Quali sono le differenze?
 2. Creare e gestire i processi.
 3. Gestione dei file e della memoria (tutto è un file)
 4. Gestione dei segnali
+
+# References

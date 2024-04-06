@@ -95,3 +95,5 @@ esso questo concerne solamente il problema denotativo
 
 - Sono delle sentenze che hanno un chiaro valore di verità
 - Possono essere *atomiche* o *composte.*
+
+# References

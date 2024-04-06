@@ -345,3 +345,8 @@ esempio (sostituendo con t^2)
 $$
 \int e^{\sqrt{x}}dx = 2e^{\sqrt{x}}(\sqrt{x} - 1) + c
 $$
+
+
+
+
+# References

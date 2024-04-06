@@ -133,3 +133,8 @@ Nel caso in cui $$P(A) = 0$$ , oppure vale l’altro, oppure basta che siano  $$
     **Risposta**:
 
     hai capito male la definizione di indipendenza, affinché sia indipendente, deve essere che lo siano tutti i sottoinsiemi di eventi! Quindi ciò rende la dimostrazioen molto più contorta.
+
+
+
+
+# References

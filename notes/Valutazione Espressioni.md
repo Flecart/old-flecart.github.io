@@ -276,3 +276,7 @@ Quando faccio una chiamata ricorsiva alla fine, prima di ritornare dalla funzion
 Tail recursion si ha quando l’ultima istruzione di ritorno **non possiede computazioni aggiuntive**, avendo questa proprietà, la chiamata della funzione può essere posta in modo che sovrascriva tutti i parametri, le variabili locali, con l'indirizzo di ritorno e il valore di ritorno le stesse della funzione chaiamante.
 
 In pratica invece di far crescere continuamente la stack, posso fare in modo di utilizzare lo stesso record scrivendoci i nuovi parametri, un risparmio di memoria non da niente!
+
+
+
+# References

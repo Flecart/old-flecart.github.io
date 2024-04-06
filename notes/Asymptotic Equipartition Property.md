@@ -36,6 +36,13 @@ $$
 
 Se si espande quanto è presente dentro si ottiene quel bound di sopra.
 #### Proprietà
-Vedi 3.1.2 di @coverElementsInformationTheory2012.
+Vedi 3.1.2 di [(Cover & Thomas 2012)](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X).
 
 Il risultato importante è che possiamo rappresentare sequenze di $$X^{n}$$ in media usando $$nH(X)$$ bits, senza perdita di informazione.
+
+
+
+
+# References
+
+[1] Cover & Thomas [“Elements of Information Theory”](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X) John Wiley \& Sons 2012

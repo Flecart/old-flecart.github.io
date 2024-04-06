@@ -114,3 +114,7 @@ La compressione dovrebbe essere possibile perché **stiamo cercando regolarità 
 
 
 La cosa di maggior rilievo è il fatto del **loss**, che non riusciamo a fare un reverse che diventi proprio uguale! E poi funziona solamente con data simili (con caratteristiche fortemente correlate fra di loro.
+
+
+
+# References

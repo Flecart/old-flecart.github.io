@@ -15,3 +15,7 @@ Studi Personali: No
 # Adversarial Search
 
 Questi algoritmi trattano principalmente di giochi e di modi
+
+
+
+# References

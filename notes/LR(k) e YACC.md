@@ -159,3 +159,7 @@ Se ci sono alcune forme di conflitti shift/reduce o reduce/reduce vengono risolt
 **Shift-reduce** viene sempre risolto in favore alla shift
 
 **Reduce reduce** viene risolto col reduce listato prima (quindi una forma di precedenza).
+
+
+
+# References

@@ -169,3 +169,5 @@ o,ma riesci a descrivere con buona esattezza le caratteristiche delle operazioni
 | --- | --- |
 | 20/04 | Inizialmente come prima, ma riguardandoti le slides sembra più chiaro. |
 |  |  |
+
+# References

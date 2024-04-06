@@ -343,3 +343,7 @@ I semafori pongono **forti problemi di leggibilità** dato che sono costrutti a 
 È possibile inoltre compiere **errori stupidi** in modo molto facile, come scambiare P o V, omettere Po V.
 
 E pone un **sacco di responsabilità sul prorammatore** che deve gestire lui in modo corretto le risorse e definire gli accessi.
+
+
+
+# References

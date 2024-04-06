@@ -323,3 +323,7 @@ $$x_i \in \Z, 0 \leq x_i\leq1$$
 $$\forall i \sum a_{ij} x_j \leq 1$$
 
 **Funzione obiettivo $$\max \sum _{j = 1} ^m x_j r_j$$**
+
+
+
+# References

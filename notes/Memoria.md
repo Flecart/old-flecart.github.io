@@ -317,3 +317,5 @@ Per saperne di più su interrupt e trap
 
 Sarebbe molto inefficiente leggere e inviare continuamente, quindi mettiamo un trasferimento RAM → Disco senza passare dalla CPU. Quando finisce il trasferimento il dispositivo invia un **Interrupt** che viene gestito subito dalla CPU interrompendo il processo corrente, iniziando un **interrupt handler** che gestisca eventuali errori del dispositivo e informa il sistema operativo che è finito il processo di I/O.
 l processo corrente, iniziando un **interrupt handler** che gestisca eventuali errori del dispositivo e informa il sistema operativo che è finito il processo di I/O.
+
+# References

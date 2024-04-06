@@ -75,3 +75,5 @@ $$
 $$
 
 Dove $$k = \int _{-\infty}^{+\infty} f(x) \, dx$$ dato che non è normalizzato.
+
+# References

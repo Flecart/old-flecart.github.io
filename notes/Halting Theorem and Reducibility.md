@@ -9,7 +9,7 @@ title: Halting Theorem and Reducibility
 Questo è un problema fondamentale, che abbiamo trattato anche in [Fondamenti teorica#Halting problem](/notes/fondamenti-teorica#halting-problem), ma qui lo ritrattiamo, perché così lo rifacciamo per bene. In parte è stato trattato anche al corso di Logica.
 
 #### Enunciato Halting theorem
-Questo è molto simile a quanto presente sul @sipserIntroductionTheoryComputation2012.
+Questo è molto simile a quanto presente sul [(Sipser 2012)](https://books.google.it/books/about/Introduction_to_the_Theory_of_Computatio.html?id=P3f6CAAAQBAJ).
 Ossia consideriamo il linguaggio 
 
 $$
@@ -152,3 +152,11 @@ Dato un linguaggio $$L$$ e una stringa $$x$$, l'oracolo mi dice in tempo finito 
 #### Mapping reducibility => Turing-riducibilità 🟩-
 Possiamo dimostrare in modo semplice che con Turing-riducibilità $$HALT$$ è riducibile a $$HALT^{-}$$. Senza problemi.
 Mentre non posso farlo con Mapping reducibility.
+
+
+
+
+
+# References
+
+[1] Sipser [“Introduction to the Theory of Computation”](https://books.google.it/books/about/Introduction_to_the_Theory_of_Computatio.html?id=P3f6CAAAQBAJ) Cengage Learning 2012

@@ -246,3 +246,5 @@ ze
 - Slide
 
     <img src="/images/notes/image/universita/ex-notion/Semantica intuizionista/Untitled 13.png" alt="image/universita/ex-notion/Semantica intuizionista/Untitled 13">
+
+# References

@@ -165,3 +165,5 @@ Perché non si può utilizzare il teorema di Lagrange nello stesso modo con cui 
 2. (Facoltativo) Studio di simmetrie
 3. Studio dei limiti sulle frontiere del dominio
 4. Studio della monotonia
+
+# References

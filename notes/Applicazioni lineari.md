@@ -237,3 +237,5 @@ Sse due spazi vettoriali sono isomorfi allora hanno la stessa dimensione.
 | --- | --- |
 | 19/04 | Tutto ok |
 |  |  |
+
+# References

@@ -403,3 +403,7 @@ E si può fare la stessa cosa con il vettore di spostamento, in questo caso con 
 $$
 u_{l} = \frac{1}{2} \mu_{0} H^{2} = \frac{1}{2 }HB
 $$
+
+
+
+# References

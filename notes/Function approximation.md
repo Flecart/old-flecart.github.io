@@ -15,3 +15,5 @@ $$
 The second one is parametrized with $$w$$. 
 There are two ways (recuperali!) MC policy or Time differential (that is boostrapped, instead the Monte carlo uses a full simulation in order to know what to use).
 2
+
+# References

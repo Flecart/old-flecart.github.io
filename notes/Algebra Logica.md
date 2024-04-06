@@ -136,3 +136,5 @@ L'isomorfismo è simile a un morfismo a due parti (in cui vale questa relazione 
 - Enunciato ed esempio
 
     <img src="/images/notes/image/universita/ex-notion/Algebra Logica/Untitled 13.png" alt="image/universita/ex-notion/Algebra Logica/Untitled 13">
+
+# References

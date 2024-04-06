@@ -59,3 +59,8 @@ Ci chiediamo cosa fa questo utente ideale? Quali sono i suoi obiettivi? Cosa fa 
 1. **Ricerca di mercato**: ci chiediamo quali sono i prodotti utili?
 2. **Ideazione del prodotto:** quali sono i target principali? Cosa deve essere il prodotto? Per chi è buono il prodotto?
 3. **Requisiti del prodotto** piano dettagliato di tutti i requisiti
+
+
+
+
+# References

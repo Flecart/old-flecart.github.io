@@ -445,3 +445,7 @@ Nel caso in cui il determinante della hessiana è 0, non posso utilizzare i meto
 ### Condizione necessaria per minimo e massimo
 
 È molto simile alla condizione sufficiente, solo è abbiamo ora che la hessiana può anche essere semidefinita positiva.
+
+
+
+# References

@@ -89,3 +89,8 @@ Fra due neuroni che comunicano, c'è una correlazione abbastanza evidente che im
 EPSP è **Excitatory Post-Synaptic potentiation**, nell'immagine vediamo che se il secondo neurone si attiva dopo che si è attivato il primo neurone, allora tendono a potenziare il segnale, altrimenti diminuire.
 
 Per la diminuzione ha senso perché è come se io ti dessi indietro il segnale (anche se non necessariamente connessi), oppure l'altro è stanco lol.
+
+
+
+
+# References

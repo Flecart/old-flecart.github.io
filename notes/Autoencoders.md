@@ -110,3 +110,9 @@ E poi sostituire.
 Per l'expectation della forma quadratica vedere qui [https://statproofbook.github.io/P/mean-qf.html.](https://statproofbook.github.io/P/mean-qf.html.)
 
 Allora, sappiamo che $$p(z) = \mathcal{N}(0, \mathcal{I})$$ quindi ha una forma ben nota, dovremo cercare di fare questa piccolissima derivazione.
+
+
+
+
+
+# References

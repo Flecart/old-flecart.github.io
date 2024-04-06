@@ -26,3 +26,5 @@ Questo è abbastanza intuitivo se pensiamo che l'ipotesi ci sta dicendo che al l
 Se divergono, e distano di un fattore reale, anche l'altro dovrà divergere, se invece converge, anche l'altro dovrà convergere. 
 
 La dimostrazione credo passa dalla definizione di limite per successioni presente in [Successioni#3.2 Limiti di successioni](/notes/successioni#3.2-limiti-di-successioni).
+
+# References

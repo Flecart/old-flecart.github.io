@@ -309,3 +309,5 @@ Una nota di valore è che l'espansione del seno ha solamente polinomi dispari, q
 Dopo più di un anno sembra che taylor sia la cosa più importante in questi appunti.
 
 11/02/24 Sono ritornato a guardare questo appunto, di nuovo per Taylor lmao, ho riscritto bene l'intuizione di dimostrazione.
+
+# References

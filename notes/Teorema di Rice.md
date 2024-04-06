@@ -55,3 +55,8 @@ Basta vedere che l'insieme delle TM è un sottoinsieme di $$A^{*}$$, che è nume
 
 Possiamo rappresentare un linguaggio su un alfabeto con funzioni indicatrici. Avremmo così una stringa binaria che ci indica o no se una stringa è presente nel linguaggio o meno.
 Allora posso praticamente usare lo stesso argomento usato in [diagonalizzazione di Cantor](/notes/relazioni-fra-insiemi#dimostrazione-con-tabella) e avere il risultato.
+
+
+
+
+# References

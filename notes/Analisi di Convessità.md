@@ -353,3 +353,9 @@ $$f$$ quasi convex if $$dom f$$ sub-level sets are convex for all $$\alpha$$. (r
 <img src="/images/notes/Analisi di Convessità-20240331152618494.webp" width="497" alt="Analisi di Convessità-20240331152618494">
 
 The intuition is that if the function goes below a certain threshold, it does it only once in the whole domain.
+
+
+
+
+
+# References

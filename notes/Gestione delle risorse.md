@@ -317,3 +317,7 @@ Semplicemente tutte le ipotesi dell’algoritmo del banchiere non sono spesso so
 1. Si assume che il numero dei processi sia noto all’inizio
 2. Si assume che le risorse necessarie al processo siano note
 3. Si assume che le risorse saranno sempre quelle (invece si potrebbero rompere a caso)
+
+
+
+# References

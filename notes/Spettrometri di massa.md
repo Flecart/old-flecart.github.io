@@ -198,3 +198,9 @@ $$
 
 Questo permette di calcolare il campo magnetico, col periodo.
 La cosa interessante è che questo si comporta come un **ago magnetico**, stesso comportamento.
+
+
+
+
+
+# References

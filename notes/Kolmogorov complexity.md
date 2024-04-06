@@ -5,7 +5,7 @@ tags: en
 title: Kolmogorov complexity
 ---
 
-Gran parte di quanto scrivo ora è tratto da @liIntroductionKolmogorovComplexity2019.
+Gran parte di quanto scrivo ora è tratto da [(Li & Vitányi 2019)](http://link.springer.com/10.1007/978-3-030-11298-1).
 Chaitin, Kolmogorov e Solomonoff hanno elaborato il tema in modo indipendente e allo stesso tempo verso gli anni '60!
 
 Solomonoff lo ha trovato sul problema dell'induzione all'età di 38 anni, Kolmogorov invece era già tardi, ha già trovato gli assiomi della probabilità e poi nel 65 cerca randomness. Mentre Chaiten Information = Computation e non probabilità, nel 68 all'età di 19 anni.
@@ -197,3 +197,7 @@ $$
 
 
 [^1]: [https://jeremykun.com/2012/04/21/kolmogorov-complexity-a-primer/.](https://jeremykun.com/2012/04/21/kolmogorov-complexity-a-primer/.)
+
+# References
+
+[1] Li & Vitányi [“An Introduction to Kolmogorov Complexity and Its Applications”](http://link.springer.com/10.1007/978-3-030-11298-1) Springer International Publishing 2019

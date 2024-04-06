@@ -70,3 +70,7 @@ Importante notare che **gli accoppiamenti devono essere perfetti**, ossia non ho
 Anche qui deve esere fra **tutti gli accopiamenti perfetti**.
 
 In questo caso si cerca di avere il minimo arco maggiore possibile, non per forza il minimo di costo.
+
+
+
+# References

@@ -104,3 +104,7 @@ Studia un problema, da una descrizione della soluzione in modo preciso e dettagl
 esempio che ha fatto il prof riguardo le graffette. Afferma in soldoni che la scuola uccida la creatività perché si trovano molti meno modi di utilizzare la creatività, e sembra ch ela causa principale di questo sia la scuola. Ma è davvero così???
 
 A me sembra che sia il processo di crescita normale in cui si impara cosa servno di solito a cosa, quindi si spendono meno risorse per cose comuni. È una cosa normale nell’essere umano che una cosa comune sia poco interessante. È interessante un modo nuovo e utile del suo utilizzo, ma il raggio di soluzioni è vasto. Le cose comuni è difficile che servano per soluzioni innovative, senza nessuna base: eg. se voglio fare maetematica non vado certo a considerare una graffetta, ci vorrebbero altri episodi serendipici che possano fare una associazione, cosa direi che non accadrebbe mai
+
+
+
+# References

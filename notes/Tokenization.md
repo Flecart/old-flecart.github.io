@@ -22,7 +22,7 @@ A volte conviene dividere una stessa parola in token che siano più piccoli dell
 <img src="/images/notes/Tokenization-20240121103035033.webp" alt="Tokenization-20240121103035033">
 
 ### Byte Pair Encoding
-Viene tratta per benino in ambito NLU @sennrichNeuralMachineTranslation2016 
+Viene tratta per benino in ambito NLU [(Sennrich et al. 2016)](http://arxiv.org/abs/1508.07909) 
 #### Algoritmo in breve
 With this approach we use al algorithm similar to this:
 
@@ -37,7 +37,7 @@ So this is just a small and easy algorithm that we can use to create tokenizatio
 
 
 #### Studio versione in paper
-(Credo da @sennrichNeuralMachineTranslation2016)
+(Credo da [(Sennrich et al. 2016)](http://arxiv.org/abs/1508.07909))
 Un esempio breve in python tratto dal papero stesso:
 
 ```Python
@@ -74,10 +74,17 @@ for i in range(num_merges):
 NOTE: defaultdict è solamente un dict normale che ha un default value, in questo caso 0 se non esiste la chiave, e get che ritorna None se non c'è, invece di dare errore.
 
 #### Versione di GPT
-In GPT è stato introdotto l'idea di creare gruppi di cattura che escludessero suffissi diversi, per esempio 's, punteggiature et cetera. Puoi vedere meglio in sezione 2.2 qui @radfordLanguageModelsAre2019.
+In GPT è stato introdotto l'idea di creare gruppi di cattura che escludessero suffissi diversi, per esempio 's, punteggiature et cetera. Puoi vedere meglio in sezione 2.2 qui [(Radford et al. 2019)](https://paperswithcode.com/paper/language-models-are-unsupervised-multitask).
 Esempio del regex pattern [Grammatiche Regolari](/notes/grammatiche-regolari) per GPT2 del paper citato:
 ```python
 gp2pat = re.compile(r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^\s\p{L}\p{N}]+|\s+(?! \S) |\s+""")
 ```
 Durante l'allenamento dei GPT sono stati presenti anche tokens speciali come `<|endoftext|>` tokens speciali per indicare fine documento. Credo sia stata una cosa per facilitare il training effettivo.
 [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/) se vuoi vedere.
+
+
+# References
+
+[1] Radford et al. [“Language Models Are Unsupervised Multitask Learners”](https://paperswithcode.com/paper/language-models-are-unsupervised-multitask)  2019
+
+[2] Sennrich et al. [“Neural Machine Translation of Rare Words with Subword Units”](http://arxiv.org/abs/1508.07909) arXiv preprint arXiv:1508.07909 2016

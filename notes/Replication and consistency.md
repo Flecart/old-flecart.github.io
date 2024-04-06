@@ -118,3 +118,7 @@ Ossia quando modifico, lo faccio solo sull’ultimo valore. (cioè non posso scr
 Questa è una parte complicata.
 
 **Posso replicare non solo i dati ma ANCHE i servizi**. E qui sale il problema dell’identità. Come gestire i servizi che fanno esattamente la stessa cosa?
+
+
+
+# References

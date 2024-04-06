@@ -151,7 +151,7 @@ $$
 
 E ci permette di fare gradient ascent. Abbiamo un problema di come fare sample.
 
-Usiamo @williamsSimpleStatisticalGradientfollowing1992. Chiamato anche **Reinforce**.
+Usiamo [(Williams 1992)](https://doi.org/10.1007/BF00992696). Chiamato anche **Reinforce**.
 Da quello e da [questo punto](https://youtu.be/aQJP3Z2Ho8U?si=9VNP2oO9rj7pVg1X&t=2365) della lezione deriviamo
 
 $$
@@ -255,3 +255,9 @@ Per calcolare questo si può utilizzare **Thompson sampling**.
 - Sample $$Q_{t}(a) ~~~ p_{t}q(a)$$
 - Seleziona l'azione che massimizza $$Q_{t}(a)$$ per ogni $$a$$ all'interno di $$\mathcal{A}$$.
 Questo si avvicina al limite teorico ottimo, quindi nice. Ma il problema è che non sono scalabili questi algoritmi.
+
+
+
+# References
+
+[1] Williams [“Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning”](https://doi.org/10.1007/BF00992696) Machine Learning Vol. 8(3), pp. 229--256 1992

@@ -5,7 +5,7 @@ tags: en
 title: Algorithmic Probability
 ---
 
-> _"Information theory must precede probability theory, and not be based on it. By the very essence of this discipline, the foundations of information theory have a finite combinatorial character."_  Kolmogorov, A. N. (1983). [Combinatorial foundations of information theory and the calculus of probabilities]([http://rainbow.ldeo.columbia.edu/](http://rainbow.ldeo.columbia.edu/)~alexeyk/Papers/Kolmogorov1983.pdf).  
+> _"Information theory must precede probability theory, and not be based on it. By the very essence of this discipline, the foundations of information theory have a finite combinatorial character."_  Kolmogorov, A. N. (1983). [Combinatorial foundations of information theory and the calculus of probabilities](http://rainbow.ldeo.columbia.edu/~alexeyk/Papers/Kolmogorov1983.pdf).  
 _Russian mathematical surveys_, _38_ (4), 29-40.
 
 > _"it is clear that elements requiring an extremely large number of words for their definition should be considered as having an extremely low probability."_ (Borel E., [1909](https://link.springer.com/content/pdf/10.1007/BF03019651.pdf) p. 272).
@@ -76,3 +76,10 @@ $$
 
 TODO: sarebbe carino provare ad esplorare di più questo topic, perché mi sembra abbia belle connessioni con resto.
 Poi un sacco di questo content è bloggabile.
+
+
+
+
+
+
+# References

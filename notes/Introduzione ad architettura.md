@@ -92,3 +92,5 @@ gni livello ha una macchina che opera con un metodo a sé stante**, diverso da t
 - Esempio di questa struttura
 
     <img src="/images/notes/image/universita/ex-notion/Introduzione ad architettura/Untitled 1.png" alt="image/universita/ex-notion/Introduzione ad architettura/Untitled 1">
+
+# References

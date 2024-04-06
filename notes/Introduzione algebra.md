@@ -195,3 +195,5 @@ Questo sistema **ha sempre almeno una soluzione** la soluzione banale tutti 0.
 Un sistema di equazioni si dice omogeneo quando i termini noti sono tutti 0.
 
 Questo sistema **ha sempre almeno una soluzione** la soluzione banale tutti 0.
+
+# References

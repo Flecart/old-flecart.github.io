@@ -179,3 +179,7 @@ Potremmo provare a **normalizzare per canale**
 - Slide normalizations
 
 !!<img src="/images/notes/image/universita/ex-notion/Convolutional NN/Untitled 15.png" alt="image/universita/ex-notion/Convolutional NN/Untitled 15">
+
+
+
+# References

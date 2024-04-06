@@ -482,3 +482,7 @@ Queste cose per completezza le cito, e sono presenti sulle slides, ma le salto p
 - Entità predefinite
 - Peculiarità sintattiche
 - Il contenuto dell'elemento HEAD
+
+
+
+# References

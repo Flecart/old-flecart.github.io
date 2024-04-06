@@ -331,3 +331,5 @@ Utilizza la logica debole invece di forte, cioè utilizzare solamente assiomi co
 Non fare detour
 
 Utilizza la logica debole invece di forte, cioè utilizzare solamente assiomi consociuti o teoremi dimostrati con gli assiomi e **non utilizzando l'intuizione. `**
+
+# References

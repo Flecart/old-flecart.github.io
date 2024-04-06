@@ -156,3 +156,8 @@ $$
     <img src="/images/notes/image/universita/ex-notion/Norme e Condizionamento/Untitled 5.png" alt="image/universita/ex-notion/Norme e Condizionamento/Untitled 5">
 
     <img src="/images/notes/image/universita/ex-notion/Norme e Condizionamento/Untitled 6.png" alt="image/universita/ex-notion/Norme e Condizionamento/Untitled 6">
+
+
+
+
+# References

@@ -191,3 +191,7 @@ Importantissimo per AJAX e js!
 È un framework che è nato per semplificare tutta la parte macchinosa dell’applicazione AJAX, oggi **non è più utilizzato** perché le funzionalità sono già direttamente presenti sul browser.
 È più per mantenere codice vecchio.
 Ce ne sarebbero altre ma non le ha descritte
+
+
+
+# References

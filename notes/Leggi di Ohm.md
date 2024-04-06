@@ -358,3 +358,7 @@ $$
 $$
 
 Questo vale solo se il ramo è chiuso, altrimenti bisogna aggiungere in RHS una componente per la differenza di potenziale in quei due punti.
+
+
+
+# References

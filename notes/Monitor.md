@@ -164,3 +164,8 @@ una cosa molto bella è che che non è deadlock nemmeno se sono tutti destri! il
 - Ulteriori delucidazioni su questa roba
 
     Supponiamo per assurdo che ci sia deadlock per la versione in cui i filosofi sono tutti destri. Supponiamo che siamo al filosofo $$i$$, questo prende la sua bacchetta, e deve aspettare la bacchetta successiva, fino a creare il ciclo. fino a qui abbiamo enunciato quello che deve succedere affinché ci sia deadlock. Ma questo non può succedere perché ogni filosofo guarda da solo se può prenderlo o meno (mi sembra che questa soluzione sia un poco meno efficiente rispetto a quello con i semafori, perché solamente un filosofo può prendere…)
+
+
+
+
+# References

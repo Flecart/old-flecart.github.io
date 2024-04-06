@@ -5,7 +5,7 @@ tags: en
 title: Relazional Model
 ---
 
-This is the classical format that we encounter, it is the format used for relational databases introduced in [databases course introduction](/notes/introduction-to-data-bases), introduced in @coddRelationalModelData1970. 
+This is the classical format that we encounter, it is the format used for relational databases introduced in [databases course introduction](/notes/introduction-to-data-bases), introduced in [(Codd 1970)](https://dl.acm.org/doi/10.1145/362384.362685). 
 
 ### Introduzione, i modelli di dati
 #### Lista modelli di dati (4)
@@ -23,7 +23,7 @@ In questa sezione andiamo ad analizzare il primo. (anche perché quello storicam
 Altri modelli come reticolare e gerarchico erano famosi all'inizio, ma si è scelto di andare sul modello relazionale col tempo
 
 #### Vantaggi relazionale 
-1. @coddRelationalModelData1970 è stato un contributo fondamentale, la separazione fra layer logico e fisico è stato proprio necessario per fare questi modelli
+1. [(Codd 1970)](https://dl.acm.org/doi/10.1145/362384.362685) è stato un contributo fondamentale, la separazione fra layer logico e fisico è stato proprio necessario per fare questi modelli
 2. Rappresenta solamente ciò che è importante
 3. Semplicità del passaggio per valori.
 
@@ -117,3 +117,11 @@ Per questo motivo si utilizza **NULL** che rappresenta proprio il dato mancante,
 - **Inexistant**
 - **Uninformative**
 Ma nei DBMS non si fa distinzione, quindi si utilizza un **unico null type**.
+
+
+
+
+
+# References
+
+[1] Codd [“A Relational Model of Data for Large Shared Data Banks”](https://dl.acm.org/doi/10.1145/362384.362685) Communications of the ACM Vol. 13(6), pp. 377--387 1970

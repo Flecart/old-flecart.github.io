@@ -229,3 +229,7 @@ In generale si può estendere dicendo
 - Automi di Turing riconoscono i linguaggi ricorsivi, e sono in grado di enumerare ricorsivamente quelle generali. (anche se è semidecidibile, quindi forse non riesce a ricononscerli tutte??)
 
 <img src="/images/notes/image/universita/ex-notion/Linguaggi liberi e PDA/Untitled 32.png" alt="image/universita/ex-notion/Linguaggi liberi e PDA/Untitled 32">
+
+
+
+# References

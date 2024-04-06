@@ -63,3 +63,7 @@ A different kind of momentum is **nesterov momentum** that just calculates the g
 ## Backpropagation
 
 This is the gradient descent for neural networks.
+
+
+
+# References

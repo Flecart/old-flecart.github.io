@@ -168,3 +168,7 @@ La differenza sta nel fatto se il kernel sia a conoscenza o meno dell’esistenz
 ### Relation threads
 
 Anche questi sono stati saltati
+
+
+
+# References

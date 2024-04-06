@@ -102,3 +102,7 @@ La buona comunicazione dipende anche dalla sensibilità del ricevitore oltre all
 Ricordiamo che F è in Megaherz e D in miglia
 
 Loss = 36.6 * (20 * log_10(37.5)) + (20 * log_10(29 * 0.000621371)) = maggiore di 1000, non credo che il segnale arriverà mai con quella frequenza. quindi nessuna delle precedenti.
+
+
+
+# References

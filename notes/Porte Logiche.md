@@ -179,3 +179,5 @@ Large Grid Array, Pin grid Array.
 Ci sono due tipologie di Pin per i circuiti integrati
 
 !<img src="/images/notes/image/universita/ex-notion/Porte Logiche/Untitled 7.png" alt="image/universita/ex-notion/Porte Logiche/Untitled 7">
+
+# References

@@ -79,3 +79,7 @@ In pratica è un algoritmo greedy, che va così:
 2. Prendo la prima come vera
 3. Le prossime le elimino se hanno una intersection over union alta, altrimenti le tengo.
 4. Così finché non finiscono tutte le bounding box.
+
+
+
+# References

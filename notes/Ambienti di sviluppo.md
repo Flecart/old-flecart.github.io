@@ -94,3 +94,7 @@ Sta facendo una lista di un sacco di tecnologie!!! 😱.
 Meglio andare a studiarseli da soli perché la lista non me ne facio niente, è utile però sapere che esistono.
 
 Deve continuare dal testing
+
+
+
+# References

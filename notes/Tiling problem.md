@@ -51,3 +51,7 @@ Poi ho ancora le cose che mantengono il simbolo nella cella di arrivo.
 sse non si ferma la macchina, allora esiste un tiling (che è una cosa banale perché significa che continua all'infinito, e quindi posso mappare tutto).
 
 <img src="/images/notes/Tiling problem-20240307134959316.webp" alt="Tiling problem-20240307134959316">
+
+
+
+# References

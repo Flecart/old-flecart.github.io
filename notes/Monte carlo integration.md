@@ -79,3 +79,5 @@ Cose interessanti:
 1. Deve soddisfare la cosa del supporto (contiene supporto sia di h che di f)
 2. Deve avere **varianza finita** per i pesi che sono trovati. (ci sono metodi per stimare poi il $$g$$).
 	1. la frazione $$\frac{f}{g)}$$ deve essere limitata e la varianza di $$h$$ rispetto alla densità $$f$$ deve essere finita.
+
+# References

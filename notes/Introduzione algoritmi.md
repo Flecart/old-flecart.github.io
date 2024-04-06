@@ -153,3 +153,5 @@ $
 
     f(n) \in \Omega(g(n)) := \exists c \in \R|\lim_{n \to \infty} \dfrac{f(n)}{g(n)} \geq c \\
     $$
+
+# References

@@ -216,3 +216,8 @@ macchina con Linguaggio di alto livello → macchina di altro livello → … �
 - Esempio di astrazione solita
 
     <img src="/images/notes/image/universita/ex-notion/Macchine Astratte/Untitled 13.png" alt="image/universita/ex-notion/Macchine Astratte/Untitled 13">
+
+
+
+
+# References

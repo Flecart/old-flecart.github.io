@@ -25,3 +25,5 @@ i** perché altrimenti sarebbe impossibile che la somma sia un numero pari.
 ### Connettività
 
 se soddisfa certo degree strano che non ho ancora ben capito
+
+# References

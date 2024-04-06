@@ -73,3 +73,5 @@ Permette di non ripetere l'ordinamento di n vertici
 ### Dijkstra
 
 **Lemma sull'espansione del grafo di esplorazione**
+
+# References

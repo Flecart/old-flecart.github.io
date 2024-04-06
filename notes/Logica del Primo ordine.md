@@ -50,7 +50,7 @@ Anche qua definiamo per induzione:
 
 ### Def: Teoria
 È un insieme di formule come definito di sopra, basate su un certo vocabolario fissato.
-È interessante la roba di @choiCuriousCaseCommonsense2022 che dice che non è possibile usare la logica per problemi real world.
+È interessante la roba di [(Choi 2022)](https://direct.mit.edu/daed/article/151/2/139/110627/The-Curious-Case-of-Commonsense-Intelligence) che dice che non è possibile usare la logica per problemi real world.
 
 
 - Riassunto sintassi:
@@ -500,3 +500,7 @@ Ultima modifica: October 18, 2022 6:01 PM
 Primo Abbozzo: December 1, 2021 9:56 AM
 Stato: 🌕🌕🌕🌕🌗
 Studi Personali: No
+
+# References
+
+[1] Choi [“The Curious Case of Commonsense Intelligence”](https://direct.mit.edu/daed/article/151/2/139/110627/The-Curious-Case-of-Commonsense-Intelligence) Daedalus Vol. 151(2), pp. 139--155 2022

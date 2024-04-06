@@ -108,7 +108,7 @@ Alla fine è un algoritmo molto parallelizzabile.
 
 #### Generazione della chiave 🟨-
 La lunghezza della chiave **decide il numero di rounds**, rispettivamente 10, 12, 14. In base al fatto che usiamo 128, 192, o 256.
-Vedere 4.6 di @stinsonCryptographyTheoryPractice2005. Per l'algoritmo.
+Vedere 4.6 di [(Stinson 2005)](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ). Per l'algoritmo.
 La cosa è che avremo una chiave di 16 bytes in output per il numero di rounds.
 #### Funzionamento del cifrario 🟨-
 Definiamo le operazioni
@@ -161,7 +161,7 @@ Anche in questo caso possiamo usare una **nonce based version**.
 
 Abbiamo un box di sostituzione e un box di permutazione.
 La stringa iniziale viene divisa in molti blocchi di lunghezza $$m$$, e in totale avrà lunghezza $$lm$$. Con padding finale possibile.
-C'è un algoritmo abbastanza generale per questo genere di cifrari, che è il 4.1 in @stinsonCryptographyTheoryPractice2005.
+C'è un algoritmo abbastanza generale per questo genere di cifrari, che è il 4.1 in [(Stinson 2005)](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ).
 la cosa carina è che queste funzioni alla fine sono molto semplici da implementare, sia in hardware e software. Non so bene su security garantuess
 
 #### Key generation and rounds
@@ -176,3 +176,11 @@ Questo lo chiamiamo **round function** e la funzione che genera le chiavi per og
 Solamente una **pseudorandom-function** tale per cui inizio e fine sono le stesse, quindi è **bigettiva**
 #### Secure PRF
 TODO:
+
+
+
+
+
+# References
+
+[1] Stinson [“Cryptography: Theory and Practice, Third Edition”](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ) CRC Press 2005

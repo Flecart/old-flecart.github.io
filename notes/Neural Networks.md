@@ -91,3 +91,7 @@ Vedere [Entropy#Relative Entropy or Kullback-Leibler](/notes/entropy#relative-en
 È una cosa che proviene dalla teoria dell’informazione.
 
 Per capire questo, è molto importante andare a capire cosa sia la **cross-entropy** e questo è un modo abbastanza naturale per capire quanto vicino è una distribuzione, solitamente predetta, con quella del training data, si può comparare molto con **log-likelihood** loss function, si potrebbe dire che sia un caso particolare la log likelihood.
+
+
+
+# References

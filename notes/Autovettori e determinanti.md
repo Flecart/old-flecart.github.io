@@ -155,3 +155,5 @@ Cerchiamo le soluzioni di $$\det (A - I\lambda) = 0$$ per lambda
 i una nuova matrice, che è interessante solamente se questa matrice è singolare, ossia che abbia una determinante uguale a 0
 
 Cerchiamo le soluzioni di $$\det (A - I\lambda) = 0$$ per lambda
+
+# References

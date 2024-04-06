@@ -71,3 +71,8 @@ def Huffman_code(_vals):
 	tree = assign_code (nodes, root, code) # assignment of the code for the given binary tree
 	return code, tree
 ```
+
+
+
+
+# References

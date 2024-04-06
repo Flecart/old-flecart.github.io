@@ -227,3 +227,5 @@ E poi nel caso + 1, basta sommare  - 1, che si conosce
 ### Shifters
 
 !<img src="/images/notes/image/universita/ex-notion/Rappresentazione delle informazioni/Untitled 3.png" alt="image/universita/ex-notion/Rappresentazione delle informazioni/Untitled 3">
+
+# References

@@ -262,3 +262,8 @@ il bound per il numero di iterazioni è molto banale, in pratica vado a consider
 $$
 O(NA) \cdot O(Auc) = O(NA^2uc)
 $$
+
+
+
+
+# References

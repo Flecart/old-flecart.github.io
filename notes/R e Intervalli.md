@@ -230,3 +230,5 @@ $$\lvert a \rvert = max(a, -a)$$ e si può fare anche una funzione a tratti
 Nessun elemento in R è infinitamente piccolo (esiste sempre un elemento in Q più piccolo).
 L'insieme R è **denso** e nessun numero in R è infinitamente grande
 Nessun elemento in R è infinitamente piccolo (esiste sempre un elemento in Q più piccolo).
+
+# References

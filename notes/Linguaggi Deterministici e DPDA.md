@@ -191,3 +191,7 @@ Ma comunque andiamo a discutere meglio di questa parte in [Bottom-up Parser LR(0
 - Reduce-Reduce
 
 Oltre a questo c'è un grandissimo problema delle produzioni del tipo $$A \to \varepsilon$, perché queste **divergono sempre**, quindi è meglio non avere grammatiche con questa produzione se vogliamo utilizzare parsing bottom up.3
+
+
+
+# References

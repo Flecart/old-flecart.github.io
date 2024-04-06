@@ -224,7 +224,7 @@ dove $$\varepsilon$$ è molto molto piccolo, *negligible si potrebbe dire*. Semb
 
 La cosa interessante con questa definizione è che se è sicura, allora non è predicibile, e questa conclusione intuitivamente non è molto difficile. yao ´82 sembra dimostrare che c'è proprio una equivalenza, se non è predictable, allora è sicuro sotto questa definizione.
 
-Questa definizione comunque secondo @stinsonCryptographyTheoryPractice2005 chapt 6.9 è molto difficile da raggiungere, perché troppo facile da rompere, perché tratta di leaks di informazione, ma solitamente di molto poco conto.
+Questa definizione comunque secondo [(Stinson 2005)](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ) chapt 6.9 è molto difficile da raggiungere, perché troppo facile da rompere, perché tratta di leaks di informazione, ma solitamente di molto poco conto.
 
 ### Semantic security (!)
 Why is semantic security important? [see here](https://chat.openai.com/share/3de4a58b-707c-465b-8874-1090c23be472).
@@ -376,3 +376,9 @@ Il nemico conosce
 Dal plaintext conosciuto, vorremme ricavare tutti i bits successivi di questo stream cipher. (basta ricavare i valori dei p, ora vediamo un metodo per ricavarli).
 
 Dato che possiede 2m bits conosciuti e conosce m, deve risolvere un sistema di m incognite e m equazioni, e questo si fa, quindi così riesce a **ricavare LSFR** da queste!
+
+
+
+# References
+
+[1] Stinson [“Cryptography: Theory and Practice, Third Edition”](https://books.google.it/books/about/Cryptography.html?id=FAPLBQAAQBAJ) CRC Press 2005

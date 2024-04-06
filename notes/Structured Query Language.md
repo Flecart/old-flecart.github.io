@@ -291,3 +291,9 @@ Si può usare **HAVING** per aggiungere altre condizioni sui gruppi in modo simi
 - È il DBMS che si occupa di eseguire la query ed ottimizzarla.
 - Avere query corrette e leggibili è più importante.
 - Questo descrive anche il perché sarebbe a volte sensato farle innestate.
+
+
+
+
+
+# References

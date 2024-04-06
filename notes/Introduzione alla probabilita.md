@@ -226,3 +226,8 @@ Abbiamo visto alcune proprietà importanti da dover verificare per la dimostrazi
     <img src="/images/notes/Introduzione alla probabilità/Untitled 43.png" alt="Introduzione alla probabilità/Untitled 43">
 
     <img src="/images/notes/Introduzione alla probabilità/Untitled 44.png" alt="Introduzione alla probabilità/Untitled 44">
+
+
+
+
+# References

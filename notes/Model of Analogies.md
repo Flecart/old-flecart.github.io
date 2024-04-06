@@ -74,3 +74,7 @@ Che è in un certo senso un trade fra overfitting e undefitting classico, solo d
 
 ### Universal Induction
 Solomonoff usa principle of Multiple explanations (Epicuro, tiene tutte le spiegazioni che sono buone per i dati).
+
+
+
+# References

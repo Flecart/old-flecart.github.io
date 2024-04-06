@@ -397,3 +397,8 @@ $$
 
 E la relazione stupenda è con la velocità della luce, e si nota come queste sono veramente costanti fondamentali dell'universo!?
 È da notare però che questo vale solo per valori della velocità tali per cui siano molto minori rispetto alla velocità della luce. (regimi non relativistici).
+
+
+
+
+# References

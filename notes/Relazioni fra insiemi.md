@@ -403,3 +403,5 @@ Questa successione tende chiaramente a 0. Quindi le probabilità sono quasi null
 vita o iniettivita di una funzione
 
     Dimostrare che se f o g sono suriettive o iniettive, allora la funzione composizione fra le due sono anche sse suriettive o iniettive.
+
+# References

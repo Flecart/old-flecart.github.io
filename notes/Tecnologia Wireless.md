@@ -247,3 +247,7 @@ Utilizzo un codice che mi permette di riestrarre! Che figa la cosa che si può r
 
 
 Ossia posizioniamo le nostre antenne in zone differenti. (abbiamo tipo tiling problem) (5G prova a ridurre al minimo l’area del segnale)
+
+
+
+# References

@@ -59,3 +59,5 @@ Ci sono principalmente tre tipologie di errore:
 
 È più veloce (salva errori logici, quelli difficili da debuggare) creare prima un design testato dell'algoritmo che si va ad implementare. Per farlo di solito ricorrono a diagrammi di flusso per crearsi questo design.
 logici, quelli difficili da debuggare) creare prima un design testato dell'algoritmo che si va ad implementare. Per farlo di solito ricorrono a diagrammi di flusso per crearsi questo design.
+
+# References

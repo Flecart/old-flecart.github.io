@@ -32,3 +32,5 @@ Il corso verte su questi in slide:
 3. Saper fare non significa saper insegnare! Non voglio che legga le slides e basta, ma che aiuti anche gli studenti a comprendere ciò che sta spiegando!
 parazione prima di venire ad insegnare!
 3. Saper fare non significa saper insegnare! Non voglio che legga le slides e basta, ma che aiuti anche gli studenti a comprendere ciò che sta spiegando!
+
+# References

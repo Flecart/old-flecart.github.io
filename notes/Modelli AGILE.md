@@ -223,3 +223,7 @@ Questo poi è una cosa normalissima in [Scrum Method](/notes/scrum-method), in c
 1. Cosa fatto ieri
 2. Cosa si vuole fare oggi
 3. Quali sono i problemi maggiori, è per portare il team tutti sulla stessa pagina.
+
+
+
+# References

@@ -79,3 +79,7 @@ Per maggiori dettagli su come si faccia l’update dello stato andare a vedere s
 Praticamente andiamo a guardare tutte le soluzioni, è la stessa cosa di un [Problemi di ricerca](/notes/problemi-di-ricerca) ed è quindi facilmente attaccabile (se non per la grandezza dello spazio di ricerca) dagli algoritmi lì studiati. Il più importante dei quali resta sempre A* con una buona euristica.
 
 ###
+
+
+
+# References

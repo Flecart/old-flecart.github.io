@@ -305,3 +305,6 @@ $$
 Ossia il termine di dipolo si può riassumere come differenza del **centro fra le cariche positive e negative**.
 Se non hanno stesso centro allora ho un campo elettrico (questo è coerente col caso classico di dipolo a due cariche!).
 E questo è **vero sempre!** è anche il motivo per cui l'acqua è carica, perché ha un momento di dipolo!
+
+
+# References

@@ -48,3 +48,5 @@ i, per questo avere esperienza e tanti errori serve.
 Come un input 0 per dividere n/m. La cosa cattiva è che spesso non so dove sia l'errore.
 
 ### Logici
+
+# References

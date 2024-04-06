@@ -75,3 +75,5 @@ Dato che non devo imparare solamente dei parametri, ho bisogno di molto più dat
 - Predittori, input e output e response
 - Errore riducibile ed irriducibile
 -
+
+# References

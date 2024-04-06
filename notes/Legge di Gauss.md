@@ -110,4 +110,8 @@ $$
 \oint_{\sum}\lvert  \vec{E} \rvert ds \cos \theta = \lvert \vec{E} \rvert \oint_{\sum}ds\cos \theta \implies \lvert \vec{E} \rvert = \frac{Q_{T}}{\varepsilon_{0}} \frac{1}{\oint_{\sum}ds\cos \theta}
 $$
 
-Un aspetto particolare è che questo integrale $$\oint_{\sum}ds \cos \theta$$ è **semplicemente l'area della superficie**.
+Un aspetto particolare è che questo integrale $$\oint_{\sum}ds \cos \theta$$ è **semplicemente l'area della superficie**. 
+
+
+
+# References

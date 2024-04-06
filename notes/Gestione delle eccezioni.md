@@ -105,3 +105,7 @@ Tutti i blocchi sono tenuti in maniera ordinata, in modo da farci una ricerca bi
 ### Tipologie di eccezioni (2)
 
 <img src="/images/notes/image/universita/ex-notion/Gestione delle eccezioni/Untitled 1.png" alt="image/universita/ex-notion/Gestione delle eccezioni/Untitled 1">
+
+
+
+# References

@@ -257,3 +257,8 @@ Per periodici come **rate monotonic** (praticamente a priorità, quelli a freque
     The key difference between RMS and EDF is that RMS uses a fixed priority assignment based on task period, while EDF assigns priority dynamically based on the task deadline.
 
     In summary, both RMS and EDF are real-time scheduling algorithms used to schedule tasks in real-time systems. RMS assigns priority based on the task period, while EDF assigns priority dynamically based on the task deadline.
+
+
+
+
+# References

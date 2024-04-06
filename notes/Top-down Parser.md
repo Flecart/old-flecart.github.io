@@ -284,3 +284,8 @@ Però intuitivamente si può capire che avrei bisogni di un k infinito per poter
 - Esercizio a caso
 
     <img src="/images/notes/image/universita/ex-notion/Top-down Parser/Untitled 31.png" alt="image/universita/ex-notion/Top-down Parser/Untitled 31">
+
+
+
+
+# References

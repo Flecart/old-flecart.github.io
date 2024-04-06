@@ -231,3 +231,5 @@ pendenti, questa è l'astrazione necessaria per comprendere questo fatto.
 | --- | --- |
 |  |  |
 |  |  |
+
+# References

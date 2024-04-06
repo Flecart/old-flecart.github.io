@@ -45,3 +45,5 @@ Data, compito, C1 fatto? c2 fatto?
 so/compiti/2017.07.17.tot.pdf] (48 KB) |  |  |  |  |
 | 2017.06.19 | [http://www.cs.unibo.it/~renzo/so/compiti/2017.06.19.tot.pdf] (48 KB) | X | X |  |  |
 | 2017.05.29 |  | X |  |  |  |
+
+# References

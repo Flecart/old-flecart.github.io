@@ -78,3 +78,7 @@ Prendiamo un esempio in cui questa caratteristica si dimostra utile
 #### Normalizzazione nello schema concettuale 🟨--
 Possiamo utilizzare questa idea anche nella parte di sviluppo  di schemi E-R.
 Se riconosco a questo livello che c'è una dipendenza funzionale, questo mi da indicazioni su come continuare lo sviluppo di questo. Nell'esempio sulle slides motiva un partizionamento verticale, vedi [Database logical design](/notes/database-logical-design).
+
+
+
+# References
